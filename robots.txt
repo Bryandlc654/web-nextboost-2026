@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /vendor/
+Disallow: /api/
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /config.php
+
+Sitemap: https://nextboost.business/sitemap.xml

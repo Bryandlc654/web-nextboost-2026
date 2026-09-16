@@ -1,0 +1,51 @@
+{
+    "success": true,
+    "data": [
+        {
+            "title": "Italvet — CRM con IA para Captura de Leads",
+            "client": "Italvet",
+            "category": "Software / CRM con IA",
+            "country": "Perú",
+            "href": "",
+            "image": "/imagenes-web/italvet.png",
+            "published": 1,
+            "priority": 1,
+            "objective": "Desarrollar un CRM con inteligencia artificial que capture y registre leads automáticamente a partir de audios y fotos de tarjetas de presentación.",
+            "problem": "Los asesores capturaban contactos de forma manual: escribían los datos que escuchaban en audios y guardaban tarjetas de presentación en físico. Los leads se perdían, se duplicaban o demoraban horas en registrarse, reduciendo la velocidad de respuesta y las ventas.",
+            "solution": "Creamos un CRM a medida con IA que transcribe los audios de los asesores y extrae automáticamente los datos de las tarjetas de presentación fotografiadas mediante reconocimiento de imagen. Cada lead queda registrado, validado y asignado automáticamente al equipo comercial.",
+            "result": "Captura de leads totalmente automatizada sin tipeo manual, una base de datos centralizada y un equipo de ventas que responde cada oportunidad de inmediato.",
+            "technologies": [
+                "CRM a Medida",
+                "Inteligencia Artificial",
+                "Transcripción de Audio",
+                "Reconocimiento de Imagen / OCR",
+                "Laravel",
+                "MySQL"
+            ],
+            "result_metric": "Leads capturados por audio y foto"
+        },
+        {
+            "title": "Grupo JC — ERP Empresarial Integral",
+            "client": "Consultoría Grupo JC",
+            "category": "Software / ERP",
+            "country": "Perú",
+            "href": "",
+            "image": "/logos/logo-grupo-jc.png.webp",
+            "published": 1,
+            "priority": 2,
+            "objective": "Desarrollar un ERP completo que centralice toda la operación de la empresa en una sola plataforma.",
+            "problem": "La empresa administraba ventas, facturación, personal y contabilidad en hojas de cálculo y sistemas aislados. Esto generaba errores de datos, procesos lentos y falta de control en tiempo real.",
+            "solution": "Construimos un ERP a medida con módulos de facturación electrónica, recursos humanos, administración y contabilidad, más módulos adicionales, todo integrado en una sola plataforma con roles y permisos por usuario.",
+            "result": "Operación 100% centralizada, facturación electrónica automatizada y control administrativo y contable en tiempo real desde un solo sistema.",
+            "technologies": [
+                "ERP a Medida",
+                "Facturación Electrónica",
+                "Recursos Humanos",
+                "Contabilidad",
+                "Laravel",
+                "MySQL"
+            ],
+            "result_metric": "ERP integral operativo"
+        }
+    ]
+}

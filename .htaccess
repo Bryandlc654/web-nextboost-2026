@@ -1,0 +1,8 @@
+# Bloquear acceso directo a archivos sensibles
+<FilesMatch "^\.env">
+    Require all denied
+</FilesMatch>
+
+<Files ".env.example">
+    Require all denied
+</Files>

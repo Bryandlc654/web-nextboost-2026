@@ -1,0 +1,12 @@
+# Dependencias
+/vendor/
+
+# Archivo de entorno (credenciales sensibles)
+.env
+
+# Base de datos y archivos generados
+/data/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
