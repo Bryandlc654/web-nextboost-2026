@@ -1,6 +1,6 @@
-?php
-  $page_title = "Desarrollo Web para Agencias | Next Boost PerÃº";
-  $page_description = "Desarrollo web para agencias de marketing y publicidad. Outsourcing white label con NDA. TÃº vendes, nosotros desarrollamos. Partner tecnolÃ³gico en PerÃº.";
+<?php
+  $page_title = "Desarrollo Web para Agencias | Next Boost Perú";
+  $page_description = "Desarrollo web para agencias de marketing y publicidad. Outsourcing white label con NDA. Tú vendes, nosotros desarrollamos. Partner tecnológico en Perú.";
   $og_url = "https://nextboost.business/desarrollo-web-para-agencias.php";
 ?>
 <!DOCTYPE html>
@@ -40,8 +40,8 @@
         "name": "Next Boost",
         "url": "https://nextboost.business/"
       },
-      "description": "Servicio de desarrollo web white label para agencias de marketing y publicidad en PerÃº. Outsourcing tÃ©cnico, NDA garantizado y entregas con tu marca.",
-      "areaServed": "PerÃº",
+      "description": "Servicio de desarrollo web white label para agencias de marketing y publicidad en Perú. Outsourcing técnico, NDA garantizado y entregas con tu marca.",
+      "areaServed": "Perú",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Planes para Agencias",
@@ -82,34 +82,34 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Â¿QuÃ© es el desarrollo web para agencias y cÃ³mo funciona?",
+          "name": "¿Qué es el desarrollo web para agencias y cómo funciona?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El desarrollo web para agencias es un servicio outsourcing donde nosotros desarrollamos los sitios web de tus clientes bajo tu propia marca. TÃº vendes el proyecto, nosotros lo construimos y entregamos. Tu agencia mantiene la relaciÃ³n con el cliente mientras nosotros hacemos toda la parte tÃ©cnica."
+            "text": "El desarrollo web para agencias es un servicio outsourcing donde nosotros desarrollamos los sitios web de tus clientes bajo tu propia marca. Tú vendes el proyecto, nosotros lo construimos y entregamos. Tu agencia mantiene la relación con el cliente mientras nosotros hacemos toda la parte técnica."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿CÃ³mo funciona el modelo white label o marca blanca?",
+          "name": "¿Cómo funciona el modelo white label o marca blanca?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En el modelo white label, el desarrollo web aparece como si tu agencia lo hubiera creado. Usamos tu marca, tu logo y tus colores en todo el proceso. Firmamos un NDA estricto para que tu cliente nunca sepa de nuestra existencia. TÃº facturas directamente a tu cliente con el margen que decidas."
+            "text": "En el modelo white label, el desarrollo web aparece como si tu agencia lo hubiera creado. Usamos tu marca, tu logo y tus colores en todo el proceso. Firmamos un NDA estricto para que tu cliente nunca sepa de nuestra existencia. Tú facturas directamente a tu cliente con el margen que decidas."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿CuÃ¡nto cuesta tercerizar el desarrollo web para mi agencia?",
+          "name": "¿Cuánto cuesta tercerizar el desarrollo web para mi agencia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Nuestros planes de desarrollo web para agencias parten desde S/600 para landing pages, S/1200 para sitios corporativos y S/2000 para tiendas ecommerce. TÃº pones tu margen al cliente final. Todos los planes incluyen hosting, SSL y SEO bÃ¡sico."
+            "text": "Nuestros planes de desarrollo web para agencias parten desde S/600 para landing pages, S/1200 para sitios corporativos y S/2000 para tiendas ecommerce. Tú pones tu margen al cliente final. Todos los planes incluyen hosting, SSL y SEO básico."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿QuÃ© tecnologÃ­as usan para el desarrollo web?",
+          "name": "¿Qué tecnologías usan para el desarrollo web?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Trabajamos con Next.js, React, Tailwind CSS y WordPress segÃºn el tipo de proyecto. Todos nuestros sitios son 100% responsivos, optimizados para Core Web Vitals y con puntuaciÃ³n SEO 90+. Entregamos cÃ³digo limpio y documentado."
+            "text": "Trabajamos con Next.js, React, Tailwind CSS y WordPress según el tipo de proyecto. Todos nuestros sitios son 100% responsivos, optimizados para Core Web Vitals y con puntuación SEO 90+. Entregamos código limpio y documentado."
           }
         }
       ]
@@ -131,7 +131,7 @@
   <!-- Global Header -->
   <?php include 'includes/header.php'; ?>
 
-  <!-- 1. ATENCIÃ“N: Hero Section -->
+  <!-- 1. ATENCIÓN: Hero Section -->
   <main class="relative z-10 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 py-16 lg:py-24">
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
 
@@ -139,16 +139,16 @@
       <div class="lg:col-span-7 space-y-6">
         <div class="inline-flex items-center gap-2.5 px-4 py-1.5 badge-gradient text-xs font-medium text-blue-300 animate-in">
           <span class="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
-          <span class="tracking-wide">Partner TecnolÃ³gico para Agencias de Marketing</span>
+          <span class="tracking-wide">Partner Tecnológico para Agencias de Marketing</span>
         </div>
 
         <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-[1.1]">
           Desarrollo web para agencias <br>
-          <span class="bg-gradient-to-r from-blue-400 to-teal-400 text-transparent bg-clip-text">tÃº vendes, nosotros programamos.</span>
+          <span class="bg-gradient-to-r from-blue-400 to-teal-400 text-transparent bg-clip-text">tú vendes, nosotros programamos.</span>
         </h1>
 
         <p class="text-base md:text-lg text-gray-400 font-normal leading-relaxed max-w-2xl">
-          Â¿Eres agencia de marketing, publicidad o diseÃ±o y necesitas un equipo de desarrollo web? Nosotros nos encargamos de toda la parte tÃ©cnica mientras tÃº mantienes la relaciÃ³n con tu cliente. <strong class="text-white">100% white label, NDA garantizado.</strong>
+          ¿Eres agencia de marketing, publicidad o diseño y necesitas un equipo de desarrollo web? Nosotros nos encargamos de toda la parte técnica mientras tú mantienes la relación con tu cliente. <strong class="text-white">100% white label, NDA garantizado.</strong>
         </p>
 
         <!-- Stats -->
@@ -195,7 +195,7 @@
             <div class="flex items-center gap-3 bg-blue-500/5 border border-blue-500/10 p-3">
               <span class="w-8 h-8 bg-blue-500/20 text-blue-400 flex items-center justify-center text-xs font-bold shrink-0">1</span>
               <div>
-                <span class="text-xs text-gray-300 font-semibold block">TÃº vendes el proyecto</span>
+                <span class="text-xs text-gray-300 font-semibold block">Tú vendes el proyecto</span>
                 <span class="text-[11px] text-gray-500">Cotizas y cierras el trato con tu cliente.</span>
               </div>
             </div>
@@ -220,16 +220,16 @@
     </div>
   </main>
 
-  <!-- 2. INTERÃ‰S: Beneficios para tu Agencia -->
+  <!-- 2. INTERÉS: Beneficios para tu Agencia -->
   <section class="relative z-10 py-20 bg-[#070709] border-y border-white/10">
     <div class="max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20">
 
       <div class="text-center max-w-3xl mx-auto mb-16">
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-          Â¿Por quÃ© tercerizar tu <br>
+          ¿Por qué tercerizar tu <br>
           <span class="bg-gradient-to-r from-blue-400 to-teal-400 text-transparent bg-clip-text">desarrollo web con nosotros?</span>
         </h2>
-        <p class="text-sm text-gray-400 mt-4">EnfÃ³cate en vender y hacer crecer tu agencia mientras nosotros hacemos el trabajo tÃ©cnico.</p>
+        <p class="text-sm text-gray-400 mt-4">Enfócate en vender y hacer crecer tu agencia mientras nosotros hacemos el trabajo técnico.</p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -240,7 +240,7 @@
           </div>
           <h3 class="text-lg font-bold text-white">Confidencialidad Total</h3>
           <p class="text-xs text-gray-400 leading-relaxed">
-            Firmamos NDA estricto. Tu cliente nunca sabrÃ¡ que el desarrollo web lo hizo un tercero. Todo aparece bajo tu marca, incluyendo el cÃ³digo fuente y los servidores.
+            Firmamos NDA estricto. Tu cliente nunca sabrá que el desarrollo web lo hizo un tercero. Todo aparece bajo tu marca, incluyendo el código fuente y los servidores.
           </p>
         </div>
 
@@ -248,9 +248,9 @@
           <div class="w-12 h-12 rounded-none bg-teal-500/10 text-teal-400 flex items-center justify-center border border-teal-500/20">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
           </div>
-          <h3 class="text-lg font-bold text-white">Entregas RÃ¡pidas</h3>
+          <h3 class="text-lg font-bold text-white">Entregas Rápidas</h3>
           <p class="text-xs text-gray-400 leading-relaxed">
-            Entregamos landing pages en 5-7 dÃ­as y sitios corporativos en 2-3 semanas. Tiempos que te permiten cerrar mÃ¡s proyectos al mes sin cuello de botella tÃ©cnico.
+            Entregamos landing pages en 5-7 días y sitios corporativos en 2-3 semanas. Tiempos que te permiten cerrar más proyectos al mes sin cuello de botella técnico.
           </p>
         </div>
 
@@ -260,7 +260,7 @@
           </div>
           <h3 class="text-lg font-bold text-white">Calidad Garantizada</h3>
           <p class="text-xs text-gray-400 leading-relaxed">
-            Sitios con SEO 90+, Core Web Vitals Ã³ptimos y diseÃ±o responsivo. Usamos Next.js, React y las mejores prÃ¡cticas de desarrollo web moderno.
+            Sitios con SEO 90+, Core Web Vitals óptimos y diseño responsivo. Usamos Next.js, React y las mejores prácticas de desarrollo web moderno.
           </p>
         </div>
 
@@ -270,7 +270,7 @@
           </div>
           <h3 class="text-lg font-bold text-white">Sin Costo Fijo</h3>
           <p class="text-xs text-gray-400 leading-relaxed">
-            No pagas sueldos ni beneficios. Pagas solo por proyecto entregado. Escala tu capacidad de producciÃ³n sin aumentar tu planilla.
+            No pagas sueldos ni beneficios. Pagas solo por proyecto entregado. Escala tu capacidad de producción sin aumentar tu planilla.
           </p>
         </div>
 
@@ -278,19 +278,19 @@
 
       <div class="text-center mt-12">
         <a href="contacto.php?ref=agencias-beneficios" class="inline-flex items-center justify-center gap-3 bg-gradient-to-r from-blue-500 to-teal-400 text-black px-8 py-4 text-sm font-bold rounded-none hover:shadow-[0_0_30px_rgba(59,130,246,0.3)] hover:scale-105 transition-all group">
-          ConviÃ©rtete en Partner
+          Conviértete en Partner
           <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
       </div>
     </div>
   </section>
 
-  <!-- 3. PROCESO: CÃ³mo Funciona -->
+  <!-- 3. PROCESO: Cómo Funciona -->
   <section class="relative z-10 py-20 border-b border-white/5">
     <div class="max-w-screen-xl mx-auto px-8 md:px-16">
       <div class="text-center mb-16">
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-          CÃ³mo funciona el <span class="bg-gradient-to-r from-blue-400 to-teal-400 text-transparent bg-clip-text">outsourcing</span>
+          Cómo funciona el <span class="bg-gradient-to-r from-blue-400 to-teal-400 text-transparent bg-clip-text">outsourcing</span>
         </h2>
         <p class="text-sm text-gray-400 mt-4">Tres pasos simples para empezar a tercerizar el desarrollo web de tu agencia.</p>
       </div>
@@ -299,14 +299,14 @@
 
         <div class="text-center bg-[#0a0a0e] p-6 rounded-2xl border border-white/5">
           <div class="w-16 h-16 mx-auto rounded-full bg-blue-500/20 flex items-center justify-center text-blue-400 font-black text-2xl mb-4 border-4 border-[#0a0a0e]">1</div>
-          <h4 class="text-white font-bold mb-2">CuÃ©ntanos tu proyecto</h4>
-          <p class="text-xs text-gray-400">Nos envÃ­as los requerimientos de tu cliente y te damos un precio fijo en 24 horas. Sin rodeos ni reuniones eternas.</p>
+          <h4 class="text-white font-bold mb-2">Cuéntanos tu proyecto</h4>
+          <p class="text-xs text-gray-400">Nos envías los requerimientos de tu cliente y te damos un precio fijo en 24 horas. Sin rodeos ni reuniones eternas.</p>
         </div>
 
         <div class="text-center bg-[#0a0a0e] p-6 rounded-2xl border border-white/5">
           <div class="w-16 h-16 mx-auto rounded-full bg-teal-500/20 flex items-center justify-center text-teal-400 font-black text-2xl mb-4 border-4 border-[#0a0a0e]">2</div>
           <h4 class="text-white font-bold mb-2">Desarrollamos y entregamos</h4>
-          <p class="text-xs text-gray-400">Construimos el sitio bajo tu marca con tecnologÃ­a moderna. Te enviamos avances periÃ³dicos para que revises.</p>
+          <p class="text-xs text-gray-400">Construimos el sitio bajo tu marca con tecnología moderna. Te enviamos avances periódicos para que revises.</p>
         </div>
 
         <div class="text-center bg-[#0a0a0e] p-6 rounded-2xl border border-white/5">
@@ -329,7 +329,7 @@
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white mb-4">
           Proyectos que puedes vender <span class="bg-gradient-to-r from-blue-400 to-teal-400 text-transparent bg-clip-text">con tu marca</span>
         </h2>
-        <p class="text-sm text-gray-400">Todo el portafolio de desarrollo web que tu agencia puede ofrecer sin tener un equipo tÃ©cnico interno.</p>
+        <p class="text-sm text-gray-400">Todo el portafolio de desarrollo web que tu agencia puede ofrecer sin tener un equipo técnico interno.</p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
@@ -338,7 +338,7 @@
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"/></svg>
           </div>
           <h3 class="text-lg font-bold text-white mb-2">Landing Pages</h3>
-          <p class="text-xs text-gray-400 leading-relaxed">PÃ¡ginas de alto impacto para campaÃ±as de Meta Ads y Google Ads. Carga ultrarrÃ¡pida y formularios inteligentes.</p>
+          <p class="text-xs text-gray-400 leading-relaxed">Páginas de alto impacto para campañas de Meta Ads y Google Ads. Carga ultrarrápida y formularios inteligentes.</p>
         </div>
 
         <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-teal-500/50 transition-all group">
@@ -346,7 +346,7 @@
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
           </div>
           <h3 class="text-lg font-bold text-white mb-2">Sitios Corporativos</h3>
-          <p class="text-xs text-gray-400 leading-relaxed">PÃ¡ginas web profesionales con CMS, blog, galerÃ­a y panel administrador. Para empresas que quieren presencia seria.</p>
+          <p class="text-xs text-gray-400 leading-relaxed">Páginas web profesionales con CMS, blog, galería y panel administrador. Para empresas que quieren presencia seria.</p>
         </div>
 
         <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-purple-500/50 transition-all group">
@@ -354,36 +354,36 @@
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
           </div>
           <h3 class="text-lg font-bold text-white mb-2">Tiendas Online</h3>
-          <p class="text-xs text-gray-400 leading-relaxed">Ecommerce completos con pasarela de pago, carrito de compras, gestiÃ³n de inventario y envÃ­os integrados.</p>
+          <p class="text-xs text-gray-400 leading-relaxed">Ecommerce completos con pasarela de pago, carrito de compras, gestión de inventario y envíos integrados.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 5. ACCIÃ“N: Planes -->
+  <!-- 5. ACCIÓN: Planes -->
   <section id="planes" class="relative z-10 py-20 bg-[#070709] border-t border-white/10">
     <div class="max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20">
       <div class="text-center max-w-3xl mx-auto mb-16">
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white mb-4">
           Planes para <span class="bg-gradient-to-r from-blue-400 to-teal-400 text-transparent bg-clip-text">Agencias</span>
         </h2>
-        <p class="text-sm text-gray-400">Precios directos para agencias. TÃº pones tu margen al cliente final.</p>
+        <p class="text-sm text-gray-400">Precios directos para agencias. Tú pones tu margen al cliente final.</p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
 
         <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-blue-500/50 transition-all flex flex-col group">
           <h3 class="text-xl font-bold text-white mb-2">Landing</h3>
-          <p class="text-xs text-gray-400 mb-6">Ideal para campaÃ±as de ads y captaciÃ³n de leads.</p>
+          <p class="text-xs text-gray-400 mb-6">Ideal para campañas de ads y captación de leads.</p>
           <div class="mb-6 border-b border-white/10 pb-6">
             <span class="text-4xl font-extrabold text-white">S/ 600</span>
             <span class="text-xs text-gray-500 font-medium"> PEN</span>
           </div>
           <ul class="space-y-4 text-sm text-gray-300 mb-8 flex-1">
-            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">âœ“</span> DiseÃ±o UX/UI + Copy</li>
-            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">âœ“</span> Hosting + SSL incluido</li>
-            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">âœ“</span> SEO On-Page bÃ¡sico</li>
-            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">âœ“</span> Formulario + Analytics</li>
+            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> Diseño UX/UI + Copy</li>
+            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> Hosting + SSL incluido</li>
+            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> SEO On-Page básico</li>
+            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> Formulario + Analytics</li>
           </ul>
           <a href="contacto.php?ref=agencias-landing" class="w-full inline-block text-center py-4 text-sm font-bold bg-white/5 hover:bg-blue-600 hover:text-white border border-white/10 hover:border-blue-500 transition-all">
             Cotizar Landing
@@ -391,18 +391,18 @@
         </div>
 
         <div class="glass-card p-8 rounded-2xl border border-teal-500/50 relative bg-teal-950/10 flex flex-col group transform md:-translate-y-4 shadow-[0_15px_30px_rgba(20,184,166,0.15)]">
-          <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-teal-500 text-black text-[10px] font-bold px-4 py-1.5 uppercase tracking-widest shadow-lg">MÃ¡s Vendido</div>
+          <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-teal-500 text-black text-[10px] font-bold px-4 py-1.5 uppercase tracking-widest shadow-lg">Más Vendido</div>
           <h3 class="text-xl font-bold text-white mb-2">Corporativo</h3>
-          <p class="text-xs text-gray-400 mb-6">La opciÃ³n mÃ¡s solicitada por agencias de marketing.</p>
+          <p class="text-xs text-gray-400 mb-6">La opción más solicitada por agencias de marketing.</p>
           <div class="mb-6 border-b border-white/10 pb-6">
             <span class="text-4xl font-extrabold text-teal-400">S/ 1200</span>
             <span class="text-xs text-gray-500 font-medium"> PEN</span>
           </div>
           <ul class="space-y-4 text-sm text-gray-300 mb-8 flex-1">
-            <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Todo lo de Landing +</li>
-            <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Hasta 5 secciones internas</li>
-            <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Blog + CMS incluido</li>
-            <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> SEO Avanzado + Schema</li>
+            <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Todo lo de Landing +</li>
+            <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Hasta 5 secciones internas</li>
+            <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Blog + CMS incluido</li>
+            <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> SEO Avanzado + Schema</li>
           </ul>
           <a href="contacto.php?ref=agencias-corp" class="w-full inline-block text-center py-4 text-sm font-bold bg-teal-500 text-black hover:bg-teal-400 transition-all shadow-[0_0_15px_rgba(20,184,166,0.4)]">
             Cotizar Corporativo
@@ -411,16 +411,16 @@
 
         <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-purple-500/50 transition-all flex flex-col group">
           <h3 class="text-xl font-bold text-white mb-2">Ecommerce</h3>
-          <p class="text-xs text-gray-400 mb-6">Tiendas online listas para vender desde el dÃ­a 1.</p>
+          <p class="text-xs text-gray-400 mb-6">Tiendas online listas para vender desde el día 1.</p>
           <div class="mb-6 border-b border-white/10 pb-6">
             <span class="text-4xl font-extrabold text-white">S/ 2000</span>
             <span class="text-xs text-gray-500 font-medium"> PEN</span>
           </div>
           <ul class="space-y-4 text-sm text-gray-300 mb-8 flex-1">
-            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Todo lo de Corporativo +</li>
-            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Pasarela de pago integrada</li>
-            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> GestiÃ³n de productos</li>
-            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Panel administrador</li>
+            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Todo lo de Corporativo +</li>
+            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Pasarela de pago integrada</li>
+            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Gestión de productos</li>
+            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Panel administrador</li>
           </ul>
           <a href="contacto.php?ref=agencias-ecommerce" class="w-full inline-block text-center py-4 text-sm font-bold bg-white/5 hover:bg-purple-600 hover:text-white border border-white/10 hover:border-purple-500 transition-all">
             Cotizar Ecommerce
@@ -443,38 +443,38 @@
       <div class="max-w-3xl mx-auto space-y-4" id="faq-accordion">
         <div class="glass-card p-6 border border-white/5 faq-item">
           <button class="faq-btn w-full flex justify-between items-center text-left">
-            <span class="text-white font-semibold text-sm">Â¿QuÃ© es el desarrollo web para agencias y cÃ³mo funciona?</span>
+            <span class="text-white font-semibold text-sm">¿Qué es el desarrollo web para agencias y cómo funciona?</span>
             <svg class="faq-icon w-5 h-5 text-blue-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </button>
           <div class="faq-answer mt-4 text-sm text-gray-400 leading-relaxed hidden">
-            El desarrollo web para agencias es un servicio outsourcing donde nosotros desarrollamos los sitios web de tus clientes bajo tu propia marca. TÃº vendes el proyecto, nosotros lo construimos y entregamos. Tu agencia mantiene la relaciÃ³n con el cliente mientras nosotros hacemos toda la parte tÃ©cnica.
+            El desarrollo web para agencias es un servicio outsourcing donde nosotros desarrollamos los sitios web de tus clientes bajo tu propia marca. Tú vendes el proyecto, nosotros lo construimos y entregamos. Tu agencia mantiene la relación con el cliente mientras nosotros hacemos toda la parte técnica.
           </div>
         </div>
         <div class="glass-card p-6 border border-white/5 faq-item">
           <button class="faq-btn w-full flex justify-between items-center text-left">
-            <span class="text-white font-semibold text-sm">Â¿CÃ³mo funciona el modelo white label o marca blanca?</span>
+            <span class="text-white font-semibold text-sm">¿Cómo funciona el modelo white label o marca blanca?</span>
             <svg class="faq-icon w-5 h-5 text-blue-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </button>
           <div class="faq-answer mt-4 text-sm text-gray-400 leading-relaxed hidden">
-            En el modelo white label, el desarrollo web aparece como si tu agencia lo hubiera creado. Usamos tu marca, tu logo y tus colores en todo el proceso. Firmamos un NDA estricto para que tu cliente nunca sepa de nuestra existencia. TÃº facturas directamente a tu cliente con el margen que decidas.
+            En el modelo white label, el desarrollo web aparece como si tu agencia lo hubiera creado. Usamos tu marca, tu logo y tus colores en todo el proceso. Firmamos un NDA estricto para que tu cliente nunca sepa de nuestra existencia. Tú facturas directamente a tu cliente con el margen que decidas.
           </div>
         </div>
         <div class="glass-card p-6 border border-white/5 faq-item">
           <button class="faq-btn w-full flex justify-between items-center text-left">
-            <span class="text-white font-semibold text-sm">Â¿CuÃ¡nto cuesta tercerizar el desarrollo web para mi agencia?</span>
+            <span class="text-white font-semibold text-sm">¿Cuánto cuesta tercerizar el desarrollo web para mi agencia?</span>
             <svg class="faq-icon w-5 h-5 text-blue-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </button>
           <div class="faq-answer mt-4 text-sm text-gray-400 leading-relaxed hidden">
-            Nuestros planes de desarrollo web para agencias parten desde S/600 para landing pages, S/1200 para sitios corporativos y S/2000 para tiendas ecommerce. TÃº pones tu margen al cliente final. Todos los planes incluyen hosting, SSL y SEO bÃ¡sico.
+            Nuestros planes de desarrollo web para agencias parten desde S/600 para landing pages, S/1200 para sitios corporativos y S/2000 para tiendas ecommerce. Tú pones tu margen al cliente final. Todos los planes incluyen hosting, SSL y SEO básico.
           </div>
         </div>
         <div class="glass-card p-6 border border-white/5 faq-item">
           <button class="faq-btn w-full flex justify-between items-center text-left">
-            <span class="text-white font-semibold text-sm">Â¿QuÃ© tecnologÃ­as usan para el desarrollo web?</span>
+            <span class="text-white font-semibold text-sm">¿Qué tecnologías usan para el desarrollo web?</span>
             <svg class="faq-icon w-5 h-5 text-blue-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </button>
           <div class="faq-answer mt-4 text-sm text-gray-400 leading-relaxed hidden">
-            Trabajamos con Next.js, React, Tailwind CSS y WordPress segÃºn el tipo de proyecto. Todos nuestros sitios son 100% responsivos, optimizados para Core Web Vitals y con puntuaciÃ³n SEO 90+. Entregamos cÃ³digo limpio y documentado.
+            Trabajamos con Next.js, React, Tailwind CSS y WordPress según el tipo de proyecto. Todos nuestros sitios son 100% responsivos, optimizados para Core Web Vitals y con puntuación SEO 90+. Entregamos código limpio y documentado.
           </div>
         </div>
       </div>

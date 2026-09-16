@@ -1,6 +1,6 @@
-?php
-  $page_title = "CÃ³mo Crear una PÃ¡gina Web para Mi Negocio | GuÃ­a Paso a Paso | Next Boost";
-  $page_description = "GuÃ­a paso a paso para crear una pÃ¡gina web para tu negocio en PerÃº. Desde elegir dominio hasta lanzar y posicionar en Google.";
+<?php
+  $page_title = "Cómo Crear una Página Web para Mi Negocio | Guía Paso a Paso | Next Boost";
+  $page_description = "Guía paso a paso para crear una página web para tu negocio en Perú. Desde elegir dominio hasta lanzar y posicionar en Google.";
 ?>
 <!DOCTYPE html>
 <html lang="es" class="dark scroll-smooth">
@@ -13,42 +13,42 @@
     {
       "@type": "Service",
       "@id": "https://nextboost.business/como-crear-una-pagina-web-para-mi-negocio.php/#service",
-      "name": "CreaciÃ³n de PÃ¡gina Web para Negocios en PerÃº",
+      "name": "Creación de Página Web para Negocios en Perú",
       "serviceType": "Desarrollo Web",
       "provider": {
         "@type": "Organization",
         "name": "Next Boost",
         "url": "https://nextboost.business/"
       },
-      "description": "Servicio de creaciÃ³n de pÃ¡ginas web para negocios en PerÃº. Dominio, hosting, diseÃ±o, contenido y SEO incluidos.",
-      "areaServed": "PerÃº",
+      "description": "Servicio de creación de páginas web para negocios en Perú. Dominio, hosting, diseño, contenido y SEO incluidos.",
+      "areaServed": "Perú",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Planes de CreaciÃ³n Web",
+        "name": "Planes de Creación Web",
         "itemListElement": [
           {
             "@type": "Offer",
             "price": "450.00",
             "priceCurrency": "PEN",
-            "itemOffered": { "@type": "Service", "name": "PÃ¡gina Web BÃ¡sica" }
+            "itemOffered": { "@type": "Service", "name": "Página Web Básica" }
           },
           {
             "@type": "Offer",
             "price": "550.00",
             "priceCurrency": "PEN",
-            "itemOffered": { "@type": "Service", "name": "PÃ¡gina Web Informativa" }
+            "itemOffered": { "@type": "Service", "name": "Página Web Informativa" }
           },
           {
             "@type": "Offer",
             "price": "800.00",
             "priceCurrency": "PEN",
-            "itemOffered": { "@type": "Service", "name": "PÃ¡gina Web Profesional" }
+            "itemOffered": { "@type": "Service", "name": "Página Web Profesional" }
           },
           {
             "@type": "Offer",
             "price": "1000.00",
             "priceCurrency": "PEN",
-            "itemOffered": { "@type": "Service", "name": "PÃ¡gina Web Premium" }
+            "itemOffered": { "@type": "Service", "name": "Página Web Premium" }
           }
         ]
       }
@@ -58,7 +58,7 @@
       "@id": "https://nextboost.business/como-crear-una-pagina-web-para-mi-negocio.php/#breadcrumb",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://nextboost.business/" },
-        { "@type": "ListItem", "position": 2, "name": "CÃ³mo Crear una PÃ¡gina Web", "item": "https://nextboost.business/como-crear-una-pagina-web-para-mi-negocio.php" }
+        { "@type": "ListItem", "position": 2, "name": "Cómo Crear una Página Web", "item": "https://nextboost.business/como-crear-una-pagina-web-para-mi-negocio.php" }
       ]
     },
     {
@@ -67,26 +67,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Â¿Necesito saber programar para crear una pÃ¡gina web?",
+          "name": "¿Necesito saber programar para crear una página web?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No, no necesitas saber programar. Con nuestro servicio nos encargamos de todo el desarrollo tÃ©cnico. TÃº solo nos cuentas lo que necesitas y nosotros lo construimos. AdemÃ¡s, entregamos un panel administrable para que puedas editar contenido."
+            "text": "No, no necesitas saber programar. Con nuestro servicio nos encargamos de todo el desarrollo técnico. Tú solo nos cuentas lo que necesitas y nosotros lo construimos. Además, entregamos un panel administrable para que puedas editar contenido."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿CuÃ¡nto tiempo toma crear una pÃ¡gina web?",
+          "name": "¿Cuánto tiempo toma crear una página web?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Una landing page se entrega en 5 a 8 dÃ­as hÃ¡biles. Una pÃ¡gina web corporativa completa toma entre 2 y 3 semanas. El tiempo depende de la cantidad de secciones, funcionalidades y si necesitas contenido personalizado."
+            "text": "Una landing page se entrega en 5 a 8 días hábiles. Una página web corporativa completa toma entre 2 y 3 semanas. El tiempo depende de la cantidad de secciones, funcionalidades y si necesitas contenido personalizado."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿QuÃ© necesito para empezar a crear mi pÃ¡gina web?",
+          "name": "¿Qué necesito para empezar a crear mi página web?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Solo necesitas definir: tu nombre de negocio, quÃ© servicios ofreces, una idea de cÃ³mo quieres que se vea, y si tienes imÃ¡genes propias. Nosotros nos encargamos del dominio, hosting, diseÃ±o, programaciÃ³n y SEO."
+            "text": "Solo necesitas definir: tu nombre de negocio, qué servicios ofreces, una idea de cómo quieres que se vea, y si tienes imágenes propias. Nosotros nos encargamos del dominio, hosting, diseño, programación y SEO."
           }
         }
       ]
@@ -276,7 +276,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">Elegir Dominio</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Selecciona el nombre de tu sitio web (ej: tudaÃ±a.com). Un dominio corto, memorable y relacionado con tu negocio es clave para ser encontrado.
+          Selecciona el nombre de tu sitio web (ej: tudaña.com). Un dominio corto, memorable y relacionado con tu negocio es clave para ser encontrado.
         </p>
       </article>
 
@@ -296,7 +296,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">Diseno UX/UI</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Un diseno profesional, moderno y responsivo que se adapta a moviles. La primera impresion de tus clienteså†³å®šäº† si se quedan o se van.
+          Un diseno profesional, moderno y responsivo que se adapta a moviles. La primera impresion de tus clientes决定了 si se quedan o se van.
         </p>
       </article>
 

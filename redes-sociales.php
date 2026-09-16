@@ -1,6 +1,6 @@
-?php
-  $page_title = "GestiÃ³n de Redes Sociales PerÃº | Planes desde S/500 | Next Boost";
-  $page_description = "GestiÃ³n de redes sociales en PerÃº desde S/500/mes. Community Management, Reels y Meta Ads para convertir seguidores en clientes.";
+<?php
+  $page_title = "Gestión de Redes Sociales Perú | Planes desde S/500 | Next Boost";
+  $page_description = "Gestión de redes sociales en Perú desde S/500/mes. Community Management, Reels y Meta Ads para convertir seguidores en clientes.";
   $og_url = "https://nextboost.business/redes-sociales.php";
 ?>
 <!DOCTYPE html>
@@ -25,7 +25,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "GestiÃ³n de Redes Sociales PerÃº",
+          "name": "Gestión de Redes Sociales Perú",
           "item": "https://nextboost.business/redes-sociales.php"
         }
       ]
@@ -33,15 +33,15 @@
     {
       "@type": "Service",
       "@id": "https://nextboost.business/redes-sociales.php/#service",
-      "name": "GestiÃ³n de Redes Sociales y Community Management",
+      "name": "Gestión de Redes Sociales y Community Management",
       "serviceType": "Social Media Marketing",
       "provider": {
         "@type": "Organization",
         "name": "Next Boost",
         "url": "https://nextboost.business/"
       },
-      "description": "GestiÃ³n de redes sociales para empresas en PerÃº. Estrategia de contenidos, creaciÃ³n de Reels, diseÃ±o de posts y campaÃ±as publicitarias en Meta Ads.",
-      "areaServed": "PerÃº",
+      "description": "Gestión de redes sociales para empresas en Perú. Estrategia de contenidos, creación de Reels, diseño de posts y campañas publicitarias en Meta Ads.",
+      "areaServed": "Perú",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Planes Mensuales de Redes Sociales",
@@ -82,26 +82,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Â¿QuÃ© incluye la gestiÃ³n de redes sociales para mi empresa en PerÃº?",
+          "name": "¿Qué incluye la gestión de redes sociales para mi empresa en Perú?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Nuestro servicio de gestiÃ³n de redes sociales incluye estrategia de contenido, diseÃ±o de posts, ediciÃ³n de Reels, copywriting, programaciÃ³n de publicaciones, respuesta a comentarios y reportes mensuales de resultados. Los planes mÃ¡s avanzados aÃ±aden Meta Ads y sesiones fotogrÃ¡ficas."
+            "text": "Nuestro servicio de gestión de redes sociales incluye estrategia de contenido, diseño de posts, edición de Reels, copywriting, programación de publicaciones, respuesta a comentarios y reportes mensuales de resultados. Los planes más avanzados añaden Meta Ads y sesiones fotográficas."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿CuÃ¡nto cuesta el servicio de gestiÃ³n de redes sociales en PerÃº?",
+          "name": "¿Cuánto cuesta el servicio de gestión de redes sociales en Perú?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Nuestros planes de gestiÃ³n de redes sociales parten desde S/500 PEN mensuales para el plan Esencial, S/800 para el plan Crecimiento (incluye Reels y Meta Ads) y S/1500 para el plan Corporativo (historias diarias y sesiÃ³n fotogrÃ¡fica)."
+            "text": "Nuestros planes de gestión de redes sociales parten desde S/500 PEN mensuales para el plan Esencial, S/800 para el plan Crecimiento (incluye Reels y Meta Ads) y S/1500 para el plan Corporativo (historias diarias y sesión fotográfica)."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿En cuÃ¡nto tiempo veo resultados con la gestiÃ³n de redes sociales?",
+          "name": "¿En cuánto tiempo veo resultados con la gestión de redes sociales?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Los primeros resultados orgÃ¡nicos se ven desde el primer mes con mayor engagement y alcance. Las campaÃ±as de Meta Ads generan resultados inmediatos desde el dÃ­a 1. La consolidaciÃ³n de una comunidad sÃ³lida toma de 3 a 6 meses de trabajo constante."
+            "text": "Los primeros resultados orgánicos se ven desde el primer mes con mayor engagement y alcance. Las campañas de Meta Ads generan resultados inmediatos desde el día 1. La consolidación de una comunidad sólida toma de 3 a 6 meses de trabajo constante."
           }
         }
       ]
@@ -122,7 +122,7 @@
   <!-- Global Header -->
   <?php include 'includes/header.php'; ?>
 
-  <!-- 1. ATENCIÃ“N: Hero Section -->
+  <!-- 1. ATENCIÓN: Hero Section -->
   <main class="relative z-10 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 py-16 lg:py-24">
     <div class="text-center max-w-4xl mx-auto space-y-8">
       
@@ -132,12 +132,12 @@
       </div>
 
       <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-[1.1]">
-        GestiÃ³n de redes sociales en PerÃº <br>
+        Gestión de redes sociales en Perú <br>
         <span class="bg-gradient-to-r from-pink-400 to-purple-500 text-transparent bg-clip-text">convierte seguidores en clientes.</span>
       </h1>
 
       <p class="text-base md:text-xl text-gray-300 font-normal leading-relaxed max-w-2xl mx-auto">
-        No publicamos por publicar. DiseÃ±amos estrategias de contenido, Reels virales y campaÃ±as en 
+        No publicamos por publicar. Diseñamos estrategias de contenido, Reels virales y campañas en 
         <strong class="text-white">Meta Ads</strong> enfocadas 100% en aumentar tus ventas y posicionar tu marca.
       </p>
 
@@ -163,13 +163,13 @@
     </div>
   </main>
 
-  <!-- 2. INTERÃ‰S: Pilares del Servicio -->
+  <!-- 2. INTERÉS: Pilares del Servicio -->
   <section class="relative z-10 py-20 bg-[#070709] border-y border-white/10">
     <div class="max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20">
       
       <div class="text-center max-w-3xl mx-auto mb-16">
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-          GestiÃ³n de redes sociales <br>
+          Gestión de redes sociales <br>
           <span class="bg-gradient-to-r from-pink-400 to-purple-500 text-transparent bg-clip-text">para escalar tu negocio</span>
         </h2>
       </div>
@@ -182,7 +182,7 @@
           </div>
           <h3 class="text-lg font-bold text-white">Estrategia de Contenido</h3>
           <p class="text-xs text-gray-400 leading-relaxed">
-            Creamos un calendario editorial mensual con pilares de contenido enfocados en educar, generar confianza y vender de manera orgÃ¡nica.
+            Creamos un calendario editorial mensual con pilares de contenido enfocados en educar, generar confianza y vender de manera orgánica.
           </p>
         </div>
 
@@ -192,7 +192,7 @@
           </div>
           <h3 class="text-lg font-bold text-white">Reels y Formato Corto</h3>
           <p class="text-xs text-gray-400 leading-relaxed">
-            El video es el rey. Editamos Reels dinÃ¡micos con tendencias actuales y ganchos visuales para maximizar tu alcance en Instagram y TikTok.
+            El video es el rey. Editamos Reels dinámicos con tendencias actuales y ganchos visuales para maximizar tu alcance en Instagram y TikTok.
           </p>
         </div>
 
@@ -200,7 +200,7 @@
           <div class="w-12 h-12 rounded-none bg-blue-500/10 text-blue-400 flex items-center justify-center border border-blue-500/20">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"/></svg>
           </div>
-          <h3 class="text-lg font-bold text-white">CampaÃ±as Meta Ads</h3>
+          <h3 class="text-lg font-bold text-white">Campañas Meta Ads</h3>
           <p class="text-xs text-gray-400 leading-relaxed">
             Configuramos y optimizamos publicidad pagada en Facebook e Instagram para atraer prospectos perfilados directamente a tu WhatsApp o Web.
           </p>
@@ -212,7 +212,7 @@
           </div>
           <h3 class="text-lg font-bold text-white">Reportes de Resultados</h3>
           <p class="text-xs text-gray-400 leading-relaxed">
-            Transparencia total. Recibe un informe mensual detallando el crecimiento de tu comunidad, interacciÃ³n generada y costo por lead.
+            Transparencia total. Recibe un informe mensual detallando el crecimiento de tu comunidad, interacción generada y costo por lead.
           </p>
         </div>
 
@@ -225,7 +225,7 @@
     <div class="max-w-screen-xl mx-auto px-8 md:px-16">
       <div class="text-center mb-16">
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-          CÃ³mo trabajamos tu <span class="bg-gradient-to-r from-pink-400 to-purple-500 text-transparent bg-clip-text">gestiÃ³n de redes sociales</span>
+          Cómo trabajamos tu <span class="bg-gradient-to-r from-pink-400 to-purple-500 text-transparent bg-clip-text">gestión de redes sociales</span>
         </h2>
         <p class="text-sm text-gray-400 mt-4">Un proceso claro que combina estrategia, contenido y publicidad para resultados medibles.</p>
       </div>
@@ -234,20 +234,20 @@
 
         <div class="text-center bg-[#0a0a0e] p-6 rounded-2xl border border-white/5">
           <div class="w-16 h-16 mx-auto rounded-full bg-pink-500/20 flex items-center justify-center text-pink-400 font-black text-2xl mb-4 border-4 border-[#0a0a0e]">1</div>
-          <h4 class="text-white font-bold mb-2">Estrategia y DiagnÃ³stico</h4>
+          <h4 class="text-white font-bold mb-2">Estrategia y Diagnóstico</h4>
           <p class="text-xs text-gray-400">Analizamos tu marca, competencia y audiencia. Definimos pilares de contenido, tono de voz y objetivos de crecimiento medibles.</p>
         </div>
 
         <div class="text-center bg-[#0a0a0e] p-6 rounded-2xl border border-white/5">
           <div class="w-16 h-16 mx-auto rounded-full bg-purple-500/20 flex items-center justify-center text-purple-400 font-black text-2xl mb-4 border-4 border-[#0a0a0e]">2</div>
-          <h4 class="text-white font-bold mb-2">ProducciÃ³n y PublicaciÃ³n</h4>
-          <p class="text-xs text-gray-400">DiseÃ±amos posts, editamos Reels y programamos contenido. Mantenemos tus redes activas todos los dÃ­as sin que hagas nada.</p>
+          <h4 class="text-white font-bold mb-2">Producción y Publicación</h4>
+          <p class="text-xs text-gray-400">Diseñamos posts, editamos Reels y programamos contenido. Mantenemos tus redes activas todos los días sin que hagas nada.</p>
         </div>
 
         <div class="text-center bg-[#0a0a0e] p-6 rounded-2xl border border-white/5">
           <div class="w-16 h-16 mx-auto rounded-full bg-blue-500/20 flex items-center justify-center text-blue-400 font-black text-2xl mb-4 border-4 border-[#0a0a0e]">3</div>
-          <h4 class="text-white font-bold mb-2">OptimizaciÃ³n y Reportes</h4>
-          <p class="text-xs text-gray-400">Medimos mÃ©tricas, optimizamos campaÃ±as Meta Ads y entregamos reportes mensuales con el crecimiento real de tu comunidad.</p>
+          <h4 class="text-white font-bold mb-2">Optimización y Reportes</h4>
+          <p class="text-xs text-gray-400">Medimos métricas, optimizamos campañas Meta Ads y entregamos reportes mensuales con el crecimiento real de tu comunidad.</p>
         </div>
       </div>
     </div>
@@ -261,7 +261,7 @@
         <span class="text-[10px] uppercase tracking-widest text-gray-400 font-bold">Nuestro Trabajo</span>
       </div>
       <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white mb-4">
-        Resultados de nuestra <span class="bg-gradient-to-r from-pink-400 to-purple-500 text-transparent bg-clip-text">gestiÃ³n de redes sociales</span>
+        Resultados de nuestra <span class="bg-gradient-to-r from-pink-400 to-purple-500 text-transparent bg-clip-text">gestión de redes sociales</span>
       </h2>
       <p class="text-sm text-gray-400">Resultados reales que generan engagement y ventas para nuestros clientes.</p>
     </div>
@@ -288,7 +288,7 @@
         </div>
       </div>
 
-      <!-- Grilla de ImÃ¡genes - 7 Columnas -->
+      <!-- Grilla de Imágenes - 7 Columnas -->
       <div class="lg:col-span-7 space-y-6">
         <h3 class="text-xl font-bold text-white flex items-center gap-2 mb-6">
           <svg class="w-5 h-5 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
@@ -296,22 +296,22 @@
         </h3>
         <div class="columns-2 md:columns-3 gap-4 space-y-4">
           <div class="glass-card overflow-hidden border border-white/10 group rounded-none break-inside-avoid">
-            <img src="portafolio-redes/Portada Brevetex.png" alt="DiseÃ±o de portada para redes sociales marca Brevetex" class="w-full h-auto transition-transform duration-500 group-hover:scale-110 opacity-90 group-hover:opacity-100">
+            <img src="portafolio-redes/Portada Brevetex.png" alt="Diseño de portada para redes sociales marca Brevetex" class="w-full h-auto transition-transform duration-500 group-hover:scale-110 opacity-90 group-hover:opacity-100">
           </div>
           <div class="glass-card overflow-hidden border border-white/10 group rounded-none break-inside-avoid">
-            <img src="portafolio-redes/Post 6.png" alt="Post publicitario para Instagram con promociÃ³n" class="w-full h-auto transition-transform duration-500 group-hover:scale-110 opacity-90 group-hover:opacity-100">
+            <img src="portafolio-redes/Post 6.png" alt="Post publicitario para Instagram con promoción" class="w-full h-auto transition-transform duration-500 group-hover:scale-110 opacity-90 group-hover:opacity-100">
           </div>
           <div class="glass-card overflow-hidden border border-white/10 group rounded-none break-inside-avoid">
-            <img src="portafolio-redes/educacion tr.png" alt="DiseÃ±o grÃ¡fico educativo para redes sociales" class="w-full h-auto transition-transform duration-500 group-hover:scale-110 opacity-90 group-hover:opacity-100">
+            <img src="portafolio-redes/educacion tr.png" alt="Diseño gráfico educativo para redes sociales" class="w-full h-auto transition-transform duration-500 group-hover:scale-110 opacity-90 group-hover:opacity-100">
           </div>
           <div class="glass-card overflow-hidden border border-white/10 group rounded-none break-inside-avoid">
-            <img src="portafolio-redes/aqp secretaria.png" alt="PublicaciÃ³n de servicios de secretaria en redes sociales" class="w-full h-auto transition-transform duration-500 group-hover:scale-110 opacity-90 group-hover:opacity-100">
+            <img src="portafolio-redes/aqp secretaria.png" alt="Publicación de servicios de secretaria en redes sociales" class="w-full h-auto transition-transform duration-500 group-hover:scale-110 opacity-90 group-hover:opacity-100">
           </div>
           <div class="glass-card overflow-hidden border border-white/10 group rounded-none break-inside-avoid">
-            <img src="portafolio-redes/podologo.png" alt="DiseÃ±o de post para consultorio de podologÃ­a" class="w-full h-auto transition-transform duration-500 group-hover:scale-110 opacity-90 group-hover:opacity-100">
+            <img src="portafolio-redes/podologo.png" alt="Diseño de post para consultorio de podología" class="w-full h-auto transition-transform duration-500 group-hover:scale-110 opacity-90 group-hover:opacity-100">
           </div>
           <div class="glass-card overflow-hidden border border-white/10 group rounded-none break-inside-avoid">
-            <img src="portafolio-redes/647036885_1349239417224574_5820152872763474502_n.png" alt="CampaÃ±a grÃ¡fica de marketing digital en redes sociales" class="w-full h-auto transition-transform duration-500 group-hover:scale-110 opacity-90 group-hover:opacity-100">
+            <img src="portafolio-redes/647036885_1349239417224574_5820152872763474502_n.png" alt="Campaña gráfica de marketing digital en redes sociales" class="w-full h-auto transition-transform duration-500 group-hover:scale-110 opacity-90 group-hover:opacity-100">
           </div>
         </div>
       </div>
@@ -319,12 +319,12 @@
     </div>
   </section>
 
-  <!-- 4. ACCIÃ“N: Precios -->
+  <!-- 4. ACCIÓN: Precios -->
   <section id="planes" class="relative z-10 py-20 bg-[#0a0a0e]/50 border-t border-white/5">
     <div class="max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20">
       <div class="text-center max-w-3xl mx-auto mb-16">
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white mb-4">
-          Planes de redes sociales <span class="bg-gradient-to-r from-pink-400 to-purple-500 text-transparent bg-clip-text">en PerÃº</span>
+          Planes de redes sociales <span class="bg-gradient-to-r from-pink-400 to-purple-500 text-transparent bg-clip-text">en Perú</span>
         </h2>
         <p class="text-sm text-gray-400">Escoge el nivel de intensidad que tu marca necesita hoy.</p>
       </div>
@@ -340,11 +340,11 @@
             <span class="text-xs text-gray-500 font-medium"> PEN / mensual</span>
           </div>
           <ul class="space-y-4 text-sm text-gray-300 mb-8 flex-1">
-            <li class="flex items-start gap-3"><span class="text-pink-400 font-bold shrink-0">âœ“</span> 12 Publicaciones al Mes (Posts/Carruseles)</li>
-            <li class="flex items-start gap-3"><span class="text-pink-400 font-bold shrink-0">âœ“</span> 4 Historias DinÃ¡micas (1x semana)</li>
-            <li class="flex items-start gap-3"><span class="text-pink-400 font-bold shrink-0">âœ“</span> DiseÃ±o GrÃ¡fico y Copywriting</li>
-            <li class="flex items-start gap-3"><span class="text-pink-400 font-bold shrink-0">âœ“</span> Respuestas a Comentarios BÃ¡sicos</li>
-            <li class="flex items-start gap-3 opacity-50"><span class="text-gray-500 font-bold shrink-0">âœ•</span> GestiÃ³n de Meta Ads (No incluido)</li>
+            <li class="flex items-start gap-3"><span class="text-pink-400 font-bold shrink-0">✓</span> 12 Publicaciones al Mes (Posts/Carruseles)</li>
+            <li class="flex items-start gap-3"><span class="text-pink-400 font-bold shrink-0">✓</span> 4 Historias Dinámicas (1x semana)</li>
+            <li class="flex items-start gap-3"><span class="text-pink-400 font-bold shrink-0">✓</span> Diseño Gráfico y Copywriting</li>
+            <li class="flex items-start gap-3"><span class="text-pink-400 font-bold shrink-0">✓</span> Respuestas a Comentarios Básicos</li>
+            <li class="flex items-start gap-3 opacity-50"><span class="text-gray-500 font-bold shrink-0">✕</span> Gestión de Meta Ads (No incluido)</li>
           </ul>
           <a href="#contacto" class="w-full inline-block text-center py-4 text-sm font-bold bg-white/5 hover:bg-pink-600 hover:text-white border border-white/10 hover:border-pink-500 transition-all">
             Elegir Esencial
@@ -355,17 +355,17 @@
         <div class="glass-card p-8 rounded-2xl border border-purple-500/50 relative bg-purple-950/10 flex flex-col group transform md:-translate-y-4 shadow-[0_15px_30px_rgba(168,85,247,0.15)]">
           <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-purple-500 text-white text-[10px] font-bold px-4 py-1.5 uppercase tracking-widest shadow-lg">El Favorito</div>
           <h3 class="text-xl font-bold text-white mb-2">Crecimiento</h3>
-          <p class="text-xs text-gray-400 mb-6">Para negocios que buscan escalar e incorporar campaÃ±as de publicidad efectivas.</p>
+          <p class="text-xs text-gray-400 mb-6">Para negocios que buscan escalar e incorporar campañas de publicidad efectivas.</p>
           <div class="mb-6 border-b border-white/10 pb-6">
             <span class="text-4xl font-extrabold text-purple-400">S/ 800</span>
             <span class="text-xs text-gray-500 font-medium"> PEN / mensual</span>
           </div>
           <ul class="space-y-4 text-sm text-gray-300 mb-8 flex-1">
-            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> 15 Publicaciones al Mes</li>
-            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> 8 Historias (2x semana)</li>
-            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> EdiciÃ³n de 2 Reels al Mes</li>
-            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> GestiÃ³n de Meta Ads (InversiÃ³n aparte)</li>
-            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Reporte de Resultados Mensual</li>
+            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> 15 Publicaciones al Mes</li>
+            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> 8 Historias (2x semana)</li>
+            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Edición de 2 Reels al Mes</li>
+            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Gestión de Meta Ads (Inversión aparte)</li>
+            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Reporte de Resultados Mensual</li>
           </ul>
           <a href="#contacto" class="w-full inline-block text-center py-4 text-sm font-bold bg-purple-500 text-white hover:bg-purple-400 transition-all shadow-[0_0_15px_rgba(168,85,247,0.4)]">
             Elegir Crecimiento
@@ -375,17 +375,17 @@
         <!-- Tier 3 -->
         <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-blue-500/50 transition-all flex flex-col group">
           <h3 class="text-xl font-bold text-white mb-2">Corporativo</h3>
-          <p class="text-xs text-gray-400 mb-6">Omnipresencia digital. Alta frecuencia de videos y optimizaciÃ³n de pauta avanzada.</p>
+          <p class="text-xs text-gray-400 mb-6">Omnipresencia digital. Alta frecuencia de videos y optimización de pauta avanzada.</p>
           <div class="mb-6 border-b border-white/10 pb-6">
             <span class="text-4xl font-extrabold text-white">S/ 1500</span>
             <span class="text-xs text-gray-500 font-medium"> PEN / mensual</span>
           </div>
           <ul class="space-y-4 text-sm text-gray-300 mb-8 flex-1">
-            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">âœ“</span> 20 Publicaciones al Mes</li>
-            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">âœ“</span> Historias Diarias</li>
-            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">âœ“</span> EdiciÃ³n de 4 Reels al Mes</li>
-            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">âœ“</span> SesiÃ³n FotogrÃ¡fica de Productos (Lima)</li>
-            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">âœ“</span> Pauta Meta Ads + Google Ads</li>
+            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> 20 Publicaciones al Mes</li>
+            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> Historias Diarias</li>
+            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> Edición de 4 Reels al Mes</li>
+            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> Sesión Fotográfica de Productos (Lima)</li>
+            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> Pauta Meta Ads + Google Ads</li>
           </ul>
           <a href="#contacto" class="w-full inline-block text-center py-4 text-sm font-bold bg-white/5 hover:bg-blue-600 hover:text-white border border-white/10 hover:border-blue-500 transition-all">
             Elegir Corporativo
@@ -401,9 +401,9 @@
     <div class="max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20">
       <div class="text-center max-w-3xl mx-auto mb-12">
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-          Combina redes sociales <span class="bg-gradient-to-r from-pink-400 to-purple-500 text-transparent bg-clip-text">con mÃ¡s trÃ¡fico</span>
+          Combina redes sociales <span class="bg-gradient-to-r from-pink-400 to-purple-500 text-transparent bg-clip-text">con más tráfico</span>
         </h2>
-        <p class="text-sm text-gray-400 mt-4">Tus redes sociales atraen atenciÃ³n; tu web convierte y Google multiplica el resultado.</p>
+        <p class="text-sm text-gray-400 mt-4">Tus redes sociales atraen atención; tu web convierte y Google multiplica el resultado.</p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
         <a href="desarrollo-web.php" class="glass-card p-8 rounded-2xl border border-white/10 hover:border-blue-500/50 transition-all group block">
@@ -411,16 +411,16 @@
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <h3 class="text-lg font-bold text-white mb-2">Desarrollo Web</h3>
-          <p class="text-xs text-gray-400 leading-relaxed">Convierte el trÃ¡fico de tus redes en leads con una web optimizada para ventas.</p>
-          <span class="text-xs font-bold text-blue-400 mt-4 inline-flex items-center gap-1.5 group-hover:gap-2.5 transition-all">Ver servicio <span>â†’</span></span>
+          <p class="text-xs text-gray-400 leading-relaxed">Convierte el tráfico de tus redes en leads con una web optimizada para ventas.</p>
+          <span class="text-xs font-bold text-blue-400 mt-4 inline-flex items-center gap-1.5 group-hover:gap-2.5 transition-all">Ver servicio <span>→</span></span>
         </a>
         <a href="posicionamiento-seo.php" class="glass-card p-8 rounded-2xl border border-white/10 hover:border-emerald-500/50 transition-all group block">
           <div class="w-12 h-12 rounded-none bg-emerald-500/10 text-emerald-400 flex items-center justify-center mb-4 border border-emerald-500/20 group-hover:bg-emerald-400 group-hover:text-black transition-all">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <h3 class="text-lg font-bold text-white mb-2">Posicionamiento SEO</h3>
-          <p class="text-xs text-gray-400 leading-relaxed">Multiplica el alcance de tu marca con trÃ¡fico orgÃ¡nico desde Google.</p>
-          <span class="text-xs font-bold text-emerald-400 mt-4 inline-flex items-center gap-1.5 group-hover:gap-2.5 transition-all">Ver servicio <span>â†’</span></span>
+          <p class="text-xs text-gray-400 leading-relaxed">Multiplica el alcance de tu marca con tráfico orgánico desde Google.</p>
+          <span class="text-xs font-bold text-emerald-400 mt-4 inline-flex items-center gap-1.5 group-hover:gap-2.5 transition-all">Ver servicio <span>→</span></span>
         </a>
         <a href="ecommerce.php" class="glass-card p-8 rounded-2xl border border-white/10 hover:border-teal-500/50 transition-all group block">
           <div class="w-12 h-12 rounded-none bg-teal-500/10 text-teal-400 flex items-center justify-center mb-4 border border-teal-500/20 group-hover:bg-teal-400 group-hover:text-black transition-all">
@@ -428,12 +428,12 @@
           </div>
           <h3 class="text-lg font-bold text-white mb-2">Tiendas Online</h3>
           <p class="text-xs text-gray-400 leading-relaxed">Vende directamente desde Instagram y Facebook con una tienda online integrada.</p>
-          <span class="text-xs font-bold text-teal-400 mt-4 inline-flex items-center gap-1.5 group-hover:gap-2.5 transition-all">Ver servicio <span>â†’</span></span>
+          <span class="text-xs font-bold text-teal-400 mt-4 inline-flex items-center gap-1.5 group-hover:gap-2.5 transition-all">Ver servicio <span>→</span></span>
         </a>
       </div>
       <div class="text-center mt-10">
         <a href="blog.php" class="inline-flex items-center gap-2 text-sm font-semibold text-gray-300 hover:text-white transition-colors group">
-          GuÃ­as de marketing digital en nuestro blog
+          Guías de marketing digital en nuestro blog
           <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
       </div>
@@ -447,34 +447,34 @@
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
           Preguntas <span class="bg-gradient-to-r from-pink-400 to-purple-500 text-transparent bg-clip-text">Frecuentes</span>
         </h2>
-        <p class="text-sm text-gray-400 mt-4">Todo sobre nuestro servicio de gestiÃ³n de redes sociales en PerÃº.</p>
+        <p class="text-sm text-gray-400 mt-4">Todo sobre nuestro servicio de gestión de redes sociales en Perú.</p>
       </div>
       <div class="max-w-3xl mx-auto space-y-4" id="faq-accordion">
         <div class="glass-card p-6 border border-white/5 faq-item">
           <button class="faq-btn w-full flex justify-between items-center text-left">
-            <span class="text-white font-semibold text-sm">Â¿QuÃ© incluye la gestiÃ³n de redes sociales para mi empresa en PerÃº?</span>
+            <span class="text-white font-semibold text-sm">¿Qué incluye la gestión de redes sociales para mi empresa en Perú?</span>
             <svg class="faq-icon w-5 h-5 text-pink-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </button>
           <div class="faq-answer mt-4 text-sm text-gray-400 leading-relaxed hidden">
-            Nuestro servicio de gestiÃ³n de redes sociales incluye estrategia de contenido, diseÃ±o de posts, ediciÃ³n de Reels, copywriting, programaciÃ³n de publicaciones, respuesta a comentarios y reportes mensuales de resultados. Los planes mÃ¡s avanzados aÃ±aden Meta Ads y sesiones fotogrÃ¡ficas.
+            Nuestro servicio de gestión de redes sociales incluye estrategia de contenido, diseño de posts, edición de Reels, copywriting, programación de publicaciones, respuesta a comentarios y reportes mensuales de resultados. Los planes más avanzados añaden Meta Ads y sesiones fotográficas.
           </div>
         </div>
         <div class="glass-card p-6 border border-white/5 faq-item">
           <button class="faq-btn w-full flex justify-between items-center text-left">
-            <span class="text-white font-semibold text-sm">Â¿CuÃ¡nto cuesta el servicio de gestiÃ³n de redes sociales en PerÃº?</span>
+            <span class="text-white font-semibold text-sm">¿Cuánto cuesta el servicio de gestión de redes sociales en Perú?</span>
             <svg class="faq-icon w-5 h-5 text-pink-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </button>
           <div class="faq-answer mt-4 text-sm text-gray-400 leading-relaxed hidden">
-            Nuestros planes de gestiÃ³n de redes sociales parten desde S/500 PEN mensuales para el plan Esencial, S/800 para el plan Crecimiento (incluye Reels y Meta Ads) y S/1500 para el plan Corporativo (historias diarias y sesiÃ³n fotogrÃ¡fica).
+            Nuestros planes de gestión de redes sociales parten desde S/500 PEN mensuales para el plan Esencial, S/800 para el plan Crecimiento (incluye Reels y Meta Ads) y S/1500 para el plan Corporativo (historias diarias y sesión fotográfica).
           </div>
         </div>
         <div class="glass-card p-6 border border-white/5 faq-item">
           <button class="faq-btn w-full flex justify-between items-center text-left">
-            <span class="text-white font-semibold text-sm">Â¿En cuÃ¡nto tiempo veo resultados con la gestiÃ³n de redes sociales?</span>
+            <span class="text-white font-semibold text-sm">¿En cuánto tiempo veo resultados con la gestión de redes sociales?</span>
             <svg class="faq-icon w-5 h-5 text-pink-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </button>
           <div class="faq-answer mt-4 text-sm text-gray-400 leading-relaxed hidden">
-            Los primeros resultados orgÃ¡nicos se ven desde el primer mes con mayor engagement y alcance. Las campaÃ±as de Meta Ads generan resultados inmediatos desde el dÃ­a 1. La consolidaciÃ³n de una comunidad sÃ³lida toma de 3 a 6 meses de trabajo constante.
+            Los primeros resultados orgánicos se ven desde el primer mes con mayor engagement y alcance. Las campañas de Meta Ads generan resultados inmediatos desde el día 1. La consolidación de una comunidad sólida toma de 3 a 6 meses de trabajo constante.
           </div>
         </div>
       </div>

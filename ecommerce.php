@@ -1,6 +1,6 @@
 <?php
-  $page_title = "Crear Tienda Online Perú | Next Boost";
-  $page_description = "Crear tienda online en Perú. Tiendas virtuales profesionales con pasarelas de pago locales, gestor de inventario y diseño optimizado para vender.";
+  $page_title = "Crear Tienda Online en Perú | E-commerce - Next Boost";
+  $page_description = "Creamos tu tienda online en Perú con pasarelas de pago locales (Yape, Plin, tarjetas), gestión de inventario y diseño optimizado para vender. Cotiza gratis.";
   $og_url = "https://nextboost.business/ecommerce.php";
 ?>
 <!DOCTYPE html>
@@ -17,8 +17,11 @@
       "@id": "https://nextboost.business/ecommerce.php/#service",
       "name": "Crear Tienda Online en Perú",
       "serviceType": "E-Commerce",
+      "url": "https://nextboost.business/ecommerce.php",
+      "image": "https://nextboost.business/imagenes-web/shania.webp",
       "provider": {
         "@type": "Organization",
+        "@id": "https://nextboost.business/#organization",
         "name": "Next Boost",
         "url": "https://nextboost.business/"
       },
@@ -51,6 +54,70 @@
           }
         ]
       }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://nextboost.business/ecommerce.php/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://nextboost.business/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "E-commerce",
+          "item": "https://nextboost.business/ecommerce.php"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://nextboost.business/ecommerce.php/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta crear una tienda online en Perú?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El plan E-Commerce Start comienza en S/ 1000 e incluye diseño de tienda, WooCommerce, pasarela de pagos y hasta 30 productos. El plan Pro cuesta S/ 2500 e incluye automatización de carritos abandonados y cálculo de envíos. Es un pago único, sin mensualidades obligatorias."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué pasarelas de pago acepta mi tienda online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Integramos MercadoPago y Niubiz, además de tarjetas Visa, Mastercard y Amex, y billeteras digitales como Yape y Plin, con depósitos directos a tu cuenta bancaria."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo administrar mi tienda y productos sin saber programar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Entregamos un panel autoadministrable con WooCommerce donde gestionas productos, stock, precios y pedidos sin conocimientos técnicos, e incluye capacitación de uso."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿La tienda online funcionará bien en celulares?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Todas nuestras tiendas son Mobile-First: como el 80% del comercio ocurre en móviles, optimizamos velocidad de carga, botones de compra y un checkout en 3 clics."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿La tienda online es mía o debo pagar mensualidad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La tienda es 100% tuya con un pago único. No cobramos comisiones por venta ni mensualidades obligatorias por uso de plataforma."
+          }
+        }
+      ]
     }
   ]
 }
@@ -84,11 +151,11 @@
         </h1>
 
         <p class="text-base md:text-lg text-gray-300 font-normal leading-relaxed max-w-xl">
-          Quieres <strong class="text-white">crear tienda online en Perú</strong> que venda 24/7? Diseñamos tiendas virtuales profesionales con pasarelas de pago locales (Yape, Plin, tarjetas), gestor de inventario y experiencia de compra en 3 clics.
+          ¿Quieres <strong class="text-white">crear una tienda online en Perú</strong> que venda 24/7? Diseñamos tiendas virtuales profesionales con pasarelas de pago locales (Yape, Plin, tarjetas), gestor de inventario y experiencia de compra en 3 clics.
         </p>
 
         <div class="flex flex-col sm:flex-row gap-4 pt-4">
-          <a href="#contacto" class="inline-flex items-center justify-center gap-3 bg-gradient-to-r from-purple-500 to-blue-500 text-white px-8 py-4 text-sm font-bold rounded-none hover:shadow-[0_0_30px_rgba(168,85,247,0.4)] hover:scale-105 transition-all group">
+          <a href="contacto.php?servicio=ecommerce" class="inline-flex items-center justify-center gap-3 bg-gradient-to-r from-purple-500 to-blue-500 text-white px-8 py-4 text-sm font-bold rounded-none hover:shadow-[0_0_30px_rgba(168,85,247,0.4)] hover:scale-105 transition-all group">
             Cotizar mi Tienda Online
             <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
@@ -101,7 +168,7 @@
 
       <div class="relative">
         <div class="glass-card rounded-2xl p-4 border-2 border-purple-500/20 shadow-[0_0_50px_rgba(168,85,247,0.15)] transform md:rotate-2 hover:rotate-0 transition-transform duration-500">
-          <img src="imagenes-web/shania.png" alt="Mockup de tienda virtual responsiva" class="w-full rounded-xl opacity-90 hover:opacity-100 transition-opacity">
+          <img src="imagenes-web/shania.webp" alt="Tienda online responsiva creada por Next Boost en Perú" width="1896" height="861" fetchpriority="high" decoding="async" class="w-full rounded-xl opacity-90 hover:opacity-100 transition-opacity">
           <!-- Floating notification -->
           <div class="absolute -bottom-6 -left-6 glass-card p-4 rounded-xl border border-white/10 flex items-center gap-4 shadow-xl bg-[#0a0a0e] animate-bounce" style="animation-duration: 3s;">
             <div class="w-10 h-10 rounded-full bg-green-500/20 text-green-400 flex items-center justify-center">
@@ -203,7 +270,7 @@
           </a>
         </div>
         
-        <div class="h-[400px] lg:h-auto bg-cover bg-top bg-no-repeat relative" style="background-image: url('imagenes-web/shania.png');">
+        <div class="h-[400px] lg:h-auto bg-cover bg-top bg-no-repeat relative" style="background-image: url('imagenes-web/shania.webp');">
           <div class="absolute inset-0 bg-gradient-to-r from-[#121217] to-transparent lg:block hidden"></div>
           <div class="absolute inset-0 bg-gradient-to-t from-[#121217] to-transparent block lg:hidden"></div>
         </div>
@@ -239,7 +306,7 @@
             <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Carga Inicial de hasta 30 Productos</li>
             <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Certificado SSL y Seguridad Básica</li>
           </ul>
-          <a href="#contacto" class="w-full inline-block text-center py-4 text-sm font-bold bg-white/5 hover:bg-purple-500 hover:text-white border border-white/10 hover:border-purple-500 transition-all">
+          <a href="contacto.php?servicio=ecommerce" class="w-full inline-block text-center py-4 text-sm font-bold bg-white/5 hover:bg-purple-500 hover:text-white border border-white/10 hover:border-purple-500 transition-all">
             Comenzar con Start
           </a>
         </div>
@@ -260,12 +327,79 @@
             <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> Carga Masiva (Ilimitados mediante Excel)</li>
             <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> Optimización de Velocidad Extrema (Cache Varnish)</li>
           </ul>
-          <a href="#contacto" class="w-full inline-block text-center py-4 text-sm font-bold bg-blue-500 text-white hover:bg-blue-400 transition-all shadow-[0_0_15px_rgba(59,130,246,0.4)]">
+          <a href="contacto.php?servicio=ecommerce" class="w-full inline-block text-center py-4 text-sm font-bold bg-blue-500 text-white hover:bg-blue-400 transition-all shadow-[0_0_15px_rgba(59,130,246,0.4)]">
             Elegir Nivel Pro
           </a>
         </div>
 
       </div>
+    </div>
+  </section>
+
+  <!-- Preguntas Frecuentes (SEO) -->
+  <section class="relative z-10 py-20 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 border-t border-white/5">
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <p class="text-xs uppercase tracking-widest text-blue-400 font-bold mb-3">Resolvemos tus dudas</p>
+      <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
+        Preguntas frecuentes sobre <span class="bg-gradient-to-r from-purple-400 to-blue-500 text-transparent bg-clip-text">tiendas online</span>
+      </h2>
+    </div>
+    <div class="max-w-3xl mx-auto space-y-4">
+      <details class="group glass-card rounded-xl border border-white/10 p-6">
+        <summary class="flex items-center justify-between gap-4 cursor-pointer list-none text-white font-bold">
+          <span>¿Cuánto cuesta crear una tienda online en Perú?</span>
+          <span class="text-purple-400 group-open:rotate-45 transition-transform text-xl shrink-0">+</span>
+        </summary>
+        <p class="text-xs text-gray-400 leading-relaxed mt-3">El plan E-Commerce Start comienza en S/ 1000 e incluye diseño de tienda, WooCommerce, pasarela de pagos y hasta 30 productos. El plan Pro cuesta S/ 2500 e incluye automatización de carritos abandonados y cálculo de envíos. Es un pago único, sin mensualidades obligatorias.</p>
+      </details>
+      <details class="group glass-card rounded-xl border border-white/10 p-6">
+        <summary class="flex items-center justify-between gap-4 cursor-pointer list-none text-white font-bold">
+          <span>¿Qué pasarelas de pago acepta mi tienda online?</span>
+          <span class="text-purple-400 group-open:rotate-45 transition-transform text-xl shrink-0">+</span>
+        </summary>
+        <p class="text-xs text-gray-400 leading-relaxed mt-3">Integramos MercadoPago y Niubiz, además de tarjetas Visa, Mastercard y Amex, y billeteras digitales como Yape y Plin, con depósitos directos a tu cuenta bancaria.</p>
+      </details>
+      <details class="group glass-card rounded-xl border border-white/10 p-6">
+        <summary class="flex items-center justify-between gap-4 cursor-pointer list-none text-white font-bold">
+          <span>¿Puedo administrar mi tienda y productos sin saber programar?</span>
+          <span class="text-purple-400 group-open:rotate-45 transition-transform text-xl shrink-0">+</span>
+        </summary>
+        <p class="text-xs text-gray-400 leading-relaxed mt-3">Sí. Entregamos un panel autoadministrable con WooCommerce donde gestionas productos, stock, precios y pedidos sin conocimientos técnicos, e incluye capacitación de uso.</p>
+      </details>
+      <details class="group glass-card rounded-xl border border-white/10 p-6">
+        <summary class="flex items-center justify-between gap-4 cursor-pointer list-none text-white font-bold">
+          <span>¿La tienda online funcionará bien en celulares?</span>
+          <span class="text-purple-400 group-open:rotate-45 transition-transform text-xl shrink-0">+</span>
+        </summary>
+        <p class="text-xs text-gray-400 leading-relaxed mt-3">Sí. Todas nuestras tiendas son Mobile-First: como el 80% del comercio ocurre en móviles, optimizamos velocidad de carga, botones de compra y un checkout en 3 clics.</p>
+      </details>
+      <details class="group glass-card rounded-xl border border-white/10 p-6">
+        <summary class="flex items-center justify-between gap-4 cursor-pointer list-none text-white font-bold">
+          <span>¿La tienda online es mía o debo pagar mensualidad?</span>
+          <span class="text-purple-400 group-open:rotate-45 transition-transform text-xl shrink-0">+</span>
+        </summary>
+        <p class="text-xs text-gray-400 leading-relaxed mt-3">La tienda es 100% tuya con un pago único. No cobramos comisiones por venta ni mensualidades obligatorias por uso de plataforma.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- Servicios Relacionados (Enlazado Interno SEO) -->
+  <section class="relative z-10 py-16 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 border-t border-white/5">
+    <div class="text-center max-w-3xl mx-auto mb-10">
+      <h2 class="text-2xl md:text-4xl font-semibold tracking-tight text-white">
+        Servicios <span class="bg-gradient-to-r from-purple-400 to-blue-500 text-transparent bg-clip-text">relacionados</span>
+      </h2>
+      <p class="text-xs text-gray-400 mt-3">Todo lo que necesitas para vender más por internet.</p>
+    </div>
+    <div class="flex flex-wrap justify-center gap-3 text-xs">
+      <a href="desarrollo-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo y diseño web</a>
+      <a href="cuanto-cuesta-una-tienda-online-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-purple-500/40 text-gray-300 hover:text-white transition-colors">¿Cuánto cuesta una tienda online?</a>
+      <a href="hosting-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-purple-500/40 text-gray-300 hover:text-white transition-colors">Hosting web y dominio</a>
+      <a href="posicionamiento-seo.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-emerald-500/40 text-gray-300 hover:text-white transition-colors">Posicionamiento SEO para e-commerce</a>
+      <a href="redes-sociales.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-pink-500/40 text-gray-300 hover:text-white transition-colors">Marketing en redes sociales</a>
+      <a href="pagina-web-wordpress-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-teal-500/40 text-gray-300 hover:text-white transition-colors">Páginas web en WordPress</a>
+      <a href="proyectos.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-amber-500/40 text-gray-300 hover:text-white transition-colors">Ver portafolio de proyectos</a>
+      <a href="blog.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-cyan-500/40 text-gray-300 hover:text-white transition-colors">Blog de e-commerce</a>
     </div>
   </section>
 

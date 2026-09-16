@@ -1,6 +1,7 @@
-?php
-  $page_title = "Desarrollo Web PerÃº 2026 Precios | CuÃ¡nto Cuesta una Web | Next Boost";
-  $page_description = "Precios de desarrollo web en PerÃº 2026. Landing pages desde S/450, webs corporativas desde S/800, ecommerce desde S/1000. Presupuesto sin compromiso.";
+<?php
+  $page_title = "Precios de Desarrollo Web en Perú 2026 | Next Boost";
+  $page_description = "Precios de desarrollo web en Perú 2026. Landing pages desde S/450, webs corporativas desde S/800, ecommerce desde S/1000. Presupuesto sin compromiso.";
+  $og_url = "https://nextboost.business/desarrollo-web-peru-2026-precios.php";
 ?>
 <!DOCTYPE html>
 <html lang="es" class="dark scroll-smooth">
@@ -13,18 +14,24 @@
     {
       "@type": "Service",
       "@id": "https://nextboost.business/desarrollo-web-peru-2026-precios.php/#service",
-      "name": "Precios de Desarrollo Web en PerÃº 2026",
+      "name": "Precios de Desarrollo Web en Perú 2026",
       "serviceType": "Desarrollo Web Precios",
+      "url": "https://nextboost.business/desarrollo-web-peru-2026-precios.php",
+      "image": "https://nextboost.business/imagenes-web/next-boost.png",
       "provider": {
         "@type": "Organization",
+        "@id": "https://nextboost.business/#organization",
         "name": "Next Boost",
         "url": "https://nextboost.business/"
       },
-      "description": "Precios transparentes de desarrollo web en PerÃº para 2026. Landing pages desde S/450, webs corporativas desde S/800, planes de pago disponibles.",
-      "areaServed": "Peru",
+      "description": "Precios transparentes de desarrollo web en Perú para 2026. Landing pages desde S/450, webs corporativas desde S/800, planes de pago disponibles.",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Perú"
+      },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Precios de Desarrollo Web PerÃº 2026",
+        "name": "Precios de Desarrollo Web Perú 2026",
         "itemListElement": [
           {
             "@type": "Offer",
@@ -32,7 +39,7 @@
             "priceCurrency": "PEN",
             "itemOffered": {
               "@type": "Service",
-              "name": "Plan BÃ¡sico - Landing Page"
+              "name": "Plan Básico - Landing Page"
             }
           },
           {
@@ -78,7 +85,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Precios Desarrollo Web PerÃº 2026",
+          "name": "Precios Desarrollo Web Perú 2026",
           "item": "https://nextboost.business/desarrollo-web-peru-2026-precios.php"
         }
       ]
@@ -89,26 +96,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Â¿Desde cuÃ¡nto cuesta una pÃ¡gina web profesional en PerÃº?",
+          "name": "¿Desde cuánto cuesta una página web profesional en Perú?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Nuestros precios de desarrollo web en PerÃº inician desde S/450 para una landing page profesional. El plan Informativa cuesta S/550, el Profesional S/800 y el Premium S/1000. Todos los planes incluyen diseÃ±o personalizado, hosting y optimizaciÃ³n SEO."
+            "text": "Nuestros precios inician desde S/450 para una landing page profesional con Next.js. El plan Informativa cuesta S/550 con hasta 3 secciones. El plan Profesional cuesta S/800 e incluye CMS y hasta 10 secciones. El Premium cuesta S/1000 con blog, arquitectura completa y soporte de 30 días. Todos los planes incluyen hosting, dominio, SSL y SEO."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿QuÃ© incluye cada plan de desarrollo web?",
+          "name": "¿Qué incluye cada plan de desarrollo web?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El plan BÃ¡sico incluye landing page con diseÃ±o UX/UI, formulario de contacto y SEO bÃ¡sico. El Informativa agrega hasta 3 secciones internas y contenido adicional. El Profesional agrega CMS, hasta 10 secciones, correos corporativos y SEO avanzado. El Premium incluye blog, arquitectura Next.js completa, capacitaciÃ³n y soporte de 30 dÃ­as."
+            "text": "Cada plan incluye diseño UX/UI personalizado, hosting y dominio por 1 año, certificado SSL, optimización para móviles, formulario de contacto y SEO técnico. A medida que subes de plan obtienes más secciones, CMS autoadministrable, blog, correos corporativos y soporte técnico."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿Ofrecen planes de pago para el desarrollo web?",
+          "name": "¿Ofrecen planes de pago para el desarrollo web?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "SÃ­, ofrecemos facilidades de pago. Puedes dividir tu inversiÃ³n en 2 o 3 cuotas segÃºn el plan elegido. Contactanos para conocer las opciones de financiamiento disponibles para tu proyecto web."
+            "text": "Sí, ofrecemos facilidades de pago. Puedes dividir tu inversión en 2 o 3 cuotas según el plan elegido. Contáctanos por WhatsApp o formulario para conocer las opciones de financiamiento disponibles para tu proyecto web específico."
           }
         }
       ]
@@ -138,11 +145,11 @@
 
         <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-[1.1]">
           Precios de Desarrollo Web <br>
-          <span class="gradient-text">en PerÃº 2026</span>
+          <span class="gradient-text">en Perú 2026</span>
         </h1>
 
         <p class="text-base md:text-lg text-gray-300 font-normal leading-relaxed max-w-2xl">
-          <strong class="text-white">Precios claros y sin sorpresas.</strong> Desde landing pages desde S/450 hasta webs corporativas y ecommerce. InversiÃ³n con <strong class="text-teal-400">ROI garantizado</strong>, diseÃ±o de alto rendimiento y SEO tÃ©cnico incluido.
+          <strong class="text-white">Precios claros y sin sorpresas.</strong> Desde landing pages desde S/450 hasta webs corporativas y ecommerce. Inversión con <strong class="text-teal-400">ROI garantizado</strong>, diseño de alto rendimiento y SEO técnico incluido.
         </p>
 
         <div class="grid grid-cols-3 gap-4 pt-4 border-t border-white/10 max-w-xl">
@@ -167,7 +174,7 @@
           </a>
           <a href="https://wa.me/51962469836?text=Hola%20Next%20Boost,%20deseo%20conocer%20los%20precios%20de%20desarrollo%20web" target="_blank" class="inline-flex items-center justify-center gap-2 border border-white/20 hover:border-emerald-500/50 bg-white/5 hover:bg-emerald-500/10 text-white hover:text-emerald-400 px-6 py-4 text-sm font-semibold transition-all">
             <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            CotizaciÃ³n por WhatsApp
+            Cotización por WhatsApp
           </a>
         </div>
       </div>
@@ -215,7 +222,7 @@
           </div>
 
           <p class="text-[11px] text-gray-400 text-center leading-relaxed">
-            Todos los precios incluyen <strong class="text-white">diseÃ±o personalizado, hosting 1 aÃ±o, dominio, SSL y optimizaciÃ³n SEO</strong>. Sin costos ocultos.
+            Todos los precios incluyen <strong class="text-white">diseño personalizado, hosting 1 año, dominio, SSL y optimización SEO</strong>. Sin costos ocultos.
           </p>
 
         </div>
@@ -230,7 +237,7 @@
       <div class="text-center max-w-3xl mx-auto mb-16">
         <p class="text-xs uppercase tracking-widest text-blue-400 font-bold mb-3">Comparativa de Precios</p>
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-          Â¿Por quÃ© nuestros precios <span class="gradient-text">son la mejor inversiÃ³n</span>?
+          ¿Por qué nuestros precios <span class="gradient-text">son la mejor inversión</span>?
         </h2>
       </div>
 
@@ -243,20 +250,20 @@
           </div>
           <ul class="space-y-4 text-xs text-gray-300">
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>Precios inflados sin calidad:</strong> Cobran S/2,000+ por plantillas genÃ©ricas sin optimizaciÃ³n SEO ni rendimiento.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Precios inflados sin calidad:</strong> Cobran S/2,000+ por plantillas genéricas sin optimización SEO ni rendimiento.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
               <span><strong>Costos ocultos:</strong> Hosting, dominio, mantenimiento y cada cambio adicional se cobra por separado.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>Sin garantÃ­a de rendimiento:</strong> Web lenta con PageSpeed 40-70 que no posiciona en Google.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Sin garantía de rendimiento:</strong> Web lenta con PageSpeed 40-70 que no posiciona en Google.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>Plazos inciertos:</strong> Meses de desarrollo sin entregar. Sin metodologÃ­a ni seguimiento.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Plazos inciertos:</strong> Meses de desarrollo sin entregar. Sin metodología ni seguimiento.</span>
             </li>
           </ul>
         </div>
@@ -268,20 +275,20 @@
           </div>
           <ul class="space-y-4 text-xs text-gray-200">
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>Precio real por calidad:</strong> Desde S/450 con Next.js, diseÃ±o premium y 99/100 en PageSpeed incluido.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>Precio real por calidad:</strong> Desde S/450 con Next.js, diseño premium y 99/100 en PageSpeed incluido.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
               <span><strong>Todo incluido:</strong> Hosting, dominio, SSL, correos y mantenimiento incluidos en el precio. Sin sorpresas.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>GarantÃ­a de rendimiento:</strong> 99/100 PageSpeed, &lt;0.8s carga, 100/100 SEO. Documentado y verificable.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>Garantía de rendimiento:</strong> 99/100 PageSpeed, &lt;0.8s carga, 100/100 SEO. Documentado y verificable.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>Entrega en 5-15 dÃ­as:</strong> MetodologÃ­a Ã¡gil con entregas parciales. SabrÃ¡s exactamente cuÃ¡ndo estarÃ¡ lista.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>Entrega en 5-15 días:</strong> Metodología ágil con entregas parciales. Sabrás exactamente cuándo estará lista.</span>
             </li>
           </ul>
         </div>
@@ -301,37 +308,37 @@
 
     <div class="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
       <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-teal-500/50 transition-all flex flex-col h-full group">
-        <h3 class="text-xl font-bold text-white mb-2">BÃ¡sico</h3>
+        <h3 class="text-xl font-bold text-white mb-2">Básico</h3>
         <p class="text-xs text-gray-400 mb-6">Ideal para emprendedores y profesionales que quieren iniciar su presencia digital.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-teal-400">S/ 450</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Landing Page Personalizada</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> DiseÃ±o UX/UI Profesional</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Hosting + Dominio (1 aÃ±o)</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Formulario de Contacto</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> SEO BÃ¡sico TÃ©cnico</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Landing Page Personalizada</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Diseño UX/UI Profesional</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Hosting + Dominio (1 año)</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Formulario de Contacto</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> SEO Básico Técnico</li>
         </ul>
         <a href="contacto.php?servicio=precios-web&plan=basico" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-teal-500 hover:text-black border border-white/10 hover:border-teal-500 transition-all">
-          Cotizar BÃ¡sico
+          Cotizar Básico
         </a>
       </div>
 
       <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-teal-500/50 transition-all flex flex-col h-full group">
         <h3 class="text-xl font-bold text-white mb-2">Informativa</h3>
-        <p class="text-xs text-gray-400 mb-6">Para empresas que necesitan varias pÃ¡ginas informativas con contenido completo y contacto directo.</p>
+        <p class="text-xs text-gray-400 mb-6">Para empresas que necesitan varias páginas informativas con contenido completo y contacto directo.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-teal-400">S/ 550</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Todo del plan BÃ¡sico</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Hasta 3 Secciones Internas</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> GalerÃ­a de ImÃ¡genes</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> BotÃ³n Flotante WhatsApp</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> OptimizaciÃ³n de Carga</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Todo del plan Básico</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Hasta 3 Secciones Internas</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Galería de Imágenes</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Botón Flotante WhatsApp</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Optimización de Carga</li>
         </ul>
         <a href="contacto.php?servicio=precios-web&plan=informativa" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-teal-500 hover:text-black border border-white/10 hover:border-teal-500 transition-all">
           Cotizar Informativa
@@ -344,14 +351,14 @@
         <p class="text-xs text-gray-400 mb-6">Para empresas que necesitan un sitio web completo, profesional y autogestionable.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-emerald-400">S/ 800</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Todo del plan BÃ¡sico</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Hasta 10 Secciones Internas</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> CMS Autoadministrable</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> SEO On-Page Avanzado</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Correos Corporativos</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Todo del plan Básico</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Hasta 10 Secciones Internas</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> CMS Autoadministrable</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> SEO On-Page Avanzado</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Correos Corporativos</li>
         </ul>
         <a href="contacto.php?servicio=precios-web&plan=profesional" class="w-full inline-block text-center py-3 text-sm font-bold bg-emerald-500 text-black hover:bg-emerald-400 transition-all shadow-[0_0_15px_rgba(16,185,129,0.4)]">
           Cotizar Profesional
@@ -360,17 +367,17 @@
 
       <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-purple-500/50 transition-all flex flex-col h-full group">
         <h3 class="text-xl font-bold text-white mb-2">Premium</h3>
-        <p class="text-xs text-gray-400 mb-6">Para empresas que buscan liderar su sector con tecnologÃ­a de vanguardia y resultados mÃ¡ximos.</p>
+        <p class="text-xs text-gray-400 mb-6">Para empresas que buscan liderar su sector con tecnología de vanguardia y resultados máximos.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-purple-400">S/ 1000</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Todo del plan Profesional</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Arquitectura Next.js Completa</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Blog + CMS Avanzado</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> SEO TÃ©cnico Premium</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> CapacitaciÃ³n + Soporte 30 dÃ­as</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Todo del plan Profesional</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Arquitectura Next.js Completa</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Blog + CMS Avanzado</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> SEO Técnico Premium</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Capacitación + Soporte 30 días</li>
         </ul>
         <a href="contacto.php?servicio=precios-web&plan=premium" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-purple-500 hover:text-white border border-white/10 hover:border-purple-500 transition-all">
           Cotizar Premium
@@ -381,7 +388,7 @@
 
   <section class="relative z-10 py-20 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 border-t border-white/5">
     <div class="text-center max-w-3xl mx-auto mb-16">
-      <p class="text-xs uppercase tracking-widest text-teal-400 font-bold mb-3">QuÃ© Incluye Cada Plan</p>
+      <p class="text-xs uppercase tracking-widest text-teal-400 font-bold mb-3">Qué Incluye Cada Plan</p>
       <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
         Comparativa de <span class="gradient-text">Planes de Desarrollo</span>
       </h2>
@@ -393,8 +400,8 @@
           <table class="w-full text-xs">
             <thead>
               <tr class="border-b border-white/10">
-                <th class="text-left p-4 text-gray-400 font-semibold">CaracterÃ­stica</th>
-                <th class="text-center p-4 text-teal-400 font-bold">BÃ¡sico S/450</th>
+                <th class="text-left p-4 text-gray-400 font-semibold">Característica</th>
+                <th class="text-center p-4 text-teal-400 font-bold">Básico S/450</th>
                 <th class="text-center p-4 text-blue-400 font-bold">Informativa S/550</th>
                 <th class="text-center p-4 text-emerald-400 font-bold">Profesional S/800</th>
                 <th class="text-center p-4 text-purple-400 font-bold">Premium S/1000</th>
@@ -402,25 +409,25 @@
             </thead>
             <tbody class="text-gray-300">
               <tr class="border-b border-white/5">
-                <td class="p-4">DiseÃ±o UX/UI personalizado</td>
-                <td class="text-center p-4"><span class="text-teal-400 font-bold">âœ“</span></td>
-                <td class="text-center p-4"><span class="text-blue-400 font-bold">âœ“</span></td>
-                <td class="text-center p-4"><span class="text-emerald-400 font-bold">âœ“</span></td>
-                <td class="text-center p-4"><span class="text-purple-400 font-bold">âœ“</span></td>
+                <td class="p-4">Diseño UX/UI personalizado</td>
+                <td class="text-center p-4"><span class="text-teal-400 font-bold">✓</span></td>
+                <td class="text-center p-4"><span class="text-blue-400 font-bold">✓</span></td>
+                <td class="text-center p-4"><span class="text-emerald-400 font-bold">✓</span></td>
+                <td class="text-center p-4"><span class="text-purple-400 font-bold">✓</span></td>
               </tr>
               <tr class="border-b border-white/5">
-                <td class="p-4">Hosting + Dominio (1 aÃ±o)</td>
-                <td class="text-center p-4"><span class="text-teal-400 font-bold">âœ“</span></td>
-                <td class="text-center p-4"><span class="text-blue-400 font-bold">âœ“</span></td>
-                <td class="text-center p-4"><span class="text-emerald-400 font-bold">âœ“</span></td>
-                <td class="text-center p-4"><span class="text-purple-400 font-bold">âœ“</span></td>
+                <td class="p-4">Hosting + Dominio (1 año)</td>
+                <td class="text-center p-4"><span class="text-teal-400 font-bold">✓</span></td>
+                <td class="text-center p-4"><span class="text-blue-400 font-bold">✓</span></td>
+                <td class="text-center p-4"><span class="text-emerald-400 font-bold">✓</span></td>
+                <td class="text-center p-4"><span class="text-purple-400 font-bold">✓</span></td>
               </tr>
               <tr class="border-b border-white/5">
                 <td class="p-4">Certificado SSL incluido</td>
-                <td class="text-center p-4"><span class="text-teal-400 font-bold">âœ“</span></td>
-                <td class="text-center p-4"><span class="text-blue-400 font-bold">âœ“</span></td>
-                <td class="text-center p-4"><span class="text-emerald-400 font-bold">âœ“</span></td>
-                <td class="text-center p-4"><span class="text-purple-400 font-bold">âœ“</span></td>
+                <td class="text-center p-4"><span class="text-teal-400 font-bold">✓</span></td>
+                <td class="text-center p-4"><span class="text-blue-400 font-bold">✓</span></td>
+                <td class="text-center p-4"><span class="text-emerald-400 font-bold">✓</span></td>
+                <td class="text-center p-4"><span class="text-purple-400 font-bold">✓</span></td>
               </tr>
               <tr class="border-b border-white/5">
                 <td class="p-4">Secciones internas</td>
@@ -431,38 +438,38 @@
               </tr>
               <tr class="border-b border-white/5">
                 <td class="p-4">CMS autoadministrable</td>
-                <td class="text-center p-4 text-gray-500">â€”</td>
-                <td class="text-center p-4 text-gray-500">â€”</td>
-                <td class="text-center p-4"><span class="text-emerald-400 font-bold">âœ“</span></td>
-                <td class="text-center p-4"><span class="text-purple-400 font-bold">âœ“</span></td>
+                <td class="text-center p-4 text-gray-500">—</td>
+                <td class="text-center p-4 text-gray-500">—</td>
+                <td class="text-center p-4"><span class="text-emerald-400 font-bold">✓</span></td>
+                <td class="text-center p-4"><span class="text-purple-400 font-bold">✓</span></td>
               </tr>
               <tr class="border-b border-white/5">
                 <td class="p-4">Blog integrado</td>
-                <td class="text-center p-4 text-gray-500">â€”</td>
-                <td class="text-center p-4 text-gray-500">â€”</td>
-                <td class="text-center p-4 text-gray-500">â€”</td>
-                <td class="text-center p-4"><span class="text-purple-400 font-bold">âœ“</span></td>
+                <td class="text-center p-4 text-gray-500">—</td>
+                <td class="text-center p-4 text-gray-500">—</td>
+                <td class="text-center p-4 text-gray-500">—</td>
+                <td class="text-center p-4"><span class="text-purple-400 font-bold">✓</span></td>
               </tr>
               <tr class="border-b border-white/5">
-                <td class="p-4">SEO tÃ©cnico avanzado</td>
-                <td class="text-center p-4 text-gray-500">BÃ¡sico</td>
-                <td class="text-center p-4 text-gray-500">BÃ¡sico</td>
+                <td class="p-4">SEO técnico avanzado</td>
+                <td class="text-center p-4 text-gray-500">Básico</td>
+                <td class="text-center p-4 text-gray-500">Básico</td>
                 <td class="text-center p-4"><span class="text-emerald-400 font-bold">Avanzado</span></td>
                 <td class="text-center p-4"><span class="text-purple-400 font-bold">Premium</span></td>
               </tr>
               <tr class="border-b border-white/5">
                 <td class="p-4">Correos corporativos</td>
-                <td class="text-center p-4 text-gray-500">â€”</td>
-                <td class="text-center p-4 text-gray-500">â€”</td>
-                <td class="text-center p-4"><span class="text-emerald-400 font-bold">âœ“</span></td>
-                <td class="text-center p-4"><span class="text-purple-400 font-bold">âœ“</span></td>
+                <td class="text-center p-4 text-gray-500">—</td>
+                <td class="text-center p-4 text-gray-500">—</td>
+                <td class="text-center p-4"><span class="text-emerald-400 font-bold">✓</span></td>
+                <td class="text-center p-4"><span class="text-purple-400 font-bold">✓</span></td>
               </tr>
               <tr>
                 <td class="p-4">Soporte post-lanzamiento</td>
-                <td class="text-center p-4 text-gray-500">â€”</td>
-                <td class="text-center p-4 text-gray-500">â€”</td>
-                <td class="text-center p-4 text-gray-500">â€”</td>
-                <td class="text-center p-4"><span class="text-purple-400 font-bold">30 dÃ­as</span></td>
+                <td class="text-center p-4 text-gray-500">—</td>
+                <td class="text-center p-4 text-gray-500">—</td>
+                <td class="text-center p-4 text-gray-500">—</td>
+                <td class="text-center p-4"><span class="text-purple-400 font-bold">30 días</span></td>
               </tr>
             </tbody>
           </table>
@@ -480,7 +487,7 @@
           Preguntas Frecuentes sobre <span class="gradient-text">Precios de Desarrollo Web</span>
         </h2>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Todo lo que necesitas saber sobre inversiÃ³n, planes y quÃ© incluye cada opciÃ³n.
+          Todo lo que necesitas saber sobre inversión, planes y qué incluye cada opción.
         </p>
       </div>
 
@@ -488,33 +495,52 @@
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-blue-400">01.</span> Â¿Desde cuÃ¡nto cuesta una pÃ¡gina web profesional en PerÃº?
+            <span class="text-blue-400">01.</span> ¿Desde cuánto cuesta una página web profesional en Perú?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            Nuestros precios inician desde S/450 para una landing page profesional con Next.js. El plan Informativa cuesta S/550 con hasta 3 secciones. El plan Profesional cuesta S/800 e incluye CMS y hasta 10 secciones. El Premium cuesta S/1000 con blog, arquitectura completa y soporte de 30 dÃ­as. Todos los planes incluyen hosting, dominio, SSL y SEO.
+            Nuestros precios inician desde S/450 para una landing page profesional con Next.js. El plan Informativa cuesta S/550 con hasta 3 secciones. El plan Profesional cuesta S/800 e incluye CMS y hasta 10 secciones. El Premium cuesta S/1000 con blog, arquitectura completa y soporte de 30 días. Todos los planes incluyen hosting, dominio, SSL y SEO.
           </p>
         </div>
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-blue-400">02.</span> Â¿QuÃ© incluye cada plan de desarrollo web?
+            <span class="text-blue-400">02.</span> ¿Qué incluye cada plan de desarrollo web?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            Cada plan incluye diseÃ±o UX/UI personalizado, hosting y dominio por 1 aÃ±o, certificado SSL, optimizaciÃ³n para mÃ³viles, formulario de contacto y SEO tÃ©cnico. A medida que subes de plan obtienes mÃ¡s secciones, CMS autoadministrable, blog, correos corporativos y soporte tÃ©cnico.
+            Cada plan incluye diseño UX/UI personalizado, hosting y dominio por 1 año, certificado SSL, optimización para móviles, formulario de contacto y SEO técnico. A medida que subes de plan obtienes más secciones, CMS autoadministrable, blog, correos corporativos y soporte técnico.
           </p>
         </div>
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-blue-400">03.</span> Â¿Ofrecen planes de pago para el desarrollo web?
+            <span class="text-blue-400">03.</span> ¿Ofrecen planes de pago para el desarrollo web?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            SÃ­, ofrecemos facilidades de pago. Puedes dividir tu inversiÃ³n en 2 o 3 cuotas segÃºn el plan elegido. Contactanos por WhatsApp o formulario para conocer las opciones de financiamiento disponibles para tu proyecto web especÃ­fico.
+            Sí, ofrecemos facilidades de pago. Puedes dividir tu inversión en 2 o 3 cuotas según el plan elegido. Contáctanos por WhatsApp o formulario para conocer las opciones de financiamiento disponibles para tu proyecto web específico.
           </p>
         </div>
 
       </div>
 
+    </div>
+  </section>
+
+  <section class="relative z-10 py-16 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 border-t border-white/5">
+    <div class="text-center max-w-3xl mx-auto mb-10">
+      <h2 class="text-2xl md:text-4xl font-semibold tracking-tight text-white">
+        Servicios <span class="gradient-text">relacionados</span>
+      </h2>
+      <p class="text-xs text-gray-400 mt-3">Conoce en detalle cada servicio y encuentra la mejor opción para tu negocio.</p>
+    </div>
+    <div class="flex flex-wrap justify-center gap-3 text-xs">
+      <a href="desarrollo-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Empresa de desarrollo web</a>
+      <a href="ecommerce.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-teal-500/40 text-gray-300 hover:text-white transition-colors">Crear tienda online</a>
+      <a href="cuanto-cuesta-una-pagina-web-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-emerald-500/40 text-gray-300 hover:text-white transition-colors">¿Cuánto cuesta una página web?</a>
+      <a href="cuanto-cuesta-una-tienda-online-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-purple-500/40 text-gray-300 hover:text-white transition-colors">¿Cuánto cuesta una tienda online?</a>
+      <a href="hosting-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-cyan-500/40 text-gray-300 hover:text-white transition-colors">Hosting web y dominio</a>
+      <a href="posicionamiento-seo.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-emerald-500/40 text-gray-300 hover:text-white transition-colors">Posicionamiento SEO</a>
+      <a href="proyectos.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-amber-500/40 text-gray-300 hover:text-white transition-colors">Ver portafolio de proyectos</a>
+      <a href="blog.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-pink-500/40 text-gray-300 hover:text-white transition-colors">Blog de desarrollo web</a>
     </div>
   </section>
 
@@ -524,10 +550,10 @@
       <div class="space-y-4 max-w-2xl">
         <span class="text-[10px] uppercase tracking-widest text-teal-400 font-extrabold bg-teal-500/10 px-3 py-1 border border-teal-500/20">Presupuesto sin compromiso</span>
         <h2 class="text-3xl md:text-5xl font-bold tracking-tight text-white leading-tight">
-          Â¿Quieres saber cuÃ¡nto cuesta tu proyecto web?
+          ¿Quieres saber cuánto cuesta tu proyecto web?
         </h2>
         <p class="text-sm text-gray-300 leading-relaxed">
-          CuÃ©ntanos lo que necesitas. Te enviamos un presupuesto detallado y personalizado sin ningÃºn compromiso.
+          Cuéntanos lo que necesitas. Te enviamos un presupuesto detallado y personalizado sin ningún compromiso.
         </p>
       </div>
 

@@ -1,6 +1,6 @@
-?php
-  $page_title = "Registrar mi Empresa Gratis | Directorio de Empresas PerÃº | Next Boost";
-  $page_description = "Registra tu empresa gratis en el directorio de empresas de PerÃº. Aparece por categorÃ­a y servicio: industrial, derecho, marketing, turismo, gimnasios y mÃ¡s.";
+<?php
+  $page_title = "Registrar mi Empresa Gratis | Directorio de Empresas Perú | Next Boost";
+  $page_description = "Registra tu empresa gratis en el directorio de empresas de Perú. Aparece por categoría y servicio: industrial, derecho, marketing, turismo, gimnasios y más.";
 
   session_start();
   if (empty($_SESSION['dir_csrf'])) {
@@ -30,7 +30,7 @@
     }
 
     if (empty($_POST['_csrf']) || !hash_equals($dir_csrf, $_POST['_csrf'])) {
-      $errores[] = 'SesiÃ³n invÃ¡lida. Recarga la pÃ¡gina e intenta de nuevo.';
+      $errores[] = 'Sesión inválida. Recarga la página e intenta de nuevo.';
     }
 
     $nombre = trim($_POST['nombre'] ?? '');
@@ -46,18 +46,18 @@
     $horario = trim($_POST['horario'] ?? '');
 
     if ($nombre === '') { $errores[] = 'Ingresa el nombre de la empresa.'; }
-    if (mb_strlen($nombre) > 160) { $errores[] = 'El nombre es demasiado largo (mÃ¡x. 160 caracteres).'; }
-    if ($categoria_id <= 0) { $errores[] = 'Selecciona la categorÃ­a de tu empresa.'; }
-    if ($email !== '' && !filter_var($email, FILTER_VALIDATE_EMAIL)) { $errores[] = 'El correo electrÃ³nico no es vÃ¡lido.'; }
-    if ($web !== '' && !filter_var($web, FILTER_VALIDATE_URL)) { $errores[] = 'La URL del sitio web no es vÃ¡lida (usa https://...).'; }
-    if ($whatsapp !== '' && strlen(preg_replace('/[^0-9]/', '', $whatsapp)) < 9) { $errores[] = 'El nÃºmero de WhatsApp debe tener al menos 9 dÃ­gitos.'; }
+    if (mb_strlen($nombre) > 160) { $errores[] = 'El nombre es demasiado largo (máx. 160 caracteres).'; }
+    if ($categoria_id <= 0) { $errores[] = 'Selecciona la categoría de tu empresa.'; }
+    if ($email !== '' && !filter_var($email, FILTER_VALIDATE_EMAIL)) { $errores[] = 'El correo electrónico no es válido.'; }
+    if ($web !== '' && !filter_var($web, FILTER_VALIDATE_URL)) { $errores[] = 'La URL del sitio web no es válida (usa https://...).'; }
+    if ($whatsapp !== '' && strlen(preg_replace('/[^0-9]/', '', $whatsapp)) < 9) { $errores[] = 'El número de WhatsApp debe tener al menos 9 dígitos.'; }
 
     if (empty($errores) && $db) {
       try {
         $catValido = $db->prepare("SELECT id FROM categorias WHERE id = ?");
         $catValido->execute([$categoria_id]);
         if (!$catValido->fetchColumn()) {
-          $errores[] = 'La categorÃ­a seleccionada no existe.';
+          $errores[] = 'La categoría seleccionada no existe.';
         } else {
           $slug = slugUnicoDirectorio($db, $nombre);
           $stmt = $db->prepare("INSERT INTO empresas
@@ -80,7 +80,7 @@
         }
       } catch (Exception $e) {
         error_log('Registro directorio: ' . $e->getMessage());
-        $errores[] = 'OcurriÃ³ un error al guardar. Intenta nuevamente.';
+        $errores[] = 'Ocurrió un error al guardar. Intenta nuevamente.';
       }
     }
 
@@ -100,7 +100,7 @@
   "@type": "BreadcrumbList",
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://nextboost.business/" },
-    { "@type": "ListItem", "position": 2, "name": "Directorio de Empresas PerÃº", "item": "https://nextboost.business/directorio-empresas.php" },
+    { "@type": "ListItem", "position": 2, "name": "Directorio de Empresas Perú", "item": "https://nextboost.business/directorio-empresas.php" },
     { "@type": "ListItem", "position": 3, "name": "Registrar mi Empresa", "item": "https://nextboost.business/registro-directorio.php" }
   ]
 }
@@ -129,7 +129,7 @@
         Registra tu <span class="gradient-text">Empresa</span>
       </h1>
       <p class="text-gray-400 text-sm md:text-base leading-relaxed max-w-xl mx-auto mt-4 animate-in">
-        Completa el formulario y aparecerÃ¡s en el directorio por categorÃ­a y servicio. Revisamos cada solicitud antes de publicarla.
+        Completa el formulario y aparecerás en el directorio por categoría y servicio. Revisamos cada solicitud antes de publicarla.
       </p>
     </section>
 
@@ -138,8 +138,8 @@
         <div class="w-16 h-16 mx-auto rounded-full bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center mb-4">
           <svg class="w-8 h-8 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
         </div>
-        <h2 class="text-xl font-bold text-white mb-2">Â¡Solicitud enviada!</h2>
-        <p class="text-gray-400 text-sm mb-6">Tu empresa fue registrada y estÃ¡ pendiente de verificaciÃ³n. En breve estarÃ¡ publicada en el directorio.</p>
+        <h2 class="text-xl font-bold text-white mb-2">¡Solicitud enviada!</h2>
+        <p class="text-gray-400 text-sm mb-6">Tu empresa fue registrada y está pendiente de verificación. En breve estará publicada en el directorio.</p>
         <a href="directorio-empresas.php" class="inline-block bg-white hover:bg-gray-100 text-black font-bold px-6 py-3 text-sm transition-colors">Volver al directorio</a>
       </div>
     <?php else: ?>
@@ -169,13 +169,13 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div class="md:col-span-2">
             <label for="nombre" class="block text-xs font-semibold text-gray-300 mb-2">Nombre de la empresa <span class="text-red-400">*</span></label>
-            <input type="text" id="nombre" name="nombre" required value="<?= htmlspecialchars($_POST['nombre'] ?? '') ?>" placeholder="Ej. CorporaciÃ³n Totos SAC" class="w-full glass-input px-4 py-3 text-sm">
+            <input type="text" id="nombre" name="nombre" required value="<?= htmlspecialchars($_POST['nombre'] ?? '') ?>" placeholder="Ej. Corporación Totos SAC" class="w-full glass-input px-4 py-3 text-sm">
           </div>
 
           <div>
-            <label for="categoria_id" class="block text-xs font-semibold text-gray-300 mb-2">CategorÃ­a / Sector <span class="text-red-400">*</span></label>
+            <label for="categoria_id" class="block text-xs font-semibold text-gray-300 mb-2">Categoría / Sector <span class="text-red-400">*</span></label>
             <select id="categoria_id" name="categoria_id" required class="w-full glass-input px-4 py-3 text-sm bg-[#0a0a0e]">
-              <option value="">Selecciona un sectorâ€¦</option>
+              <option value="">Selecciona un sector…</option>
               <?php foreach ($categorias as $c): ?>
                 <option value="<?= (int)$c['id'] ?>" <?= ((int)($_POST['categoria_id'] ?? 0) === (int)$c['id']) ? 'selected' : '' ?>>
                   <?= htmlspecialchars($c['nombre']) ?>
@@ -186,12 +186,12 @@
 
           <div>
             <label for="servicios" class="block text-xs font-semibold text-gray-300 mb-2">Servicios (separados por coma)</label>
-            <input type="text" id="servicios" name="servicios" value="<?= htmlspecialchars($_POST['servicios'] ?? '') ?>" placeholder="Ej. AsesorÃ­a legal, TrÃ¡mites, Contratos" class="w-full glass-input px-4 py-3 text-sm">
+            <input type="text" id="servicios" name="servicios" value="<?= htmlspecialchars($_POST['servicios'] ?? '') ?>" placeholder="Ej. Asesoría legal, Trámites, Contratos" class="w-full glass-input px-4 py-3 text-sm">
           </div>
 
           <div class="md:col-span-2">
-            <label for="descripcion" class="block text-xs font-semibold text-gray-300 mb-2">DescripciÃ³n de la empresa</label>
-            <textarea id="descripcion" name="descripcion" rows="3" placeholder="CuÃ©ntanos a quÃ© se dedica tu empresaâ€¦" class="w-full glass-input px-4 py-3 text-sm"><?= htmlspecialchars($_POST['descripcion'] ?? '') ?></textarea>
+            <label for="descripcion" class="block text-xs font-semibold text-gray-300 mb-2">Descripción de la empresa</label>
+            <textarea id="descripcion" name="descripcion" rows="3" placeholder="Cuéntanos a qué se dedica tu empresa…" class="w-full glass-input px-4 py-3 text-sm"><?= htmlspecialchars($_POST['descripcion'] ?? '') ?></textarea>
           </div>
 
           <div>
@@ -200,22 +200,22 @@
           </div>
 
           <div>
-            <label for="direccion" class="block text-xs font-semibold text-gray-300 mb-2">DirecciÃ³n</label>
+            <label for="direccion" class="block text-xs font-semibold text-gray-300 mb-2">Dirección</label>
             <input type="text" id="direccion" name="direccion" value="<?= htmlspecialchars($_POST['direccion'] ?? '') ?>" placeholder="Opcional" class="w-full glass-input px-4 py-3 text-sm">
           </div>
 
           <div>
-            <label for="telefono" class="block text-xs font-semibold text-gray-300 mb-2">TelÃ©fono</label>
+            <label for="telefono" class="block text-xs font-semibold text-gray-300 mb-2">Teléfono</label>
             <input type="tel" id="telefono" name="telefono" value="<?= htmlspecialchars($_POST['telefono'] ?? '') ?>" placeholder="+51 1 555 0101" class="w-full glass-input px-4 py-3 text-sm">
           </div>
 
           <div>
-            <label for="whatsapp" class="block text-xs font-semibold text-gray-300 mb-2">WhatsApp (con cÃ³digo de paÃ­s)</label>
+            <label for="whatsapp" class="block text-xs font-semibold text-gray-300 mb-2">WhatsApp (con código de país)</label>
             <input type="tel" id="whatsapp" name="whatsapp" value="<?= htmlspecialchars($_POST['whatsapp'] ?? '') ?>" placeholder="Ej. 51999000101" class="w-full glass-input px-4 py-3 text-sm">
           </div>
 
           <div>
-            <label for="email" class="block text-xs font-semibold text-gray-300 mb-2">Correo electrÃ³nico</label>
+            <label for="email" class="block text-xs font-semibold text-gray-300 mb-2">Correo electrónico</label>
             <input type="email" id="email" name="email" value="<?= htmlspecialchars($_POST['email'] ?? '') ?>" placeholder="contacto@tuempresa.com" class="w-full glass-input px-4 py-3 text-sm">
           </div>
 
@@ -225,7 +225,7 @@
           </div>
 
           <div class="md:col-span-2">
-            <label for="horario" class="block text-xs font-semibold text-gray-300 mb-2">Horario de atenciÃ³n</label>
+            <label for="horario" class="block text-xs font-semibold text-gray-300 mb-2">Horario de atención</label>
             <input type="text" id="horario" name="horario" value="<?= htmlspecialchars($_POST['horario'] ?? '') ?>" placeholder="Ej. Lun - Vie 8:00 - 18:00" class="w-full glass-input px-4 py-3 text-sm">
           </div>
         </div>

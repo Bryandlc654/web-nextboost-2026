@@ -1,6 +1,6 @@
-?php
-  $page_title = "Empresa de Desarrollo Web | Next Boost PerÃº";
-  $page_description = "Empresa de desarrollo web en PerÃº. Creamos sitios web profesionales, landing pages y tiendas online. Hosting premium y SEO incluido.";
+<?php
+  $page_title = "Desarrollo Web en Perú | Diseño de Páginas Web - Next Boost";
+  $page_description = "Empresa de desarrollo web en Perú. Diseño de páginas web, landing pages y tiendas online con SEO técnico y hosting premium. Cotiza tu web gratis.";
   $og_url = "https://nextboost.business/desarrollo-web.php";
 ?>
 <!DOCTYPE html>
@@ -17,15 +17,18 @@
       "@id": "https://nextboost.business/desarrollo-web.php/#service",
       "name": "Empresa de Desarrollo Web",
       "serviceType": "Desarrollo Web",
+      "url": "https://nextboost.business/desarrollo-web.php",
+      "image": "https://nextboost.business/imagenes-web/next-boost.png",
       "provider": {
         "@type": "Organization",
+        "@id": "https://nextboost.business/#organization",
         "name": "Next Boost",
         "url": "https://nextboost.business/"
       },
-      "description": "Empresa de desarrollo web en PerÃº. Creamos sitios web profesionales, landing pages y tiendas online. Hosting premium y SEO incluido.",
+      "description": "Empresa de desarrollo web en Perú. Diseño de páginas web, landing pages y tiendas online con SEO técnico y hosting premium.",
       "areaServed": {
         "@type": "Country",
-        "name": "PerÃº"
+        "name": "Perú"
       },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
@@ -94,26 +97,34 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Â¿Por quÃ© contratar una empresa de desarrollo web profesional para tu negocio?",
+          "name": "¿Por qué el desarrollo en Next.js es superior para el SEO en Google?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Una empresa de desarrollo web profesional garantiza un sitio rÃ¡pido, seguro y optimizado para Google. Usamos tecnologÃ­as modernas como renderizado en servidor y generaciÃ³n estÃ¡tica para lograr tiempos de carga inferiores a 1 segundo y mÃ¡xima indexaciÃ³n."
+            "text": "Next.js utiliza Renderizado en Servidor (SSR) y Generación Estática (SSG), lo que permite que los robots de Google rastreen la web en HTML ya procesado al instante. Esto elimina demoras de renderizado JavaScript, mejora los Core Web Vitals y garantiza un diseño 100% responsive con enfoque Mobile-First."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿CuÃ¡nto tiempo toma el desarrollo de una pÃ¡gina web profesional?",
+          "name": "¿Cuánto tiempo toma desarrollar una página web profesional?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Una landing page optimizada toma de 5 a 8 dÃ­as hÃ¡biles, mientras que un sitio corporativo o tienda online toma entre 2 y 3 semanas, dependiendo de la complejidad."
+            "text": "Una landing page optimizada se entrega habitualmente en 5 a 8 días hábiles. Un sitio web corporativo completo requiere de 2 a 3 semanas, dependiendo de la cantidad de secciones e integraciones requeridas."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿La pÃ¡gina web serÃ¡ responsiva y optimizada para dispositivos mÃ³viles?",
+          "name": "¿Podré actualizar el contenido de la web por mi cuenta?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "SÃ­, todos nuestros desarrollos siguen la filosofÃ­a Mobile-First, garantizando adaptabilidad perfecta en celulares, tablets y pantallas 4K."
+            "text": "Sí. Integramos paneles administrables tipo CMS (Headless WordPress, Sanity o Strapi) muy fáciles de usar, donde podrás editar textos, cambiar imágenes y subir artículos sin tocar código."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Incluyen el certificado de seguridad SSL y el soporte técnico?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, todos nuestros desarrollos incluyen certificado SSL (HTTPS), configuración de correo corporativo y 30 días de garantía de soporte técnico sin costo adicional."
           }
         }
       ]
@@ -142,16 +153,16 @@
       <div class="lg:col-span-7 space-y-6">
         <div class="inline-flex items-center gap-2.5 px-4 py-1.5 badge-gradient text-xs font-medium text-blue-300 animate-in">
           <span class="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></span>
-          <span class="tracking-wide">Agencia Especializada en Desarrollo Web & SEO TÃ©cnico</span>
+          <span class="tracking-wide">Agencia Especializada en Desarrollo Web & SEO Técnico</span>
         </div>
 
         <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-[1.1]">
           Empresa de desarrollo web
-          <span class="gradient-text block">en PerÃº</span>
+          <span class="gradient-text block">en Perú</span>
         </h1>
 
         <p class="text-base md:text-lg text-gray-300 font-normal leading-relaxed max-w-2xl">
-          Somos una empresa de desarrollo web en PerÃº. Creamos sitios web profesionales, landing pages de alto impacto y tiendas online optimizadas para convertir. DiseÃ±o moderno, SEO tÃ©cnico incluido y hosting premium.
+          Somos una empresa de desarrollo web en Perú. Creamos sitios web profesionales, landing pages de alto impacto y tiendas online optimizadas para convertir. Diseño moderno, SEO técnico incluido y hosting premium.
         </p>
 
         <!-- Key SEO Metric Badges -->
@@ -178,7 +189,7 @@
           </a>
           <a href="https://wa.me/51962469836?text=Hola%20Next%20Boost,%20deseo%20cotizar%20un%20sitio%20web%20profesional" target="_blank" class="inline-flex items-center justify-center gap-2 border border-white/20 hover:border-emerald-500/50 bg-white/5 hover:bg-emerald-500/10 text-white hover:text-emerald-400 px-6 py-4 text-sm font-semibold transition-all">
             <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            AsesorÃ­a TÃ©cnica por WhatsApp
+            Asesoría Técnica por WhatsApp
           </a>
         </div>
 
@@ -212,7 +223,7 @@
                 100
               </div>
               <span class="text-xs font-bold text-white">SEO Score</span>
-              <span class="text-[10px] text-gray-400">IndexaciÃ³n perfecta</span>
+              <span class="text-[10px] text-gray-400">Indexación perfecta</span>
             </div>
 
           </div>
@@ -229,12 +240,12 @@
             </div>
             <div class="p-2.5 bg-white/5 border border-white/5 flex items-center justify-between">
               <span class="text-gray-400">INP (Interaction to Next Paint)</span>
-              <span class="text-emerald-400 font-bold">12ms (InstantÃ¡neo)</span>
+              <span class="text-emerald-400 font-bold">12ms (Instantáneo)</span>
             </div>
           </div>
 
           <p class="text-[11px] text-gray-400 text-center leading-relaxed">
-            ðŸš€ Todas nuestras webs se construyen bajo estÃ¡ndares estrictos de <strong class="text-white">Google Core Web Vitals</strong> para maximizar tu trÃ¡fico orgÃ¡nico.
+            🚀 Todas nuestras webs se construyen bajo estándares estrictos de <strong class="text-white">Google Core Web Vitals</strong> para maximizar tu tráfico orgánico.
           </p>
 
         </div>
@@ -248,9 +259,9 @@
     <div class="max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20">
       
       <div class="text-center max-w-3xl mx-auto mb-16">
-        <p class="text-xs uppercase tracking-widest text-blue-400 font-bold mb-3">La Ventaja TecnolÃ³gica</p>
+        <p class="text-xs uppercase tracking-widest text-blue-400 font-bold mb-3">La Ventaja Tecnológica</p>
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-          Â¿Por quÃ© nuestras webs <span class="gradient-text">superan a la competencia</span> en Google?
+          ¿Por qué nuestras webs <span class="gradient-text">superan a la competencia</span> en Google?
         </h2>
       </div>
 
@@ -264,20 +275,20 @@
           </div>
           <ul class="space-y-4 text-xs text-gray-300">
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
               <span><strong>Carga Lenta (3s a 8s):</strong> El 53% de los usuarios abandona el sitio antes de ver el contenido.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>Constructores Visuales Pesados:</strong> CÃ³digo inflado con plugins innecesarios que penalizan el SEO en Google.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Constructores Visuales Pesados:</strong> Código inflado con plugins innecesarios que penalizan el SEO en Google.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>Vulnerabilidades de Seguridad:</strong> Ataques constantes por falta de actualizaciones y cÃ³digo expuesto.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Vulnerabilidades de Seguridad:</strong> Ataques constantes por falta de actualizaciones y código expuesto.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>Experiencia MÃ³vil Deficiente:</strong> Desplazamientos lentos y maquetaciÃ³n rota en telÃ©fonos.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Experiencia Móvil Deficiente:</strong> Desplazamientos lentos y maquetación rota en teléfonos.</span>
             </li>
           </ul>
         </div>
@@ -290,20 +301,20 @@
           </div>
           <ul class="space-y-4 text-xs text-gray-200">
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>Carga InstantÃ¡nea (&lt; 0.8s):</strong> Tiempos de respuesta ultra rÃ¡pidos que cautivan a los clientes.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>Carga Instantánea (&lt; 0.8s):</strong> Tiempos de respuesta ultra rápidos que cautivan a los clientes.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>Arquitectura Jamstack & SEO SSR:</strong> CÃ³digo limpio interpretado nativamente por los rastreadores de Google.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>Arquitectura Jamstack & SEO SSR:</strong> Código limpio interpretado nativamente por los rastreadores de Google.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>Seguridad Inquebrantable:</strong> Sin bases de datos expuestas directamente al pÃºblico ni plugins vulnerables.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>Seguridad Inquebrantable:</strong> Sin bases de datos expuestas directamente al público ni plugins vulnerables.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>DiseÃ±o Responsivo Mobile-First:</strong> OptimizaciÃ³n milimÃ©trica para Smart TV, tablets y smartphones.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>Diseño Responsivo Mobile-First:</strong> Optimización milimétrica para Smart TV, tablets y smartphones.</span>
             </li>
           </ul>
         </div>
@@ -331,7 +342,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">Webs Corporativas Empresariales</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Sitios institucionales diseÃ±ados para proyectar autoridad de marca, confianza y liderar la captura de leads calificados en tu sector.
+          Sitios institucionales diseñados para proyectar autoridad de marca, confianza y liderar la captura de leads calificados en tu sector.
         </p>
       </article>
 
@@ -340,9 +351,9 @@
         <div class="w-12 h-12 rounded-none bg-teal-500/10 border border-teal-500/20 flex items-center justify-center text-teal-400 group-hover:bg-teal-400 group-hover:text-black transition-all">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
-        <h3 class="text-xl font-bold text-white">Landing Pages de Alta ConversiÃ³n</h3>
+        <h3 class="text-xl font-bold text-white">Landing Pages de Alta Conversión</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          PÃ¡ginas de aterrizaje enfocadas en campaÃ±as de Google Ads y Meta Ads. DiseÃ±adas cientÃ­ficamente para maximizar el porcentaje de conversiones.
+          Páginas de aterrizaje enfocadas en campañas de Google Ads y Meta Ads. Diseñadas científicamente para maximizar el porcentaje de conversiones.
         </p>
       </article>
 
@@ -351,9 +362,9 @@
         <div class="w-12 h-12 rounded-none bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400 group-hover:bg-purple-400 group-hover:text-black transition-all">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
-        <h3 class="text-xl font-bold text-white">RediseÃ±o Web & MigraciÃ³n a Next.js</h3>
+        <h3 class="text-xl font-bold text-white">Rediseño Web & Migración a Next.js</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Transformamos tu sitio web lento o desactualizado en una moderna plataforma estÃ¡tica o renderizada en servidor sin perder tu posicionamiento SEO actual.
+          Transformamos tu sitio web lento o desactualizado en una moderna plataforma estática o renderizada en servidor sin perder tu posicionamiento SEO actual.
         </p>
       </article>
 
@@ -362,9 +373,9 @@
         <div class="w-12 h-12 rounded-none bg-pink-500/10 border border-pink-500/20 flex items-center justify-center text-pink-400 group-hover:bg-pink-500 group-hover:text-black transition-all">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
-        <h3 class="text-xl font-bold text-white">CatÃ¡logos & Portales Interactivos</h3>
+        <h3 class="text-xl font-bold text-white">Catálogos & Portales Interactivos</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Estructuras dinÃ¡micas para inmobiliarias, automotrices y servicios que requieren filtros avanzados, galerÃ­as 3D e integraciÃ³n a sistemas CRM.
+          Estructuras dinámicas para inmobiliarias, automotrices y servicios que requieren filtros avanzados, galerías 3D e integración a sistemas CRM.
         </p>
       </article>
 
@@ -375,7 +386,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">Desarrollo Web con CMS Administrable</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Paneles de control intuitivos donde tu equipo podrÃ¡ cambiar imÃ¡genes, redactar blogs y modificar precios sin necesidad de saber programar.
+          Paneles de control intuitivos donde tu equipo podrá cambiar imágenes, redactar blogs y modificar precios sin necesidad de saber programar.
         </p>
       </article>
 
@@ -384,9 +395,9 @@
         <div class="w-12 h-12 rounded-none bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 group-hover:bg-emerald-400 group-hover:text-black transition-all">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
-        <h3 class="text-xl font-bold text-white">SEO TÃ©cnico & AuditorÃ­a Web Incluida</h3>
+        <h3 class="text-xl font-bold text-white">SEO Técnico & Auditoría Web Incluida</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          ImplementaciÃ³n de datos estructurados JSON-LD, sitemaps XML automÃ¡ticos, optimizaciÃ³n de imÃ¡genes WebP y metas etiquetas SEO listas para posicionar.
+          Implementación de datos estructurados JSON-LD, sitemaps XML automáticos, optimización de imágenes WebP y metas etiquetas SEO listas para posicionar.
         </p>
       </article>
 
@@ -406,19 +417,19 @@
       <!-- Plan 1 -->
       <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-teal-500/50 transition-all flex flex-col h-full group">
         <h3 class="text-xl font-bold text-white mb-2">Landing Page</h3>
-        <p class="text-xs text-gray-400 mb-6">Ideal para campaÃ±as publicitarias (Google Ads, Meta Ads) de un solo producto o servicio.</p>
+        <p class="text-xs text-gray-400 mb-6">Ideal para campañas publicitarias (Google Ads, Meta Ads) de un solo producto o servicio.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-teal-400">S/ 450</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> DiseÃ±o UX/UI Personalizado</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> 1 PÃ¡gina (Long-scroll)</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> OptimizaciÃ³n MÃ³vil 100%</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Formulario de Contacto Leads</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> SEO BÃ¡sico TÃ©cnico</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Diseño UX/UI Personalizado</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> 1 Página (Long-scroll)</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Optimización Móvil 100%</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Formulario de Contacto Leads</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> SEO Básico Técnico</li>
         </ul>
-        <a href="#contacto" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-teal-500 hover:text-black border border-white/10 hover:border-teal-500 transition-all">
+        <a href="contacto.php?servicio=desarrollo-web" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-teal-500 hover:text-black border border-white/10 hover:border-teal-500 transition-all">
           Cotizar Landing
         </a>
       </div>
@@ -429,16 +440,16 @@
         <p class="text-xs text-gray-400 mb-6">Perfecta para empresas de servicios que necesitan presencia online profesional.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-blue-400">S/ 550</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">âœ“</span> DiseÃ±o UX/UI Personalizado</li>
-          <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">âœ“</span> Hasta 5 Secciones Internas</li>
-          <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">âœ“</span> Hosting + Dominio (1 aÃ±o)</li>
-          <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">âœ“</span> BotÃ³n Flotante WhatsApp</li>
-          <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">âœ“</span> OptimizaciÃ³n de Carga</li>
+          <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> Diseño UX/UI Personalizado</li>
+          <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> Hasta 5 Secciones Internas</li>
+          <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> Hosting + Dominio (1 año)</li>
+          <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> Botón Flotante WhatsApp</li>
+          <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> Optimización de Carga</li>
         </ul>
-        <a href="#contacto" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-blue-500 hover:text-black border border-white/10 hover:border-blue-500 transition-all">
+        <a href="contacto.php?servicio=desarrollo-web" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-blue-500 hover:text-black border border-white/10 hover:border-blue-500 transition-all">
           Cotizar Informativa
         </a>
       </div>
@@ -450,16 +461,16 @@
         <p class="text-xs text-gray-400 mb-6">Para empresas establecidas que buscan liderar su sector con un CMS autogestionable.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-emerald-400">S/ 800</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> CMS Autoadministrable (Blog/Proyectos)</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Hasta 10 Secciones</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Correos Corporativos</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> SEO On-Page Avanzado</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> CapacitaciÃ³n de Uso</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> CMS Autoadministrable (Blog/Proyectos)</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Hasta 10 Secciones</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Correos Corporativos</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> SEO On-Page Avanzado</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Capacitación de Uso</li>
         </ul>
-        <a href="#contacto" class="w-full inline-block text-center py-3 text-sm font-bold bg-emerald-500 text-black hover:bg-emerald-400 transition-all shadow-[0_0_15px_rgba(16,185,129,0.4)]">
+        <a href="contacto.php?servicio=desarrollo-web" class="w-full inline-block text-center py-3 text-sm font-bold bg-emerald-500 text-black hover:bg-emerald-400 transition-all shadow-[0_0_15px_rgba(16,185,129,0.4)]">
           Cotizar Corporativa
         </a>
       </div>
@@ -470,16 +481,16 @@
         <p class="text-xs text-gray-400 mb-6">Tienda virtual completa para automatizar tus ventas, pagos e inventario 24/7.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-purple-400">S/ 1000</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Pasarela de Pagos (Tarjetas/Yape)</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Panel de GestiÃ³n de Stock y Ventas</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Carga de Primeros 30 Productos</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> CÃ¡lculo de Costos EnvÃ­o</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Carrito Abandonado AutomÃ¡tico</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Pasarela de Pagos (Tarjetas/Yape)</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Panel de Gestión de Stock y Ventas</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Carga de Primeros 30 Productos</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Cálculo de Costos Envío</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Carrito Abandonado Automático</li>
         </ul>
-        <a href="#contacto" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-purple-500 hover:text-white border border-white/10 hover:border-purple-500 transition-all">
+        <a href="contacto.php?servicio=desarrollo-web" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-purple-500 hover:text-white border border-white/10 hover:border-purple-500 transition-all">
           Cotizar E-commerce
         </a>
       </div>
@@ -500,7 +511,7 @@
       <div class="glass-card rounded-2xl overflow-hidden border border-white/10 group relative flex flex-col h-full bg-[#121217]">
         <div class="h-64 md:h-80 w-full overflow-hidden bg-black relative">
           <div class="absolute inset-0 bg-blue-500/20 mix-blend-overlay z-10 group-hover:opacity-0 transition-opacity duration-500"></div>
-          <img src="imagenes-web/shania.png" alt="Fajas Shania E-commerce" class="w-full h-full object-cover object-top opacity-70 group-hover:opacity-100 transition-all duration-700 group-hover:scale-105">
+          <img src="imagenes-web/shania.webp" alt="Rediseño de e-commerce para Fajas Shania - desarrollo web en Perú" width="800" height="500" loading="lazy" class="w-full h-full object-cover object-top opacity-70 group-hover:opacity-100 transition-all duration-700 group-hover:scale-105">
         </div>
         <div class="p-8 flex-1 flex flex-col">
           <div class="flex items-center gap-2 mb-4">
@@ -509,10 +520,10 @@
           </div>
           <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors">Fajas Shania</h3>
           <p class="text-sm text-gray-400 mb-6 flex-1">
-            RediseÃ±o total de tienda online. OptimizaciÃ³n de embudo de ventas, pasarela de pagos integrada y sincronizaciÃ³n de inventario en tiempo real.
+            Rediseño total de tienda online. Optimización de embudo de ventas, pasarela de pagos integrada y sincronización de inventario en tiempo real.
           </p>
           <a href="https://fajasshania.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-sm text-white font-bold hover:text-blue-400 transition-colors mt-auto">
-            Visitar Tienda <span class="group-hover:translate-x-1 transition-transform">â†’</span>
+            Visitar Tienda <span class="group-hover:translate-x-1 transition-transform">→</span>
           </a>
         </div>
       </div>
@@ -521,19 +532,19 @@
       <div class="glass-card rounded-2xl overflow-hidden border border-white/10 group relative flex flex-col h-full bg-[#121217]">
         <div class="h-64 md:h-80 w-full overflow-hidden bg-black relative">
           <div class="absolute inset-0 bg-teal-500/20 mix-blend-overlay z-10 group-hover:opacity-0 transition-opacity duration-500"></div>
-          <img src="imagenes-web/eratgo.png" alt="Eratgo SaaS Platform" class="w-full h-full object-cover object-top opacity-70 group-hover:opacity-100 transition-all duration-700 group-hover:scale-105">
+          <img src="imagenes-web/eratgo.webp" alt="Desarrollo de plataforma SaaS Eratgo con Next.js y React" width="800" height="500" loading="lazy" class="w-full h-full object-cover object-top opacity-70 group-hover:opacity-100 transition-all duration-700 group-hover:scale-105">
         </div>
         <div class="p-8 flex-1 flex flex-col">
           <div class="flex items-center gap-2 mb-4">
-            <span class="text-[10px] font-bold uppercase tracking-wider text-blue-400 bg-blue-500/10 px-2.5 py-1">AplicaciÃ³n Web</span>
+            <span class="text-[10px] font-bold uppercase tracking-wider text-blue-400 bg-blue-500/10 px-2.5 py-1">Aplicación Web</span>
             <span class="text-[10px] font-bold uppercase tracking-wider text-gray-400 bg-white/5 px-2.5 py-1">Next.js / React</span>
           </div>
           <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-teal-400 transition-colors">Eratgo</h3>
           <p class="text-sm text-gray-400 mb-6 flex-1">
-            Plataforma SaaS de lectura de Ebooks en la nube. Arquitectura moderna, tiempos de carga instantÃ¡neos y panel de control administrativo personalizado.
+            Plataforma SaaS de lectura de Ebooks en la nube. Arquitectura moderna, tiempos de carga instantáneos y panel de control administrativo personalizado.
           </p>
           <a href="https://eratgo.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-sm text-white font-bold hover:text-teal-400 transition-colors mt-auto">
-            Visitar Plataforma <span class="group-hover:translate-x-1 transition-transform">â†’</span>
+            Visitar Plataforma <span class="group-hover:translate-x-1 transition-transform">→</span>
           </a>
         </div>
       </div>
@@ -545,7 +556,7 @@
   <section class="relative z-10 py-16 bg-[#0a0a0e] border-t border-white/10">
     <div class="max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20">
       <div class="text-center max-w-3xl mx-auto mb-16">
-        <p class="text-xs uppercase tracking-widest text-blue-400 font-bold mb-3">MetodologÃ­a Ãgil</p>
+        <p class="text-xs uppercase tracking-widest text-blue-400 font-bold mb-3">Metodología Ágil</p>
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
           Proceso de Desarrollo en <span class="gradient-text">4 Pasos Clave</span>
         </h2>
@@ -561,20 +572,20 @@
 
         <div class="glass-card p-6 rounded-2xl border border-white/10 space-y-3">
           <span class="text-3xl font-extrabold text-teal-400 block">02</span>
-          <h3 class="text-base font-bold text-white">DiseÃ±o UX/UI en Figma</h3>
-          <p class="text-xs text-gray-400 leading-relaxed">DiseÃ±amos prototipos visuales interactivos y modernos acordes a tu identidad de marca.</p>
+          <h3 class="text-base font-bold text-white">Diseño UX/UI en Figma</h3>
+          <p class="text-xs text-gray-400 leading-relaxed">Diseñamos prototipos visuales interactivos y modernos acordes a tu identidad de marca.</p>
         </div>
 
         <div class="glass-card p-6 rounded-2xl border border-white/10 space-y-3">
           <span class="text-3xl font-extrabold text-purple-400 block">03</span>
           <h3 class="text-base font-bold text-white">Desarrollo Next.js & SEO</h3>
-          <p class="text-xs text-gray-400 leading-relaxed">ProgramaciÃ³n de cÃ³digo limpio, animaciÃ³n de componentes e integraciÃ³n SEO On-Page.</p>
+          <p class="text-xs text-gray-400 leading-relaxed">Programación de código limpio, animación de componentes e integración SEO On-Page.</p>
         </div>
 
         <div class="glass-card p-6 rounded-2xl border border-white/10 space-y-3">
           <span class="text-3xl font-extrabold text-emerald-400 block">04</span>
           <h3 class="text-base font-bold text-white">Pruebas QA & Lanzamiento</h3>
-          <p class="text-xs text-gray-400 leading-relaxed">AuditorÃ­a PageSpeed 95+, configuraciÃ³n de dominio SSL e indexaciÃ³n en Google Console.</p>
+          <p class="text-xs text-gray-400 leading-relaxed">Auditoría PageSpeed 95+, configuración de dominio SSL e indexación en Google Console.</p>
         </div>
 
       </div>
@@ -599,42 +610,62 @@
         
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-blue-400">01.</span> Â¿Por quÃ© el desarrollo en Next.js es superior para el SEO en Google?
+            <span class="text-blue-400">01.</span> ¿Por qué el desarrollo en Next.js es superior para el SEO en Google?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            Next.js utiliza Renderizado en Servidor (SSR) y GeneraciÃ³n EstÃ¡tica (SSG), lo que permite que los robots de Google rastreen la web en cÃ³digo HTML ya procesado al instante. Esto elimina demoras de renderizado JavaScript y garantiza puntuaciones de velocidad Ã³ptimas en Core Web Vitals.
+            Next.js utiliza Renderizado en Servidor (SSR) y Generación Estática (SSG), lo que permite que los robots de Google rastreen la web en código HTML ya procesado al instante. Esto elimina demoras de renderizado JavaScript y garantiza puntuaciones de velocidad óptimas en Core Web Vitals.
           </p>
         </div>
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-blue-400">02.</span> Â¿CuÃ¡nto tiempo toma desarrollar una pÃ¡gina web profesional?
+            <span class="text-blue-400">02.</span> ¿Cuánto tiempo toma desarrollar una página web profesional?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            Una landing page optimizada se entrega habitualmente en 5 a 8 dÃ­as hÃ¡biles. Un sitio web corporativo completo requiere de 2 a 3 semanas, dependiendo de la cantidad de secciones e integraciones requeridas.
+            Una landing page optimizada se entrega habitualmente en 5 a 8 días hábiles. Un sitio web corporativo completo requiere de 2 a 3 semanas, dependiendo de la cantidad de secciones e integraciones requeridas.
           </p>
         </div>
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-blue-400">03.</span> Â¿PodrÃ© actualizar el contenido de la web por mi cuenta?
+            <span class="text-blue-400">03.</span> ¿Podré actualizar el contenido de la web por mi cuenta?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            SÃ­. Integramos paneles administrables tipo CMS (Headless WordPress, Sanity o Strapi) muy fÃ¡ciles de usar donde podrÃ¡s editar textos, cambiar imÃ¡genes y subir artÃ­culos sin tocar cÃ³digo.
+            Sí. Integramos paneles administrables tipo CMS (Headless WordPress, Sanity o Strapi) muy fáciles de usar donde podrás editar textos, cambiar imágenes y subir artículos sin tocar código.
           </p>
         </div>
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-blue-400">04.</span> Â¿Incluyen el certificado de seguridad SSL y el soporte tÃ©cnico?
+            <span class="text-blue-400">04.</span> ¿Incluyen el certificado de seguridad SSL y el soporte técnico?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            SÃ­, todos nuestros desarrollos incluyen certificado SSL (https), configuraciÃ³n de correo corporativo y 30 dÃ­as de garantÃ­a de soporte tÃ©cnico sin costo adicional.
+            Sí, todos nuestros desarrollos incluyen certificado SSL (https), configuración de correo corporativo y 30 días de garantía de soporte técnico sin costo adicional.
           </p>
         </div>
 
       </div>
 
+    </div>
+  </section>
+
+  <!-- Servicios Relacionados (Enlazado Interno SEO) -->
+  <section class="relative z-10 py-16 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 border-t border-white/5">
+    <div class="text-center max-w-3xl mx-auto mb-10">
+      <h2 class="text-2xl md:text-4xl font-semibold tracking-tight text-white">
+        Servicios <span class="gradient-text">relacionados</span>
+      </h2>
+      <p class="text-xs text-gray-400 mt-3">Complementa tu proyecto web con estas soluciones de Next Boost.</p>
+    </div>
+    <div class="flex flex-wrap justify-center gap-3 text-xs">
+      <a href="ecommerce.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-teal-500/40 text-gray-300 hover:text-white transition-colors">Tiendas online y e-commerce</a>
+      <a href="hosting-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-purple-500/40 text-gray-300 hover:text-white transition-colors">Hosting web y dominio</a>
+      <a href="posicionamiento-seo.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-emerald-500/40 text-gray-300 hover:text-white transition-colors">Posicionamiento SEO en Google</a>
+      <a href="pagina-web-wordpress-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Páginas web en WordPress</a>
+      <a href="pagina-web-con-inteligencia-artificial.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-violet-500/40 text-gray-300 hover:text-white transition-colors">Web con inteligencia artificial</a>
+      <a href="agencia-desarrollo-web-marca-blanca.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-cyan-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo web marca blanca</a>
+      <a href="proyectos.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-amber-500/40 text-gray-300 hover:text-white transition-colors">Ver portafolio de proyectos</a>
+      <a href="blog.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-pink-500/40 text-gray-300 hover:text-white transition-colors">Blog de desarrollo web</a>
     </div>
   </section>
 
@@ -645,16 +676,16 @@
       <div class="space-y-4 max-w-2xl">
         <span class="text-[10px] uppercase tracking-widest text-teal-400 font-extrabold bg-teal-500/10 px-3 py-1 border border-teal-500/20">Impulsa tu presencia digital</span>
         <h2 class="text-3xl md:text-5xl font-bold tracking-tight text-white leading-tight">
-          Â¿Listo para tener una web ultra rÃ¡pida que venda mÃ¡s?
+          ¿Listo para tener una web ultra rápida que venda más?
         </h2>
         <p class="text-sm text-gray-300 leading-relaxed">
-          CuÃ©ntanos sobre tu proyecto hoy mismo. Te entregamos una propuesta personalizada y auditorÃ­a de velocidad sin costo.
+          Cuéntanos sobre tu proyecto hoy mismo. Te entregamos una propuesta personalizada y auditoría de velocidad sin costo.
         </p>
       </div>
 
       <div class="shrink-0 flex flex-col items-center gap-4">
         <a href="contacto.php?servicio=desarrollo-web" class="inline-flex items-center gap-3 bg-gradient-to-r from-blue-500 to-teal-400 text-black px-8 py-4 text-sm font-bold rounded-none hover:shadow-[0_0_30px_rgba(59,130,246,0.4)] hover:scale-105 transition-all btn-primary">
-          Solicitar CotizaciÃ³n Web
+          Solicitar Cotización Web
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
         <span class="text-[10px] text-gray-400 uppercase tracking-widest font-semibold">Respuesta garantizada en < 24 hrs</span>

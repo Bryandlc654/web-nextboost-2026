@@ -28,11 +28,11 @@ if (!empty($_POST['website_url_hp'])) {
 }
 
 // 2. Sanitización y recolección de datos
-$name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
-$email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
-$phone = filter_input(INPUT_POST, 'phone', FILTER_SANITIZE_STRING);
-$company = filter_input(INPUT_POST, 'company', FILTER_SANITIZE_STRING);
-$message = filter_input(INPUT_POST, 'message', FILTER_SANITIZE_STRING) ?? '';
+$name = trim($_POST['name'] ?? '');
+$email = trim($_POST['email'] ?? '');
+$phone = trim($_POST['phone'] ?? '');
+$company = trim($_POST['company'] ?? '');
+$message = trim($_POST['message'] ?? '');
 
 // 3. Validación básica
 if (empty($name) || empty($email) || empty($phone)) {
@@ -73,10 +73,10 @@ try {
     <hr>
     <h3>Datos del Cliente</h3>
     <ul>
-        <li><strong>Nombre:</strong> {$name}</li>
-        <li><strong>Email:</strong> {$email}</li>
-        <li><strong>Teléfono (WhatsApp):</strong> {$phone}</li>
-        <li><strong>Empresa/Organización:</strong> " . (!empty($company) ? $company : 'N/A') . "</li>
+        <li><strong>Nombre:</strong> " . htmlspecialchars($name) . "</li>
+        <li><strong>Email:</strong> " . htmlspecialchars($email) . "</li>
+        <li><strong>Teléfono (WhatsApp):</strong> " . htmlspecialchars($phone) . "</li>
+        <li><strong>Empresa/Organización:</strong> " . (!empty($company) ? htmlspecialchars($company) : 'N/A') . "</li>
     </ul>
     <h3>Mensaje del Proyecto</h3>
     <p>" . nl2br(htmlspecialchars($message)) . "</p>

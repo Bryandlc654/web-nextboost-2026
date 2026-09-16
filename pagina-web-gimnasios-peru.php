@@ -1,6 +1,7 @@
-?php
-  $page_title = "PÃ¡gina Web Gimnasios PerÃº | Web para Gimnasio y Fitness | Next Boost";
-  $page_description = "PÃ¡ginas web para gimnasios en PerÃº. Clases online, planes de membresÃ­a, reserva de horarios, rutinas personalizadas y WhatsApp.";
+<?php
+  $page_title = "Página Web Gimnasios Perú | Web para Gimnasio y Fitness | Next Boost";
+  $page_description = "Páginas web para gimnasios en Perú. Clases online, planes de membresía, reserva de horarios, rutinas personalizadas y WhatsApp.";
+  $og_url = "https://nextboost.business/pagina-web-gimnasios-peru.php";
 ?>
 <!DOCTYPE html>
 <html lang="es" class="dark scroll-smooth">
@@ -13,15 +14,19 @@
     {
       "@type": "Service",
       "@id": "https://nextboost.business/pagina-web-gimnasios-peru.php/#service",
-      "name": "PÃ¡gina Web para Gimnasios y Centros de Fitness en PerÃº",
+      "name": "Página Web para Gimnasios y Centros de Fitness en Perú",
       "serviceType": "Desarrollo Web Gimnasios",
       "provider": {
         "@type": "Organization",
         "name": "Next Boost",
-        "url": "https://nextboost.business/"
+        "url": "https://nextboost.business/",
+        "@id": "https://nextboost.business/#organization"
       },
-      "description": "PÃ¡ginas web profesionales para gimnasios en PerÃº con planes de membresÃ­a, reserva de clases, perfiles de entrenadores y WhatsApp.",
-      "areaServed": "PerÃº",
+      "description": "Páginas web profesionales para gimnasios en Perú con planes de membresía, reserva de clases, perfiles de entrenadores y WhatsApp.",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Perú"
+      },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Planes Web para Gimnasios",
@@ -32,7 +37,7 @@
             "priceCurrency": "PEN",
             "itemOffered": {
               "@type": "Service",
-              "name": "Plan BÃ¡sico Gimnasio"
+              "name": "Plan Básico Gimnasio"
             }
           },
           {
@@ -63,7 +68,9 @@
             }
           }
         ]
-      }
+      },
+      "url": "https://nextboost.business/pagina-web-gimnasios-peru.php",
+      "image": "https://nextboost.business/imagenes-web/next-boost.png"
     },
     {
       "@type": "BreadcrumbList",
@@ -78,7 +85,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "PÃ¡gina Web Gimnasios PerÃº",
+          "name": "Página Web Gimnasios Perú",
           "item": "https://nextboost.business/pagina-web-gimnasios-peru.php"
         }
       ]
@@ -89,26 +96,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Â¿Se pueden ver los planes de membresÃ­a en la web?",
+          "name": "¿Se pueden ver los planes de membresía en la web?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "SÃ­, creamos una secciÃ³n dedicada donde muestras todos tus planes (mensual, trimestral, anual) con precios, beneficios incluidos y un botÃ³n de contacto directo por WhatsApp para inscribirse."
+            "text": "Sí, creamos una sección dedicada donde muestras todos tus planes (mensual, trimestral, anual) con precios, beneficios incluidos y un botón de contacto directo por WhatsApp para inscribirse."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿Incluye reserva de clases y horarios online?",
+          "name": "¿Incluye reserva de clases y horarios online?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "SÃ­, el plan Profesional y Premium incluyen un calendario interactivo donde los miembros pueden ver los horarios de clases (spinning, yoga, zumba, etc.) y reservar su cupo directamente desde el celular."
+            "text": "Sí, el plan Profesional y Premium incluyen un calendario interactivo donde los miembros pueden ver los horarios de clases (spinning, yoga, zumba, etc.) y reservar su cupo directamente desde el celular."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿Muestra perfiles de entrenadores personales?",
+          "name": "¿Muestra perfiles de entrenadores personales?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "SÃ­, incluimos una secciÃ³n de equipo donde cada entrenador tiene su foto, especialidad, certificaciones y un botÃ³n de WhatsApp directo para agendar asesorÃ­as personalizadas."
+            "text": "Sí, incluimos una sección de equipo donde cada entrenador tiene su foto, especialidad, certificaciones y un botón de WhatsApp directo para agendar asesorías personalizadas."
           }
         }
       ]
@@ -137,12 +144,12 @@
         </div>
 
         <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-[1.1]">
-          PÃ¡gina Web para Gimnasios y Centros de Fitness <br>
-          <span class="bg-gradient-to-r from-red-400 to-orange-500 text-transparent bg-clip-text">en PerÃº</span>
+          Página Web para Gimnasios y Centros de Fitness <br>
+          <span class="bg-gradient-to-r from-red-400 to-orange-500 text-transparent bg-clip-text">en Perú</span>
         </h1>
 
         <p class="text-base md:text-lg text-gray-300 font-normal leading-relaxed max-w-2xl">
-          Atrae mÃ¡s socios y digitaliza tu gimnasio con una <strong class="text-white">web profesional</strong>. Muestra tus planes de membresÃ­a, reserva de clases, perfiles de entrenadores y recibe inscripciones por WhatsApp.
+          Atrae más socios y digitaliza tu gimnasio con una <strong class="text-white">web profesional</strong>. Muestra tus planes de membresía, reserva de clases, perfiles de entrenadores y recibe inscripciones por WhatsApp.
         </p>
 
         <div class="grid grid-cols-3 gap-4 pt-4 border-t border-white/10 max-w-xl">
@@ -167,7 +174,7 @@
           </a>
           <a href="https://wa.me/51962469836?text=Hola%20Next%20Boost,%20deseo%20cotizar%20una%20web%20para%20mi%20gimnasio" target="_blank" class="inline-flex items-center justify-center gap-2 border border-white/20 hover:border-emerald-500/50 bg-white/5 hover:bg-emerald-500/10 text-white hover:text-emerald-400 px-6 py-4 text-sm font-semibold transition-all">
             <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            AsesorÃ­a por WhatsApp
+            Asesoría por WhatsApp
           </a>
         </div>
       </div>
@@ -177,13 +184,13 @@
           <div class="flex items-center justify-between border-b border-white/10 pb-4">
             <span class="text-xs font-mono text-gray-400 flex items-center gap-2">
               <span class="w-2 h-2 rounded-full bg-red-400"></span>
-              Panel de MembresÃ­as
+              Panel de Membresías
             </span>
             <span class="text-[10px] font-bold text-red-400 bg-red-500/10 px-2.5 py-1 border border-red-500/20">ACTIVO</span>
           </div>
           <div class="space-y-3">
             <div class="p-3 bg-white/5 border border-white/10 flex items-center gap-3">
-              <div class="w-10 h-10 bg-red-500/20 flex items-center justify-center text-red-400 shrink-0 text-lg">ðŸ’ª</div>
+              <div class="w-10 h-10 bg-red-500/20 flex items-center justify-center text-red-400 shrink-0 text-lg">💪</div>
               <div class="flex-1">
                 <p class="text-xs font-bold text-white">Plan Mensual</p>
                 <p class="text-[10px] text-gray-400">Acceso completo al gimnasio</p>
@@ -191,7 +198,7 @@
               <span class="text-xs font-bold text-red-400">S/ 89</span>
             </div>
             <div class="p-3 bg-white/5 border border-white/10 flex items-center gap-3">
-              <div class="w-10 h-10 bg-orange-500/20 flex items-center justify-center text-orange-400 shrink-0 text-lg">ðŸ”¥</div>
+              <div class="w-10 h-10 bg-orange-500/20 flex items-center justify-center text-orange-400 shrink-0 text-lg">🔥</div>
               <div class="flex-1">
                 <p class="text-xs font-bold text-white">Plan Trimestral</p>
                 <p class="text-[10px] text-gray-400">Incluye 4 clases grupales</p>
@@ -199,7 +206,7 @@
               <span class="text-xs font-bold text-orange-400">S/ 230</span>
             </div>
             <div class="p-3 bg-white/5 border border-white/10 flex items-center gap-3">
-              <div class="w-10 h-10 bg-yellow-500/20 flex items-center justify-center text-yellow-400 shrink-0 text-lg">â­</div>
+              <div class="w-10 h-10 bg-yellow-500/20 flex items-center justify-center text-yellow-400 shrink-0 text-lg">⭐</div>
               <div class="flex-1">
                 <p class="text-xs font-bold text-white">Plan Anual VIP</p>
                 <p class="text-[10px] text-gray-400">Todo ilimitado + 1 personal</p>
@@ -228,7 +235,7 @@
       <div class="text-center max-w-3xl mx-auto mb-16">
         <p class="text-xs uppercase tracking-widest text-red-400 font-bold mb-3">La Ventaja Next Boost</p>
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-          Â¿Por quÃ© elegirnos <span class="bg-gradient-to-r from-red-400 to-orange-500 text-transparent bg-clip-text">para tu gimnasio?</span>
+          ¿Por qué elegirnos <span class="bg-gradient-to-r from-red-400 to-orange-500 text-transparent bg-clip-text">para tu gimnasio?</span>
         </h2>
       </div>
 
@@ -239,10 +246,10 @@
             <h3 class="text-xl font-bold text-white">Gimnasios sin Web Profesional</h3>
           </div>
           <ul class="space-y-4 text-xs text-gray-300">
-            <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">âœ•</span><span><strong>Sin planes visibles:</strong> Los prospectos llaman o preguntan por Instagram sin ver precios claros.</span></li>
-            <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">âœ•</span><span><strong>Cero presencia en Google:</strong> Cuando buscan "gimnasio cerca" no apareces en los primeros resultados.</span></li>
-            <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">âœ•</span><span><strong>Clases desorganizadas:</strong> Los horarios se comparten por groups de WhatsApp y se pierden constantemente.</span></li>
-            <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">âœ•</span><span><strong>Sin entrenadores destacados:</strong> No muestras el talento de tu equipo ni las especialidades de cada uno.</span></li>
+            <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">✕</span><span><strong>Sin planes visibles:</strong> Los prospectos llaman o preguntan por Instagram sin ver precios claros.</span></li>
+            <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">✕</span><span><strong>Cero presencia en Google:</strong> Cuando buscan "gimnasio cerca" no apareces en los primeros resultados.</span></li>
+            <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">✕</span><span><strong>Clases desorganizadas:</strong> Los horarios se comparten por groups de WhatsApp y se pierden constantemente.</span></li>
+            <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">✕</span><span><strong>Sin entrenadores destacados:</strong> No muestras el talento de tu equipo ni las especialidades de cada uno.</span></li>
           </ul>
         </div>
 
@@ -252,10 +259,10 @@
             <h3 class="text-xl font-bold text-white">Web Gimnasio Next Boost</h3>
           </div>
           <ul class="space-y-4 text-xs text-gray-200">
-            <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span><span><strong>Planes y precios visibles:</strong> MembresÃ­as con beneficios claros y botÃ³n de inscripciÃ³n directa por WhatsApp.</span></li>
-            <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span><span><strong>SEO para gimnasios:</strong> Aparece cuando buscan "gimnasio en" + tu zona. MÃ¡s visitas, mÃ¡s socios.</span></li>
-            <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span><span><strong>Calendario de clases:</strong> Horarios interactivos donde los socios reservan su cupo en tiempo real.</span></li>
-            <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span><span><strong>Perfiles de entrenadores:</strong> Fotos, especialidades y contacto directo para fidelizar a los socios.</span></li>
+            <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span><span><strong>Planes y precios visibles:</strong> Membresías con beneficios claros y botón de inscripción directa por WhatsApp.</span></li>
+            <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span><span><strong>SEO para gimnasios:</strong> Aparece cuando buscan "gimnasio en" + tu zona. Más visitas, más socios.</span></li>
+            <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span><span><strong>Calendario de clases:</strong> Horarios interactivos donde los socios reservan su cupo en tiempo real.</span></li>
+            <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span><span><strong>Perfiles de entrenadores:</strong> Fotos, especialidades y contacto directo para fidelizar a los socios.</span></li>
           </ul>
         </div>
       </div>
@@ -275,8 +282,8 @@
         <div class="w-12 h-12 rounded-none bg-red-500/10 border border-red-500/20 flex items-center justify-center text-red-400 group-hover:bg-red-500 group-hover:text-black transition-all">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
         </div>
-        <h3 class="text-xl font-bold text-white">Planes de MembresÃ­a</h3>
-        <p class="text-xs text-gray-400 leading-relaxed">Muestra tus planes mensual, trimestral y anual con precios, beneficios y un botÃ³n de inscripciÃ³n que envÃ­a directo a WhatsApp.</p>
+        <h3 class="text-xl font-bold text-white">Planes de Membresía</h3>
+        <p class="text-xs text-gray-400 leading-relaxed">Muestra tus planes mensual, trimestral y anual con precios, beneficios y un botón de inscripción que envía directo a WhatsApp.</p>
       </article>
 
       <article class="glass-card p-8 rounded-2xl border border-white/5 space-y-4 hover:border-orange-500/30 transition-all group">
@@ -284,7 +291,7 @@
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
         </div>
         <h3 class="text-xl font-bold text-white">Reserva de Clases</h3>
-        <p class="text-xs text-gray-400 leading-relaxed">Calendario interactivo con horarios de spinning, yoga, zumba y mÃ¡s. Los socios reservan su cupo desde el celular en segundos.</p>
+        <p class="text-xs text-gray-400 leading-relaxed">Calendario interactivo con horarios de spinning, yoga, zumba y más. Los socios reservan su cupo desde el celular en segundos.</p>
       </article>
 
       <article class="glass-card p-8 rounded-2xl border border-white/5 space-y-4 hover:border-yellow-500/30 transition-all group">
@@ -307,8 +314,8 @@
         <div class="w-12 h-12 rounded-none bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 group-hover:bg-emerald-400 group-hover:text-black transition-all">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
         </div>
-        <h3 class="text-xl font-bold text-white">UbicaciÃ³n y Tour Virtual</h3>
-        <p class="text-xs text-gray-400 leading-relaxed">Mapa interactivo con tu direcciÃ³n, tour virtual por las instalaciones y recorrido por las zonas de entrenamiento.</p>
+        <h3 class="text-xl font-bold text-white">Ubicación y Tour Virtual</h3>
+        <p class="text-xs text-gray-400 leading-relaxed">Mapa interactivo con tu dirección, tour virtual por las instalaciones y recorrido por las zonas de entrenamiento.</p>
       </article>
 
       <article class="glass-card p-8 rounded-2xl border border-white/5 space-y-4 hover:border-blue-500/30 transition-all group">
@@ -316,14 +323,14 @@
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
         </div>
         <h3 class="text-xl font-bold text-white">Testimonios de Socios</h3>
-        <p class="text-xs text-gray-400 leading-relaxed">SecciÃ³n de reseÃ±as y testimonios de socios satisfechos que generan prueba social y motivan a nuevos prospectos a inscribirse.</p>
+        <p class="text-xs text-gray-400 leading-relaxed">Sección de reseñas y testimonios de socios satisfechos que generan prueba social y motivan a nuevos prospectos a inscribirse.</p>
       </article>
     </div>
   </section>
 
   <section class="relative z-10 py-20 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 border-t border-white/5 bg-[#0a0a0e]/50">
     <div class="text-center max-w-3xl mx-auto mb-16">
-      <p class="text-xs uppercase tracking-widest text-emerald-400 font-bold mb-3">InversiÃ³n Clara</p>
+      <p class="text-xs uppercase tracking-widest text-emerald-400 font-bold mb-3">Inversión Clara</p>
       <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
         Planes y Precios <span class="bg-gradient-to-r from-red-400 to-orange-500 text-transparent bg-clip-text">para Gimnasios</span>
       </h2>
@@ -331,21 +338,21 @@
 
     <div class="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
       <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-red-500/50 transition-all flex flex-col h-full group">
-        <h3 class="text-xl font-bold text-white mb-2">BÃ¡sico</h3>
-        <p class="text-xs text-gray-400 mb-6">Para gimnasios pequeÃ±os que quieren una presencia online bÃ¡sica.</p>
+        <h3 class="text-xl font-bold text-white mb-2">Básico</h3>
+        <p class="text-xs text-gray-400 mb-6">Para gimnasios pequeños que quieren una presencia online básica.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-red-400">S/ 450</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">âœ“</span> SecciÃ³n de Planes y Precios</li>
-          <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">âœ“</span> GalerÃ­a de Instalaciones</li>
-          <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">âœ“</span> BotÃ³n de InscripciÃ³n WhatsApp</li>
-          <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">âœ“</span> UbicaciÃ³n en Google Maps</li>
-          <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">âœ“</span> Horarios de AtenciÃ³n</li>
+          <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">✓</span> Sección de Planes y Precios</li>
+          <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">✓</span> Galería de Instalaciones</li>
+          <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">✓</span> Botón de Inscripción WhatsApp</li>
+          <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">✓</span> Ubicación en Google Maps</li>
+          <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">✓</span> Horarios de Atención</li>
         </ul>
         <a href="contacto.php?servicio=gimnasios&plan=basico" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-red-500 hover:text-black border border-white/10 hover:border-red-500 transition-all">
-          Elegir Plan BÃ¡sico
+          Elegir Plan Básico
         </a>
       </div>
 
@@ -354,14 +361,14 @@
         <p class="text-xs text-gray-400 mb-6">Para gimnasios que quieren presentar sus instalaciones, planes y horarios con una web informativa profesional.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-red-400">S/ 550</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">âœ“</span> Todo lo del Plan BÃ¡sico</li>
-          <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">âœ“</span> Web Informativa Profesional</li>
-          <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">âœ“</span> Formulario de Contacto</li>
-          <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">âœ“</span> SEO BÃ¡sico Local</li>
-          <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">âœ“</span> DiseÃ±o 100% Responsivo</li>
+          <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">✓</span> Todo lo del Plan Básico</li>
+          <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">✓</span> Web Informativa Profesional</li>
+          <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">✓</span> Formulario de Contacto</li>
+          <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">✓</span> SEO Básico Local</li>
+          <li class="flex items-start gap-3"><span class="text-red-400 font-bold shrink-0">✓</span> Diseño 100% Responsivo</li>
         </ul>
         <a href="contacto.php?servicio=gimnasios&plan=informativa" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-red-500 hover:text-black border border-white/10 hover:border-red-500 transition-all">
           Elegir Plan Informativa
@@ -374,14 +381,14 @@
         <p class="text-xs text-gray-400 mb-6">Para gimnasios que buscan digitalizar reservas y mostrar su equipo.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-emerald-400">S/ 800</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Todo lo del Plan BÃ¡sico</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Reserva de Clases Online</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Perfiles de Entrenadores</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> SEO Local para Gimnasios</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Promociones Destacadas</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Todo lo del Plan Básico</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Reserva de Clases Online</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Perfiles de Entrenadores</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> SEO Local para Gimnasios</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Promociones Destacadas</li>
         </ul>
         <a href="contacto.php?servicio=gimnasios&plan=profesional" class="w-full inline-block text-center py-3 text-sm font-bold bg-emerald-500 text-black hover:bg-emerald-400 transition-all shadow-[0_0_15px_rgba(16,185,129,0.4)]">
           Elegir Plan Profesional
@@ -390,17 +397,17 @@
 
       <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-orange-500/50 transition-all flex flex-col h-full group">
         <h3 class="text-xl font-bold text-white mb-2">Premium</h3>
-        <p class="text-xs text-gray-400 mb-6">Para gimnasios y cadenas que necesitan la soluciÃ³n completa con blog.</p>
+        <p class="text-xs text-gray-400 mb-6">Para gimnasios y cadenas que necesitan la solución completa con blog.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-orange-400">S/ 1000</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-orange-400 font-bold shrink-0">âœ“</span> Todo lo del Plan Profesional</li>
-          <li class="flex items-start gap-3"><span class="text-orange-400 font-bold shrink-0">âœ“</span> Blog de Fitness y NutriciÃ³n</li>
-          <li class="flex items-start gap-3"><span class="text-orange-400 font-bold shrink-0">âœ“</span> Sistema de Rutinas Online</li>
-          <li class="flex items-start gap-3"><span class="text-orange-400 font-bold shrink-0">âœ“</span> Tour Virtual 360Â°</li>
-          <li class="flex items-start gap-3"><span class="text-orange-400 font-bold shrink-0">âœ“</span> Soporte y CapacitaciÃ³n 30 dÃ­as</li>
+          <li class="flex items-start gap-3"><span class="text-orange-400 font-bold shrink-0">✓</span> Todo lo del Plan Profesional</li>
+          <li class="flex items-start gap-3"><span class="text-orange-400 font-bold shrink-0">✓</span> Blog de Fitness y Nutrición</li>
+          <li class="flex items-start gap-3"><span class="text-orange-400 font-bold shrink-0">✓</span> Sistema de Rutinas Online</li>
+          <li class="flex items-start gap-3"><span class="text-orange-400 font-bold shrink-0">✓</span> Tour Virtual 360°</li>
+          <li class="flex items-start gap-3"><span class="text-orange-400 font-bold shrink-0">✓</span> Soporte y Capacitación 30 días</li>
         </ul>
         <a href="contacto.php?servicio=gimnasios&plan=premium" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-orange-500 hover:text-white border border-white/10 hover:border-orange-500 transition-all">
           Elegir Plan Premium
@@ -422,28 +429,28 @@
       <div class="lg:col-span-8 space-y-4">
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-red-400">01.</span> Â¿Se pueden ver los planes de membresÃ­a en la web?
+            <span class="text-red-400">01.</span> ¿Se pueden ver los planes de membresía en la web?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            SÃ­, creamos una secciÃ³n dedicada donde muestras todos tus planes (mensual, trimestral, anual) con precios, beneficios incluidos y un botÃ³n de contacto directo por WhatsApp para inscribirse.
+            Sí, creamos una sección dedicada donde muestras todos tus planes (mensual, trimestral, anual) con precios, beneficios incluidos y un botón de contacto directo por WhatsApp para inscribirse.
           </p>
         </div>
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-red-400">02.</span> Â¿Incluye reserva de clases y horarios online?
+            <span class="text-red-400">02.</span> ¿Incluye reserva de clases y horarios online?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            SÃ­, el plan Profesional y Premium incluyen un calendario interactivo donde los miembros pueden ver los horarios de clases (spinning, yoga, zumba, etc.) y reservar su cupo directamente desde el celular.
+            Sí, el plan Profesional y Premium incluyen un calendario interactivo donde los miembros pueden ver los horarios de clases (spinning, yoga, zumba, etc.) y reservar su cupo directamente desde el celular.
           </p>
         </div>
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-red-400">03.</span> Â¿Muestra perfiles de entrenadores personales?
+            <span class="text-red-400">03.</span> ¿Muestra perfiles de entrenadores personales?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            SÃ­, incluimos una secciÃ³n de equipo donde cada entrenador tiene su foto, especialidad, certificaciones y un botÃ³n de WhatsApp directo para agendar asesorÃ­as personalizadas.
+            Sí, incluimos una sección de equipo donde cada entrenador tiene su foto, especialidad, certificaciones y un botón de WhatsApp directo para agendar asesorías personalizadas.
           </p>
         </div>
       </div>
@@ -455,13 +462,13 @@
       <div class="space-y-4 max-w-2xl">
         <span class="text-[10px] uppercase tracking-widest text-red-400 font-extrabold bg-red-500/10 px-3 py-1 border border-red-500/20">Impulsa tu gimnasio</span>
         <h2 class="text-3xl md:text-5xl font-bold tracking-tight text-white leading-tight">
-          Â¿Listo para atraer mÃ¡s socios con una web profesional?
+          ¿Listo para atraer más socios con una web profesional?
         </h2>
-        <p class="text-sm text-gray-300 leading-relaxed">CuÃ©ntanos sobre tu gimnasio y te entregamos una propuesta personalizada sin costo.</p>
+        <p class="text-sm text-gray-300 leading-relaxed">Cuéntanos sobre tu gimnasio y te entregamos una propuesta personalizada sin costo.</p>
       </div>
       <div class="shrink-0 flex flex-col items-center gap-4">
         <a href="contacto.php?servicio=gimnasios" class="inline-flex items-center gap-3 bg-gradient-to-r from-red-500 to-orange-500 text-white px-8 py-4 text-sm font-bold rounded-none hover:shadow-[0_0_30px_rgba(239,68,68,0.4)] hover:scale-105 transition-all btn-primary">
-          Solicitar CotizaciÃ³n
+          Solicitar Cotización
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
         <span class="text-[10px] text-gray-400 uppercase tracking-widest font-semibold">Respuesta garantizada en &lt; 24 hrs</span>
@@ -469,7 +476,26 @@
     </div>
   </section>
 
-  <?php include 'includes/footer.php'; ?>
+    <!-- Servicios Relacionados (Enlazado Interno SEO) -->
+  <section class="relative z-10 py-16 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 border-t border-white/5">
+    <div class="text-center max-w-3xl mx-auto mb-10">
+      <h2 class="text-2xl md:text-4xl font-semibold tracking-tight text-white">
+        Servicios <span class="gradient-text">relacionados</span>
+      </h2>
+      <p class="text-xs text-gray-400 mt-3">Todo lo que tu negocio necesita para crecer en internet.</p>
+    </div>
+    <div class="flex flex-wrap justify-center gap-3 text-xs">
+      <a href="desarrollo-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo y diseño web</a>
+      <a href="ecommerce.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-teal-500/40 text-gray-300 hover:text-white transition-colors">Tiendas online y e-commerce</a>
+      <a href="hosting-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-cyan-500/40 text-gray-300 hover:text-white transition-colors">Hosting web y dominio</a>
+      <a href="posicionamiento-seo.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-emerald-500/40 text-gray-300 hover:text-white transition-colors">Posicionamiento SEO</a>
+      <a href="pagina-web-con-inteligencia-artificial.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-violet-500/40 text-gray-300 hover:text-white transition-colors">Webs con inteligencia artificial</a>
+      <a href="proyectos.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-amber-500/40 text-gray-300 hover:text-white transition-colors">Ver portafolio de proyectos</a>
+      <a href="blog.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-pink-500/40 text-gray-300 hover:text-white transition-colors">Blog de desarrollo web</a>
+    </div>
+  </section>
+
+<?php include 'includes/footer.php'; ?>
 
 </body>
 </html>

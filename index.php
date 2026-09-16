@@ -4,23 +4,36 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Agencia de Desarrollo Web en Perú | Next Boost</title>
-  <meta name="description" content="Agencia de desarrollo web en Perú. Creamos sitios web profesionales, landing pages y tiendas online. Hosting premium incluido." />
+  <meta name="description" content="Agencia de desarrollo web en Perú. Diseño de páginas web profesionales, landing pages, tiendas online y SEO. Cotiza tu proyecto con hosting premium incluido." />
+  <meta name="keywords" content="agencia de desarrollo web, desarrollo web Perú, diseño de páginas web, landing pages, tiendas online, SEO Perú" />
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="author" content="Next Boost" />
+  <meta name="theme-color" content="#08080a" />
   <link rel="canonical" href="https://nextboost.business/" />
+  <link rel="alternate" href="https://nextboost.business/" hreflang="x-default" />
+  <link rel="alternate" href="https://nextboost.business/" hreflang="es-PE" />
+  <link rel="icon" type="image/png" href="logos/favicon-180.png" />
+  <link rel="apple-touch-icon" href="logos/favicon-180.png" />
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Next Boost" />
+  <meta property="og:locale" content="es_PE" />
   <meta property="og:url" content="https://nextboost.business/" />
   <meta property="og:title" content="Agencia de Desarrollo Web en Perú | Next Boost" />
-  <meta property="og:description" content="Agencia de desarrollo web en Perú. Creamos sitios web profesionales, landing pages y tiendas online. Hosting premium incluido." />
+  <meta property="og:description" content="Agencia de desarrollo web en Perú. Diseño de páginas web profesionales, landing pages, tiendas online y SEO. Cotiza tu proyecto con hosting premium incluido." />
   <meta property="og:image" content="https://nextboost.business/imagenes-web/next-boost.png" />
+  <meta property="og:image:width" content="1892" />
+  <meta property="og:image:height" content="1078" />
+  <meta property="og:image:alt" content="Agencia de desarrollo web Next Boost Perú" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:url" content="https://nextboost.business/" />
   <meta name="twitter:title" content="Agencia de Desarrollo Web en Perú | Next Boost" />
-  <meta name="twitter:description" content="Agencia de desarrollo web en Perú. Creamos sitios web profesionales, landing pages y tiendas online. Hosting premium incluido." />
+  <meta name="twitter:description" content="Agencia de desarrollo web en Perú. Diseño de páginas web profesionales, landing pages, tiendas online y SEO. Cotiza tu proyecto con hosting premium incluido." />
   <meta name="twitter:image" content="https://nextboost.business/imagenes-web/next-boost.png" />
+  <meta name="twitter:image:alt" content="Agencia de desarrollo web Next Boost Perú" />
 
   <!-- Datos Estructurados JSON-LD (SEO) -->
   <script type="application/ld+json">
@@ -37,8 +50,8 @@
           "@type": "ImageObject",
           "url": "https://nextboost.business/logos/logo.png"
         },
-        "image": "https://nextboost.business/assets/og-image.jpg",
-        "description": "Agencia de desarrollo web en Perú. Creamos sitios web profesionales, landing pages y tiendas online con Next.js. Hosting premium incluido.",
+        "image": "https://nextboost.business/imagenes-web/next-boost.png",
+        "description": "Agencia de desarrollo web en Perú. Diseño de páginas web profesionales, landing pages, tiendas online y SEO con hosting premium incluido.",
         "telephone": "+51 962 469 836",
         "email": "info@nextboost.business",
         "address": {
@@ -52,10 +65,12 @@
           "latitude": -13.39,
           "longitude": -76.12
         },
-        "areaServed": {
-          "@type": "Country",
-          "name": "Perú"
-        },
+        "areaServed": [
+          { "@type": "Country", "name": "Perú" },
+          { "@type": "City", "name": "Chincha" },
+          { "@type": "City", "name": "Ica" },
+          { "@type": "City", "name": "Lima" }
+        ],
         "priceRange": "$$",
         "openingHours": "Mo-Fr 08:00-19:00",
         "sameAs": [
@@ -69,14 +84,20 @@
         "@id": "https://nextboost.business/#website",
         "url": "https://nextboost.business/",
         "name": "Next Boost",
+        "inLanguage": "es-PE",
         "publisher": {
           "@id": "https://nextboost.business/#organization"
-        },
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://nextboost.business/proyectos.php?q={search_term_string}",
-          "query-input": "required name=search_term_string"
         }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://nextboost.business/#webpage",
+        "url": "https://nextboost.business/",
+        "name": "Agencia de Desarrollo Web en Perú | Next Boost",
+        "description": "Agencia de desarrollo web en Perú. Diseño de páginas web profesionales, landing pages, tiendas online y SEO.",
+        "isPartOf": { "@id": "https://nextboost.business/#website" },
+        "about": { "@id": "https://nextboost.business/#organization" },
+        "inLanguage": "es-PE"
       },
       {
         "@type": "FAQPage",
@@ -128,9 +149,10 @@
   }
   </script>
 
-  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link rel="stylesheet" href="assets/css/tailwind.css"/>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" as="style"/>
   <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
   <style>
     body { font-family: 'Hanken Grotesk', sans-serif; background: #000; color: #fff; overflow-x: hidden; }
@@ -648,13 +670,13 @@
       <!-- Left -->
       <div class="w-full lg:w-[60%] flex flex-col items-start gap-4 lg:pr-8 shrink-0">
       
-      <h1 class="text-[10px] md:text-xs font-bold tracking-[0.2em] uppercase text-blue-400 bg-blue-500/10 border border-blue-500/20 px-3 py-1.5 rounded-none animate-in mb-2 w-fit">Agencia de Desarrollo Web</h1>
-      <h2 class="text-5xl md:text-7xl lg:text-8xl font-normal leading-[1.05] tracking-tight animate-in animate-in-d1 text-white">
-        Creamos la web que tu
-        <span class="gradient-text font-medium">negocio merece</span>
-      </h2>
+      <p class="text-[10px] md:text-xs font-bold tracking-[0.2em] uppercase text-blue-400 bg-blue-500/10 border border-blue-500/20 px-3 py-1.5 rounded-none animate-in mb-2 w-fit">Agencia de Desarrollo Web y SEO en Perú</p>
+      <h1 class="text-5xl md:text-7xl lg:text-8xl font-normal leading-[1.05] tracking-tight animate-in animate-in-d1 text-white">
+        Agencia de desarrollo web en
+        <span class="gradient-text font-medium">Perú</span>
+      </h1>
       <p class="text-base md:text-lg text-gray-400 font-light max-w-lg leading-relaxed animate-in animate-in-d2 mt-1">
-        Diseño moderno, desarrollo ultra rápido y resultados medibles. Transformamos tus ideas en experiencias digitales excepcionales que conectan e impulsan tu marca.
+        Creamos la web que tu negocio merece. Diseño moderno, desarrollo ultra rápido y resultados medibles que conectan e impulsan tu marca.
       </p>
       <div class="flex flex-wrap gap-4 mt-3 animate-in animate-in-d3">
         <a href="proyectos.php" class="btn-glow-primary px-8 py-4 text-lg font-semibold rounded-none flex items-center gap-3">
@@ -942,9 +964,9 @@
         <!-- First set -->
         <div class="flex items-center gap-10 md:gap-16 px-4">
           <img src="logos/Bono-Guerlan-3_0.png" alt="Logo Fragancias Bono y Guerlan" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
-          <img src="logos/Logo-Observatorio-Regional-Ucayali-2048x648.png" alt="Logo Observatorio Regional de Violencia Ucayali" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
-          <img src="logos/Logo-Verde-e1781197489379.png" alt="Logo Verde Next Boost" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
-          <img src="logos/expotravelperu.png" alt="Logo Expotravel Perú Agencia de Viajes" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
+          <img src="logos/Logo-Observatorio-Regional-Ucayali-2048x648.webp" alt="Logo Observatorio Regional de Violencia Ucayali" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
+          <img src="logos/Logo-Verde-e1781197489379.webp" alt="Logo Verde Next Boost" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
+          <img src="logos/expotravelperu.webp" alt="Logo Expotravel Perú Agencia de Viajes" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
           <img src="logos/logo%20(1).png" alt="Logo Cliente Next Boost" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
           <img src="logos/logo-4JdZ30GI.webp" alt="Logo Cliente Next Boost" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
           <img src="logos/logo-cgap.png.webp" alt="Logo CGAP Perú Centro de Capacitación" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
@@ -955,15 +977,15 @@
           <img src="logos/logo-negro.png.webp" alt="Logo Cliente Next Boost" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
           <img src="logos/logo-sin-fondo.png.webp" alt="Logo Cliente Next Boost" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
           <img src="logos/logo-solo.png.webp" alt="Logo Cliente Next Boost" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
-          <img src="logos/logo.png" alt="Logo Next Boost Agencia de Desarrollo Web" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
+          <img src="logos/logo.webp" alt="Logo Next Boost Agencia de Desarrollo Web" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
           <img src="logos/shania_transparent-e1776891037532.png" alt="Logo Fajas Shania Tienda Online" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
         </div>
         <!-- Second set (duplicate for seamless loop) -->
         <div class="flex items-center gap-10 md:gap-16 px-4">
           <img src="logos/Bono-Guerlan-3_0.png" alt="Logo Fragancias Bono y Guerlan" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
-          <img src="logos/Logo-Observatorio-Regional-Ucayali-2048x648.png" alt="Logo Observatorio Regional de Violencia Ucayali" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
-          <img src="logos/Logo-Verde-e1781197489379.png" alt="Logo Verde Next Boost" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
-          <img src="logos/expotravelperu.png" alt="Logo Expotravel Perú Agencia de Viajes" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
+          <img src="logos/Logo-Observatorio-Regional-Ucayali-2048x648.webp" alt="Logo Observatorio Regional de Violencia Ucayali" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
+          <img src="logos/Logo-Verde-e1781197489379.webp" alt="Logo Verde Next Boost" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
+          <img src="logos/expotravelperu.webp" alt="Logo Expotravel Perú Agencia de Viajes" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
           <img src="logos/logo%20(1).png" alt="Logo Cliente Next Boost" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
           <img src="logos/logo-4JdZ30GI.webp" alt="Logo Cliente Next Boost" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
           <img src="logos/logo-cgap.png.webp" alt="Logo CGAP Perú Centro de Capacitación" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
@@ -974,7 +996,7 @@
           <img src="logos/logo-negro.png.webp" alt="Logo Cliente Next Boost" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
           <img src="logos/logo-sin-fondo.png.webp" alt="Logo Cliente Next Boost" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
           <img src="logos/logo-solo.png.webp" alt="Logo Cliente Next Boost" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
-          <img src="logos/logo.png" alt="Logo Next Boost Agencia de Desarrollo Web" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
+          <img src="logos/logo.webp" alt="Logo Next Boost Agencia de Desarrollo Web" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
           <img src="logos/shania_transparent-e1776891037532.png" alt="Logo Fajas Shania Tienda Online" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
         </div>
       </div>
@@ -1456,7 +1478,7 @@
  
  <!-- Project Image -->
  <div class="absolute inset-0 w-full h-full scale-100 z-10">
-  <img src="imagenes-web/Hierba-santa.png" alt="Hierba Santa Lotes en Chincha" width="600" height="400" loading="lazy" class="w-full h-full object-cover object-top opacity-90 group-hover:opacity-100 transition-opacity duration-500">
+  <img src="imagenes-web/Hierba-santa.webp" alt="Hierba Santa Lotes en Chincha" width="600" height="400" loading="lazy" class="w-full h-full object-cover object-top opacity-90 group-hover:opacity-100 transition-opacity duration-500">
  </div>
 
  <div class="absolute top-4 left-4 bg-black/60 backdrop-blur-sm px-3 py-1 text-[10px] text-gray-300 flex items-center gap-2 border border-white/5 z-10">
@@ -1499,7 +1521,7 @@
  
  <!-- Project Image -->
  <div class="absolute inset-0 w-full h-full scale-100 z-10">
-  <img src="imagenes-web/shania.png" alt="Fajas Shania Tienda Online" width="600" height="400" loading="lazy" class="w-full h-full object-cover object-top opacity-90 group-hover:opacity-100 transition-opacity duration-500">
+  <img src="imagenes-web/shania.webp" alt="Fajas Shania Tienda Online" width="600" height="400" loading="lazy" class="w-full h-full object-cover object-top opacity-90 group-hover:opacity-100 transition-opacity duration-500">
  </div>
 
  <div class="absolute top-4 left-4 bg-black/60 backdrop-blur-sm px-3 py-1 text-[10px] text-gray-300 flex items-center gap-2 border border-white/5 z-10">
@@ -1541,7 +1563,7 @@
  
  <!-- Project Image -->
  <div class="absolute inset-0 w-full h-full scale-100 z-10">
-  <img src="imagenes-web/eratgo.png" alt="Eratgo Ebooks SaaS" width="600" height="400" loading="lazy" class="w-full h-full object-cover object-top opacity-90 group-hover:opacity-100 transition-opacity duration-500">
+  <img src="imagenes-web/eratgo.webp" alt="Eratgo Ebooks SaaS" width="600" height="400" loading="lazy" class="w-full h-full object-cover object-top opacity-90 group-hover:opacity-100 transition-opacity duration-500">
  </div>
 
  <div class="absolute top-4 left-4 bg-black/60 backdrop-blur-sm px-3 py-1 text-[10px] text-gray-300 flex items-center gap-2 border border-white/5 z-10">
@@ -1785,6 +1807,15 @@
         </div>
 
       </div>
+    </div>
+  </section>
+
+  <!-- SEO Content Block -->
+  <section class="relative z-10 py-16 px-8 md:px-16 lg:px-20 border-t border-white/5">
+    <div class="max-w-4xl mx-auto text-sm md:text-base text-gray-400 leading-relaxed space-y-4">
+      <h2 class="text-2xl md:text-3xl font-medium text-white mb-4">Agencia de desarrollo web en Perú para negocios que quieren crecer</h2>
+      <p>En <strong class="text-white font-medium">Next Boost</strong> somos una agencia de desarrollo web en Perú especializada en crear sitios rápidos, seguros y optimizados para posicionar en Google. Diseñamos <a href="desarrollo-web.php" class="text-blue-400 hover:text-blue-300 underline">páginas web profesionales</a>, <a href="ecommerce.php" class="text-blue-400 hover:text-blue-300 underline">tiendas online</a> y <a href="pagina-web-con-inteligencia-artificial.php" class="text-blue-400 hover:text-blue-300 underline">webs con inteligencia artificial</a> que convierten visitantes en clientes.</p>
+      <p>Trabajamos con <a href="posicionamiento-seo.php" class="text-blue-400 hover:text-blue-300 underline">posicionamiento SEO</a>, <a href="hosting-web.php" class="text-blue-400 hover:text-blue-300 underline">hosting web premium</a> y <a href="agencia-desarrollo-web-marca-blanca.php" class="text-blue-400 hover:text-blue-300 underline">desarrollo en marca blanca para agencias</a>. Atendemos a empresas de Chincha e Ica y a todo el Perú. Cotiza tu <a href="contacto.php" class="text-blue-400 hover:text-blue-300 underline">página web</a> hoy mismo.</p>
     </div>
   </section>
 

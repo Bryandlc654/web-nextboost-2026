@@ -1,6 +1,6 @@
-?php
-  $page_title = "PÃ¡gina Web con WordPress PerÃº | Next Boost";
-  $page_description = "Creamos pÃ¡ginas web con WordPress en PerÃº: diseÃ±o profesional, admin fÃ¡cil, blog, SEO y WhatsApp. Planes desde S/450. Cotiza gratis.";
+<?php
+  $page_title = "Página Web con WordPress Perú | Next Boost";
+  $page_description = "Creamos páginas web con WordPress en Perú: diseño profesional, admin fácil, blog, SEO y WhatsApp. Planes desde S/450. Cotiza gratis.";
   $og_url = "https://nextboost.business/pagina-web-wordpress-peru.php";
 ?>
 <!DOCTYPE html>
@@ -14,32 +14,80 @@
     {
       "@type": "Service",
       "@id": "https://nextboost.business/pagina-web-wordpress-peru.php/#service",
-      "name": "PÃ¡gina Web con WordPress en PerÃº",
+      "name": "Página Web con WordPress en Perú",
       "serviceType": "Desarrollo Web WordPress",
       "provider": {
         "@type": "Organization",
         "name": "Next Boost",
-        "url": "https://nextboost.business/"
+        "url": "https://nextboost.business/",
+        "@id": "https://nextboost.business/#organization"
       },
-      "description": "Creamos pÃ¡ginas web con WordPress en PerÃº: diseÃ±o profesional responsive, panel fÃ¡cil de usar, blog, integraciÃ³n de WhatsApp, pasarelas de pago y SEO. Planes desde S/450 pago Ãºnico.",
-      "areaServed": "PerÃº",
+      "description": "Creamos páginas web con WordPress en Perú: diseño profesional responsive, panel fácil de usar, blog, integración de WhatsApp, pasarelas de pago y SEO. Planes desde S/450 pago único.",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Perú"
+      },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Planes Web WordPress en PerÃº",
+        "name": "Planes Web WordPress en Perú",
         "itemListElement": [
-          { "@type": "Offer", "price": "450.00", "priceCurrency": "PEN", "itemOffered": { "@type": "Service", "name": "Plan BÃ¡sico WordPress" } },
-          { "@type": "Offer", "price": "550.00", "priceCurrency": "PEN", "itemOffered": { "@type": "Service", "name": "Plan Informativa WordPress" } },
-          { "@type": "Offer", "price": "800.00", "priceCurrency": "PEN", "itemOffered": { "@type": "Service", "name": "Plan Profesional WordPress" } },
-          { "@type": "Offer", "price": "1000.00", "priceCurrency": "PEN", "itemOffered": { "@type": "Service", "name": "Plan Premium WordPress" } }
+          {
+            "@type": "Offer",
+            "price": "450.00",
+            "priceCurrency": "PEN",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Plan Básico WordPress"
+            }
+          },
+          {
+            "@type": "Offer",
+            "price": "550.00",
+            "priceCurrency": "PEN",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Plan Informativa WordPress"
+            }
+          },
+          {
+            "@type": "Offer",
+            "price": "800.00",
+            "priceCurrency": "PEN",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Plan Profesional WordPress"
+            }
+          },
+          {
+            "@type": "Offer",
+            "price": "1000.00",
+            "priceCurrency": "PEN",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Plan Premium WordPress"
+            }
+          }
         ]
-      }
+      },
+      "url": "https://nextboost.business/pagina-web-wordpress-peru.php",
+      "image": "https://nextboost.business/imagenes-web/next-boost.png"
     },
     {
       "@type": "BreadcrumbList",
       "@id": "https://nextboost.business/pagina-web-wordpress-peru.php/#breadcrumb",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://nextboost.business/" },
-        { "@type": "ListItem", "position": 2, "name": "PÃ¡gina Web con WordPress PerÃº", "item": "https://nextboost.business/pagina-web-wordpress-peru.php" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://nextboost.business/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Página Web con WordPress Perú",
+          "item": "https://nextboost.business/pagina-web-wordpress-peru.php"
+        }
       ]
     },
     {
@@ -48,23 +96,27 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Â¿CuÃ¡nto cuesta una pÃ¡gina web con WordPress en PerÃº?",
-          "acceptedAnswer": { "@type": "Answer", "text": "En Next Boost, una pÃ¡gina web con WordPress en PerÃº cuesta desde S/450 para el plan BÃ¡sico, S/550 el Informativa, S/800 el Profesional y S/1,000 el Premium, pago Ãºnico. Todos incluyen diseÃ±o responsive, hosting y SSL. Sin mensualidad de plataforma." }
+          "name": "¿Cuánto cuesta una página web con WordPress en Perú?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Desde S/450 para el plan Básico, S/550 el Informativa, S/800 el Profesional y S/1,000 el Premium, pago único. Todos incluyen diseño responsive, hosting y SSL. Sin mensualidad de plataforma."
+          }
         },
         {
           "@type": "Question",
-          "name": "Â¿Puedo editar mi pÃ¡gina WordPress sin saber programar?",
-          "acceptedAnswer": { "@type": "Answer", "text": "SÃ­. WordPress tiene un panel de administraciÃ³n muy intuitivo con editor visual de arrastrar y soltar. Te capacitamos para que tÃº mismo actualices textos, imÃ¡genes, productos y entradas de blog sin tocar una lÃ­nea de cÃ³digo." }
+          "name": "¿Puedo editar mi página WordPress sin saber programar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. WordPress tiene un panel muy intuitivo con editor visual. Te capacitamos para que actualices textos, imágenes, productos y blog sin tocar código."
+          }
         },
         {
           "@type": "Question",
-          "name": "Â¿QuÃ© incluye el diseÃ±o web WordPress de Next Boost?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Incluye diseÃ±o 100% responsive (celular, tablet y PC), velocidad optimizada para Google, integraciÃ³n de WhatsApp, formularios de contacto, SEO bÃ¡sico y, en planes superiores, blog, galerÃ­as y tienda online con WooCommerce." }
-        },
-        {
-          "@type": "Question",
-          "name": "Â¿Por quÃ© elegir WordPress para mi pÃ¡gina web?",
-          "acceptedAnswer": { "@type": "Answer", "text": "WordPress es el gestor de contenido mÃ¡s usado del mundo: flexible, escalable y con miles de temas y plugins. Te permite crecer tu web (blog, tienda, reservas) sin rehacer nada, manteniendo un presupuesto bajo y control total de tu contenido." }
+          "name": "¿Qué incluye el diseño web WordPress de Next Boost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Diseño 100% responsive, velocidad optimizada para Google, integración de WhatsApp, formularios de contacto, SEO básico y, en planes superiores, blog, galerías y tienda online con WooCommerce."
+          }
         }
       ]
     }
@@ -91,16 +143,16 @@
       <div class="lg:col-span-7 space-y-6">
         <div class="inline-flex items-center gap-2.5 px-4 py-1.5 badge-gradient text-xs font-medium text-teal-300 animate-in">
           <span class="w-2 h-2 rounded-full bg-teal-400 animate-pulse"></span>
-          <span class="tracking-wide">DiseÃ±o Web Profesional en WordPress</span>
+          <span class="tracking-wide">Diseño Web Profesional en WordPress</span>
         </div>
 
         <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-[1.1]">
-          PÃ¡gina web con WordPress <br>
-          <span class="gradient-text">en PerÃº</span>
+          Página web con WordPress <br>
+          <span class="gradient-text">en Perú</span>
         </h1>
 
         <p class="text-base md:text-lg text-gray-300 font-normal leading-relaxed max-w-2xl">
-          Lleva tu negocio online con una <strong class="text-white">web profesional en WordPress</strong>: diseÃ±o responsive, panel fÃ¡cil de usar, blog, WhatsApp y SEO. Lo editas tÃº mismo y crece contigo, <strong class="text-teal-400">desde S/450</strong> pago Ãºnico.
+          Lleva tu negocio online con una <strong class="text-white">web profesional en WordPress</strong>: diseño responsive, panel fácil de usar, blog, WhatsApp y SEO. Lo editas tú mismo y crece contigo, <strong class="text-teal-400">desde S/450</strong> pago único.
         </p>
 
         <div class="grid grid-cols-3 gap-4 pt-4 border-t border-white/10 max-w-xl">
@@ -125,7 +177,7 @@
           </a>
           <a href="https://wa.me/51962469836?text=Hola%20Next%20Boost,%20quiero%20una%20p%C3%A1gina%20web%20en%20WordPress" target="_blank" class="inline-flex items-center justify-center gap-2 border border-white/20 hover:border-emerald-500/50 bg-white/5 hover:bg-emerald-500/10 text-white hover:text-emerald-400 px-6 py-4 text-sm font-semibold transition-all">
             <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            AsesorÃ­a por WhatsApp
+            Asesoría por WhatsApp
           </a>
         </div>
       </div>
@@ -138,21 +190,21 @@
               <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
               Tu Web WordPress
             </span>
-            <span class="text-[10px] font-bold text-teal-400 bg-teal-500/10 px-2.5 py-1 border border-teal-500/20">LO EDITAS TÃš</span>
+            <span class="text-[10px] font-bold text-teal-400 bg-teal-500/10 px-2.5 py-1 border border-teal-500/20">LO EDITAS TÚ</span>
           </div>
 
           <div class="space-y-3">
             <div class="p-3 bg-white/5 border border-white/10 flex items-center gap-3">
               <span class="w-8 h-8 rounded-none bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400 text-xs font-bold">01</span>
               <div>
-                <span class="text-xs font-bold text-white block">Panel FÃ¡cil de Usar</span>
-                <span class="text-[10px] text-gray-400">Edita textos e imÃ¡genes sin cÃ³digo</span>
+                <span class="text-xs font-bold text-white block">Panel Fácil de Usar</span>
+                <span class="text-[10px] text-gray-400">Edita textos e imágenes sin código</span>
               </div>
             </div>
             <div class="p-3 bg-white/5 border border-white/10 flex items-center gap-3">
               <span class="w-8 h-8 rounded-none bg-teal-500/10 border border-teal-500/20 flex items-center justify-center text-teal-400 text-xs font-bold">02</span>
               <div>
-                <span class="text-xs font-bold text-white block">DiseÃ±o Responsive</span>
+                <span class="text-xs font-bold text-white block">Diseño Responsive</span>
                 <span class="text-[10px] text-gray-400">Perfecta en celular, tablet y PC</span>
               </div>
             </div>
@@ -202,19 +254,19 @@
           </div>
           <ul class="space-y-4 text-xs text-gray-300">
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>Solo una pÃ¡gina:</strong> No puedes publicar contenido ni crecer tu presencia.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Solo una página:</strong> No puedes publicar contenido ni crecer tu presencia.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
               <span><strong>Pagas por cada cambio:</strong> Cada texto o imagen te cuesta dinero extra.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>Sin blog ni SEO:</strong> No captas trÃ¡fico orgÃ¡nico ni autoridad en Google.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Sin blog ni SEO:</strong> No captas tráfico orgánico ni autoridad en Google.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
               <span><strong>Sin escalar:</strong> Si quieres tienda o reservas, tienes que empezar de cero.</span>
             </li>
           </ul>
@@ -227,19 +279,19 @@
           </div>
           <ul class="space-y-4 text-xs text-gray-200">
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>TÃº controlas todo:</strong> Publica blog, productos y promociones tÃº mismo.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>Tú controlas todo:</strong> Publica blog, productos y promociones tú mismo.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
               <span><strong>Edita sin pagar extra:</strong> Cambia contenido cuando quieras desde el panel.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>Blog + SEO:</strong> Atrae clientes orgÃ¡nicos desde Google con contenido.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>Blog + SEO:</strong> Atrae clientes orgánicos desde Google con contenido.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
               <span><strong>Crece sin rehacer:</strong> Suma tienda, reservas o secciones cuando lo necesites.</span>
             </li>
           </ul>
@@ -267,7 +319,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">Panel Administrable</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Edita textos, imÃ¡genes, productos y entradas desde un panel visual. Sin tocar cÃ³digo, sin pagar por cada cambio.
+          Edita textos, imágenes, productos y entradas desde un panel visual. Sin tocar código, sin pagar por cada cambio.
         </p>
       </article>
 
@@ -277,7 +329,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">Blog Integrado</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Publica artÃ­culos que posicionan tu negocio en Google y atraen clientes orgÃ¡nicos de forma constante.
+          Publica artículos que posicionan tu negocio en Google y atraen clientes orgánicos de forma constante.
         </p>
       </article>
 
@@ -287,7 +339,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">WhatsApp Integrado</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          BotÃ³n flotante de WhatsApp para que tus clientes te contacten con un mensaje prediseÃ±ado al instante.
+          Botón flotante de WhatsApp para que tus clientes te contacten con un mensaje prediseñado al instante.
         </p>
       </article>
 
@@ -297,7 +349,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">100% Responsive</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          DiseÃ±o que se ve perfecto en celular, tablet y computadora. La mayorÃ­a de tus clientes entra desde el mÃ³vil.
+          Diseño que se ve perfecto en celular, tablet y computadora. La mayoría de tus clientes entra desde el móvil.
         </p>
       </article>
 
@@ -307,7 +359,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">SEO Optimizado</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          ConfiguraciÃ³n SEO on-page, velocidad y webmasters para que Google indexe y posicione tu pÃ¡gina.
+          Configuración SEO on-page, velocidad y webmasters para que Google indexe y posicione tu página.
         </p>
       </article>
 
@@ -329,27 +381,27 @@
     <div class="text-center max-w-3xl mx-auto mb-16">
       <p class="text-xs uppercase tracking-widest text-emerald-400 font-bold mb-3">Planes WordPress</p>
       <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-        Precios de Web <span class="gradient-text">WordPress en PerÃº</span>
+        Precios de Web <span class="gradient-text">WordPress en Perú</span>
       </h2>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
       <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-teal-500/50 transition-all flex flex-col h-full group">
-        <h3 class="text-xl font-bold text-white mb-2">BÃ¡sico</h3>
+        <h3 class="text-xl font-bold text-white mb-2">Básico</h3>
         <p class="text-xs text-gray-400 mb-6">Para negocios que inician su presencia web profesional.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-teal-400">S/ 450</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Landing Page WordPress</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> DiseÃ±o responsive</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> BotÃ³n WhatsApp Flotante</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Formulario de Contacto</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> SEO BÃ¡sico + Hosting</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Landing Page WordPress</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Diseño responsive</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Botón WhatsApp Flotante</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Formulario de Contacto</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> SEO Básico + Hosting</li>
         </ul>
         <a href="contacto.php?servicio=web-wordpress&plan=basico" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-teal-500 hover:text-black border border-white/10 hover:border-teal-500 transition-all">
-          Cotizar BÃ¡sico
+          Cotizar Básico
         </a>
       </div>
 
@@ -358,14 +410,14 @@
         <p class="text-xs text-gray-400 mb-6">Para empresas que quieren presentar sus servicios y editar su contenido.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-teal-400">S/ 550</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Todo lo del plan bÃ¡sico</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Hasta 5 secciones</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Panel administrable</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> GalerÃ­a de imÃ¡genes</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Blog habilitado</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Todo lo del plan básico</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Hasta 5 secciones</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Panel administrable</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Galería de imágenes</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Blog habilitado</li>
         </ul>
         <a href="contacto.php?servicio=web-wordpress&plan=informativa" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-teal-500 hover:text-black border border-white/10 hover:border-teal-500 transition-all">
           Cotizar Informativa
@@ -378,14 +430,14 @@
         <p class="text-xs text-gray-400 mb-6">Para negocios que quieren posicionarse y generar clientes online.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-emerald-400">S/ 800</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Todo del plan BÃ¡sico</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Blog + contenido propio</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> SEO Avanzado + Schema</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> WhatsApp + Google Maps</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> CapacitaciÃ³n para editar</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Todo del plan Básico</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Blog + contenido propio</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> SEO Avanzado + Schema</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> WhatsApp + Google Maps</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Capacitación para editar</li>
         </ul>
         <a href="contacto.php?servicio=web-wordpress&plan=profesional" class="w-full inline-block text-center py-3 text-sm font-bold bg-emerald-500 text-black hover:bg-emerald-400 transition-all shadow-[0_0_15px_rgba(16,185,129,0.4)]">
           Cotizar Profesional
@@ -397,14 +449,14 @@
         <p class="text-xs text-gray-400 mb-6">Para negocios que quieren vender online con tienda integrada.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-purple-400">S/ 1000</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Todo del plan Profesional</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Tienda WooCommerce</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Pago Yape, Plin, tarjetas</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Panel de productos</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Soporte y capacitaciÃ³n</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Todo del plan Profesional</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Tienda WooCommerce</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Pago Yape, Plin, tarjetas</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Panel de productos</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Soporte y capacitación</li>
         </ul>
         <a href="contacto.php?servicio=web-wordpress&plan=premium" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-purple-500 hover:text-white border border-white/10 hover:border-purple-500 transition-all">
           Cotizar Premium
@@ -431,28 +483,28 @@
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-teal-400">Q1.</span> Â¿CuÃ¡nto cuesta una pÃ¡gina web con WordPress en PerÃº?
+            <span class="text-teal-400">Q1.</span> ¿Cuánto cuesta una página web con WordPress en Perú?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            Desde S/450 para el plan BÃ¡sico, S/550 el Informativa, S/800 el Profesional y S/1,000 el Premium, pago Ãºnico. Todos incluyen diseÃ±o responsive, hosting y SSL. Sin mensualidad de plataforma.
+            Desde S/450 para el plan Básico, S/550 el Informativa, S/800 el Profesional y S/1,000 el Premium, pago único. Todos incluyen diseño responsive, hosting y SSL. Sin mensualidad de plataforma.
           </p>
         </div>
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-teal-400">Q2.</span> Â¿Puedo editar mi pÃ¡gina WordPress sin saber programar?
+            <span class="text-teal-400">Q2.</span> ¿Puedo editar mi página WordPress sin saber programar?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            SÃ­. WordPress tiene un panel muy intuitivo con editor visual. Te capacitamos para que actualices textos, imÃ¡genes, productos y blog sin tocar cÃ³digo.
+            Sí. WordPress tiene un panel muy intuitivo con editor visual. Te capacitamos para que actualices textos, imágenes, productos y blog sin tocar código.
           </p>
         </div>
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-teal-400">Q3.</span> Â¿QuÃ© incluye el diseÃ±o web WordPress de Next Boost?
+            <span class="text-teal-400">Q3.</span> ¿Qué incluye el diseño web WordPress de Next Boost?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            DiseÃ±o 100% responsive, velocidad optimizada para Google, integraciÃ³n de WhatsApp, formularios de contacto, SEO bÃ¡sico y, en planes superiores, blog, galerÃ­as y tienda online con WooCommerce.
+            Diseño 100% responsive, velocidad optimizada para Google, integración de WhatsApp, formularios de contacto, SEO básico y, en planes superiores, blog, galerías y tienda online con WooCommerce.
           </p>
         </div>
 
@@ -468,16 +520,16 @@
       <div class="space-y-4 max-w-2xl">
         <span class="text-[10px] uppercase tracking-widest text-teal-400 font-extrabold bg-teal-500/10 px-3 py-1 border border-teal-500/20">Especialistas en WordPress</span>
         <h2 class="text-3xl md:text-5xl font-bold tracking-tight text-white leading-tight">
-          Â¿Listo para llevar tu negocio online con WordPress?
+          ¿Listo para llevar tu negocio online con WordPress?
         </h2>
         <p class="text-sm text-gray-300 leading-relaxed">
-          CuÃ©ntanos sobre tu negocio. Te enviamos una propuesta personalizada para tu pÃ¡gina web WordPress sin costo.
+          Cuéntanos sobre tu negocio. Te enviamos una propuesta personalizada para tu página web WordPress sin costo.
         </p>
       </div>
 
       <div class="shrink-0 flex flex-col items-center gap-4">
         <a href="contacto.php?servicio=web-wordpress" class="inline-flex items-center gap-3 bg-gradient-to-r from-blue-500 to-teal-400 text-black px-8 py-4 text-sm font-bold rounded-none hover:shadow-[0_0_30px_rgba(59,130,246,0.4)] hover:scale-105 transition-all btn-primary">
-          Solicitar CotizaciÃ³n
+          Solicitar Cotización
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
         <span class="text-[10px] text-gray-400 uppercase tracking-widest font-semibold">Respuesta garantizada en &lt; 24 hrs</span>
@@ -487,7 +539,26 @@
   </section>
 
   <!-- Global Footer -->
-  <?php include 'includes/footer.php'; ?>
+    <!-- Servicios Relacionados (Enlazado Interno SEO) -->
+  <section class="relative z-10 py-16 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 border-t border-white/5">
+    <div class="text-center max-w-3xl mx-auto mb-10">
+      <h2 class="text-2xl md:text-4xl font-semibold tracking-tight text-white">
+        Servicios <span class="gradient-text">relacionados</span>
+      </h2>
+      <p class="text-xs text-gray-400 mt-3">Todo lo que tu negocio necesita para crecer en internet.</p>
+    </div>
+    <div class="flex flex-wrap justify-center gap-3 text-xs">
+      <a href="desarrollo-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo y diseño web</a>
+      <a href="ecommerce.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-teal-500/40 text-gray-300 hover:text-white transition-colors">Tiendas online y e-commerce</a>
+      <a href="hosting-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-cyan-500/40 text-gray-300 hover:text-white transition-colors">Hosting web y dominio</a>
+      <a href="posicionamiento-seo.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-emerald-500/40 text-gray-300 hover:text-white transition-colors">Posicionamiento SEO</a>
+      <a href="pagina-web-con-inteligencia-artificial.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-violet-500/40 text-gray-300 hover:text-white transition-colors">Webs con inteligencia artificial</a>
+      <a href="proyectos.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-amber-500/40 text-gray-300 hover:text-white transition-colors">Ver portafolio de proyectos</a>
+      <a href="blog.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-pink-500/40 text-gray-300 hover:text-white transition-colors">Blog de desarrollo web</a>
+    </div>
+  </section>
+
+<?php include 'includes/footer.php'; ?>
 
 </body>
 </html>

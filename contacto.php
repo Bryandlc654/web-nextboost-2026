@@ -18,30 +18,10 @@
   <meta name="twitter:title" content="Contacto & Cotización — Next Boost | Agencia de Desarrollo Web Premium" />
   <meta name="twitter:description" content="Contáctanos para cotizar tu nuevo sitio web, e-commerce o plataforma SaaS. Desarrollos ultra rápidos en Next.js, WordPress y soluciones Marca Blanca." />
   <meta name="twitter:image" content="https://nextboost.business/imagenes-web/next-boost.png" />
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/tailwind.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ['Inter', 'sans-serif'],
-          },
-          colors: {
-            brand: {
-              blue: '#3b82f6',
-              teal: '#2dd4bf',
-              dark: '#0a0a0c',
-              card: '#121215',
-            }
-          }
-        }
-      }
-    }
-  </script>
   <style>
     body {
       font-family: 'Inter', sans-serif;

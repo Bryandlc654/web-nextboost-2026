@@ -29,14 +29,14 @@ if (!empty($_POST['website_url_hp'])) {
 }
 
 // 2. Sanitización y recolección de datos
-$domain = filter_input(INPUT_POST, 'domain', FILTER_SANITIZE_STRING) ?? 'No especificado';
-$pages = filter_input(INPUT_POST, 'pages', FILTER_SANITIZE_STRING) ?? 'No especificadas';
-$plan = filter_input(INPUT_POST, 'plan', FILTER_SANITIZE_STRING) ?? 'No especificado';
+$domain = trim($_POST['domain'] ?? '') ?: 'No especificado';
+$pages = trim($_POST['pages'] ?? '') ?: 'No especificadas';
+$plan = trim($_POST['plan'] ?? '') ?: 'No especificado';
 
-$name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
-$email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
-$phone = filter_input(INPUT_POST, 'phone', FILTER_SANITIZE_STRING);
-$company = filter_input(INPUT_POST, 'company', FILTER_SANITIZE_STRING);
+$name = trim($_POST['name'] ?? '');
+$email = trim($_POST['email'] ?? '');
+$phone = trim($_POST['phone'] ?? '');
+$company = trim($_POST['company'] ?? '');
 
 // 3. Validación básica
 if (empty($name) || empty($email) || empty($phone)) {
@@ -79,16 +79,16 @@ try {
     <hr>
     <h3>1. Datos del Proyecto</h3>
     <ul>
-        <li><strong>Dominio buscado:</strong> {$domain}</li>
-        <li><strong>Páginas requeridas:</strong> {$pages}</li>
-        <li><strong>Plan seleccionado:</strong> {$plan}</li>
+        <li><strong>Dominio buscado:</strong> " . htmlspecialchars($domain) . "</li>
+        <li><strong>Páginas requeridas:</strong> " . htmlspecialchars($pages) . "</li>
+        <li><strong>Plan seleccionado:</strong> " . htmlspecialchars($plan) . "</li>
     </ul>
     <h3>2. Datos de Contacto</h3>
     <ul>
-        <li><strong>Nombre:</strong> {$name}</li>
-        <li><strong>Email:</strong> {$email}</li>
-        <li><strong>Teléfono (WhatsApp):</strong> {$phone}</li>
-        <li><strong>Empresa/Organización:</strong> " . (!empty($company) ? $company : 'N/A') . "</li>
+        <li><strong>Nombre:</strong> " . htmlspecialchars($name) . "</li>
+        <li><strong>Email:</strong> " . htmlspecialchars($email) . "</li>
+        <li><strong>Teléfono (WhatsApp):</strong> " . htmlspecialchars($phone) . "</li>
+        <li><strong>Empresa/Organización:</strong> " . (!empty($company) ? htmlspecialchars($company) : 'N/A') . "</li>
     </ul>
     <hr>
     <p><small>Este mensaje fue enviado desde el formulario anti-spam de la página de inicio.</small></p>

@@ -1,6 +1,6 @@
-?php
-  $page_title = "Landing Page vs PÃ¡gina Web | CuÃ¡l Necesitas en PerÃº | Next Boost";
-  $page_description = "Â¿Landing page o pÃ¡gina web? Comparativa completa. Descubre cuÃ¡l es mejor para tu negocio en PerÃº segÃºn tu objetivo y presupuesto.";
+<?php
+  $page_title = "Landing Page vs Página Web | Cuál Necesitas en Perú | Next Boost";
+  $page_description = "¿Landing page o página web? Comparativa completa. Descubre cuál es mejor para tu negocio en Perú según tu objetivo y presupuesto.";
 ?>
 <!DOCTYPE html>
 <html lang="es" class="dark scroll-smooth">

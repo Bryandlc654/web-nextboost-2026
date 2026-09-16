@@ -1,6 +1,6 @@
-?php
-  $page_title = "CuÃ¡nto Cuesta una PÃ¡gina Web en PerÃº 2026 | Precios Reales | Next Boost";
-  $page_description = "Â¿CuÃ¡nto cuesta una pÃ¡gina web en PerÃº? Precios desde S/450. GuÃ­a completa con costos de dominio, hosting, diseÃ±o y desarrollo. Presupuesto gratis.";
+<?php
+  $page_title = "Cuánto Cuesta una Página Web en Perú 2026 | Precios Reales | Next Boost";
+  $page_description = "¿Cuánto cuesta una página web en Perú? Precios desde S/450. Guía completa con costos de dominio, hosting, diseño y desarrollo. Presupuesto gratis.";
 ?>
 <!DOCTYPE html>
 <html lang="es" class="dark scroll-smooth">
@@ -13,15 +13,15 @@
     {
       "@type": "Service",
       "@id": "https://nextboost.business/cuanto-cuesta-una-pagina-web-peru.php/#service",
-      "name": "Desarrollo de PÃ¡gina Web en PerÃº - Costos y Precios",
+      "name": "Desarrollo de Página Web en Perú - Costos y Precios",
       "serviceType": "Desarrollo Web",
       "provider": {
         "@type": "Organization",
         "name": "Next Boost",
         "url": "https://nextboost.business/"
       },
-      "description": "Servicio de desarrollo de pÃ¡ginas web en PerÃº con precios transparentes desde S/450. Incluye dominio, hosting, diseÃ±o y SEO tÃ©cnico.",
-      "areaServed": "PerÃº",
+      "description": "Servicio de desarrollo de páginas web en Perú con precios transparentes desde S/450. Incluye dominio, hosting, diseño y SEO técnico.",
+      "areaServed": "Perú",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Planes de Desarrollo Web",
@@ -32,7 +32,7 @@
             "priceCurrency": "PEN",
             "itemOffered": {
               "@type": "Service",
-              "name": "PÃ¡gina Web BÃ¡sica"
+              "name": "Página Web Básica"
             }
           },
           {
@@ -41,7 +41,7 @@
             "priceCurrency": "PEN",
             "itemOffered": {
               "@type": "Service",
-              "name": "PÃ¡gina Web Informativa"
+              "name": "Página Web Informativa"
             }
           },
           {
@@ -50,7 +50,7 @@
             "priceCurrency": "PEN",
             "itemOffered": {
               "@type": "Service",
-              "name": "PÃ¡gina Web Profesional"
+              "name": "Página Web Profesional"
             }
           },
           {
@@ -59,7 +59,7 @@
             "priceCurrency": "PEN",
             "itemOffered": {
               "@type": "Service",
-              "name": "PÃ¡gina Web Premium"
+              "name": "Página Web Premium"
             }
           }
         ]
@@ -78,7 +78,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "CuÃ¡nto Cuesta una PÃ¡gina Web",
+          "name": "Cuánto Cuesta una Página Web",
           "item": "https://nextboost.business/cuanto-cuesta-una-pagina-web-peru.php"
         }
       ]
@@ -89,26 +89,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Â¿CuÃ¡nto cuesta una pÃ¡gina web bÃ¡sica en PerÃº?",
+          "name": "¿Cuánto cuesta una página web básica en Perú?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Una pÃ¡gina web bÃ¡sica en PerÃº cuesta desde S/450 soles. Este precio incluye diseÃ±o personalizado, hosting por un aÃ±o, dominio, certificado SSL y optimizaciÃ³n SEO tÃ©cnica. Es la inversiÃ³n ideal para emprendedores y pequeÃ±os negocios que quieren presencia online profesional."
+            "text": "Una página web básica en Perú cuesta desde S/450 soles. Este precio incluye diseño personalizado, hosting por un año, dominio, certificado SSL y optimización SEO técnica. Es la inversión ideal para emprendedores y pequeños negocios que quieren presencia online profesional."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿QuÃ© factores influyen en el precio de una pÃ¡gina web?",
+          "name": "¿Qué factores influyen en el precio de una página web?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El precio depende de: nÃºmero de pÃ¡ginas y secciones, complejidad del diseÃ±o, integraciones como formularios o WhatsApp, nivel de optimizaciÃ³n SEO, si necesitas CMS administrable, y la cantidad de contenido personalizado como copywriting y fotografÃ­a."
+            "text": "El precio depende de: número de páginas y secciones, complejidad del diseño, integraciones como formularios o WhatsApp, nivel de optimización SEO, si necesitas CMS administrable, y la cantidad de contenido personalizado como copywriting y fotografía."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿Hay costos ocultos en el desarrollo de una pÃ¡gina web?",
+          "name": "¿Hay costos ocultos en el desarrollo de una página web?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Con Next Boost no hay costos ocultos. Nuestros precios son fijos y transparentes. El Ãºnico costo recurrente anual es el dominio y hosting (desde S/120/aÃ±o). No cobramos extra por revisiones, correcciones menores ni por la entrega del cÃ³digo fuente."
+            "text": "Con Next Boost no hay costos ocultos. Nuestros precios son fijos y transparentes. El único costo recurrente anual es el dominio y hosting (desde S/120/año). No cobramos extra por revisiones, correcciones menores ni por la entrega del código fuente."
           }
         }
       ]
@@ -133,12 +133,12 @@
       <div class="lg:col-span-7 space-y-6">
         <div class="inline-flex items-center gap-2.5 px-4 py-1.5 badge-gradient text-xs font-medium text-blue-300 animate-in">
           <span class="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></span>
-          <span class="tracking-wide">GuÃ­a de Precios Actualizada 2026</span>
+          <span class="tracking-wide">Guía de Precios Actualizada 2026</span>
         </div>
 
         <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-[1.1]">
-          Â¿CuÃ¡nto Cuesta una <br>
-          <span class="gradient-text">PÃ¡gina Web en PerÃº?</span>
+          ¿Cuánto Cuesta una <br>
+          <span class="gradient-text">Página Web en Perú?</span>
         </h1>
 
         <p class="text-base md:text-lg text-gray-300 font-normal leading-relaxed max-w-2xl">
@@ -162,12 +162,12 @@
 
         <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-4">
           <a href="contacto.php?servicio=pagina-web" class="inline-flex items-center justify-center gap-3 bg-gradient-to-r from-blue-500 to-teal-400 text-black px-8 py-4 text-sm font-bold rounded-none hover:shadow-[0_0_30px_rgba(59,130,246,0.4)] hover:scale-105 transition-all btn-primary group">
-            Cotizar Mi PÃ¡gina Web
+            Cotizar Mi Página Web
             <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
-          <a href="https://wa.me/51962469836?text=Hola%20Next%20Boost,%20quiero%20saber%20cuÃ¡nto%20cuesta%20una%20pÃ¡gina%20web" target="_blank" class="inline-flex items-center justify-center gap-2 border border-white/20 hover:border-emerald-500/50 bg-white/5 hover:bg-emerald-500/10 text-white hover:text-emerald-400 px-6 py-4 text-sm font-semibold transition-all">
+          <a href="https://wa.me/51962469836?text=Hola%20Next%20Boost,%20quiero%20saber%20cuánto%20cuesta%20una%20página%20web" target="_blank" class="inline-flex items-center justify-center gap-2 border border-white/20 hover:border-emerald-500/50 bg-white/5 hover:bg-emerald-500/10 text-white hover:text-emerald-400 px-6 py-4 text-sm font-semibold transition-all">
             <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            AsesorÃ­a Gratis por WhatsApp
+            Asesoría Gratis por WhatsApp
           </a>
         </div>
       </div>
@@ -185,15 +185,15 @@
 
           <div class="space-y-2 font-mono text-xs">
             <div class="p-2.5 bg-white/5 border border-white/5 flex items-center justify-between">
-              <span class="text-gray-400">DiseÃ±o UX/UI Personalizado</span>
+              <span class="text-gray-400">Diseño UX/UI Personalizado</span>
               <span class="text-emerald-400 font-bold">Incluido</span>
             </div>
             <div class="p-2.5 bg-white/5 border border-white/5 flex items-center justify-between">
-              <span class="text-gray-400">Dominio .com (1er aÃ±o)</span>
+              <span class="text-gray-400">Dominio .com (1er año)</span>
               <span class="text-emerald-400 font-bold">Incluido</span>
             </div>
             <div class="p-2.5 bg-white/5 border border-white/5 flex items-center justify-between">
-              <span class="text-gray-400">Hosting NVMe (1er aÃ±o)</span>
+              <span class="text-gray-400">Hosting NVMe (1er año)</span>
               <span class="text-emerald-400 font-bold">Incluido</span>
             </div>
             <div class="p-2.5 bg-white/5 border border-white/5 flex items-center justify-between">
@@ -201,17 +201,17 @@
               <span class="text-emerald-400 font-bold">Gratis</span>
             </div>
             <div class="p-2.5 bg-white/5 border border-white/5 flex items-center justify-between">
-              <span class="text-gray-400">SEO TÃ©cnico On-Page</span>
+              <span class="text-gray-400">SEO Técnico On-Page</span>
               <span class="text-emerald-400 font-bold">Incluido</span>
             </div>
             <div class="p-2.5 bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-between">
-              <span class="text-white font-bold">Costo Total (Pago Ãšnico)</span>
+              <span class="text-white font-bold">Costo Total (Pago Único)</span>
               <span class="text-emerald-400 font-extrabold text-sm">Desde S/ 450</span>
             </div>
           </div>
 
           <p class="text-[11px] text-gray-400 text-center leading-relaxed">
-            Sin mensualidades obligatorias. El Ãºnico costo recurrente es el dominio + hosting (~S/120/aÃ±o).
+            Sin mensualidades obligatorias. El único costo recurrente es el dominio + hosting (~S/120/año).
           </p>
 
         </div>
@@ -226,7 +226,7 @@
       <div class="text-center max-w-3xl mx-auto mb-16">
         <p class="text-xs uppercase tracking-widest text-blue-400 font-bold mb-3">Comparativa Real</p>
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-          Â¿Por quÃ© elegirnos <span class="gradient-text">y no a la competencia?</span>
+          ¿Por qué elegirnos <span class="gradient-text">y no a la competencia?</span>
         </h2>
       </div>
 
@@ -239,20 +239,20 @@
           </div>
           <ul class="space-y-4 text-xs text-gray-300">
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>Precios inflados sin justificaciÃ³n:</strong> Cobran entre S/2,000 y S/5,000 por plantillas genÃ©ricas sin optimizaciÃ³n.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Precios inflados sin justificación:</strong> Cobran entre S/2,000 y S/5,000 por plantillas genéricas sin optimización.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>Sin SEO tÃ©cnico incluido:</strong> Tu web queda invisible en Google y necesitas contratar otro servicio separado.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Sin SEO técnico incluido:</strong> Tu web queda invisible en Google y necesitas contratar otro servicio separado.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>Costos ocultos:</strong> Cobran extra por cada cambio, cada formulario y cada integraciÃ³n prometida.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Costos ocultos:</strong> Cobran extra por cada cambio, cada formulario y cada integración prometida.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>Entrega lenta y sin garantÃ­a:</strong> Meses de espera y sitios que cargan en mÃ¡s de 5 segundos.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Entrega lenta y sin garantía:</strong> Meses de espera y sitios que cargan en más de 5 segundos.</span>
             </li>
           </ul>
         </div>
@@ -264,20 +264,20 @@
           </div>
           <ul class="space-y-4 text-xs text-gray-200">
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>Precios desde S/450:</strong> Web profesional con todo incluido: diseÃ±o, hosting, dominio, SSL y SEO.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>Precios desde S/450:</strong> Web profesional con todo incluido: diseño, hosting, dominio, SSL y SEO.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>SEO tÃ©cnico completo:</strong> Posicionamiento incluido en cada proyecto, tu web rankea desde el dÃ­a uno.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>SEO técnico completo:</strong> Posicionamiento incluido en cada proyecto, tu web rankea desde el día uno.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
               <span><strong>Transparencia total:</strong> Precio fijo, sin sorpresas. Todo se define antes de empezar el proyecto.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>Entrega en 7-14 dÃ­as:</strong> Sitio web rÃ¡pido, moderno y con puntuaciÃ³n 99/100 en PageSpeed.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>Entrega en 7-14 días:</strong> Sitio web rápido, moderno y con puntuación 99/100 en PageSpeed.</span>
             </li>
           </ul>
         </div>
@@ -290,7 +290,7 @@
     <div class="text-center max-w-3xl mx-auto mb-16">
       <p class="text-xs uppercase tracking-widest text-teal-400 font-bold mb-3">Factores de Costo</p>
       <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-        Â¿QuÃ© influye en el <span class="gradient-text">precio de tu web?</span>
+        ¿Qué influye en el <span class="gradient-text">precio de tu web?</span>
       </h2>
     </div>
 
@@ -300,9 +300,9 @@
         <div class="w-12 h-12 rounded-none bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400 group-hover:bg-blue-500 group-hover:text-black transition-all">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
-        <h3 class="text-xl font-bold text-white">NÃºmero de PÃ¡ginas</h3>
+        <h3 class="text-xl font-bold text-white">Número de Páginas</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Una landing page cuesta menos que un sitio de 10 pÃ¡ginas. Cada secciÃ³n adicional requiere diseÃ±o, contenido y programaciÃ³n individual.
+          Una landing page cuesta menos que un sitio de 10 páginas. Cada sección adicional requiere diseño, contenido y programación individual.
         </p>
       </article>
 
@@ -310,9 +310,9 @@
         <div class="w-12 h-12 rounded-none bg-teal-500/10 border border-teal-500/20 flex items-center justify-center text-teal-400 group-hover:bg-teal-400 group-hover:text-black transition-all">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
-        <h3 class="text-xl font-bold text-white">DiseÃ±o Personalizado</h3>
+        <h3 class="text-xl font-bold text-white">Diseño Personalizado</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Un diseÃ±o 100% original en Figma cuesta mÃ¡s que adaptar una plantilla. Pero garantiza una web Ãºnica que refleja tu marca.
+          Un diseño 100% original en Figma cuesta más que adaptar una plantilla. Pero garantiza una web única que refleja tu marca.
         </p>
       </article>
 
@@ -332,7 +332,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">Nivel de SEO</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          SEO bÃ¡sico incluye metas y estructura. SEO avanzado agrega Schema.org, optimizaciÃ³n de contenido y estrategia de palabras clave.
+          SEO básico incluye metas y estructura. SEO avanzado agrega Schema.org, optimización de contenido y estrategia de palabras clave.
         </p>
       </article>
 
@@ -342,7 +342,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">CMS Administrable</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Un panel para editar contenido tÃº mismo tiene un costo mayor inicial pero te ahorra dinero a largo plazo en actualizaciones.
+          Un panel para editar contenido tú mismo tiene un costo mayor inicial pero te ahorra dinero a largo plazo en actualizaciones.
         </p>
       </article>
 
@@ -352,7 +352,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">Contenido y Copywriting</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Si necesitas que escribamos textos profesionales optimizados para SEO, el copywriting de calidad es una inversiÃ³n que multiplica conversiones.
+          Si necesitas que escribamos textos profesionales optimizados para SEO, el copywriting de calidad es una inversión que multiplica conversiones.
         </p>
       </article>
 
@@ -370,21 +370,21 @@
     <div class="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
 
       <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-teal-500/50 transition-all flex flex-col h-full group">
-        <h3 class="text-xl font-bold text-white mb-2">BÃ¡sico</h3>
-        <p class="text-xs text-gray-400 mb-6">Ideal para emprendedores que necesitan presencia online profesional y rÃ¡pida.</p>
+        <h3 class="text-xl font-bold text-white mb-2">Básico</h3>
+        <p class="text-xs text-gray-400 mb-6">Ideal para emprendedores que necesitan presencia online profesional y rápida.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-teal-400">S/ 450</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Landing Page Personalizada</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> DiseÃ±o UX/UI Responsive</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Dominio + Hosting (1 aÃ±o)</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> SSL + WhatsApp BotÃ³n</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> SEO BÃ¡sico On-Page</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Landing Page Personalizada</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Diseño UX/UI Responsive</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Dominio + Hosting (1 año)</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> SSL + WhatsApp Botón</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> SEO Básico On-Page</li>
         </ul>
         <a href="contacto.php?servicio=basico" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-teal-500 hover:text-black border border-white/10 hover:border-teal-500 transition-all">
-          Elegir BÃ¡sico
+          Elegir Básico
         </a>
       </div>
 
@@ -393,14 +393,14 @@
         <p class="text-xs text-gray-400 mb-6">Para negocios que necesitan una web con varias secciones a un precio accesible.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-teal-400">S/ 550</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Todo lo del plan bÃ¡sico</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Web informativa profesional</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Formulario de contacto</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> SEO bÃ¡sico</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> DiseÃ±o 100% responsivo</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Todo lo del plan básico</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Web informativa profesional</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Formulario de contacto</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> SEO básico</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Diseño 100% responsivo</li>
         </ul>
         <a href="contacto.php?servicio=informativa" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-teal-500 hover:text-black border border-white/10 hover:border-teal-500 transition-all">
           Elegir Plan Informativa
@@ -410,17 +410,17 @@
       <div class="glass-card p-8 rounded-2xl border border-emerald-500/50 relative bg-emerald-950/10 flex flex-col h-full group transform md:-translate-y-4 shadow-[0_15px_30px_rgba(16,185,129,0.15)]">
         <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-emerald-500 text-black text-[10px] font-bold px-4 py-1 uppercase tracking-wider">Recomendado</div>
         <h3 class="text-xl font-bold text-white mb-2">Profesional</h3>
-        <p class="text-xs text-gray-400 mb-6">Para negocios en crecimiento que necesitan mÃºltiples secciones y CMS.</p>
+        <p class="text-xs text-gray-400 mb-6">Para negocios en crecimiento que necesitan múltiples secciones y CMS.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-emerald-400">S/ 800</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Hasta 8 Secciones Internas</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> CMS Autoadministrable</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> SEO Avanzado + Schema</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Blog Integrado</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Formularios + WhatsApp</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Hasta 8 Secciones Internas</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> CMS Autoadministrable</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> SEO Avanzado + Schema</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Blog Integrado</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Formularios + WhatsApp</li>
         </ul>
         <a href="contacto.php?servicio=profesional" class="w-full inline-block text-center py-3 text-sm font-bold bg-emerald-500 text-black hover:bg-emerald-400 transition-all shadow-[0_0_15px_rgba(16,185,129,0.4)]">
           Elegir Profesional
@@ -432,14 +432,14 @@
         <p class="text-xs text-gray-400 mb-6">Para empresas que necesitan una web completa con alto rendimiento y conversiones.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-purple-400">S/ 1000</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Hasta 15 Secciones + Blog</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> DiseÃ±o Premium Personalizado</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> SEO Avanzado + Copywriting</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Integraciones API</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Soporte 60 DÃ­as</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Hasta 15 Secciones + Blog</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Diseño Premium Personalizado</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> SEO Avanzado + Copywriting</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Integraciones API</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Soporte 60 Días</li>
         </ul>
         <a href="contacto.php?servicio=premium" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-purple-500 hover:text-white border border-white/10 hover:border-purple-500 transition-all">
           Elegir Premium
@@ -458,7 +458,7 @@
           Preguntas Frecuentes sobre <span class="gradient-text">Costos de una Web</span>
         </h2>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Todo lo que necesitas saber sobre la inversiÃ³n en tu pÃ¡gina web profesional.
+          Todo lo que necesitas saber sobre la inversión en tu página web profesional.
         </p>
       </div>
 
@@ -466,28 +466,28 @@
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-blue-400">01.</span> Â¿CuÃ¡nto cuesta una pÃ¡gina web bÃ¡sica en PerÃº?
+            <span class="text-blue-400">01.</span> ¿Cuánto cuesta una página web básica en Perú?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            Una pÃ¡gina web bÃ¡sica en PerÃº cuesta desde S/450 soles. Este precio incluye diseÃ±o personalizado, hosting por un aÃ±o, dominio, certificado SSL y optimizaciÃ³n SEO tÃ©cnica. Es la inversiÃ³n ideal para emprendedores y pequeÃ±os negocios que quieren presencia online profesional.
+            Una página web básica en Perú cuesta desde S/450 soles. Este precio incluye diseño personalizado, hosting por un año, dominio, certificado SSL y optimización SEO técnica. Es la inversión ideal para emprendedores y pequeños negocios que quieren presencia online profesional.
           </p>
         </div>
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-blue-400">02.</span> Â¿QuÃ© factores influyen en el precio de una pÃ¡gina web?
+            <span class="text-blue-400">02.</span> ¿Qué factores influyen en el precio de una página web?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            El precio depende de: nÃºmero de pÃ¡ginas y secciones, complejidad del diseÃ±o, integraciones como formularios o WhatsApp, nivel de optimizaciÃ³n SEO, si necesitas CMS administrable, y la cantidad de contenido personalizado como copywriting y fotografÃ­a.
+            El precio depende de: número de páginas y secciones, complejidad del diseño, integraciones como formularios o WhatsApp, nivel de optimización SEO, si necesitas CMS administrable, y la cantidad de contenido personalizado como copywriting y fotografía.
           </p>
         </div>
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-blue-400">03.</span> Â¿Hay costos ocultos en el desarrollo de una pÃ¡gina web?
+            <span class="text-blue-400">03.</span> ¿Hay costos ocultos en el desarrollo de una página web?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            Con Next Boost no hay costos ocultos. Nuestros precios son fijos y transparentes. El Ãºnico costo recurrente anual es el dominio y hosting (desde S/120/aÃ±o). No cobramos extra por revisiones, correcciones menores ni por la entrega del cÃ³digo fuente.
+            Con Next Boost no hay costos ocultos. Nuestros precios son fijos y transparentes. El único costo recurrente anual es el dominio y hosting (desde S/120/año). No cobramos extra por revisiones, correcciones menores ni por la entrega del código fuente.
           </p>
         </div>
 
@@ -500,12 +500,12 @@
     <div class="glass-card rounded-3xl p-10 md:p-16 border border-blue-500/30 bg-gradient-to-r from-blue-950/40 via-[#121216] to-teal-950/40 relative overflow-hidden text-center md:text-left flex flex-col md:flex-row items-center justify-between gap-8">
 
       <div class="space-y-4 max-w-2xl">
-        <span class="text-[10px] uppercase tracking-widest text-teal-400 font-extrabold bg-teal-500/10 px-3 py-1 border border-teal-500/20">CotizaciÃ³n sin compromiso</span>
+        <span class="text-[10px] uppercase tracking-widest text-teal-400 font-extrabold bg-teal-500/10 px-3 py-1 border border-teal-500/20">Cotización sin compromiso</span>
         <h2 class="text-3xl md:text-5xl font-bold tracking-tight text-white leading-tight">
-          Â¿Quieres saber el precio exacto de tu proyecto?
+          ¿Quieres saber el precio exacto de tu proyecto?
         </h2>
         <p class="text-sm text-gray-300 leading-relaxed">
-          CuÃ©ntanos quÃ© necesitas y te enviamos un presupuesto personalizado en menos de 24 horas. Sin compromiso.
+          Cuéntanos qué necesitas y te enviamos un presupuesto personalizado en menos de 24 horas. Sin compromiso.
         </p>
       </div>
 

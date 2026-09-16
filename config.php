@@ -1,6 +1,9 @@
 <?php
 // config.php - Configuración Global y SMTP
 
+// Cargar autoload de Composer (necesario para Dotenv)
+require_once __DIR__ . '/vendor/autoload.php';
+
 // Cargar variables de entorno desde .env
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->safeLoad();

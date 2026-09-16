@@ -1,6 +1,11 @@
 <?php
 $DB_PATH = __DIR__ . '/../data/leads.db';
 
+$dataDir = dirname($DB_PATH);
+if (!is_dir($dataDir)) {
+    @mkdir($dataDir, 0775, true);
+}
+
 function getDB() {
     global $DB_PATH;
     static $db = null;

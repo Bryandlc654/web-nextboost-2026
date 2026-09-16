@@ -1,6 +1,6 @@
-?php
-  $page_title = "PÃ¡gina Web con Inteligencia Artificial PerÃº | Chatbot IA";
-  $page_description = "Creamos pÃ¡ginas web con inteligencia artificial y chatbot en PerÃº. Sistemas que responden, venden y atienden a tus clientes 24/7 con IA desde S/800.";
+<?php
+  $page_title = "Página Web con Inteligencia Artificial Perú | Chatbot IA";
+  $page_description = "Creamos páginas web con inteligencia artificial y chatbot en Perú. Sistemas que responden, venden y atienden a tus clientes 24/7 con IA desde S/800.";
   $og_url = "https://nextboost.business/pagina-web-con-inteligencia-artificial.php";
 ?>
 <!DOCTYPE html>
@@ -25,7 +25,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "PÃ¡gina Web con Inteligencia Artificial y Chatbot",
+          "name": "Página Web con Inteligencia Artificial y Chatbot",
           "item": "https://nextboost.business/pagina-web-con-inteligencia-artificial.php"
         }
       ]
@@ -33,18 +33,22 @@
     {
       "@type": "Service",
       "@id": "https://nextboost.business/pagina-web-con-inteligencia-artificial.php/#service",
-      "name": "PÃ¡gina Web con Inteligencia Artificial y Chatbot",
+      "name": "Página Web con Inteligencia Artificial y Chatbot",
       "serviceType": "Web Development with AI Chatbot",
       "provider": {
         "@type": "Organization",
         "name": "Next Boost",
-        "url": "https://nextboost.business/"
+        "url": "https://nextboost.business/",
+        "@id": "https://nextboost.business/#organization"
       },
-      "description": "Desarrollamos pÃ¡ginas web con inteligencia artificial y chatbots en PerÃº que atienden a tus clientes 24/7, capturan leads, responden preguntas y venden por ti.",
-      "areaServed": "PerÃº",
+      "description": "Desarrollamos páginas web con inteligencia artificial y chatbots en Perú que atienden a tus clientes 24/7, capturan leads, responden preguntas y venden por ti.",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Perú"
+      },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "PÃ¡gina Web con IA en PerÃº",
+        "name": "Página Web con IA en Perú",
         "itemListElement": [
           {
             "@type": "Offer",
@@ -52,7 +56,7 @@
             "priceCurrency": "PEN",
             "itemOffered": {
               "@type": "Service",
-              "name": "Web con Chatbot IA bÃ¡sico (Desde)"
+              "name": "Web con Chatbot IA básico (Desde)"
             }
           },
           {
@@ -65,7 +69,9 @@
             }
           }
         ]
-      }
+      },
+      "url": "https://nextboost.business/pagina-web-con-inteligencia-artificial.php",
+      "image": "https://nextboost.business/imagenes-web/next-boost.png"
     },
     {
       "@type": "FAQPage",
@@ -73,34 +79,34 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Â¿QuÃ© es una pÃ¡gina web con inteligencia artificial en PerÃº?",
+          "name": "¿Qué es una página web con inteligencia artificial en Perú?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Es un sitio web que incorpora tecnologÃ­a de IA, como chatbots y asistentes virtuales, capaces de responder preguntas, atender clientes y capturar leads de forma automÃ¡tica las 24 horas. En PerÃº, las empresas que integran IA en su web responden mÃ¡s rÃ¡pido y convierten mÃ¡s visitantes en clientes."
+            "text": "Es un sitio web que incorpora tecnología de IA, como chatbots y asistentes virtuales, capaces de responder preguntas, atender clientes y capturar leads de forma automática las 24 horas. En Perú, las empresas que integran IA en su web responden más rápido y convierten más visitantes en clientes."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿CuÃ¡nto cuesta una pÃ¡gina web con chatbot de inteligencia artificial en PerÃº?",
+          "name": "¿Cuánto cuesta una página web con chatbot de inteligencia artificial en Perú?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Nuestras pÃ¡ginas web con chatbot de IA inician desde S/800 e incluyen el diseÃ±o, el hosting y el asistente virtual entrenado con la informaciÃ³n de tu negocio. Los proyectos avanzados con IA integrada a tu base de datos o CRM parten desde S/1000. Siempre entregamos presupuesto sin costo."
+            "text": "Nuestras páginas web con chatbot de IA inician desde S/800 e incluyen el diseño, el hosting y el asistente virtual entrenado con la información de tu negocio. Los proyectos avanzados con IA integrada a tu base de datos o CRM parten desde S/1000. Siempre entregamos presupuesto sin costo."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿CÃ³mo funciona el chatbot de IA en mi pÃ¡gina web?",
+          "name": "¿Cómo funciona el chatbot de IA en mi página web?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El chatbot se entrena con la informaciÃ³n de tu negocio: productos, precios, horarios y respuestas frecuentes. Cuando un visitante pregunta, el bot responde al instante y, si no puede resolverlo, transfiere la conversaciÃ³n a WhatsApp para que tu equipo cierre la venta."
+            "text": "El chatbot se entrena con la información de tu negocio: productos, precios, horarios y respuestas frecuentes. Cuando un visitante pregunta, el bot responde al instante y, si no puede resolverlo, transfiere la conversación a WhatsApp para que tu equipo cierre la venta."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿CuÃ¡nto tiempo toma implementar una web con inteligencia artificial?",
+          "name": "¿Cuánto tiempo toma implementar una web con inteligencia artificial?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Una pÃ¡gina web con chatbot de IA se implementa en 2 a 4 semanas. Incluimos el diseÃ±o de tu sitio, la configuraciÃ³n del asistente virtual con IA, la integraciÃ³n a WhatsApp y la capacitaciÃ³n para tu equipo."
+            "text": "Una página web con chatbot de IA se implementa en 2 a 4 semanas. Incluimos el diseño de tu sitio, la configuración del asistente virtual con IA, la integración a WhatsApp y la capacitación para tu equipo."
           }
         }
       ]
@@ -131,7 +137,7 @@
       </div>
 
       <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-[1.1]">
-        PÃ¡gina web con Inteligencia <br> Artificial y Chatbot <span class="bg-gradient-to-r from-violet-400 to-teal-400 text-transparent bg-clip-text">en PerÃº</span>
+        Página web con Inteligencia <br> Artificial y Chatbot <span class="bg-gradient-to-r from-violet-400 to-teal-400 text-transparent bg-clip-text">en Perú</span>
       </h1>
 
       <p class="text-base md:text-xl text-gray-300 font-normal leading-relaxed max-w-2xl mx-auto">
@@ -159,7 +165,7 @@
           <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg> Captura de Leads
         </div>
         <div class="flex items-center gap-2 font-bold text-gray-400">
-          <svg class="w-6 h-6 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21h18M4 18h16M6 18V8m6 10V6m6 12v-6"/></svg> AnÃ¡lisis de Datos
+          <svg class="w-6 h-6 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21h18M4 18h16M6 18V8m6 10V6m6 12v-6"/></svg> Análisis de Datos
         </div>
       </div>
     </div>
@@ -172,9 +178,9 @@
       <div class="text-center max-w-3xl mx-auto mb-16">
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
           Beneficios de la IA <br>
-          <span class="bg-gradient-to-r from-violet-400 to-teal-400 text-transparent bg-clip-text">en tu pÃ¡gina web</span>
+          <span class="bg-gradient-to-r from-violet-400 to-teal-400 text-transparent bg-clip-text">en tu página web</span>
         </h2>
-        <p class="text-sm text-gray-400 mt-4">Por quÃ© las empresas en PerÃº estÃ¡n integrando inteligencia artificial y chatbots a sus sitios web.</p>
+        <p class="text-sm text-gray-400 mt-4">Por qué las empresas en Perú están integrando inteligencia artificial y chatbots a sus sitios web.</p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -183,9 +189,9 @@
           <div class="w-12 h-12 rounded-none bg-violet-500/10 text-violet-400 flex items-center justify-center border border-violet-500/20">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
           </div>
-          <h3 class="text-lg font-bold text-white">AtenciÃ³n 24/7</h3>
+          <h3 class="text-lg font-bold text-white">Atención 24/7</h3>
           <p class="text-xs text-gray-400 leading-relaxed">
-            Tu chatbot con IA responde a cualquier hora, incluso de madrugada. Los clientes nunca esperan y tÃº nunca pierdes una consulta.
+            Tu chatbot con IA responde a cualquier hora, incluso de madrugada. Los clientes nunca esperan y tú nunca pierdes una consulta.
           </p>
         </div>
 
@@ -195,7 +201,7 @@
           </div>
           <h3 class="text-lg font-bold text-white">Captura Leads</h3>
           <p class="text-xs text-gray-400 leading-relaxed">
-            El bot recolecta nombre, telÃ©fono y correo de cada visitante interesado. Conviertes trÃ¡fico en clientes potenciales automÃ¡ticamente.
+            El bot recolecta nombre, teléfono y correo de cada visitante interesado. Conviertes tráfico en clientes potenciales automáticamente.
           </p>
         </div>
 
@@ -205,7 +211,7 @@
           </div>
           <h3 class="text-lg font-bold text-white">Responde por WhatsApp</h3>
           <p class="text-xs text-gray-400 leading-relaxed">
-            Cuando el bot no puede resolver, transfiere la conversaciÃ³n a WhatsApp. Tu equipo recibe el lead caliente listo para vender.
+            Cuando el bot no puede resolver, transfiere la conversación a WhatsApp. Tu equipo recibe el lead caliente listo para vender.
           </p>
         </div>
 
@@ -215,7 +221,7 @@
           </div>
           <h3 class="text-lg font-bold text-white">Reduce costos</h3>
           <p class="text-xs text-gray-400 leading-relaxed">
-            Automatiza las preguntas frecuentes y la calificaciÃ³n de leads. Tu equipo se enfoca solo en las ventas y propuestas importantes.
+            Automatiza las preguntas frecuentes y la calificación de leads. Tu equipo se enfoca solo en las ventas y propuestas importantes.
           </p>
         </div>
 
@@ -223,12 +229,12 @@
     </div>
   </section>
 
-  <!-- 3. CÃ“MO FUNCIONA -->
+  <!-- 3. CÓMO FUNCIONA -->
   <section class="relative z-10 py-20 border-b border-white/5">
     <div class="max-w-screen-xl mx-auto px-8 md:px-16">
       <div class="text-center mb-16">
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-          AsÃ­ funciona tu <span class="bg-gradient-to-r from-violet-400 to-teal-400 text-transparent bg-clip-text">web con IA</span>
+          Así funciona tu <span class="bg-gradient-to-r from-violet-400 to-teal-400 text-transparent bg-clip-text">web con IA</span>
         </h2>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-12 relative">
@@ -237,18 +243,18 @@
         <div class="text-center bg-[#0a0a0e] p-6 rounded-2xl border border-white/5">
           <div class="w-16 h-16 mx-auto rounded-full bg-violet-500/20 flex items-center justify-center text-violet-400 font-black text-2xl mb-4 border-4 border-[#0a0a0e]">1</div>
           <h4 class="text-white font-bold mb-2">Entrenamos el bot</h4>
-          <p class="text-xs text-gray-400">Cargamos la informaciÃ³n de tu negocio: productos, precios, horarios y preguntas frecuentes. El bot aprende a responder como un vendedor experto.</p>
+          <p class="text-xs text-gray-400">Cargamos la información de tu negocio: productos, precios, horarios y preguntas frecuentes. El bot aprende a responder como un vendedor experto.</p>
         </div>
         
         <div class="text-center bg-[#0a0a0e] p-6 rounded-2xl border border-white/5">
           <div class="w-16 h-16 mx-auto rounded-full bg-blue-500/20 flex items-center justify-center text-blue-400 font-black text-2xl mb-4 border-4 border-[#0a0a0e]">2</div>
           <h4 class="text-white font-bold mb-2">Integramos la web</h4>
-          <p class="text-xs text-gray-400">Colocamos el chatbot de IA en tu pÃ¡gina. Aparece al momento, saluda al visitante y lo guÃ­a para convertirlo en cliente o lead.</p>
+          <p class="text-xs text-gray-400">Colocamos el chatbot de IA en tu página. Aparece al momento, saluda al visitante y lo guía para convertirlo en cliente o lead.</p>
         </div>
         
         <div class="text-center bg-[#0a0a0e] p-6 rounded-2xl border border-white/5">
           <div class="w-16 h-16 mx-auto rounded-full bg-teal-500/20 flex items-center justify-center text-teal-400 font-black text-2xl mb-4 border-4 border-[#0a0a0e]">3</div>
-          <h4 class="text-white font-bold mb-2">Vendes mÃ¡s</h4>
+          <h4 class="text-white font-bold mb-2">Vendes más</h4>
           <p class="text-xs text-gray-400">Cada visita queda atendida y registrada. Recibes notificaciones de nuevos leads y cierras ventas directo desde tu WhatsApp.</p>
         </div>
       </div>
@@ -260,7 +266,7 @@
     <div class="max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20">
       <div class="text-center max-w-3xl mx-auto mb-16">
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white mb-4">
-          Planes de web con IA <span class="bg-gradient-to-r from-violet-400 to-teal-400 text-transparent bg-clip-text">en PerÃº</span>
+          Planes de web con IA <span class="bg-gradient-to-r from-violet-400 to-teal-400 text-transparent bg-clip-text">en Perú</span>
         </h2>
         <p class="text-sm text-gray-400">Elige el nivel de inteligencia artificial que tu negocio necesita. Todos incluyen hosting y soporte.</p>
       </div>
@@ -270,36 +276,36 @@
         <!-- Plan 1 -->
         <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-violet-500/50 transition-all flex flex-col group">
           <h3 class="text-xl font-bold text-white mb-2">Web + Chatbot IA</h3>
-          <p class="text-xs text-gray-400 mb-6">PÃ¡gina web profesional con asistente virtual bÃ¡sico entrenado con tu negocio.</p>
+          <p class="text-xs text-gray-400 mb-6">Página web profesional con asistente virtual básico entrenado con tu negocio.</p>
           <div class="mb-6 border-b border-white/10 pb-6">
-            <span class="text-xs text-gray-500 font-medium uppercase tracking-widest block mb-1">InversiÃ³n desde</span>
+            <span class="text-xs text-gray-500 font-medium uppercase tracking-widest block mb-1">Inversión desde</span>
             <span class="text-4xl font-extrabold text-white">S/ 800</span>
           </div>
           <ul class="space-y-4 text-sm text-gray-300 mb-8 flex-1">
-            <li class="flex items-start gap-3"><span class="text-violet-400 font-bold shrink-0">âœ“</span> DiseÃ±o web profesional (5 secciones)</li>
-            <li class="flex items-start gap-3"><span class="text-violet-400 font-bold shrink-0">âœ“</span> Chatbot de IA entrenado</li>
-            <li class="flex items-start gap-3"><span class="text-violet-400 font-bold shrink-0">âœ“</span> Formulario de captura de leads</li>
-            <li class="flex items-start gap-3"><span class="text-violet-400 font-bold shrink-0">âœ“</span> Hosting y dominio por 1 aÃ±o</li>
+            <li class="flex items-start gap-3"><span class="text-violet-400 font-bold shrink-0">✓</span> Diseño web profesional (5 secciones)</li>
+            <li class="flex items-start gap-3"><span class="text-violet-400 font-bold shrink-0">✓</span> Chatbot de IA entrenado</li>
+            <li class="flex items-start gap-3"><span class="text-violet-400 font-bold shrink-0">✓</span> Formulario de captura de leads</li>
+            <li class="flex items-start gap-3"><span class="text-violet-400 font-bold shrink-0">✓</span> Hosting y dominio por 1 año</li>
           </ul>
           <a href="contacto.php?ref=pagina-web-ia" class="w-full inline-block text-center py-4 text-sm font-bold bg-white/5 hover:bg-violet-600 hover:text-white border border-white/10 hover:border-violet-500 transition-all">
-            Solicitar CotizaciÃ³n
+            Solicitar Cotización
           </a>
         </div>
 
         <!-- Plan 2 (Recomendado) -->
         <div class="glass-card p-8 rounded-2xl border border-violet-500/50 relative bg-violet-950/10 flex flex-col group transform md:-translate-y-4 shadow-[0_15px_30px_rgba(139,92,246,0.15)]">
-          <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-violet-500 text-white text-[10px] font-bold px-4 py-1.5 uppercase tracking-widest shadow-lg">MÃ¡s Solicitado</div>
+          <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-violet-500 text-white text-[10px] font-bold px-4 py-1.5 uppercase tracking-widest shadow-lg">Más Solicitado</div>
           <h3 class="text-xl font-bold text-white mb-2">Web + IA + WhatsApp</h3>
           <p class="text-xs text-gray-400 mb-6">Chatbot avanzado que captura leads y transfiere a WhatsApp para cerrar ventas.</p>
           <div class="mb-6 border-b border-white/10 pb-6">
-            <span class="text-xs text-violet-300 font-medium uppercase tracking-widest block mb-1">InversiÃ³n desde</span>
+            <span class="text-xs text-violet-300 font-medium uppercase tracking-widest block mb-1">Inversión desde</span>
             <span class="text-4xl font-extrabold text-violet-400">S/ 1000</span>
           </div>
           <ul class="space-y-4 text-sm text-gray-300 mb-8 flex-1">
-            <li class="flex items-start gap-3"><span class="text-violet-400 font-bold shrink-0">âœ“</span> Todo lo del plan anterior</li>
-            <li class="flex items-start gap-3"><span class="text-violet-400 font-bold shrink-0">âœ“</span> Chatbot IA con transferencia a WhatsApp</li>
-            <li class="flex items-start gap-3"><span class="text-violet-400 font-bold shrink-0">âœ“</span> Notificaciones de leads en tiempo real</li>
-            <li class="flex items-start gap-3"><span class="text-violet-400 font-bold shrink-0">âœ“</span> IntegraciÃ³n con tu CRM o base de datos</li>
+            <li class="flex items-start gap-3"><span class="text-violet-400 font-bold shrink-0">✓</span> Todo lo del plan anterior</li>
+            <li class="flex items-start gap-3"><span class="text-violet-400 font-bold shrink-0">✓</span> Chatbot IA con transferencia a WhatsApp</li>
+            <li class="flex items-start gap-3"><span class="text-violet-400 font-bold shrink-0">✓</span> Notificaciones de leads en tiempo real</li>
+            <li class="flex items-start gap-3"><span class="text-violet-400 font-bold shrink-0">✓</span> Integración con tu CRM o base de datos</li>
           </ul>
           <a href="contacto.php?ref=pagina-web-ia" class="w-full inline-block text-center py-4 text-sm font-bold bg-violet-500 text-white hover:bg-violet-400 transition-all shadow-[0_0_15px_rgba(139,92,246,0.4)]">
             Cotizar Plan Pro
@@ -312,16 +318,16 @@
           <p class="text-xs text-gray-400 mb-6">Sistema de IA personalizado que se adapta a los procesos de tu empresa.</p>
           <div class="mb-6 border-b border-white/10 pb-6 pt-4">
             <span class="text-3xl font-extrabold text-white">A medida</span>
-            <span class="text-xs text-gray-500 font-medium block mt-2">AnÃ¡lisis gratuito previo</span>
+            <span class="text-xs text-gray-500 font-medium block mt-2">Análisis gratuito previo</span>
           </div>
           <ul class="space-y-4 text-sm text-gray-300 mb-8 flex-1">
-            <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Asistente IA con documentaciÃ³n de tu empresa</li>
-            <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Reconocimiento de voz y OCR</li>
-            <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Integraciones con bancos y SUNAT</li>
-            <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Escalable y en la nube</li>
+            <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Asistente IA con documentación de tu empresa</li>
+            <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Reconocimiento de voz y OCR</li>
+            <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Integraciones con bancos y SUNAT</li>
+            <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Escalable y en la nube</li>
           </ul>
           <a href="contacto.php?ref=pagina-web-ia" class="w-full inline-block text-center py-4 text-sm font-bold bg-white/5 hover:bg-teal-600 hover:text-white border border-white/10 hover:border-teal-500 transition-all">
-            Agendar ReuniÃ³n
+            Agendar Reunión
           </a>
         </div>
 
@@ -336,7 +342,7 @@
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
           IA y desarrollo web <span class="bg-gradient-to-r from-violet-400 to-teal-400 text-transparent bg-clip-text">integrado con tu negocio</span>
         </h2>
-        <p class="text-sm text-gray-400 mt-4">Combina tu pÃ¡gina web con inteligencia artificial con el resto de soluciones digitales de Next Boost.</p>
+        <p class="text-sm text-gray-400 mt-4">Combina tu página web con inteligencia artificial con el resto de soluciones digitales de Next Boost.</p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
         <a href="desarrollo-web.php" class="glass-card p-8 rounded-2xl border border-white/10 hover:border-blue-500/50 transition-all group block">
@@ -344,24 +350,24 @@
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <h3 class="text-lg font-bold text-white mb-2">Desarrollo Web</h3>
-          <p class="text-xs text-gray-400 leading-relaxed">Sitios web modernos de alto rendimiento y conversiÃ³n para tu empresa.</p>
-          <span class="text-xs font-bold text-blue-400 mt-4 inline-flex items-center gap-1.5 group-hover:gap-2.5 transition-all">Ver servicio <span>â†’</span></span>
+          <p class="text-xs text-gray-400 leading-relaxed">Sitios web modernos de alto rendimiento y conversión para tu empresa.</p>
+          <span class="text-xs font-bold text-blue-400 mt-4 inline-flex items-center gap-1.5 group-hover:gap-2.5 transition-all">Ver servicio <span>→</span></span>
         </a>
         <a href="desarrollo-software.php" class="glass-card p-8 rounded-2xl border border-white/10 hover:border-violet-500/50 transition-all group block">
           <div class="w-12 h-12 rounded-none bg-violet-500/10 text-violet-400 flex items-center justify-center mb-4 border border-violet-500/20 group-hover:bg-violet-400 group-hover:text-black transition-all">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <h3 class="text-lg font-bold text-white mb-2">Software a Medida</h3>
-          <p class="text-xs text-gray-400 leading-relaxed">CRMs y ERPs con inteligencia artificial para automatizar tu operaciÃ³n.</p>
-          <span class="text-xs font-bold text-violet-400 mt-4 inline-flex items-center gap-1.5 group-hover:gap-2.5 transition-all">Ver servicio <span>â†’</span></span>
+          <p class="text-xs text-gray-400 leading-relaxed">CRMs y ERPs con inteligencia artificial para automatizar tu operación.</p>
+          <span class="text-xs font-bold text-violet-400 mt-4 inline-flex items-center gap-1.5 group-hover:gap-2.5 transition-all">Ver servicio <span>→</span></span>
         </a>
         <a href="posicionamiento-seo.php" class="glass-card p-8 rounded-2xl border border-white/10 hover:border-emerald-500/50 transition-all group block">
           <div class="w-12 h-12 rounded-none bg-emerald-500/10 text-emerald-400 flex items-center justify-center mb-4 border border-emerald-500/20 group-hover:bg-emerald-400 group-hover:text-black transition-all">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
           </div>
           <h3 class="text-lg font-bold text-white mb-2">Posicionamiento SEO</h3>
-          <p class="text-xs text-gray-400 leading-relaxed">Lleva tu web con IA a los primeros lugares de Google en PerÃº.</p>
-          <span class="text-xs font-bold text-emerald-400 mt-4 inline-flex items-center gap-1.5 group-hover:gap-2.5 transition-all">Ver servicio <span>â†’</span></span>
+          <p class="text-xs text-gray-400 leading-relaxed">Lleva tu web con IA a los primeros lugares de Google en Perú.</p>
+          <span class="text-xs font-bold text-emerald-400 mt-4 inline-flex items-center gap-1.5 group-hover:gap-2.5 transition-all">Ver servicio <span>→</span></span>
         </a>
       </div>
     </div>
@@ -374,43 +380,43 @@
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
           Preguntas sobre web con <span class="bg-gradient-to-r from-violet-400 to-teal-400 text-transparent bg-clip-text">inteligencia artificial</span>
         </h2>
-        <p class="text-sm text-gray-400 mt-4">Todo sobre pÃ¡ginas web con chatbot de IA para empresas en PerÃº.</p>
+        <p class="text-sm text-gray-400 mt-4">Todo sobre páginas web con chatbot de IA para empresas en Perú.</p>
       </div>
       <div class="max-w-3xl mx-auto space-y-4" id="faq-accordion">
         <div class="glass-card p-6 border border-white/5 faq-item">
           <button class="faq-btn w-full flex justify-between items-center text-left">
-            <span class="text-white font-semibold text-sm">Â¿QuÃ© es una pÃ¡gina web con inteligencia artificial en PerÃº?</span>
+            <span class="text-white font-semibold text-sm">¿Qué es una página web con inteligencia artificial en Perú?</span>
             <svg class="faq-icon w-5 h-5 text-violet-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </button>
           <div class="faq-answer mt-4 text-sm text-gray-400 leading-relaxed hidden">
-            Es un sitio web que incorpora tecnologÃ­a de IA, como chatbots y asistentes virtuales, capaces de responder preguntas, atender clientes y capturar leads de forma automÃ¡tica las 24 horas. En PerÃº, las empresas que integran IA en su web responden mÃ¡s rÃ¡pido y convierten mÃ¡s visitantes en clientes.
+            Es un sitio web que incorpora tecnología de IA, como chatbots y asistentes virtuales, capaces de responder preguntas, atender clientes y capturar leads de forma automática las 24 horas. En Perú, las empresas que integran IA en su web responden más rápido y convierten más visitantes en clientes.
           </div>
         </div>
         <div class="glass-card p-6 border border-white/5 faq-item">
           <button class="faq-btn w-full flex justify-between items-center text-left">
-            <span class="text-white font-semibold text-sm">Â¿CuÃ¡nto cuesta una pÃ¡gina web con chatbot de inteligencia artificial en PerÃº?</span>
+            <span class="text-white font-semibold text-sm">¿Cuánto cuesta una página web con chatbot de inteligencia artificial en Perú?</span>
             <svg class="faq-icon w-5 h-5 text-violet-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </button>
           <div class="faq-answer mt-4 text-sm text-gray-400 leading-relaxed hidden">
-            Nuestras pÃ¡ginas web con chatbot de IA inician desde S/800 e incluyen el diseÃ±o, el hosting y el asistente virtual entrenado con la informaciÃ³n de tu negocio. Los proyectos avanzados con IA integrada a tu base de datos o CRM parten desde S/1000. Siempre entregamos presupuesto sin costo.
+            Nuestras páginas web con chatbot de IA inician desde S/800 e incluyen el diseño, el hosting y el asistente virtual entrenado con la información de tu negocio. Los proyectos avanzados con IA integrada a tu base de datos o CRM parten desde S/1000. Siempre entregamos presupuesto sin costo.
           </div>
         </div>
         <div class="glass-card p-6 border border-white/5 faq-item">
           <button class="faq-btn w-full flex justify-between items-center text-left">
-            <span class="text-white font-semibold text-sm">Â¿CÃ³mo funciona el chatbot de IA en mi pÃ¡gina web?</span>
+            <span class="text-white font-semibold text-sm">¿Cómo funciona el chatbot de IA en mi página web?</span>
             <svg class="faq-icon w-5 h-5 text-violet-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </button>
           <div class="faq-answer mt-4 text-sm text-gray-400 leading-relaxed hidden">
-            El chatbot se entrena con la informaciÃ³n de tu negocio: productos, precios, horarios y respuestas frecuentes. Cuando un visitante pregunta, el bot responde al instante y, si no puede resolverlo, transfiere la conversaciÃ³n a WhatsApp para que tu equipo cierre la venta.
+            El chatbot se entrena con la información de tu negocio: productos, precios, horarios y respuestas frecuentes. Cuando un visitante pregunta, el bot responde al instante y, si no puede resolverlo, transfiere la conversación a WhatsApp para que tu equipo cierre la venta.
           </div>
         </div>
         <div class="glass-card p-6 border border-white/5 faq-item">
           <button class="faq-btn w-full flex justify-between items-center text-left">
-            <span class="text-white font-semibold text-sm">Â¿CuÃ¡nto tiempo toma implementar una web con inteligencia artificial?</span>
+            <span class="text-white font-semibold text-sm">¿Cuánto tiempo toma implementar una web con inteligencia artificial?</span>
             <svg class="faq-icon w-5 h-5 text-violet-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </button>
           <div class="faq-answer mt-4 text-sm text-gray-400 leading-relaxed hidden">
-            Una pÃ¡gina web con chatbot de IA se implementa en 2 a 4 semanas. Incluimos el diseÃ±o de tu sitio, la configuraciÃ³n del asistente virtual con IA, la integraciÃ³n a WhatsApp y la capacitaciÃ³n para tu equipo.
+            Una página web con chatbot de IA se implementa en 2 a 4 semanas. Incluimos el diseño de tu sitio, la configuración del asistente virtual con IA, la integración a WhatsApp y la capacitación para tu equipo.
           </div>
         </div>
       </div>

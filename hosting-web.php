@@ -1,6 +1,6 @@
-?php
-  $page_title = "Hosting Web PerÃº | Precios Hosting y Dominio | Next Boost";
-  $page_description = "Hosting web PerÃº desde S/120/aÃ±o. Compara precios de hosting y dominio: planes econÃ³micos, ilimitados y WordPress con cPanel, SSL gratis y soporte 24/7.";
+<?php
+  $page_title = "Hosting Web Perú con cPanel desde S/120/año | Next Boost";
+  $page_description = "Hosting web en Perú con cPanel desde S/120 al año. Discos NVMe, LiteSpeed, SSL gratis, correos corporativos y dominio .com incluido. Soporte 24/7.";
   $og_url = "https://nextboost.business/hosting-web.php";
 ?>
 <!DOCTYPE html>
@@ -15,21 +15,24 @@
     {
       "@type": "Service",
       "@id": "https://nextboost.business/hosting-web.php/#service",
-      "name": "Hosting Web en PerÃº",
+      "name": "Hosting Web en Perú",
       "serviceType": "Web Hosting",
+      "url": "https://nextboost.business/hosting-web.php",
+      "image": "https://nextboost.business/imagenes-web/next-boost.png",
       "provider": {
         "@type": "Organization",
+        "@id": "https://nextboost.business/#organization",
         "name": "Next Boost",
         "url": "https://nextboost.business/"
       },
-      "description": "Hosting web econÃ³mico en PerÃº con discos NVMe, LiteSpeed, cPanel, certificados SSL gratuitos, hosting WordPress y dominio .com incluido.",
+      "description": "Hosting web económico en Perú con discos NVMe, LiteSpeed, cPanel, certificados SSL gratuitos, hosting WordPress y dominio .com incluido.",
       "areaServed": {
         "@type": "Country",
-        "name": "PerÃº"
+        "name": "Perú"
       },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Planes de Hosting y Dominio en PerÃº",
+        "name": "Planes de Hosting y Dominio en Perú",
         "itemListElement": [
           {
             "@type": "Offer",
@@ -37,7 +40,7 @@
             "priceCurrency": "PEN",
             "itemOffered": {
               "@type": "Service",
-              "name": "Hosting Starter (Hosting EconÃ³mico)"
+              "name": "Hosting Starter (Hosting Económico)"
             }
           },
           {
@@ -74,7 +77,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Hosting Web PerÃº",
+          "name": "Hosting Web Perú",
           "item": "https://nextboost.business/hosting-web.php"
         }
       ]
@@ -85,42 +88,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Â¿CuÃ¡nto cuesta el hosting y dominio en PerÃº?",
+          "name": "¿Cuánto cuesta el hosting y dominio en Perú?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "En Next Boost el hosting web en PerÃº cuesta desde S/120 al aÃ±o para el plan Starter, S/200 el Profesional y S/300 el Empresarial. Los planes Profesional y Empresarial incluyen dominio .com gratis el primer aÃ±o. Son precios en soles sin cargos ocultos en la renovaciÃ³n."
+            "text": "En Next Boost el hosting web en Perú cuesta desde S/120 al año para el plan Starter, S/200 el Profesional y S/300 el Empresarial. Los planes Profesional y Empresarial incluyen dominio .com gratis el primer año. Son precios en soles sin cargos ocultos en la renovación."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿QuÃ© hosting es el mÃ¡s econÃ³mico en PerÃº?",
+          "name": "¿Qué hosting es el más económico en Perú?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Nuestro plan Starter es el hosting econÃ³mico en PerÃº perfecto para landings y webs informativas: S/120 al aÃ±o con 5 GB NVMe, 10 correos corporativos, trÃ¡fico ilimitado y SSL gratis. Es la opciÃ³n mÃ¡s barata sin sacrificar velocidad ni seguridad."
+            "text": "Nuestro plan Starter es el hosting económico en Perú perfecto para landings y webs informativas: S/120 al año con 5 GB NVMe, 10 correos corporativos, tráfico ilimitado y SSL gratis. Es la opción más barata sin sacrificar velocidad ni seguridad."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿El hosting incluye dominio y certificado SSL?",
+          "name": "¿El hosting incluye dominio y certificado SSL?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "SÃ­. Todos los planes de hosting de Next Boost incluyen certificado SSL gratuito. Los planes Profesional y Empresarial ademÃ¡s incluyen un dominio .com gratis durante el primer aÃ±o, ahorrÃ¡ndote el precio del dominio en PerÃº que normalmente cuesta entre S/40 y S/70 anuales."
+            "text": "Sí. Todos los planes de hosting de Next Boost incluyen certificado SSL gratuito. Los planes Profesional y Empresarial además incluyen un dominio .com gratis durante el primer año, ahorrándote el precio del dominio en Perú que normalmente cuesta entre S/40 y S/70 anuales."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿Es compatible el hosting con WordPress?",
+          "name": "¿Es compatible el hosting con WordPress?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "SÃ­, ofrecemos hosting WordPress optimizado en PerÃº con LiteSpeed Cache, instalaciÃ³n automÃ¡tica de WordPress en 1 clic, PHP 8.2 y compatibilidad total con todos los plugins y temas. Tu WordPress cargarÃ¡ rÃ¡pido y estable."
+            "text": "Sí, ofrecemos hosting WordPress optimizado en Perú con LiteSpeed Cache, instalación automática de WordPress en 1 clic, PHP 8.2 y compatibilidad total con todos los plugins y temas. Tu WordPress cargará rápido y estable."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿CuÃ¡les son los mejores proveedores de hosting en PerÃº?",
+          "name": "¿Cuáles son los mejores proveedores de hosting en Perú?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Los proveedores de hosting mÃ¡s conocidos en PerÃº son PlanetHosting, Hostinger y Next Boost. Next Boost destaca por ofrecer discos NVMe ultrarrÃ¡pidos, cPanel, correos corporativos ilimitados, backups diarios y soporte local en espaÃ±ol con atenciÃ³n 24/7, a precios competitivos en soles."
+            "text": "Los proveedores de hosting más conocidos en Perú son PlanetHosting, Hostinger y Next Boost. Next Boost destaca por ofrecer discos NVMe ultrarrápidos, cPanel, correos corporativos ilimitados, backups diarios y soporte local en español con atención 24/7, a precios competitivos en soles."
           }
         }
       ]
@@ -141,7 +144,7 @@
   <!-- Global Header -->
   <?php include 'includes/header.php'; ?>
 
-  <!-- 1. ATENCIÃ“N: Hero Section -->
+  <!-- 1. ATENCIÓN: Hero Section -->
   <main class="relative z-10 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 py-16 lg:py-24">
     <div class="text-center max-w-4xl mx-auto space-y-8">
       
@@ -151,12 +154,12 @@
       </div>
 
       <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-[1.1]">
-        Hosting web en PerÃº:
-        <span class="bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text block">econÃ³mico, ilimitado y con dominio</span>
+        Hosting web en Perú:
+        <span class="bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text block">económico, ilimitado y con dominio</span>
       </h1>
 
       <p class="text-base md:text-xl text-gray-300 font-normal leading-relaxed max-w-2xl mx-auto">
-        Contrata hosting web en PerÃº desde S/120 al aÃ±o con discos NVMe, cPanel, SSL gratis, respaldos diarios y dominio .com incluido. Planes de hosting econÃ³mico, ilimitado y optimizado para WordPress con soporte 24/7.
+        Contrata hosting web en Perú desde S/120 al año con discos NVMe, cPanel, SSL gratis, respaldos diarios y dominio .com incluido. Planes de hosting económico, ilimitado y optimizado para WordPress con soporte 24/7.
       </p>
 
       <div class="flex flex-col sm:flex-row gap-4 justify-center pt-4">
@@ -184,14 +187,14 @@
     </div>
   </main>
 
-  <!-- 2. INTERÃ‰S: CaracterÃ­sticas Clave -->
+  <!-- 2. INTERÉS: Características Clave -->
   <section class="relative z-10 py-20 bg-[#070709] border-y border-white/10">
     <div class="max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20">
       
       <div class="text-center max-w-3xl mx-auto mb-16">
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
           Rendimiento que se nota: <br>
-          <span class="bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text">el mejor hosting en PerÃº</span>
+          <span class="bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text">el mejor hosting en Perú</span>
         </h2>
       </div>
 
@@ -203,7 +206,7 @@
           </div>
           <h3 class="text-lg font-bold text-white">Discos NVMe SSD</h3>
           <p class="text-xs text-gray-400 leading-relaxed">
-            Almacenamiento de Ãºltima generaciÃ³n que es hasta 10 veces mÃ¡s rÃ¡pido que los discos SSD tradicionales. Tu web volarÃ¡.
+            Almacenamiento de última generación que es hasta 10 veces más rápido que los discos SSD tradicionales. Tu web volará.
           </p>
         </div>
 
@@ -213,7 +216,7 @@
           </div>
           <h3 class="text-lg font-bold text-white">Correos Corporativos</h3>
           <p class="text-xs text-gray-400 leading-relaxed">
-            Proyecta profesionalismo con correos tipo contacto@tuempresa.com. Gestionables vÃ­a cPanel, Outlook o tu celular.
+            Proyecta profesionalismo con correos tipo contacto@tuempresa.com. Gestionables vía cPanel, Outlook o tu celular.
           </p>
         </div>
 
@@ -223,7 +226,7 @@
           </div>
           <h3 class="text-lg font-bold text-white">SSL Gratuito (AutoSSL)</h3>
           <p class="text-xs text-gray-400 leading-relaxed">
-            Certificados de seguridad Let's Encrypt incluidos y renovados automÃ¡ticamente. Tu web siempre mostrarÃ¡ el candado verde.
+            Certificados de seguridad Let's Encrypt incluidos y renovados automáticamente. Tu web siempre mostrará el candado verde.
           </p>
         </div>
 
@@ -233,7 +236,7 @@
           </div>
           <h3 class="text-lg font-bold text-white">Backups Diarios</h3>
           <p class="text-xs text-gray-400 leading-relaxed">
-            Respaldos automÃ¡ticos para que nunca pierdas tu informaciÃ³n. Restaura tu sitio a una versiÃ³n anterior con un solo clic.
+            Respaldos automáticos para que nunca pierdas tu información. Restaura tu sitio a una versión anterior con un solo clic.
           </p>
         </div>
 
@@ -241,7 +244,7 @@
     </div>
   </section>
 
-  <!-- 2.5 COMPARATIVA: Mejores Hosting en PerÃº -->
+  <!-- 2.5 COMPARATIVA: Mejores Hosting en Perú -->
   <section class="relative z-10 py-20 bg-[#050507] border-b border-white/5">
     <div class="max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20">
       <div class="text-center max-w-3xl mx-auto mb-16">
@@ -250,9 +253,9 @@
           <span class="text-[10px] uppercase tracking-widest text-gray-400 font-bold">Comparativa 2026</span>
         </div>
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white mb-4">
-          Los mejores hosting en PerÃº <span class="bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text">segÃºn precio y calidad</span>
+          Los mejores hosting en Perú <span class="bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text">según precio y calidad</span>
         </h2>
-        <p class="text-sm text-gray-400">Comparamos los proveedores de hosting y dominio mÃ¡s usados en PerÃº para que elijas con datos, no por publicidad.</p>
+        <p class="text-sm text-gray-400">Comparamos los proveedores de hosting y dominio más usados en Perú para que elijas con datos, no por publicidad.</p>
       </div>
 
       <div class="overflow-x-auto">
@@ -269,43 +272,43 @@
           </thead>
           <tbody class="text-sm">
             <tr class="border-b border-white/5 bg-cyan-500/5">
-              <td class="py-5 pr-4 text-white font-bold">Next Boost <span class="ml-2 text-[9px] bg-cyan-500 text-black px-2 py-0.5 font-bold uppercase tracking-widest">Mejor OpciÃ³n</span></td>
+              <td class="py-5 pr-4 text-white font-bold">Next Boost <span class="ml-2 text-[9px] bg-cyan-500 text-black px-2 py-0.5 font-bold uppercase tracking-widest">Mejor Opción</span></td>
               <td class="py-5 pr-4 text-cyan-400 font-extrabold">S/ 120</td>
               <td class="py-5 pr-4 text-gray-300">NVMe SSD</td>
-              <td class="py-5 pr-4 text-emerald-400">SÃ­ (S/200+)</td>
-              <td class="py-5 pr-4 text-emerald-400">24/7 en espaÃ±ol</td>
-              <td class="py-5 pr-4 text-emerald-400">SÃ­</td>
+              <td class="py-5 pr-4 text-emerald-400">Sí (S/200+)</td>
+              <td class="py-5 pr-4 text-emerald-400">24/7 en español</td>
+              <td class="py-5 pr-4 text-emerald-400">Sí</td>
             </tr>
             <tr class="border-b border-white/5">
-              <td class="py-5 pr-4 text-gray-200">PlanetHosting PerÃº</td>
+              <td class="py-5 pr-4 text-gray-200">PlanetHosting Perú</td>
               <td class="py-5 pr-4 text-gray-300">S/ 200</td>
               <td class="py-5 pr-4 text-gray-300">SSD</td>
-              <td class="py-5 pr-4 text-gray-400">SÃ­</td>
+              <td class="py-5 pr-4 text-gray-400">Sí</td>
               <td class="py-5 pr-4 text-gray-400">Horario oficina</td>
-              <td class="py-5 pr-4 text-gray-400">SÃ­</td>
+              <td class="py-5 pr-4 text-gray-400">Sí</td>
             </tr>
             <tr class="border-b border-white/5">
               <td class="py-5 pr-4 text-gray-200">Hostinger</td>
               <td class="py-5 pr-4 text-gray-300">S/ 170</td>
               <td class="py-5 pr-4 text-gray-300">NVMe SSD</td>
-              <td class="py-5 pr-4 text-gray-400">SÃ­</td>
-              <td class="py-5 pr-4 text-gray-400">Chat en espaÃ±ol</td>
-              <td class="py-5 pr-4 text-gray-400">SÃ­ (hPanel)</td>
+              <td class="py-5 pr-4 text-gray-400">Sí</td>
+              <td class="py-5 pr-4 text-gray-400">Chat en español</td>
+              <td class="py-5 pr-4 text-gray-400">Sí (hPanel)</td>
             </tr>
             <tr>
               <td class="py-5 pr-4 text-gray-200">GoDaddy</td>
               <td class="py-5 pr-4 text-gray-300">S/ 190</td>
               <td class="py-5 pr-4 text-gray-300">HDD</td>
-              <td class="py-5 pr-4 text-gray-400">SÃ­</td>
-              <td class="py-5 pr-4 text-gray-400">En inglÃ©s</td>
-              <td class="py-5 pr-4 text-gray-400">SÃ­ (cPanel)</td>
+              <td class="py-5 pr-4 text-gray-400">Sí</td>
+              <td class="py-5 pr-4 text-gray-400">En inglés</td>
+              <td class="py-5 pr-4 text-gray-400">Sí (cPanel)</td>
             </tr>
           </tbody>
         </table>
       </div>
 
       <p class="text-center text-xs text-gray-500 mt-6 max-w-3xl mx-auto">
-        Precios referenciales de proveedores de hosting en PerÃº a enero 2026. Next Boost combina el mejor precio en soles, discos NVMe de Ãºltima generaciÃ³n, correos corporativos ilimitados y soporte tÃ©cnico 100% local.
+        Precios referenciales de proveedores de hosting en Perú a enero 2026. Next Boost combina el mejor precio en soles, discos NVMe de última generación, correos corporativos ilimitados y soporte técnico 100% local.
       </p>
 
       <div class="text-center mt-10">
@@ -331,13 +334,13 @@
             <span class="bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text">y dominio .com gratis</span>
           </h2>
           <p class="text-sm md:text-base text-gray-400 leading-relaxed">
-            Instala WordPress en 1 clic sobre nuestra infraestructura LiteSpeed con cachÃ© integrado y PHP 8.2. Tu tienda, blog o web corporativa cargarÃ¡ en menos de 1 segundo. AdemÃ¡s, los planes Profesional y Empresarial incluyen <strong class="text-white">dominio .com gratis el primer aÃ±o</strong>.
+            Instala WordPress en 1 clic sobre nuestra infraestructura LiteSpeed con caché integrado y PHP 8.2. Tu tienda, blog o web corporativa cargará en menos de 1 segundo. Además, los planes Profesional y Empresarial incluyen <strong class="text-white">dominio .com gratis el primer año</strong>.
           </p>
           <ul class="space-y-4 text-sm text-gray-300">
-            <li class="flex items-start gap-3"><span class="text-cyan-400 font-bold shrink-0">âœ“</span> Instalador automÃ¡tico de WordPress (Softaculous)</li>
-            <li class="flex items-start gap-3"><span class="text-cyan-400 font-bold shrink-0">âœ“</span> LiteSpeed Cache + CDN para cargas ultrarrÃ¡pidas</li>
-            <li class="flex items-start gap-3"><span class="text-cyan-400 font-bold shrink-0">âœ“</span> Dominio .com gratis (1er aÃ±o) en planes Profesional y Empresarial</li>
-            <li class="flex items-start gap-3"><span class="text-cyan-400 font-bold shrink-0">âœ“</span> MigraciÃ³n gratuita de tu WordPress desde otro hosting</li>
+            <li class="flex items-start gap-3"><span class="text-cyan-400 font-bold shrink-0">✓</span> Instalador automático de WordPress (Softaculous)</li>
+            <li class="flex items-start gap-3"><span class="text-cyan-400 font-bold shrink-0">✓</span> LiteSpeed Cache + CDN para cargas ultrarrápidas</li>
+            <li class="flex items-start gap-3"><span class="text-cyan-400 font-bold shrink-0">✓</span> Dominio .com gratis (1er año) en planes Profesional y Empresarial</li>
+            <li class="flex items-start gap-3"><span class="text-cyan-400 font-bold shrink-0">✓</span> Migración gratuita de tu WordPress desde otro hosting</li>
           </ul>
           <div class="flex flex-col sm:flex-row gap-4 pt-2">
             <a href="#planes" class="inline-flex items-center justify-center gap-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-4 text-sm font-bold rounded-none hover:shadow-[0_0_30px_rgba(6,182,212,0.4)] hover:scale-105 transition-all group">
@@ -363,12 +366,12 @@
               <div class="bg-white/5 border border-white/10 p-4">
                 <span class="text-[10px] uppercase tracking-widest text-gray-500 block">Hosting</span>
                 <span class="text-xl font-extrabold text-cyan-400">S/ 200</span>
-                <span class="text-[10px] text-gray-500 block">/ aÃ±o</span>
+                <span class="text-[10px] text-gray-500 block">/ año</span>
               </div>
               <div class="bg-white/5 border border-white/10 p-4">
                 <span class="text-[10px] uppercase tracking-widest text-gray-500 block">Dominio .com</span>
                 <span class="text-xl font-extrabold text-emerald-400">Gratis</span>
-                <span class="text-[10px] text-gray-500 block">1er aÃ±o</span>
+                <span class="text-[10px] text-gray-500 block">1er año</span>
               </div>
               <div class="bg-white/5 border border-white/10 p-4">
                 <span class="text-[10px] uppercase tracking-widest text-gray-500 block">SSL</span>
@@ -378,12 +381,12 @@
               <div class="bg-white/5 border border-white/10 p-4">
                 <span class="text-[10px] uppercase tracking-widest text-gray-500 block">Backups</span>
                 <span class="text-xl font-extrabold text-emerald-400">Diarios</span>
-                <span class="text-[10px] text-gray-500 block">AutomÃ¡ticos</span>
+                <span class="text-[10px] text-gray-500 block">Automáticos</span>
               </div>
             </div>
             <div class="text-center border-t border-white/10 pt-4">
-              <span class="text-xs text-gray-500">Precio total hosting + dominio en PerÃº:</span>
-              <span class="text-lg font-extrabold text-white block">S/ 200 al aÃ±o</span>
+              <span class="text-xs text-gray-500">Precio total hosting + dominio en Perú:</span>
+              <span class="text-lg font-extrabold text-white block">S/ 200 al año</span>
             </div>
           </div>
         </div>
@@ -391,14 +394,14 @@
     </div>
   </section>
 
-  <!-- 3. ACCIÃ“N: Precios -->
+  <!-- 3. ACCIÓN: Precios -->
   <section id="planes" class="relative z-10 py-20 bg-[#0a0a0e]/50 border-t border-white/5">
     <div class="max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20">
       <div class="text-center max-w-3xl mx-auto mb-16">
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white mb-4">
-          Precios de Hosting y Dominio <span class="bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text">en PerÃº</span>
+          Precios de Hosting y Dominio <span class="bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text">en Perú</span>
         </h2>
-        <p class="text-sm text-gray-400">Hosting econÃ³mico, ilimitado y WordPress. Sin sorpresas en la renovaciÃ³n, precios en soles.</p>
+        <p class="text-sm text-gray-400">Hosting económico, ilimitado y WordPress. Sin sorpresas en la renovación, precios en soles.</p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -412,20 +415,20 @@
             <span class="text-xs text-gray-500 font-medium"> PEN / anual</span>
           </div>
           <ul class="space-y-4 text-sm text-gray-300 mb-8 flex-1">
-            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">âœ“</span> 5 GB Almacenamiento NVMe</li>
-            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">âœ“</span> 10 Correos Corporativos</li>
-            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">âœ“</span> TrÃ¡fico Mensual Ilimitado</li>
-            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">âœ“</span> Certificado SSL Gratis</li>
-            <li class="flex items-start gap-3 opacity-50"><span class="text-gray-500 font-bold shrink-0">âœ•</span> Dominio .com Gratis</li>
+            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> 5 GB Almacenamiento NVMe</li>
+            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> 10 Correos Corporativos</li>
+            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> Tráfico Mensual Ilimitado</li>
+            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> Certificado SSL Gratis</li>
+            <li class="flex items-start gap-3 opacity-50"><span class="text-gray-500 font-bold shrink-0">✕</span> Dominio .com Gratis</li>
           </ul>
-          <a href="#contacto" class="w-full inline-block text-center py-4 text-sm font-bold bg-white/5 hover:bg-blue-600 hover:text-white border border-white/10 hover:border-blue-500 transition-all">
+          <a href="contacto.php?servicio=hosting" class="w-full inline-block text-center py-4 text-sm font-bold bg-white/5 hover:bg-blue-600 hover:text-white border border-white/10 hover:border-blue-500 transition-all">
             Elegir Starter
           </a>
         </div>
 
         <!-- Tier 2 (Pro) -->
         <div class="glass-card p-8 rounded-2xl border border-cyan-500/50 relative bg-cyan-950/10 flex flex-col group transform md:-translate-y-4 shadow-[0_15px_30px_rgba(6,182,212,0.15)]">
-          <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-cyan-500 text-black text-[10px] font-bold px-4 py-1.5 uppercase tracking-widest shadow-lg">MÃ¡s Recomendado</div>
+          <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-cyan-500 text-black text-[10px] font-bold px-4 py-1.5 uppercase tracking-widest shadow-lg">Más Recomendado</div>
           <h3 class="text-xl font-bold text-white mb-2">Profesional</h3>
           <p class="text-xs text-gray-400 mb-6">Para empresas y corporaciones que necesitan estabilidad y dominios.</p>
           <div class="mb-6 border-b border-white/10 pb-6">
@@ -433,13 +436,13 @@
             <span class="text-xs text-gray-500 font-medium"> PEN / anual</span>
           </div>
           <ul class="space-y-4 text-sm text-gray-300 mb-8 flex-1">
-            <li class="flex items-start gap-3"><span class="text-cyan-400 font-bold shrink-0">âœ“</span> 15 GB Almacenamiento NVMe</li>
-            <li class="flex items-start gap-3"><span class="text-cyan-400 font-bold shrink-0">âœ“</span> Correos Corporativos Ilimitados</li>
-            <li class="flex items-start gap-3"><span class="text-cyan-400 font-bold shrink-0">âœ“</span> TrÃ¡fico Mensual Ilimitado</li>
-            <li class="flex items-start gap-3"><span class="text-cyan-400 font-bold shrink-0">âœ“</span> Certificado SSL Gratis</li>
-            <li class="flex items-start gap-3"><span class="text-cyan-400 font-bold shrink-0">âœ“</span> Dominio .com Gratis (1er aÃ±o)</li>
+            <li class="flex items-start gap-3"><span class="text-cyan-400 font-bold shrink-0">✓</span> 15 GB Almacenamiento NVMe</li>
+            <li class="flex items-start gap-3"><span class="text-cyan-400 font-bold shrink-0">✓</span> Correos Corporativos Ilimitados</li>
+            <li class="flex items-start gap-3"><span class="text-cyan-400 font-bold shrink-0">✓</span> Tráfico Mensual Ilimitado</li>
+            <li class="flex items-start gap-3"><span class="text-cyan-400 font-bold shrink-0">✓</span> Certificado SSL Gratis</li>
+            <li class="flex items-start gap-3"><span class="text-cyan-400 font-bold shrink-0">✓</span> Dominio .com Gratis (1er año)</li>
           </ul>
-          <a href="#contacto" class="w-full inline-block text-center py-4 text-sm font-bold bg-cyan-500 text-black hover:bg-cyan-400 transition-all shadow-[0_0_15px_rgba(6,182,212,0.4)]">
+          <a href="contacto.php?servicio=hosting" class="w-full inline-block text-center py-4 text-sm font-bold bg-cyan-500 text-black hover:bg-cyan-400 transition-all shadow-[0_0_15px_rgba(6,182,212,0.4)]">
             Elegir Profesional
           </a>
         </div>
@@ -453,13 +456,13 @@
             <span class="text-xs text-gray-500 font-medium"> PEN / anual</span>
           </div>
           <ul class="space-y-4 text-sm text-gray-300 mb-8 flex-1">
-            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> 30 GB Almacenamiento NVMe</li>
-            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Correos Corporativos Ilimitados</li>
-            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> 2GB RAM / 2 CPU (Dedicados)</li>
-            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Certificado SSL Gratis</li>
-            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Dominio .com Gratis (1er aÃ±o)</li>
+            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> 30 GB Almacenamiento NVMe</li>
+            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Correos Corporativos Ilimitados</li>
+            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> 2GB RAM / 2 CPU (Dedicados)</li>
+            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Certificado SSL Gratis</li>
+            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Dominio .com Gratis (1er año)</li>
           </ul>
-          <a href="#contacto" class="w-full inline-block text-center py-4 text-sm font-bold bg-white/5 hover:bg-purple-600 hover:text-white border border-white/10 hover:border-purple-500 transition-all">
+          <a href="contacto.php?servicio=hosting" class="w-full inline-block text-center py-4 text-sm font-bold bg-white/5 hover:bg-purple-600 hover:text-white border border-white/10 hover:border-purple-500 transition-all">
             Elegir Empresarial
           </a>
         </div>
@@ -473,9 +476,9 @@
     <div class="max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20">
       <div class="text-center max-w-3xl mx-auto mb-12">
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-          Completa tu presencia <span class="bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text">en lÃ­nea</span>
+          Completa tu presencia <span class="bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text">en línea</span>
         </h2>
-        <p class="text-sm text-gray-400 mt-4">Tu hosting necesita una web potente, una tienda online y trÃ¡fico orgÃ¡nico. Lo tenemos todo en un solo lugar.</p>
+        <p class="text-sm text-gray-400 mt-4">Tu hosting necesita una web potente, una tienda online y tráfico orgánico. Lo tenemos todo en un solo lugar.</p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
         <a href="desarrollo-web.php" class="glass-card p-8 rounded-2xl border border-white/10 hover:border-blue-500/50 transition-all group block">
@@ -484,7 +487,7 @@
           </div>
           <h3 class="text-lg font-bold text-white mb-2">Desarrollo Web</h3>
           <p class="text-xs text-gray-400 leading-relaxed">Creamos tu sitio web profesional listo para alojar en tu nuevo hosting.</p>
-          <span class="text-xs font-bold text-blue-400 mt-4 inline-flex items-center gap-1.5 group-hover:gap-2.5 transition-all">Ver servicio <span>â†’</span></span>
+          <span class="text-xs font-bold text-blue-400 mt-4 inline-flex items-center gap-1.5 group-hover:gap-2.5 transition-all">Ver servicio <span>→</span></span>
         </a>
         <a href="ecommerce.php" class="glass-card p-8 rounded-2xl border border-white/10 hover:border-teal-500/50 transition-all group block">
           <div class="w-12 h-12 rounded-none bg-teal-500/10 text-teal-400 flex items-center justify-center mb-4 border border-teal-500/20 group-hover:bg-teal-400 group-hover:text-black transition-all">
@@ -492,20 +495,24 @@
           </div>
           <h3 class="text-lg font-bold text-white mb-2">Tiendas Online</h3>
           <p class="text-xs text-gray-400 leading-relaxed">Ecommerce optimizados para vender y escalar sobre hosting de alto rendimiento.</p>
-          <span class="text-xs font-bold text-teal-400 mt-4 inline-flex items-center gap-1.5 group-hover:gap-2.5 transition-all">Ver servicio <span>â†’</span></span>
+          <span class="text-xs font-bold text-teal-400 mt-4 inline-flex items-center gap-1.5 group-hover:gap-2.5 transition-all">Ver servicio <span>→</span></span>
         </a>
         <a href="posicionamiento-seo.php" class="glass-card p-8 rounded-2xl border border-white/10 hover:border-emerald-500/50 transition-all group block">
           <div class="w-12 h-12 rounded-none bg-emerald-500/10 text-emerald-400 flex items-center justify-center mb-4 border border-emerald-500/20 group-hover:bg-emerald-400 group-hover:text-black transition-all">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <h3 class="text-lg font-bold text-white mb-2">Posicionamiento SEO</h3>
-          <p class="text-xs text-gray-400 leading-relaxed">Velocidad NVMe + SEO profesional = trÃ¡fico orgÃ¡nico en los primeros resultados.</p>
-          <span class="text-xs font-bold text-emerald-400 mt-4 inline-flex items-center gap-1.5 group-hover:gap-2.5 transition-all">Ver servicio <span>â†’</span></span>
+          <p class="text-xs text-gray-400 leading-relaxed">Velocidad NVMe + SEO profesional = tráfico orgánico en los primeros resultados.</p>
+          <span class="text-xs font-bold text-emerald-400 mt-4 inline-flex items-center gap-1.5 group-hover:gap-2.5 transition-all">Ver servicio <span>→</span></span>
         </a>
       </div>
-      <div class="text-center mt-10">
+      <div class="text-center mt-10 flex flex-col sm:flex-row items-center justify-center gap-6">
         <a href="blog.php" class="inline-flex items-center gap-2 text-sm font-semibold text-gray-300 hover:text-white transition-colors group">
-          Lee mÃ¡s en nuestro blog de desarrollo web
+          Lee más en nuestro blog de desarrollo web
+          <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="proveedor-hosting-para-agencias-web.php" class="inline-flex items-center gap-2 text-sm font-semibold text-cyan-400 hover:text-cyan-300 transition-colors group">
+          ¿Eres agencia? Revende hosting con tu marca
           <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
       </div>
@@ -523,48 +530,48 @@
       </div>
       <div class="max-w-3xl mx-auto space-y-4" id="faq-accordion">
         <div class="glass-card p-6 border border-white/5 faq-item">
-          <button class="faq-btn w-full flex justify-between items-center text-left">
-            <span class="text-white font-semibold text-sm">Â¿CuÃ¡nto cuesta el hosting y dominio en PerÃº?</span>
+          <button class="faq-btn w-full flex justify-between items-center text-left" aria-expanded="false">
+            <span class="text-white font-semibold text-sm">¿Cuánto cuesta el hosting y dominio en Perú?</span>
             <svg class="faq-icon w-5 h-5 text-cyan-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </button>
           <div class="faq-answer mt-4 text-sm text-gray-400 leading-relaxed hidden">
-            En Next Boost el hosting web en PerÃº cuesta desde S/120 al aÃ±o para el plan Starter, S/200 el Profesional y S/300 el Empresarial. Los planes Profesional y Empresarial incluyen dominio .com gratis el primer aÃ±o. Son precios en soles sin cargos ocultos en la renovaciÃ³n.
+            En Next Boost el hosting web en Perú cuesta desde S/120 al año para el plan Starter, S/200 el Profesional y S/300 el Empresarial. Los planes Profesional y Empresarial incluyen dominio .com gratis el primer año. Son precios en soles sin cargos ocultos en la renovación.
           </div>
         </div>
         <div class="glass-card p-6 border border-white/5 faq-item">
-          <button class="faq-btn w-full flex justify-between items-center text-left">
-            <span class="text-white font-semibold text-sm">Â¿QuÃ© hosting es el mÃ¡s econÃ³mico en PerÃº?</span>
+          <button class="faq-btn w-full flex justify-between items-center text-left" aria-expanded="false">
+            <span class="text-white font-semibold text-sm">¿Qué hosting es el más económico en Perú?</span>
             <svg class="faq-icon w-5 h-5 text-cyan-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </button>
           <div class="faq-answer mt-4 text-sm text-gray-400 leading-relaxed hidden">
-            Nuestro plan Starter es el hosting econÃ³mico en PerÃº perfecto para landings y webs informativas: S/120 al aÃ±o con 5 GB NVMe, 10 correos corporativos, trÃ¡fico ilimitado y SSL gratis. Es la opciÃ³n mÃ¡s barata sin sacrificar velocidad ni seguridad.
+            Nuestro plan Starter es el hosting económico en Perú perfecto para landings y webs informativas: S/120 al año con 5 GB NVMe, 10 correos corporativos, tráfico ilimitado y SSL gratis. Es la opción más barata sin sacrificar velocidad ni seguridad.
           </div>
         </div>
         <div class="glass-card p-6 border border-white/5 faq-item">
-          <button class="faq-btn w-full flex justify-between items-center text-left">
-            <span class="text-white font-semibold text-sm">Â¿El hosting incluye dominio y certificado SSL?</span>
+          <button class="faq-btn w-full flex justify-between items-center text-left" aria-expanded="false">
+            <span class="text-white font-semibold text-sm">¿El hosting incluye dominio y certificado SSL?</span>
             <svg class="faq-icon w-5 h-5 text-cyan-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </button>
           <div class="faq-answer mt-4 text-sm text-gray-400 leading-relaxed hidden">
-            SÃ­. Todos los planes de hosting de Next Boost incluyen certificado SSL gratuito. Los planes Profesional y Empresarial ademÃ¡s incluyen un dominio .com gratis durante el primer aÃ±o, ahorrÃ¡ndote el precio del dominio en PerÃº que normalmente cuesta entre S/40 y S/70 anuales.
+            Sí. Todos los planes de hosting de Next Boost incluyen certificado SSL gratuito. Los planes Profesional y Empresarial además incluyen un dominio .com gratis durante el primer año, ahorrándote el precio del dominio en Perú que normalmente cuesta entre S/40 y S/70 anuales.
           </div>
         </div>
         <div class="glass-card p-6 border border-white/5 faq-item">
-          <button class="faq-btn w-full flex justify-between items-center text-left">
-            <span class="text-white font-semibold text-sm">Â¿Es compatible el hosting con WordPress?</span>
+          <button class="faq-btn w-full flex justify-between items-center text-left" aria-expanded="false">
+            <span class="text-white font-semibold text-sm">¿Es compatible el hosting con WordPress?</span>
             <svg class="faq-icon w-5 h-5 text-cyan-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </button>
           <div class="faq-answer mt-4 text-sm text-gray-400 leading-relaxed hidden">
-            SÃ­, ofrecemos hosting WordPress optimizado en PerÃº con LiteSpeed Cache, instalaciÃ³n automÃ¡tica de WordPress en 1 clic, PHP 8.2 y compatibilidad total con todos los plugins y temas. Tu WordPress cargarÃ¡ rÃ¡pido y estable.
+            Sí, ofrecemos hosting WordPress optimizado en Perú con LiteSpeed Cache, instalación automática de WordPress en 1 clic, PHP 8.2 y compatibilidad total con todos los plugins y temas. Tu WordPress cargará rápido y estable.
           </div>
         </div>
         <div class="glass-card p-6 border border-white/5 faq-item">
-          <button class="faq-btn w-full flex justify-between items-center text-left">
-            <span class="text-white font-semibold text-sm">Â¿CuÃ¡les son los mejores proveedores de hosting en PerÃº?</span>
+          <button class="faq-btn w-full flex justify-between items-center text-left" aria-expanded="false">
+            <span class="text-white font-semibold text-sm">¿Cuáles son los mejores proveedores de hosting en Perú?</span>
             <svg class="faq-icon w-5 h-5 text-cyan-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </button>
           <div class="faq-answer mt-4 text-sm text-gray-400 leading-relaxed hidden">
-            Los proveedores de hosting mÃ¡s conocidos en PerÃº son PlanetHosting, Hostinger y Next Boost. Next Boost destaca por ofrecer discos NVMe ultrarrÃ¡pidos, cPanel, correos corporativos ilimitados, backups diarios y soporte local en espaÃ±ol con atenciÃ³n 24/7, a precios competitivos en soles.
+            Los proveedores de hosting más conocidos en Perú son PlanetHosting, Hostinger y Next Boost. Next Boost destaca por ofrecer discos NVMe ultrarrápidos, cPanel, correos corporativos ilimitados, backups diarios y soporte local en español con atención 24/7, a precios competitivos en soles.
           </div>
         </div>
       </div>
@@ -581,9 +588,11 @@
         var isOpen = !answer.classList.contains('hidden');
         document.querySelectorAll('.faq-answer').forEach(function(a){ a.classList.add('hidden'); });
         document.querySelectorAll('.faq-icon').forEach(function(i){ i.classList.remove('rotate-180'); });
+        document.querySelectorAll('.faq-btn').forEach(function(b){ b.setAttribute('aria-expanded','false'); });
         if (!isOpen) {
           answer.classList.remove('hidden');
           icon.classList.add('rotate-180');
+          this.setAttribute('aria-expanded','true');
         }
       });
     });

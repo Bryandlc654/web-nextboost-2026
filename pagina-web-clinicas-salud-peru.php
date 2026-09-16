@@ -1,6 +1,7 @@
-?php
-  $page_title = "PÃ¡gina Web ClÃ­nicas y Salud PerÃº | Web para Centros MÃ©dicos | Next Boost";
-  $page_description = "PÃ¡ginas web para clÃ­nicas y centros de salud en PerÃº. Agenda de citas, directorio de especialistas, historial de pacientes y telemedicina.";
+<?php
+  $page_title = "Página Web Clínicas y Salud Perú | Web para Centros Médicos | Next Boost";
+  $page_description = "Páginas web para clínicas y centros de salud en Perú. Agenda de citas, directorio de especialistas, historial de pacientes y telemedicina.";
+  $og_url = "https://nextboost.business/pagina-web-clinicas-salud-peru.php";
 ?>
 <!DOCTYPE html>
 <html lang="es" class="dark scroll-smooth">
@@ -13,52 +14,80 @@
     {
       "@type": "Service",
       "@id": "https://nextboost.business/pagina-web-clinicas-salud-peru.php/#service",
-      "name": "PÃ¡gina Web para ClÃ­nicas y Centros de Salud en PerÃº",
-      "serviceType": "DiseÃ±o Web ClÃ­nicas Salud",
+      "name": "Página Web para Clínicas y Centros de Salud en Perú",
+      "serviceType": "Diseño Web Clínicas Salud",
       "provider": {
         "@type": "Organization",
         "name": "Next Boost",
-        "url": "https://nextboost.business/"
+        "url": "https://nextboost.business/",
+        "@id": "https://nextboost.business/#organization"
       },
-      "description": "PÃ¡ginas web profesionales para clÃ­nicas y centros de salud en PerÃº con agenda de citas online, directorio de especialistas, servicios mÃ©dicos e integraciÃ³n WhatsApp.",
-      "areaServed": "Peru",
+      "description": "Páginas web profesionales para clínicas y centros de salud en Perú con agenda de citas online, directorio de especialistas, servicios médicos e integración WhatsApp.",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Perú"
+      },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Planes Web para ClÃ­nicas y Salud",
+        "name": "Planes Web para Clínicas y Salud",
         "itemListElement": [
           {
             "@type": "Offer",
             "price": "450.00",
             "priceCurrency": "PEN",
-            "itemOffered": { "@type": "Service", "name": "Plan BÃ¡sico Web ClÃ­nica" }
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Plan Básico Web Clínica"
+            }
           },
           {
             "@type": "Offer",
             "price": "550.00",
             "priceCurrency": "PEN",
-            "itemOffered": { "@type": "Service", "name": "Plan Informativa Web ClÃ­nica" }
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Plan Informativa Web Clínica"
+            }
           },
           {
             "@type": "Offer",
             "price": "800.00",
             "priceCurrency": "PEN",
-            "itemOffered": { "@type": "Service", "name": "Plan Profesional Web ClÃ­nica" }
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Plan Profesional Web Clínica"
+            }
           },
           {
             "@type": "Offer",
             "price": "1000.00",
             "priceCurrency": "PEN",
-            "itemOffered": { "@type": "Service", "name": "Plan Premium Web ClÃ­nica" }
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Plan Premium Web Clínica"
+            }
           }
         ]
-      }
+      },
+      "url": "https://nextboost.business/pagina-web-clinicas-salud-peru.php",
+      "image": "https://nextboost.business/imagenes-web/next-boost.png"
     },
     {
       "@type": "BreadcrumbList",
       "@id": "https://nextboost.business/pagina-web-clinicas-salud-peru.php/#breadcrumb",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://nextboost.business/" },
-        { "@type": "ListItem", "position": 2, "name": "PÃ¡gina Web ClÃ­nicas y Salud PerÃº", "item": "https://nextboost.business/pagina-web-clinicas-salud-peru.php" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://nextboost.business/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Página Web Clínicas y Salud Perú",
+          "item": "https://nextboost.business/pagina-web-clinicas-salud-peru.php"
+        }
       ]
     },
     {
@@ -67,26 +96,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Â¿Los pacientes pueden agendar citas online en mi clÃ­nica?",
+          "name": "¿Los pacientes pueden agendar citas online en mi clínica?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "SÃ­, integramos un sistema de agendamiento de citas online que permite a los pacientes reservar consultas con especialistas disponibles las 24 horas. Reduce filas, mejora la experiencia del paciente y optimiza la agenda de los doctores con confirmaciones automÃ¡ticas."
+            "text": "Sí, integramos un sistema completo de agendamiento de citas online. Los pacientes seleccionan el especialista, la fecha y hora disponible, y reciben confirmación automática. Esto reduce llamadas telefónicas, optimiza la agenda médica y mejora la experiencia del paciente."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿Incluye directorio de doctores y especialidades?",
+          "name": "¿Incluye directorio de doctores y especialidades?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "SÃ­, creamos un directorio completo con fotos, nombres, especialidades, horarios de atenciÃ³n y biografÃ­a de cada profesional. Los pacientes pueden identificar fÃ¡cilmente al especialista que necesitan y agendar directamente con Ã©l."
+            "text": "Sí, diseñamos un directorio médico completo con foto profesional, nombre, especialidad, horarios de atención, formación académica y breve biografía de cada doctor. Los pacientes pueden identificar fácilmente al especialista que necesitan y agendar directamente."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿Es seguro con los datos de los pacientes?",
+          "name": "¿Es seguro con los datos de los pacientes?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "SÃ­, implementamos certificados SSL, acceso restringido por roles y protocolos de seguridad que protegen la informaciÃ³n sensible. No almacenamos historial mÃ©dico en la web pÃºblica. Cumplimos con las mejores prÃ¡cticas de protecciÃ³n de datos personales."
+            "text": "Sí, la seguridad es nuestra prioridad. Implementamos certificados SSL, acceso restringido por roles, encriptación de datos y protocolos de seguridad médicos. No almacenamos historial clínico en la web pública. Cumplimos con las mejores prácticas de protección de datos personales."
           }
         }
       ]
@@ -115,12 +144,12 @@
         </div>
 
         <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-[1.1]">
-          PÃ¡gina Web para ClÃ­nicas <br>
-          <span class="gradient-text">y Centros de Salud en PerÃº</span>
+          Página Web para Clínicas <br>
+          <span class="gradient-text">y Centros de Salud en Perú</span>
         </h1>
 
         <p class="text-base md:text-lg text-gray-300 font-normal leading-relaxed max-w-2xl">
-          Creamos pÃ¡ginas web profesionales para clÃ­nicas y centros de salud en PerÃº con <strong class="text-white">agenda de citas online</strong>, directorio de especialistas, <strong class="text-teal-400">servicios mÃ©dicos</strong> e integraciÃ³n con WhatsApp para atenciÃ³n directa.
+          Creamos páginas web profesionales para clínicas y centros de salud en Perú con <strong class="text-white">agenda de citas online</strong>, directorio de especialistas, <strong class="text-teal-400">servicios médicos</strong> e integración con WhatsApp para atención directa.
         </p>
 
         <div class="grid grid-cols-3 gap-4 pt-4 border-t border-white/10 max-w-xl">
@@ -140,12 +169,12 @@
 
         <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-4">
           <a href="contacto.php?servicio=clinicas" class="inline-flex items-center justify-center gap-3 bg-gradient-to-r from-blue-500 to-teal-400 text-black px-8 py-4 text-sm font-bold rounded-none hover:shadow-[0_0_30px_rgba(59,130,246,0.4)] hover:scale-105 transition-all btn-primary group">
-            Cotizar Mi ClÃ­nica
+            Cotizar Mi Clínica
             <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
           <a href="https://wa.me/51962469836?text=Hola%20Next%20Boost,%20necesito%20una%20p%C3%A1gina%20web%20para%20mi%20cl%C3%ADnica" target="_blank" class="inline-flex items-center justify-center gap-2 border border-white/20 hover:border-emerald-500/50 bg-white/5 hover:bg-emerald-500/10 text-white hover:text-emerald-400 px-6 py-4 text-sm font-semibold transition-all">
             <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            AsesorÃ­a por WhatsApp
+            Asesoría por WhatsApp
           </a>
         </div>
 
@@ -157,7 +186,7 @@
           <div class="flex items-center justify-between border-b border-white/10 pb-4">
             <span class="text-xs font-mono text-gray-400 flex items-center gap-2">
               <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
-              Centro MÃ©dico Digital
+              Centro Médico Digital
             </span>
             <span class="text-[10px] font-bold text-emerald-400 bg-emerald-500/10 px-2.5 py-1 border border-emerald-500/20">ACTIVO</span>
           </div>
@@ -175,7 +204,7 @@
                 100
               </div>
               <span class="text-xs font-bold text-white">SEO Score</span>
-              <span class="text-[10px] text-gray-400">IndexaciÃ³n perfecta</span>
+              <span class="text-[10px] text-gray-400">Indexación perfecta</span>
             </div>
           </div>
 
@@ -185,7 +214,7 @@
               <span class="text-emerald-400 font-bold">Funcional</span>
             </div>
             <div class="p-2.5 bg-white/5 border border-white/5 flex items-center justify-between">
-              <span class="text-gray-400">Directorio MÃ©dico</span>
+              <span class="text-gray-400">Directorio Médico</span>
               <span class="text-emerald-400 font-bold">Publicado</span>
             </div>
             <div class="p-2.5 bg-white/5 border border-white/5 flex items-center justify-between">
@@ -195,7 +224,7 @@
           </div>
 
           <p class="text-[11px] text-gray-400 text-center leading-relaxed">
-            ðŸ¥ Tu clÃ­nica merece una web profesional que facilite la agendaciÃ³n de citas y proyecte confianza a tus pacientes.
+            🏥 Tu clínica merece una web profesional que facilite la agendación de citas y proyecte confianza a tus pacientes.
           </p>
 
         </div>
@@ -210,7 +239,7 @@
       <div class="text-center max-w-3xl mx-auto mb-16">
         <p class="text-xs uppercase tracking-widest text-blue-400 font-bold mb-3">Ventaja en Salud Digital</p>
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-          Â¿Por quÃ© elegir <span class="gradient-text">Next Boost para tu clÃ­nica</span>?
+          ¿Por qué elegir <span class="gradient-text">Next Boost para tu clínica</span>?
         </h2>
       </div>
 
@@ -219,23 +248,23 @@
         <div class="glass-card p-8 rounded-2xl border border-red-500/20 bg-red-950/10 space-y-6">
           <div class="flex items-center gap-3 border-b border-red-500/20 pb-4">
             <span class="w-3 h-3 rounded-full bg-red-500"></span>
-            <h3 class="text-xl font-bold text-white">ClÃ­nicas Sin Web Profesional</h3>
+            <h3 class="text-xl font-bold text-white">Clínicas Sin Web Profesional</h3>
           </div>
           <ul class="space-y-4 text-xs text-gray-300">
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>Sin agendamiento online:</strong> Los pacientes llaman y no contestan, perdiendo consultas y generando frustraciÃ³n.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Sin agendamiento online:</strong> Los pacientes llaman y no contestan, perdiendo consultas y generando frustración.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>Sin directorio de especialistas:</strong> Los pacientes no encuentran al doctor adecuado y eligen otra clÃ­nica.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Sin directorio de especialistas:</strong> Los pacientes no encuentran al doctor adecuado y eligen otra clínica.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>InformaciÃ³n desactualizada:</strong> Horarios, servicios y ubicaciÃ³n incorrectos que generan confusiÃ³n.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Información desactualizada:</strong> Horarios, servicios y ubicación incorrectos que generan confusión.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
               <span><strong>Falta de confianza digital:</strong> Sin presencia web profesional, los pacientes dudan de la calidad del servicio.</span>
             </li>
           </ul>
@@ -248,20 +277,20 @@
           </div>
           <ul class="space-y-4 text-xs text-gray-200">
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
               <span><strong>Agenda de citas 24/7:</strong> Los pacientes reservan consultas a cualquier hora sin llamar.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>Directorio completo de especialistas:</strong> Fotos, horarios, especialidades y biografÃ­a de cada doctor.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>Directorio completo de especialistas:</strong> Fotos, horarios, especialidades y biografía de cada doctor.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>InformaciÃ³n siempre actualizada:</strong> Servicios, horarios y ubicaciÃ³n verificables en tiempo real.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>Información siempre actualizada:</strong> Servicios, horarios y ubicación verificables en tiempo real.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>Seguridad y confidencialidad:</strong> Certificado SSL, acceso restringido y protecciÃ³n de datos de pacientes.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>Seguridad y confidencialidad:</strong> Certificado SSL, acceso restringido y protección de datos de pacientes.</span>
             </li>
           </ul>
         </div>
@@ -273,9 +302,9 @@
 
   <section class="relative z-10 py-20 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20">
     <div class="text-center max-w-3xl mx-auto mb-16">
-      <p class="text-xs uppercase tracking-widest text-teal-400 font-bold mb-3">Funcionalidades MÃ©dicas</p>
+      <p class="text-xs uppercase tracking-widest text-teal-400 font-bold mb-3">Funcionalidades Médicas</p>
       <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-        Todo lo que tu ClÃ­nica <span class="gradient-text">Necesita Digitalmente</span>
+        Todo lo que tu Clínica <span class="gradient-text">Necesita Digitalmente</span>
       </h2>
     </div>
 
@@ -287,7 +316,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">Agenda de Citas Online</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Sistema de reservas 24/7 para consultas con especialistas. Los pacientes eligen doctor, fecha y hora. ConfirmaciÃ³n automÃ¡tica por correo.
+          Sistema de reservas 24/7 para consultas con especialistas. Los pacientes eligen doctor, fecha y hora. Confirmación automática por correo.
         </p>
       </article>
 
@@ -297,7 +326,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">Directorio de Especialistas</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Perfil profesional de cada doctor con foto, especialidad, horarios, formaciÃ³n acadÃ©mica y biografÃ­a. Facilita la elecciÃ³n del paciente.
+          Perfil profesional de cada doctor con foto, especialidad, horarios, formación académica y biografía. Facilita la elección del paciente.
         </p>
       </article>
 
@@ -305,9 +334,9 @@
         <div class="w-12 h-12 rounded-none bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400 group-hover:bg-purple-400 group-hover:text-black transition-all">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5m3 0h1m-1-4h.01M9 16h.01M9 12h.01M9 8h.01M15 16h.01M15 12h.01M15 8h.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
-        <h3 class="text-xl font-bold text-white">CatÃ¡logo de Servicios MÃ©dicos</h3>
+        <h3 class="text-xl font-bold text-white">Catálogo de Servicios Médicos</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Muestra todos tus servicios: consultas generales, exÃ¡menes de laboratorio, imÃ¡genes, cirugÃ­as, rehabilitaciÃ³n y mÃ¡s con descripciÃ³n y precios.
+          Muestra todos tus servicios: consultas generales, exámenes de laboratorio, imágenes, cirugías, rehabilitación y más con descripción y precios.
         </p>
       </article>
 
@@ -317,7 +346,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">WhatsApp para Urgencias</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          BotÃ³n flotante de WhatsApp para consultas urgentes y solicitudes de cita. Mensaje predefinido que facilita la comunicaciÃ³n inmediata.
+          Botón flotante de WhatsApp para consultas urgentes y solicitudes de cita. Mensaje predefinido que facilita la comunicación inmediata.
         </p>
       </article>
 
@@ -327,7 +356,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">Seguridad y Privacidad</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Certificado SSL, acceso restringido por roles y cumplimiento de normativas de protecciÃ³n de datos personales de pacientes.
+          Certificado SSL, acceso restringido por roles y cumplimiento de normativas de protección de datos personales de pacientes.
         </p>
       </article>
 
@@ -335,9 +364,9 @@
         <div class="w-12 h-12 rounded-none bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 group-hover:bg-emerald-400 group-hover:text-black transition-all">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
-        <h3 class="text-xl font-bold text-white">UbicaciÃ³n y Horarios</h3>
+        <h3 class="text-xl font-bold text-white">Ubicación y Horarios</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Google Maps integrado, horarios de atenciÃ³n actualizados, direcciÃ³n exacta y ruta de llegada para que los pacientes te encuentren fÃ¡cilmente.
+          Google Maps integrado, horarios de atención actualizados, dirección exacta y ruta de llegada para que los pacientes te encuentren fácilmente.
         </p>
       </article>
 
@@ -346,7 +375,7 @@
 
   <section class="relative z-10 py-20 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 border-t border-white/5 bg-[#0a0a0e]/50">
     <div class="text-center max-w-3xl mx-auto mb-16">
-      <p class="text-xs uppercase tracking-widest text-emerald-400 font-bold mb-3">Planes para tu ClÃ­nica</p>
+      <p class="text-xs uppercase tracking-widest text-emerald-400 font-bold mb-3">Planes para tu Clínica</p>
       <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
         Precios <span class="gradient-text">para Centros de Salud</span>
       </h2>
@@ -355,37 +384,37 @@
     <div class="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
 
       <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-teal-500/50 transition-all flex flex-col h-full group">
-        <h3 class="text-xl font-bold text-white mb-2">BÃ¡sico</h3>
-        <p class="text-xs text-gray-400 mb-6">ClÃ­nica que necesita presencia web profesional con contacto directo.</p>
+        <h3 class="text-xl font-bold text-white mb-2">Básico</h3>
+        <p class="text-xs text-gray-400 mb-6">Clínica que necesita presencia web profesional con contacto directo.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-teal-400">S/ 450</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Web Institucional MÃ©dica</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> CatÃ¡logo de Servicios</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Formulario de Contacto</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Google Maps Integrado</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> SEO BÃ¡sico Salud</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Web Institucional Médica</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Catálogo de Servicios</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Formulario de Contacto</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Google Maps Integrado</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> SEO Básico Salud</li>
         </ul>
         <a href="contacto.php?servicio=clinicas&plan=basico" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-teal-500 hover:text-black border border-white/10 hover:border-teal-500 transition-all">
-          Cotizar Plan BÃ¡sico
+          Cotizar Plan Básico
         </a>
       </div>
 
       <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-teal-500/50 transition-all flex flex-col h-full group">
         <h3 class="text-xl font-bold text-white mb-2">Informativa</h3>
-        <p class="text-xs text-gray-400 mb-6">Para clÃ­nicas que quieren una web informativa con presentaciÃ³n de especialidades y contacto directo para pacientes.</p>
+        <p class="text-xs text-gray-400 mb-6">Para clínicas que quieren una web informativa con presentación de especialidades y contacto directo para pacientes.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-teal-400">S/ 550</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Todo del Plan BÃ¡sico</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Web Informativa para Pacientes</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Formulario de Contacto</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> SEO BÃ¡sico Salud</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> DiseÃ±o 100% Responsivo</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Todo del Plan Básico</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Web Informativa para Pacientes</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Formulario de Contacto</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> SEO Básico Salud</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Diseño 100% Responsivo</li>
         </ul>
         <a href="contacto.php?servicio=clinicas&plan=informativa" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-teal-500 hover:text-black border border-white/10 hover:border-teal-500 transition-all">
           Cotizar Plan Informativa
@@ -395,17 +424,17 @@
       <div class="glass-card p-8 rounded-2xl border border-emerald-500/50 relative bg-emerald-950/10 flex flex-col h-full group transform md:-translate-y-4 shadow-[0_15px_30px_rgba(16,185,129,0.15)]">
         <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-emerald-500 text-black text-[10px] font-bold px-4 py-1 uppercase tracking-wider">Recomendado</div>
         <h3 class="text-xl font-bold text-white mb-2">Profesional</h3>
-        <p class="text-xs text-gray-400 mb-6">ClÃ­nicas con agenda de citas y directorio de especialistas.</p>
+        <p class="text-xs text-gray-400 mb-6">Clínicas con agenda de citas y directorio de especialistas.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-emerald-400">S/ 800</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Todo del Plan BÃ¡sico</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Agenda de Citas Online</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Directorio de Especialistas</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> WhatsApp Flotante</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> SEO On-Page Avanzado</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Todo del Plan Básico</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Agenda de Citas Online</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Directorio de Especialistas</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> WhatsApp Flotante</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> SEO On-Page Avanzado</li>
         </ul>
         <a href="contacto.php?servicio=clinicas&plan=profesional" class="w-full inline-block text-center py-3 text-sm font-bold bg-emerald-500 text-black hover:bg-emerald-400 transition-all shadow-[0_0_15px_rgba(16,185,129,0.4)]">
           Cotizar Plan Profesional
@@ -414,17 +443,17 @@
 
       <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-purple-500/50 transition-all flex flex-col h-full group">
         <h3 class="text-xl font-bold text-white mb-2">Premium</h3>
-        <p class="text-xs text-gray-400 mb-6">ClÃ­nicas con mÃºltiples especialidades y gestiÃ³n digital completa.</p>
+        <p class="text-xs text-gray-400 mb-6">Clínicas con múltiples especialidades y gestión digital completa.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-purple-400">S/ 1000</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Todo del Plan Profesional</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> MÃºltiples Especialidades</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Blog de Salud</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Recordatorios AutomÃ¡ticos</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Panel de GestiÃ³n Avanzado</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Todo del Plan Profesional</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Múltiples Especialidades</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Blog de Salud</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Recordatorios Automáticos</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Panel de Gestión Avanzado</li>
         </ul>
         <a href="contacto.php?servicio=clinicas&plan=premium" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-purple-500 hover:text-white border border-white/10 hover:border-purple-500 transition-all">
           Cotizar Plan Premium
@@ -440,10 +469,10 @@
       <div class="lg:col-span-4 space-y-4">
         <p class="text-xs uppercase tracking-widest text-teal-400 font-bold">Resolvemos tus dudas</p>
         <h2 class="text-3xl md:text-4xl font-semibold tracking-tight text-white leading-tight">
-          Preguntas Frecuentes sobre <span class="gradient-text">Web para ClÃ­nicas</span>
+          Preguntas Frecuentes sobre <span class="gradient-text">Web para Clínicas</span>
         </h2>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Todo lo que necesitas saber para digitalizar tu clÃ­nica o centro de salud con una web profesional y segura.
+          Todo lo que necesitas saber para digitalizar tu clínica o centro de salud con una web profesional y segura.
         </p>
       </div>
 
@@ -451,28 +480,28 @@
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-blue-400">01.</span> Â¿Los pacientes pueden agendar citas online en mi clÃ­nica?
+            <span class="text-blue-400">01.</span> ¿Los pacientes pueden agendar citas online en mi clínica?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            SÃ­, integramos un sistema completo de agendamiento de citas online. Los pacientes seleccionan el especialista, la fecha y hora disponible, y reciben confirmaciÃ³n automÃ¡tica. Esto reduce llamadas telefÃ³nicas, optimiza la agenda mÃ©dica y mejora la experiencia del paciente.
+            Sí, integramos un sistema completo de agendamiento de citas online. Los pacientes seleccionan el especialista, la fecha y hora disponible, y reciben confirmación automática. Esto reduce llamadas telefónicas, optimiza la agenda médica y mejora la experiencia del paciente.
           </p>
         </div>
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-blue-400">02.</span> Â¿Incluye directorio de doctores y especialidades?
+            <span class="text-blue-400">02.</span> ¿Incluye directorio de doctores y especialidades?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            SÃ­, diseÃ±amos un directorio mÃ©dico completo con foto profesional, nombre, especialidad, horarios de atenciÃ³n, formaciÃ³n acadÃ©mica y breve biografÃ­a de cada doctor. Los pacientes pueden identificar fÃ¡cilmente al especialista que necesitan y agendar directamente.
+            Sí, diseñamos un directorio médico completo con foto profesional, nombre, especialidad, horarios de atención, formación académica y breve biografía de cada doctor. Los pacientes pueden identificar fácilmente al especialista que necesitan y agendar directamente.
           </p>
         </div>
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-blue-400">03.</span> Â¿Es seguro con los datos de los pacientes?
+            <span class="text-blue-400">03.</span> ¿Es seguro con los datos de los pacientes?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            SÃ­, la seguridad es nuestra prioridad. Implementamos certificados SSL, acceso restringido por roles, encriptaciÃ³n de datos y protocolos de seguridad mÃ©dicos. No almacenamos historial clÃ­nico en la web pÃºblica. Cumplimos con las mejores prÃ¡cticas de protecciÃ³n de datos personales.
+            Sí, la seguridad es nuestra prioridad. Implementamos certificados SSL, acceso restringido por roles, encriptación de datos y protocolos de seguridad médicos. No almacenamos historial clínico en la web pública. Cumplimos con las mejores prácticas de protección de datos personales.
           </p>
         </div>
 
@@ -485,18 +514,18 @@
     <div class="glass-card rounded-3xl p-10 md:p-16 border border-blue-500/30 bg-gradient-to-r from-blue-950/40 via-[#121216] to-teal-950/40 relative overflow-hidden text-center md:text-left flex flex-col md:flex-row items-center justify-between gap-8">
 
       <div class="space-y-4 max-w-2xl">
-        <span class="text-[10px] uppercase tracking-widest text-teal-400 font-extrabold bg-teal-500/10 px-3 py-1 border border-teal-500/20">Digitaliza tu ClÃ­nica</span>
+        <span class="text-[10px] uppercase tracking-widest text-teal-400 font-extrabold bg-teal-500/10 px-3 py-1 border border-teal-500/20">Digitaliza tu Clínica</span>
         <h2 class="text-3xl md:text-5xl font-bold tracking-tight text-white leading-tight">
-          Â¿Listo para que tu clÃ­nica reciba mÃ¡s pacientes online?
+          ¿Listo para que tu clínica reciba más pacientes online?
         </h2>
         <p class="text-sm text-gray-300 leading-relaxed">
-          CuÃ©ntanos sobre tu clÃ­nica o centro de salud. Te diseÃ±amos una web profesional con agenda de citas, directorio de especialistas y todo lo que necesitas.
+          Cuéntanos sobre tu clínica o centro de salud. Te diseñamos una web profesional con agenda de citas, directorio de especialistas y todo lo que necesitas.
         </p>
       </div>
 
       <div class="shrink-0 flex flex-col items-center gap-4">
         <a href="contacto.php?servicio=clinicas" class="inline-flex items-center gap-3 bg-gradient-to-r from-blue-500 to-teal-400 text-black px-8 py-4 text-sm font-bold rounded-none hover:shadow-[0_0_30px_rgba(59,130,246,0.4)] hover:scale-105 transition-all btn-primary">
-          Solicitar CotizaciÃ³n
+          Solicitar Cotización
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
         <span class="text-[10px] text-gray-400 uppercase tracking-widest font-semibold">Respuesta garantizada en < 24 hrs</span>
@@ -505,7 +534,26 @@
     </div>
   </section>
 
-  <?php include 'includes/footer.php'; ?>
+    <!-- Servicios Relacionados (Enlazado Interno SEO) -->
+  <section class="relative z-10 py-16 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 border-t border-white/5">
+    <div class="text-center max-w-3xl mx-auto mb-10">
+      <h2 class="text-2xl md:text-4xl font-semibold tracking-tight text-white">
+        Servicios <span class="gradient-text">relacionados</span>
+      </h2>
+      <p class="text-xs text-gray-400 mt-3">Todo lo que tu negocio necesita para crecer en internet.</p>
+    </div>
+    <div class="flex flex-wrap justify-center gap-3 text-xs">
+      <a href="desarrollo-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo y diseño web</a>
+      <a href="ecommerce.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-teal-500/40 text-gray-300 hover:text-white transition-colors">Tiendas online y e-commerce</a>
+      <a href="hosting-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-cyan-500/40 text-gray-300 hover:text-white transition-colors">Hosting web y dominio</a>
+      <a href="posicionamiento-seo.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-emerald-500/40 text-gray-300 hover:text-white transition-colors">Posicionamiento SEO</a>
+      <a href="pagina-web-con-inteligencia-artificial.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-violet-500/40 text-gray-300 hover:text-white transition-colors">Webs con inteligencia artificial</a>
+      <a href="proyectos.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-amber-500/40 text-gray-300 hover:text-white transition-colors">Ver portafolio de proyectos</a>
+      <a href="blog.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-pink-500/40 text-gray-300 hover:text-white transition-colors">Blog de desarrollo web</a>
+    </div>
+  </section>
+
+<?php include 'includes/footer.php'; ?>
 
 </body>
 </html>

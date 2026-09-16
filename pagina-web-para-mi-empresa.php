@@ -1,6 +1,7 @@
-?php
-  $page_title = "PÃ¡gina Web para Mi Empresa | Web Corporativa Profesional | Next Boost";
-  $page_description = "Crea la pÃ¡gina web perfecta para tu empresa en PerÃº. DiseÃ±o profesional, SEO optimizado, WhatsApp integrado y resultados garantizados.";
+<?php
+  $page_title = "Página Web para Mi Empresa | Web Corporativa Profesional | Next Boost";
+  $page_description = "Crea la página web perfecta para tu empresa en Perú. Diseño profesional, SEO optimizado, WhatsApp integrado y resultados garantizados.";
+  $og_url = "https://nextboost.business/pagina-web-para-mi-empresa.php";
 ?>
 <!DOCTYPE html>
 <html lang="es" class="dark scroll-smooth">
@@ -13,52 +14,80 @@
     {
       "@type": "Service",
       "@id": "https://nextboost.business/pagina-web-para-mi-empresa.php/#service",
-      "name": "PÃ¡gina Web Corporativa para Empresas en PerÃº",
+      "name": "Página Web Corporativa para Empresas en Perú",
       "serviceType": "Desarrollo Web",
       "provider": {
         "@type": "Organization",
         "name": "Next Boost",
-        "url": "https://nextboost.business/"
+        "url": "https://nextboost.business/",
+        "@id": "https://nextboost.business/#organization"
       },
-      "description": "CreaciÃ³n de pÃ¡ginas web corporativas profesionales para empresas en PerÃº. DiseÃ±o moderno, SEO optimizado, WhatsApp integrado y generaciÃ³n de clientes.",
-      "areaServed": "PerÃº",
+      "description": "Creación de páginas web corporativas profesionales para empresas en Perú. Diseño moderno, SEO optimizado, WhatsApp integrado y generación de clientes.",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Perú"
+      },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Planes de PÃ¡gina Web Corporativa",
+        "name": "Planes de Página Web Corporativa",
         "itemListElement": [
           {
             "@type": "Offer",
             "price": "450.00",
             "priceCurrency": "PEN",
-            "itemOffered": { "@type": "Service", "name": "Web Corporativa BÃ¡sica" }
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Web Corporativa Básica"
+            }
           },
           {
             "@type": "Offer",
             "price": "550.00",
             "priceCurrency": "PEN",
-            "itemOffered": { "@type": "Service", "name": "Web Corporativa Informativa" }
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Web Corporativa Informativa"
+            }
           },
           {
             "@type": "Offer",
             "price": "800.00",
             "priceCurrency": "PEN",
-            "itemOffered": { "@type": "Service", "name": "Web Corporativa Profesional" }
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Web Corporativa Profesional"
+            }
           },
           {
             "@type": "Offer",
             "price": "1000.00",
             "priceCurrency": "PEN",
-            "itemOffered": { "@type": "Service", "name": "Web Corporativa Premium" }
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Web Corporativa Premium"
+            }
           }
         ]
-      }
+      },
+      "url": "https://nextboost.business/pagina-web-para-mi-empresa.php",
+      "image": "https://nextboost.business/imagenes-web/next-boost.png"
     },
     {
       "@type": "BreadcrumbList",
       "@id": "https://nextboost.business/pagina-web-para-mi-empresa.php/#breadcrumb",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://nextboost.business/" },
-        { "@type": "ListItem", "position": 2, "name": "PÃ¡gina Web para Mi Empresa", "item": "https://nextboost.business/pagina-web-para-mi-empresa.php" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://nextboost.business/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Página Web para Mi Empresa",
+          "item": "https://nextboost.business/pagina-web-para-mi-empresa.php"
+        }
       ]
     },
     {
@@ -67,26 +96,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Â¿Por quÃ© mi empresa necesita una pÃ¡gina web?",
+          "name": "Por que mi empresa necesita una pagina web?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El 81% de los consumidores investiga en lÃ­nea antes de comprar. Sin web, tu empresa es invisible para clientes potenciales. Una pÃ¡gina web profesional genera confianza, proyecta credibilidad y estÃ¡ disponible 24/7 para recibir clientes incluso cuando tu oficina estÃ¡ cerrada."
+            "text": "El 81% de los consumidores investiga en linea antes de comprar. Sin web, tu empresa es invisible para clientes potenciales. Una pagina web profesional genera confianza, proyecta credibilidad y esta disponible 24/7 para recibir clientes incluso cuando tu oficina esta cerrada."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿CuÃ¡nto cuesta una pÃ¡gina web para una empresa?",
+          "name": "Cuanto cuesta una pagina web para una empresa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Una pÃ¡gina web corporativa profesional cuesta desde S/450. El plan mÃ¡s elegido es el Profesional a S/800 que incluye CMS administrable, blog, SEO avanzado y hasta 8 secciones. El precio incluye dominio, hosting por un aÃ±o y soporte tÃ©cnico."
+            "text": "Una pagina web corporativa profesional cuesta desde S/450. El plan mas elegido es el Profesional a S/800 que incluye CMS administrable, blog, SEO avanzado y hasta 8 secciones. El precio incluye dominio, hosting por un anio y soporte tecnico."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿En cuÃ¡nto tiempo estÃ¡ lista la pÃ¡gina web de mi empresa?",
+          "name": "En cuanto tiempo esta lista la pagina web de mi empresa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Una landing page corporativa estÃ¡ lista en 5 a 8 dÃ­as hÃ¡biles. Una web completa con mÃºltiples secciones y blog se entrega en 2 a 3 semanas. Nos comprometemos con fechas de entrega claras y te mantenemos informado del avance."
+            "text": "Una landing page corporativa esta lista en 5 a 8 dias habiles. Una web completa con multiples secciones y blog se entrega en 2 a 3 semanas. Nos comprometemos con fechas de entrega claras y te mantenemos informado del avance."
           }
         }
       ]
@@ -498,7 +527,26 @@
     </div>
   </section>
 
-  <?php include 'includes/footer.php'; ?>
+    <!-- Servicios Relacionados (Enlazado Interno SEO) -->
+  <section class="relative z-10 py-16 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 border-t border-white/5">
+    <div class="text-center max-w-3xl mx-auto mb-10">
+      <h2 class="text-2xl md:text-4xl font-semibold tracking-tight text-white">
+        Servicios <span class="gradient-text">relacionados</span>
+      </h2>
+      <p class="text-xs text-gray-400 mt-3">Todo lo que tu negocio necesita para crecer en internet.</p>
+    </div>
+    <div class="flex flex-wrap justify-center gap-3 text-xs">
+      <a href="desarrollo-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo y diseño web</a>
+      <a href="ecommerce.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-teal-500/40 text-gray-300 hover:text-white transition-colors">Tiendas online y e-commerce</a>
+      <a href="hosting-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-cyan-500/40 text-gray-300 hover:text-white transition-colors">Hosting web y dominio</a>
+      <a href="posicionamiento-seo.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-emerald-500/40 text-gray-300 hover:text-white transition-colors">Posicionamiento SEO</a>
+      <a href="pagina-web-con-inteligencia-artificial.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-violet-500/40 text-gray-300 hover:text-white transition-colors">Webs con inteligencia artificial</a>
+      <a href="proyectos.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-amber-500/40 text-gray-300 hover:text-white transition-colors">Ver portafolio de proyectos</a>
+      <a href="blog.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-pink-500/40 text-gray-300 hover:text-white transition-colors">Blog de desarrollo web</a>
+    </div>
+  </section>
+
+<?php include 'includes/footer.php'; ?>
 
 </body>
 </html>

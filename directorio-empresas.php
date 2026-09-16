@@ -1,6 +1,6 @@
-?php
-  $page_title = "Directorio de Empresas PerÃº | Por CategorÃ­a y Servicio | Next Boost";
-  $page_description = "Directorio de empresas en PerÃº por sector y servicio. Busca empresas por categorÃ­a (industrial, derecho, marketing, turismo, gimnasios) o por nombre y servicio.";
+<?php
+  $page_title = "Directorio de Empresas Perú | Por Categoría y Servicio | Next Boost";
+  $page_description = "Directorio de empresas en Perú por sector y servicio. Busca empresas por categoría (industrial, derecho, marketing, turismo, gimnasios) o por nombre y servicio.";
   $og_url = "https://nextboost.business/directorio-empresas.php";
 
   $db = null;
@@ -65,18 +65,18 @@
       "@id": "https://nextboost.business/directorio-empresas.php/#breadcrumb",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://nextboost.business/" },
-        { "@type": "ListItem", "position": 2, "name": "Directorio de Empresas PerÃº", "item": "https://nextboost.business/directorio-empresas.php" }
+        { "@type": "ListItem", "position": 2, "name": "Directorio de Empresas Perú", "item": "https://nextboost.business/directorio-empresas.php" }
       ]
     },
     {
       "@type": "CollectionPage",
       "@id": "https://nextboost.business/directorio-empresas.php/#directorio",
       "url": "https://nextboost.business/directorio-empresas.php",
-      "name": "Directorio de Empresas PerÃº",
-      "description": "Directorio de empresas en PerÃº organizado por sector: industrial, derecho, marketing, turismo, gimnasios, gastronomÃ­a y mÃ¡s.",
+      "name": "Directorio de Empresas Perú",
+      "description": "Directorio de empresas en Perú organizado por sector: industrial, derecho, marketing, turismo, gimnasios, gastronomía y más.",
       "about": {
         "@type": "Thing",
-        "name": "Directorio de Empresas PerÃº"
+        "name": "Directorio de Empresas Perú"
       }
     },
     {
@@ -85,26 +85,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Â¿CÃ³mo busco una empresa por servicio en el directorio?",
+          "name": "¿Cómo busco una empresa por servicio en el directorio?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Usa el buscador superior escribiendo el nombre del servicio que necesitas (por ejemplo: asesorÃ­a legal, SEO, marketing digital, venta de maquinaria) o el nombre de la empresa. TambiÃ©n puedes filtrar por categorÃ­a haciendo clic en cualquiera de los sectores disponibles."
+            "text": "Usa el buscador superior escribiendo el nombre del servicio que necesitas (por ejemplo: asesoría legal, SEO, marketing digital, venta de maquinaria) o el nombre de la empresa. También puedes filtrar por categoría haciendo clic en cualquiera de los sectores disponibles."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿QuÃ© categorÃ­as de empresas hay en el directorio?",
+          "name": "¿Qué categorías de empresas hay en el directorio?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El directorio organiza las empresas por sectores como industrial, derecho, marketing, turismo, gimnasios, gastronomÃ­a, salud, educaciÃ³n, inmobiliarias, retail, belleza, tecnologÃ­a, construcciÃ³n, transporte y finanzas."
+            "text": "El directorio organiza las empresas por sectores como industrial, derecho, marketing, turismo, gimnasios, gastronomía, salud, educación, inmobiliarias, retail, belleza, tecnología, construcción, transporte y finanzas."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿CÃ³mo registro mi empresa en el directorio?",
+          "name": "¿Cómo registro mi empresa en el directorio?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ingresa al formulario de registro y completa los datos de tu empresa: nombre, categorÃ­a, servicios, telÃ©fono, correo y sitio web. Nuestro equipo revisa la solicitud y la publica una vez verificada."
+            "text": "Ingresa al formulario de registro y completa los datos de tu empresa: nombre, categoría, servicios, teléfono, correo y sitio web. Nuestro equipo revisa la solicitud y la publica una vez verificada."
           }
         }
       ]
@@ -131,13 +131,13 @@
     <section class="text-center max-w-4xl mx-auto space-y-8">
       <div class="inline-flex items-center gap-2.5 px-4 py-1.5 badge-gradient text-xs font-medium text-blue-300 animate-in mx-auto">
         <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
-        Directorio Empresarial del PerÃº
+        Directorio Empresarial del Perú
       </div>
       <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight animate-in" style="animation-delay: 100ms;">
-        Directorio de Empresas <span class="gradient-text">en PerÃº</span>
+        Directorio de Empresas <span class="gradient-text">en Perú</span>
       </h1>
       <p class="text-gray-400 text-base md:text-lg leading-relaxed max-w-2xl mx-auto animate-in" style="animation-delay: 200ms;">
-        Encuentra empresas por sector o servicio: industrial, derecho, marketing, turismo, gimnasios y mÃ¡s. Conecta con proveedores verificados en todo el paÃ­s.
+        Encuentra empresas por sector o servicio: industrial, derecho, marketing, turismo, gimnasios y más. Conecta con proveedores verificados en todo el país.
       </p>
 
       <!-- Buscador -->
@@ -149,7 +149,7 @@
               type="text"
               name="q"
               value="<?= htmlspecialchars($busqueda) ?>"
-              placeholder="Buscar por servicio o empresaâ€¦ ej. asesorÃ­a legal, marketing, Italvet"
+              placeholder="Buscar por servicio o empresa… ej. asesoría legal, marketing, Italvet"
               class="w-full glass-input bg-white/5 border border-white/10 text-white text-sm pl-12 pr-4 py-4 placeholder-gray-500 focus:outline-none focus:border-blue-500/60 focus:ring-2 focus:ring-blue-500/20 transition-all"
             >
             <?php if ($cat !== ''): ?>
@@ -162,7 +162,7 @@
         </div>
       </form>
 
-      <!-- CategorÃ­as -->
+      <!-- Categorías -->
       <div class="flex flex-wrap justify-center gap-2.5 animate-in" style="animation-delay: 400ms;">
         <a href="directorio-empresas.php" class="px-4 py-2 text-xs font-semibold border transition-all <?= $cat === '' ? 'bg-white text-black border-white' : 'text-gray-300 border-white/10 hover:border-white/40 hover:text-white' ?>">
           Todas (<?= number_format(array_sum(array_column($categorias, 'total'))) ?>)
@@ -187,9 +187,9 @@
         </div>
       <?php elseif (empty($empresas)): ?>
         <div class="max-w-2xl mx-auto text-center glass-card p-10">
-          <p class="text-3xl mb-3">ðŸ”</p>
+          <p class="text-3xl mb-3">🔍</p>
           <p class="text-white font-semibold text-lg mb-1">Sin resultados</p>
-          <p class="text-gray-400 text-sm mb-6">No encontramos empresas para Â«<?= htmlspecialchars($busqueda) ?>Â»<?= $catActiva ? ' en la categorÃ­a ' . htmlspecialchars($catActiva['nombre']) : '' ?>. Intenta con otro tÃ©rmino o revisa las categorÃ­as.</p>
+          <p class="text-gray-400 text-sm mb-6">No encontramos empresas para «<?= htmlspecialchars($busqueda) ?>»<?= $catActiva ? ' en la categoría ' . htmlspecialchars($catActiva['nombre']) : '' ?>. Intenta con otro término o revisa las categorías.</p>
           <a href="directorio-empresas.php" class="inline-block bg-white hover:bg-gray-100 text-black font-bold px-6 py-3 text-sm transition-colors">Ver todas las empresas</a>
         </div>
       <?php else: ?>
@@ -235,16 +235,16 @@
                   <span class="text-[10px] px-2 py-1 border border-white/10 bg-white/5 text-gray-300"><?= htmlspecialchars($sv) ?></span>
                 <?php endforeach; ?>
                 <?php if (count($servicios) > 3): ?>
-                  <span class="text-[10px] px-2 py-1 text-gray-500">+<?= count($servicios) - 3 ?> mÃ¡s</span>
+                  <span class="text-[10px] px-2 py-1 text-gray-500">+<?= count($servicios) - 3 ?> más</span>
                 <?php endif; ?>
               </div>
             <?php endif; ?>
 
             <div class="flex items-center gap-2 text-[11px] text-gray-500">
               <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-              <?= htmlspecialchars($e['ciudad'] ?: 'PerÃº') ?>
+              <?= htmlspecialchars($e['ciudad'] ?: 'Perú') ?>
               <?php if ($e['horario']): ?>
-                <span class="text-gray-600">â€¢</span>
+                <span class="text-gray-600">•</span>
                 <span><?= htmlspecialchars($e['horario']) ?></span>
               <?php endif; ?>
             </div>
@@ -277,9 +277,9 @@
       <div class="glass-card border border-blue-500/20 p-10 md:p-14 text-center relative overflow-hidden">
         <div class="absolute -top-20 -right-20 w-64 h-64 bg-blue-600/10 rounded-full blur-[100px] pointer-events-none"></div>
         <div class="relative">
-          <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight text-white mb-3">Â¿Tu empresa no aparece?</h2>
+          <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight text-white mb-3">¿Tu empresa no aparece?</h2>
           <p class="text-gray-400 text-sm md:text-base max-w-xl mx-auto mb-8 leading-relaxed">
-            Registra tu negocio gratis en el directorio y llega a mÃ¡s clientes que buscan tu tipo de servicio en PerÃº.
+            Registra tu negocio gratis en el directorio y llega a más clientes que buscan tu tipo de servicio en Perú.
           </p>
           <a href="registro-directorio.php" class="inline-flex items-center gap-2 bg-white hover:bg-gray-100 text-black font-bold px-8 py-4 text-sm tracking-tight transition-colors duration-300">
             Registrar mi empresa
@@ -297,35 +297,35 @@
       <div class="space-y-3">
         <div class="glass-card border border-white/10 overflow-hidden">
           <button class="faq-btn w-full flex items-center justify-between gap-4 p-5 text-left">
-            <span class="text-sm font-semibold text-white">Â¿CÃ³mo busco una empresa por servicio en el directorio?</span>
+            <span class="text-sm font-semibold text-white">¿Cómo busco una empresa por servicio en el directorio?</span>
             <span class="faq-icon text-gray-400 transition-transform duration-300 shrink-0">
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
             </span>
           </button>
           <div class="faq-answer hidden px-5 pb-5">
-            <p class="text-xs text-gray-400 leading-relaxed">Usa el buscador superior escribiendo el nombre del servicio que necesitas (por ejemplo: asesorÃ­a legal, SEO, marketing digital, venta de maquinaria) o el nombre de la empresa. TambiÃ©n puedes filtrar por categorÃ­a haciendo clic en cualquiera de los sectores disponibles.</p>
+            <p class="text-xs text-gray-400 leading-relaxed">Usa el buscador superior escribiendo el nombre del servicio que necesitas (por ejemplo: asesoría legal, SEO, marketing digital, venta de maquinaria) o el nombre de la empresa. También puedes filtrar por categoría haciendo clic en cualquiera de los sectores disponibles.</p>
           </div>
         </div>
         <div class="glass-card border border-white/10 overflow-hidden">
           <button class="faq-btn w-full flex items-center justify-between gap-4 p-5 text-left">
-            <span class="text-sm font-semibold text-white">Â¿QuÃ© categorÃ­as de empresas hay en el directorio?</span>
+            <span class="text-sm font-semibold text-white">¿Qué categorías de empresas hay en el directorio?</span>
             <span class="faq-icon text-gray-400 transition-transform duration-300 shrink-0">
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
             </span>
           </button>
           <div class="faq-answer hidden px-5 pb-5">
-            <p class="text-xs text-gray-400 leading-relaxed">El directorio organiza las empresas por sectores como industrial, derecho, marketing, turismo, gimnasios, gastronomÃ­a, salud, educaciÃ³n, inmobiliarias, retail, belleza, tecnologÃ­a, construcciÃ³n, transporte y finanzas.</p>
+            <p class="text-xs text-gray-400 leading-relaxed">El directorio organiza las empresas por sectores como industrial, derecho, marketing, turismo, gimnasios, gastronomía, salud, educación, inmobiliarias, retail, belleza, tecnología, construcción, transporte y finanzas.</p>
           </div>
         </div>
         <div class="glass-card border border-white/10 overflow-hidden">
           <button class="faq-btn w-full flex items-center justify-between gap-4 p-5 text-left">
-            <span class="text-sm font-semibold text-white">Â¿CÃ³mo registro mi empresa en el directorio?</span>
+            <span class="text-sm font-semibold text-white">¿Cómo registro mi empresa en el directorio?</span>
             <span class="faq-icon text-gray-400 transition-transform duration-300 shrink-0">
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
             </span>
           </button>
           <div class="faq-answer hidden px-5 pb-5">
-            <p class="text-xs text-gray-400 leading-relaxed">Ingresa al formulario de registro y completa los datos de tu empresa: nombre, categorÃ­a, servicios, telÃ©fono, correo y sitio web. Nuestro equipo revisa la solicitud y la publica una vez verificada.</p>
+            <p class="text-xs text-gray-400 leading-relaxed">Ingresa al formulario de registro y completa los datos de tu empresa: nombre, categoría, servicios, teléfono, correo y sitio web. Nuestro equipo revisa la solicitud y la publica una vez verificada.</p>
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
-?php
-  $page_title = "PÃ¡gina Web OdontÃ³logos PerÃº | Web para Consultorios Dentales | Next Boost";
-  $page_description = "PÃ¡ginas web para odontÃ³logos y consultorios dentales en PerÃº. Agendamiento de citas, servicios dentales, antes/despuÃ©s y WhatsApp.";
+<?php
+  $page_title = "Página Web Odontólogos Perú | Web para Consultorios Dentales | Next Boost";
+  $page_description = "Páginas web para odontólogos y consultorios dentales en Perú. Agendamiento de citas, servicios dentales, antes/después y WhatsApp.";
+  $og_url = "https://nextboost.business/pagina-web-odontologos-peru.php";
 ?>
 <!DOCTYPE html>
 <html lang="es" class="dark scroll-smooth">
@@ -13,18 +14,22 @@
     {
       "@type": "Service",
       "@id": "https://nextboost.business/pagina-web-odontologos-peru.php/#service",
-      "name": "PÃ¡gina Web para OdontÃ³logos y Consultorios Dentales en PerÃº",
-      "serviceType": "Desarrollo Web OdontologÃ­a",
+      "name": "Página Web para Odontólogos y Consultorios Dentales en Perú",
+      "serviceType": "Desarrollo Web Odontología",
       "provider": {
         "@type": "Organization",
         "name": "Next Boost",
-        "url": "https://nextboost.business/"
+        "url": "https://nextboost.business/",
+        "@id": "https://nextboost.business/#organization"
       },
-      "description": "PÃ¡ginas web profesionales para odontÃ³logos y consultorios dentales en PerÃº con agendamiento de citas, galerÃ­a antes/despuÃ©s y WhatsApp integrado.",
-      "areaServed": "Peru",
+      "description": "Páginas web profesionales para odontólogos y consultorios dentales en Perú con agendamiento de citas, galería antes/después y WhatsApp integrado.",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Perú"
+      },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Planes Web para OdontÃ³logos",
+        "name": "Planes Web para Odontólogos",
         "itemListElement": [
           {
             "@type": "Offer",
@@ -32,7 +37,7 @@
             "priceCurrency": "PEN",
             "itemOffered": {
               "@type": "Service",
-              "name": "Plan BÃ¡sico"
+              "name": "Plan Básico"
             }
           },
           {
@@ -63,7 +68,9 @@
             }
           }
         ]
-      }
+      },
+      "url": "https://nextboost.business/pagina-web-odontologos-peru.php",
+      "image": "https://nextboost.business/imagenes-web/next-boost.png"
     },
     {
       "@type": "BreadcrumbList",
@@ -78,7 +85,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "PÃ¡gina Web OdontÃ³logos PerÃº",
+          "name": "Página Web Odontólogos Perú",
           "item": "https://nextboost.business/pagina-web-odontologos-peru.php"
         }
       ]
@@ -89,26 +96,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Â¿Se pueden agendar citas desde la pÃ¡gina web del consultorio dental?",
+          "name": "¿Se pueden agendar citas desde la página web?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "SÃ­, integramos un sistema de agendamiento de citas que permite a tus pacientes reservar turnos directamente desde la web, eligiendo el dÃ­a, hora y especialidad que necesitan. TambiÃ©n puedes conectarlo con WhatsApp para confirmaciones manuales."
+            "text": "Sí, integramos un sistema de agendamiento de citas que permite a tus pacientes reservar turnos directamente desde la web, eligiendo el día, hora y especialidad. También puedes conectarlo con WhatsApp para confirmaciones manuales."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿Incluye galerÃ­a antes/despuÃ©s de tratamientos dentales?",
+          "name": "¿Incluye galería antes/después de tratamientos?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "SÃ­, creamos una galerÃ­a interactiva con comparadores antes/despuÃ©s que muestra los resultados de tus tratamientos dentales. Esta funciÃ³n genera confianza en los pacientes y aumenta la conversiÃ³n de consultas."
+            "text": "Sí, creamos una galería interactiva con comparadores antes/después que muestra los resultados de tus tratamientos dentales. Esta función genera una confianza inmediata en los pacientes y aumenta significativamente la conversión de consultas."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿La pÃ¡gina web muestra los servicios y precios dentales?",
+          "name": "¿Muestra servicios y precios dentales?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "SÃ­, incluimos una secciÃ³n detallada de servicios donde puedes listar todas tus especialidades (ortodoncia, implantes, blanqueamiento, etc.) con descripciones e indicadores de precios. Los pacientes sabrÃ¡n exactamente quÃ© ofreces antes de contactarte."
+            "text": "Sí, incluimos una sección detallada de servicios donde puedes listar todas tus especialidades (ortodoncia, implantes, blanqueamiento, etc.) con descripciones, beneficios e indicadores de precios. Los pacientes sabrán exactamente qué ofreces antes de contactarte."
           }
         }
       ]
@@ -133,16 +140,16 @@
       <div class="lg:col-span-7 space-y-6">
         <div class="inline-flex items-center gap-2.5 px-4 py-1.5 badge-gradient text-xs font-medium text-blue-300 animate-in">
           <span class="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></span>
-          <span class="tracking-wide">Especialistas en PÃ¡ginas Web para OdontologÃ­a</span>
+          <span class="tracking-wide">Especialistas en Páginas Web para Odontología</span>
         </div>
 
         <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-[1.1]">
-          PÃ¡gina Web para OdontÃ³logos <br>
-          <span class="gradient-text">y Consultorios Dentales en PerÃº</span>
+          Página Web para Odontólogos <br>
+          <span class="gradient-text">y Consultorios Dentales en Perú</span>
         </h1>
 
         <p class="text-base md:text-lg text-gray-300 font-normal leading-relaxed max-w-2xl">
-          Atrae mÃ¡s pacientes con una web profesional para tu consultorio dental. <strong class="text-white">Agendamiento de citas online</strong>, galerÃ­a antes/despuÃ©s, lista de servicios y <strong class="text-teal-400">WhatsApp directo</strong>. DiseÃ±ada para convertir visitas en pacientes.
+          Atrae más pacientes con una web profesional para tu consultorio dental. <strong class="text-white">Agendamiento de citas online</strong>, galería antes/después, lista de servicios y <strong class="text-teal-400">WhatsApp directo</strong>. Diseñada para convertir visitas en pacientes.
         </p>
 
         <div class="grid grid-cols-3 gap-4 pt-4 border-t border-white/10 max-w-xl">
@@ -167,7 +174,7 @@
           </a>
           <a href="https://wa.me/51962469836?text=Hola%20Next%20Boost,%20deseo%20una%20p%C3%A1gina%20web%20para%20mi%20consultorio%20dental" target="_blank" class="inline-flex items-center justify-center gap-2 border border-white/20 hover:border-emerald-500/50 bg-white/5 hover:bg-emerald-500/10 text-white hover:text-emerald-400 px-6 py-4 text-sm font-semibold transition-all">
             <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            AsesorÃ­a por WhatsApp
+            Asesoría por WhatsApp
           </a>
         </div>
       </div>
@@ -194,7 +201,7 @@
             <div class="p-3 bg-white/5 border border-white/10 flex items-center gap-3">
               <span class="w-8 h-8 rounded-none bg-teal-500/10 border border-teal-500/20 flex items-center justify-center text-teal-400 text-xs font-bold">02</span>
               <div>
-                <span class="text-xs font-bold text-white block">GalerÃ­a Antes/DespuÃ©s</span>
+                <span class="text-xs font-bold text-white block">Galería Antes/Después</span>
                 <span class="text-[10px] text-gray-400">Resultados visibles que generan confianza</span>
               </div>
             </div>
@@ -215,7 +222,7 @@
           </div>
 
           <p class="text-[11px] text-gray-400 text-center leading-relaxed">
-            Todas nuestras webs dentales se construyen con <strong class="text-white">carga ultra rÃ¡pida</strong> y optimizaciÃ³n SEO para que tu consultorio aparezca primero en Google.
+            Todas nuestras webs dentales se construyen con <strong class="text-white">carga ultra rápida</strong> y optimización SEO para que tu consultorio aparezca primero en Google.
           </p>
 
         </div>
@@ -230,7 +237,7 @@
       <div class="text-center max-w-3xl mx-auto mb-16">
         <p class="text-xs uppercase tracking-widest text-blue-400 font-bold mb-3">La Ventaja Next Boost</p>
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-          Â¿Por quÃ© nuestra web dental <span class="gradient-text">supera a la competencia</span>?
+          ¿Por qué nuestra web dental <span class="gradient-text">supera a la competencia</span>?
         </h2>
       </div>
 
@@ -239,24 +246,24 @@
         <div class="glass-card p-8 rounded-2xl border border-red-500/20 bg-red-950/10 space-y-6">
           <div class="flex items-center gap-3 border-b border-red-500/20 pb-4">
             <span class="w-3 h-3 rounded-full bg-red-500"></span>
-            <h3 class="text-xl font-bold text-white">Webs Dentales GenÃ©ricas</h3>
+            <h3 class="text-xl font-bold text-white">Webs Dentales Genéricas</h3>
           </div>
           <ul class="space-y-4 text-xs text-gray-300">
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>Sin agendamiento:</strong> Los pacientes llaman por telÃ©fono y se pierden consultas fuera de horario.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Sin agendamiento:</strong> Los pacientes llaman por teléfono y se pierden consultas fuera de horario.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>Sin galerÃ­a de resultados:</strong> No muestran antes/despuÃ©s y pierden la confianza del paciente.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Sin galería de resultados:</strong> No muestran antes/después y pierden la confianza del paciente.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
               <span><strong>Carga lenta:</strong> El paciente abandona antes de ver tus servicios y llama a otro dentista.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>Sin SEO local:</strong> Tu consultorio no aparece en las primeras bÃºsquedas de "dentista en Lima".</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Sin SEO local:</strong> Tu consultorio no aparece en las primeras búsquedas de "dentista en Lima".</span>
             </li>
           </ul>
         </div>
@@ -268,20 +275,20 @@
           </div>
           <ul class="space-y-4 text-xs text-gray-200">
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>Agendamiento 24/7:</strong> Tus pacientes reservan citas en cualquier momento, aumentando la ocupaciÃ³n.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>Agendamiento 24/7:</strong> Tus pacientes reservan citas en cualquier momento, aumentando la ocupación.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>GalerÃ­a interactiva antes/despuÃ©s:</strong> Resultados reales que convierten visitantes en pacientes.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>Galería interactiva antes/después:</strong> Resultados reales que convierten visitantes en pacientes.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>Carga instantÃ¡nea (&lt; 0.8s):</strong> El paciente ve tu contenido al instante sin esperas.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>Carga instantánea (&lt; 0.8s):</strong> El paciente ve tu contenido al instante sin esperas.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>SEO local para dentistas:</strong> Aparecemos en Google Maps y bÃºsquedas de "dentista cerca de mÃ­".</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>SEO local para dentistas:</strong> Aparecemos en Google Maps y búsquedas de "dentista cerca de mí".</span>
             </li>
           </ul>
         </div>
@@ -307,7 +314,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">Agendamiento de Citas Online</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Sistema integrado para que tus pacientes agenden citas eligiendo especialidad, fecha y hora. Reduces llamadas y aumentas la ocupaciÃ³n del consultorio.
+          Sistema integrado para que tus pacientes agenden citas eligiendo especialidad, fecha y hora. Reduces llamadas y aumentas la ocupación del consultorio.
         </p>
       </article>
 
@@ -315,9 +322,9 @@
         <div class="w-12 h-12 rounded-none bg-teal-500/10 border border-teal-500/20 flex items-center justify-center text-teal-400 group-hover:bg-teal-400 group-hover:text-black transition-all">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
-        <h3 class="text-xl font-bold text-white">GalerÃ­a Antes/DespuÃ©s</h3>
+        <h3 class="text-xl font-bold text-white">Galería Antes/Después</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Comparador interactivo de resultados de tratamientos dentales. Muestra la transformaciÃ³n de tus pacientes para generar confianza inmediata.
+          Comparador interactivo de resultados de tratamientos dentales. Muestra la transformación de tus pacientes para generar confianza inmediata.
         </p>
       </article>
 
@@ -327,7 +334,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">Servicios y Especialidades</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Lista completa de tratamientos: ortodoncia, implantes, blanqueamiento, endodoncia y mÃ¡s. Cada servicio con descripciÃ³n, beneficios e indicador de precios.
+          Lista completa de tratamientos: ortodoncia, implantes, blanqueamiento, endodoncia y más. Cada servicio con descripción, beneficios e indicador de precios.
         </p>
       </article>
 
@@ -337,7 +344,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">WhatsApp Flotante</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          BotÃ³n de WhatsApp siempre visible para que el paciente te contacte directamente con un mensaje predefinido sobre el tratamiento que necesita.
+          Botón de WhatsApp siempre visible para que el paciente te contacte directamente con un mensaje predefinido sobre el tratamiento que necesita.
         </p>
       </article>
 
@@ -347,7 +354,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">Google Maps Integrado</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Mapa interactivo con la ubicaciÃ³n exacta de tu consultorio dental. Indicaciones, horarios y referencia visual para que el paciente te encuentre fÃ¡cilmente.
+          Mapa interactivo con la ubicación exacta de tu consultorio dental. Indicaciones, horarios y referencia visual para que el paciente te encuentre fácilmente.
         </p>
       </article>
 
@@ -357,7 +364,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">SEO Local para Dentistas</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          OptimizaciÃ³n para aparecer en bÃºsquedas de "dentista en [ciudad]", Google My Business y resultados locales de Google Maps.
+          Optimización para aparecer en búsquedas de "dentista en [ciudad]", Google My Business y resultados locales de Google Maps.
         </p>
       </article>
 
@@ -368,27 +375,27 @@
     <div class="text-center max-w-3xl mx-auto mb-16">
       <p class="text-xs uppercase tracking-widest text-emerald-400 font-bold mb-3">Planes para Consultorios</p>
       <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-        Precios Web para <span class="gradient-text">OdontÃ³logos</span>
+        Precios Web para <span class="gradient-text">Odontólogos</span>
       </h2>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
       <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-teal-500/50 transition-all flex flex-col h-full group">
-        <h3 class="text-xl font-bold text-white mb-2">BÃ¡sico</h3>
-        <p class="text-xs text-gray-400 mb-6">Ideal para consultorios dentales que reciÃ©n empiezan su presencia digital.</p>
+        <h3 class="text-xl font-bold text-white mb-2">Básico</h3>
+        <p class="text-xs text-gray-400 mb-6">Ideal para consultorios dentales que recién empiezan su presencia digital.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-teal-400">S/ 450</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Landing Page Dental</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> SecciÃ³n de Servicios</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> BotÃ³n WhatsApp Flotante</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Formulario de Contacto</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> SEO BÃ¡sico Dental</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Landing Page Dental</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Sección de Servicios</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Botón WhatsApp Flotante</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Formulario de Contacto</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> SEO Básico Dental</li>
         </ul>
         <a href="contacto.php?servicio=web-odontologos&plan=basico" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-teal-500 hover:text-black border border-white/10 hover:border-teal-500 transition-all">
-          Cotizar BÃ¡sico
+          Cotizar Básico
         </a>
       </div>
 
@@ -397,14 +404,14 @@
         <p class="text-xs text-gray-400 mb-6">Para consultorios dentales que quieren informar sobre todas sus especialidades y tratamientos.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-teal-400">S/ 550</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Todo lo del plan bÃ¡sico</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> PÃ¡gina de especialidades y tratamientos</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Equipo mÃ©dico y titulaciones</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> GalerÃ­a del consultorio</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> SEO bÃ¡sico y diseÃ±o 100% responsivo</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Todo lo del plan básico</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Página de especialidades y tratamientos</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Equipo médico y titulaciones</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Galería del consultorio</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> SEO básico y diseño 100% responsivo</li>
         </ul>
         <a href="contacto.php?servicio=web-odontologos&plan=informativa" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-teal-500 hover:text-black border border-white/10 hover:border-teal-500 transition-all">
           Cotizar Informativa
@@ -417,14 +424,14 @@
         <p class="text-xs text-gray-400 mb-6">Para consultorios que quieren agendar citas y mostrar resultados online.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-emerald-400">S/ 800</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Todo del plan BÃ¡sico</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> GalerÃ­a Antes/DespuÃ©s</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Sistema de Agendamiento</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Hasta 8 Especialidades</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Google Maps + SEO Local</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Todo del plan Básico</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Galería Antes/Después</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Sistema de Agendamiento</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Hasta 8 Especialidades</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Google Maps + SEO Local</li>
         </ul>
         <a href="contacto.php?servicio=web-odontologos&plan=profesional" class="w-full inline-block text-center py-3 text-sm font-bold bg-emerald-500 text-black hover:bg-emerald-400 transition-all shadow-[0_0_15px_rgba(16,185,129,0.4)]">
           Cotizar Profesional
@@ -433,17 +440,17 @@
 
       <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-purple-500/50 transition-all flex flex-col h-full group">
         <h3 class="text-xl font-bold text-white mb-2">Premium</h3>
-        <p class="text-xs text-gray-400 mb-6">ClÃ­nicas dentales con mÃºltiples especialistas y alta demanda de pacientes.</p>
+        <p class="text-xs text-gray-400 mb-6">Clínicas dentales con múltiples especialistas y alta demanda de pacientes.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-purple-400">S/ 1000</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Todo del plan Profesional</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> GalerÃ­a Ilimitada</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> ReseÃ±as de Pacientes</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Blog de Salud Dental</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> SEO Avanzado Multi-UbicaciÃ³n</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Todo del plan Profesional</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Galería Ilimitada</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Reseñas de Pacientes</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Blog de Salud Dental</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> SEO Avanzado Multi-Ubicación</li>
         </ul>
         <a href="contacto.php?servicio=web-odontologos&plan=premium" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-purple-500 hover:text-white border border-white/10 hover:border-purple-500 transition-all">
           Cotizar Premium
@@ -458,7 +465,7 @@
       <div class="lg:col-span-4 space-y-4">
         <p class="text-xs uppercase tracking-widest text-teal-400 font-bold">Resolvemos tus dudas</p>
         <h2 class="text-3xl md:text-4xl font-semibold tracking-tight text-white leading-tight">
-          Preguntas Frecuentes sobre <span class="gradient-text">Webs para OdontÃ³logos</span>
+          Preguntas Frecuentes sobre <span class="gradient-text">Webs para Odontólogos</span>
         </h2>
         <p class="text-xs text-gray-400 leading-relaxed">
           Todo lo que necesitas saber para llevar tu consultorio dental al siguiente nivel digital.
@@ -469,28 +476,28 @@
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-blue-400">01.</span> Â¿Se pueden agendar citas desde la pÃ¡gina web?
+            <span class="text-blue-400">01.</span> ¿Se pueden agendar citas desde la página web?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            SÃ­, integramos un sistema de agendamiento de citas que permite a tus pacientes reservar turnos directamente desde la web, eligiendo el dÃ­a, hora y especialidad. TambiÃ©n puedes conectarlo con WhatsApp para confirmaciones manuales.
+            Sí, integramos un sistema de agendamiento de citas que permite a tus pacientes reservar turnos directamente desde la web, eligiendo el día, hora y especialidad. También puedes conectarlo con WhatsApp para confirmaciones manuales.
           </p>
         </div>
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-blue-400">02.</span> Â¿Incluye galerÃ­a antes/despuÃ©s de tratamientos?
+            <span class="text-blue-400">02.</span> ¿Incluye galería antes/después de tratamientos?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            SÃ­, creamos una galerÃ­a interactiva con comparadores antes/despuÃ©s que muestra los resultados de tus tratamientos dentales. Esta funciÃ³n genera una confianza inmediata en los pacientes y aumenta significativamente la conversiÃ³n de consultas.
+            Sí, creamos una galería interactiva con comparadores antes/después que muestra los resultados de tus tratamientos dentales. Esta función genera una confianza inmediata en los pacientes y aumenta significativamente la conversión de consultas.
           </p>
         </div>
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-blue-400">03.</span> Â¿Muestra servicios y precios dentales?
+            <span class="text-blue-400">03.</span> ¿Muestra servicios y precios dentales?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            SÃ­, incluimos una secciÃ³n detallada de servicios donde puedes listar todas tus especialidades (ortodoncia, implantes, blanqueamiento, etc.) con descripciones, beneficios e indicadores de precios. Los pacientes sabrÃ¡n exactamente quÃ© ofreces antes de contactarte.
+            Sí, incluimos una sección detallada de servicios donde puedes listar todas tus especialidades (ortodoncia, implantes, blanqueamiento, etc.) con descripciones, beneficios e indicadores de precios. Los pacientes sabrán exactamente qué ofreces antes de contactarte.
           </p>
         </div>
 
@@ -503,18 +510,18 @@
     <div class="glass-card rounded-3xl p-10 md:p-16 border border-blue-500/30 bg-gradient-to-r from-blue-950/40 via-[#121216] to-teal-950/40 relative overflow-hidden text-center md:text-left flex flex-col md:flex-row items-center justify-between gap-8">
 
       <div class="space-y-4 max-w-2xl">
-        <span class="text-[10px] uppercase tracking-widest text-teal-400 font-extrabold bg-teal-500/10 px-3 py-1 border border-teal-500/20">Especialistas en OdontologÃ­a</span>
+        <span class="text-[10px] uppercase tracking-widest text-teal-400 font-extrabold bg-teal-500/10 px-3 py-1 border border-teal-500/20">Especialistas en Odontología</span>
         <h2 class="text-3xl md:text-5xl font-bold tracking-tight text-white leading-tight">
-          Â¿Listo para atraer mÃ¡s pacientes a tu consultorio?
+          ¿Listo para atraer más pacientes a tu consultorio?
         </h2>
         <p class="text-sm text-gray-300 leading-relaxed">
-          CuÃ©ntanos sobre tu consultorio dental. Te entregamos una propuesta personalizada para tu pÃ¡gina web profesional sin costo.
+          Cuéntanos sobre tu consultorio dental. Te entregamos una propuesta personalizada para tu página web profesional sin costo.
         </p>
       </div>
 
       <div class="shrink-0 flex flex-col items-center gap-4">
         <a href="contacto.php?servicio=web-odontologos" class="inline-flex items-center gap-3 bg-gradient-to-r from-blue-500 to-teal-400 text-black px-8 py-4 text-sm font-bold rounded-none hover:shadow-[0_0_30px_rgba(59,130,246,0.4)] hover:scale-105 transition-all btn-primary">
-          Solicitar CotizaciÃ³n
+          Solicitar Cotización
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
         <span class="text-[10px] text-gray-400 uppercase tracking-widest font-semibold">Respuesta garantizada en &lt; 24 hrs</span>
@@ -523,7 +530,26 @@
     </div>
   </section>
 
-  <?php include 'includes/footer.php'; ?>
+    <!-- Servicios Relacionados (Enlazado Interno SEO) -->
+  <section class="relative z-10 py-16 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 border-t border-white/5">
+    <div class="text-center max-w-3xl mx-auto mb-10">
+      <h2 class="text-2xl md:text-4xl font-semibold tracking-tight text-white">
+        Servicios <span class="gradient-text">relacionados</span>
+      </h2>
+      <p class="text-xs text-gray-400 mt-3">Todo lo que tu negocio necesita para crecer en internet.</p>
+    </div>
+    <div class="flex flex-wrap justify-center gap-3 text-xs">
+      <a href="desarrollo-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo y diseño web</a>
+      <a href="ecommerce.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-teal-500/40 text-gray-300 hover:text-white transition-colors">Tiendas online y e-commerce</a>
+      <a href="hosting-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-cyan-500/40 text-gray-300 hover:text-white transition-colors">Hosting web y dominio</a>
+      <a href="posicionamiento-seo.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-emerald-500/40 text-gray-300 hover:text-white transition-colors">Posicionamiento SEO</a>
+      <a href="pagina-web-con-inteligencia-artificial.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-violet-500/40 text-gray-300 hover:text-white transition-colors">Webs con inteligencia artificial</a>
+      <a href="proyectos.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-amber-500/40 text-gray-300 hover:text-white transition-colors">Ver portafolio de proyectos</a>
+      <a href="blog.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-pink-500/40 text-gray-300 hover:text-white transition-colors">Blog de desarrollo web</a>
+    </div>
+  </section>
+
+<?php include 'includes/footer.php'; ?>
 
 </body>
 </html>

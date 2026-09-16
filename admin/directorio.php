@@ -9,7 +9,8 @@ $msg = '';
 $msgType = 'ok';
 
 try {
-    $db = require __DIR__ . '/../includes/db-directorio.php';
+    require_once __DIR__ . '/../includes/db-directorio.php';
+    $db = getDBDirectorio();
 } catch (RuntimeException $e) {
     $error_db = $e->getMessage();
 }
@@ -172,7 +173,7 @@ foreach ($empresas as $e) { if ((int)$e['estado'] === 0) $pendientes++; }
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Directorio de Empresas - Admin Next Boost</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../assets/css/tailwind.css">
     <style>
         @keyframes fade-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
         .animate-in { animation: fade-in 0.3s ease-out forwards; }

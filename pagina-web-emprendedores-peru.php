@@ -1,6 +1,7 @@
-?php
-  $page_title = "PÃ¡gina Web Emprendedores PerÃº | Web para Emprendimientos | Next Boost";
-  $page_description = "PÃ¡ginas web para emprendedores en PerÃº. Landing pages de alta conversiÃ³n, portafolios profesionales y tiendas online para nuevos negocios.";
+<?php
+  $page_title = "Página Web Emprendedores Perú | Web para Emprendimientos | Next Boost";
+  $page_description = "Páginas web para emprendedores en Perú. Landing pages de alta conversión, portafolios profesionales y tiendas online para nuevos negocios.";
+  $og_url = "https://nextboost.business/pagina-web-emprendedores-peru.php";
 ?>
 <!DOCTYPE html>
 <html lang="es" class="dark scroll-smooth">
@@ -13,15 +14,19 @@
     {
       "@type": "Service",
       "@id": "https://nextboost.business/pagina-web-emprendedores-peru.php/#service",
-      "name": "PÃ¡gina Web Profesional para Emprendedores en PerÃº",
-      "serviceType": "DiseÃ±o Web Emprendedores",
+      "name": "Página Web Profesional para Emprendedores en Perú",
+      "serviceType": "Diseño Web Emprendedores",
       "provider": {
         "@type": "Organization",
         "name": "Next Boost",
-        "url": "https://nextboost.business/"
+        "url": "https://nextboost.business/",
+        "@id": "https://nextboost.business/#organization"
       },
-      "description": "PÃ¡ginas web de alta conversiÃ³n para emprendedores en PerÃº. Landing pages, portafolios profesionales y tiendas online con bajo costo de inversiÃ³n.",
-      "areaServed": "Peru",
+      "description": "Páginas web de alta conversión para emprendedores en Perú. Landing pages, portafolios profesionales y tiendas online con bajo costo de inversión.",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Perú"
+      },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Planes Web para Emprendedores",
@@ -32,7 +37,7 @@
             "priceCurrency": "PEN",
             "itemOffered": {
               "@type": "Service",
-              "name": "Plan BÃ¡sico Web Emprendedores"
+              "name": "Plan Básico Web Emprendedores"
             }
           },
           {
@@ -63,7 +68,9 @@
             }
           }
         ]
-      }
+      },
+      "url": "https://nextboost.business/pagina-web-emprendedores-peru.php",
+      "image": "https://nextboost.business/imagenes-web/next-boost.png"
     },
     {
       "@type": "BreadcrumbList",
@@ -78,7 +85,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "PÃ¡gina Web Emprendedores PerÃº",
+          "name": "Página Web Emprendedores Perú",
           "item": "https://nextboost.business/pagina-web-emprendedores-peru.php"
         }
       ]
@@ -89,26 +96,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Â¿CuÃ¡nto cuesta una pÃ¡gina web para emprendedores?",
+          "name": "¿Cuánto cuesta una página web para emprendedores?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Nuestros planes para emprendedores inician desde S/ 450 soles. Es una inversiÃ³n Ãºnica sin costos mensuales ocultos. Incluye diseÃ±o profesional, hosting por un aÃ±o, dominio y optimizaciÃ³n SEO para que tu negocio aparezca en Google desde el primer dÃ­a."
+            "text": "Nuestros planes inician desde S/ 450 soles, una inversión única sin mensualidades. Incluye diseño profesional, hosting por un año, dominio, optimización SEO y soporte técnico por 30 días. Es la inversión más inteligente para que tu emprendimiento tenga presencia digital profesional."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿En cuÃ¡nto tiempo estÃ¡ lista mi pÃ¡gina web?",
+          "name": "¿En cuánto tiempo está lista mi página web?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Una landing page para emprendedores estÃ¡ lista en 3 a 5 dÃ­as hÃ¡biles. Si necesitas una web mÃ¡s completa con portafolio y tienda, el tiempo de entrega es de 7 a 12 dÃ­as hÃ¡biles. Trabajamos con metodologÃ­a Ã¡gil para que empieces a vender rÃ¡pido."
+            "text": "Una landing page está lista en 3 a 5 días hábiles. Si necesitas portafolio o web más completa, el tiempo es de 7 a 12 días hábiles. Trabajamos con metodología ágil para que empieces a vender lo antes posible sin sacrificar calidad."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿Puedo vender productos online con mi pÃ¡gina web?",
+          "name": "¿Puedo vender productos online con mi página web?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "SÃ­, con nuestro plan Premium incluimos una tienda online bÃ¡sica con carrito de compras, pasarela de pagos y gestiÃ³n de inventario. TambiÃ©n puedes empezar con una landing page de venta directa en el plan Profesional con integraciÃ³n a WhatsApp."
+            "text": "Sí, con nuestro plan Premium incluimos una tienda online con carrito de compras, pasarela de pagos (tarjetas, Yape, Plin) y gestión de inventario. También puedes empezar con ventas directas por WhatsApp en el plan Profesional."
           }
         }
       ]
@@ -137,12 +144,12 @@
         </div>
 
         <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-[1.1]">
-          PÃ¡gina Web para Emprendedores <br>
-          <span class="gradient-text">en PerÃº</span>
+          Página Web para Emprendedores <br>
+          <span class="gradient-text">en Perú</span>
         </h1>
 
         <p class="text-base md:text-lg text-gray-300 font-normal leading-relaxed max-w-2xl">
-          Lanza tu emprendimiento con una <strong class="text-white">pÃ¡gina web profesional</strong> de alta conversiÃ³n. Landing pages, portafolios y tiendas online con <strong class="text-teal-400">bajo costo de inversiÃ³n</strong> y resultados inmediatos para hacer crecer tu negocio.
+          Lanza tu emprendimiento con una <strong class="text-white">página web profesional</strong> de alta conversión. Landing pages, portafolios y tiendas online con <strong class="text-teal-400">bajo costo de inversión</strong> y resultados inmediatos para hacer crecer tu negocio.
         </p>
 
         <div class="grid grid-cols-3 gap-4 pt-4 border-t border-white/10 max-w-xl">
@@ -162,12 +169,12 @@
 
         <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-4">
           <a href="contacto.php?servicio=emprendedores" class="inline-flex items-center justify-center gap-3 bg-gradient-to-r from-blue-500 to-teal-400 text-black px-8 py-4 text-sm font-bold rounded-none hover:shadow-[0_0_30px_rgba(59,130,246,0.4)] hover:scale-105 transition-all btn-primary group">
-            Cotizar Mi PÃ¡gina Web
+            Cotizar Mi Página Web
             <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
           <a href="https://wa.me/51962469836?text=Hola%20Next%20Boost,%20soy%20emprendedor%20y%20quiero%20una%20p%C3%A1gina%20web" target="_blank" class="inline-flex items-center justify-center gap-2 border border-white/20 hover:border-emerald-500/50 bg-white/5 hover:bg-emerald-500/10 text-white hover:text-emerald-400 px-6 py-4 text-sm font-semibold transition-all">
             <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            AsesorÃ­a por WhatsApp
+            Asesoría por WhatsApp
           </a>
         </div>
 
@@ -197,18 +204,18 @@
                 100
               </div>
               <span class="text-xs font-bold text-white">SEO Score</span>
-              <span class="text-[10px] text-gray-400">IndexaciÃ³n perfecta</span>
+              <span class="text-[10px] text-gray-400">Indexación perfecta</span>
             </div>
           </div>
 
           <div class="space-y-2 font-mono text-xs">
             <div class="p-2.5 bg-white/5 border border-white/5 flex items-center justify-between">
-              <span class="text-gray-400">InversiÃ³n Inicial</span>
+              <span class="text-gray-400">Inversión Inicial</span>
               <span class="text-emerald-400 font-bold">Desde S/ 450</span>
             </div>
             <div class="p-2.5 bg-white/5 border border-white/5 flex items-center justify-between">
               <span class="text-gray-400">Tiempo de Entrega</span>
-              <span class="text-emerald-400 font-bold">3 - 12 dÃ­as</span>
+              <span class="text-emerald-400 font-bold">3 - 12 días</span>
             </div>
             <div class="p-2.5 bg-white/5 border border-white/5 flex items-center justify-between">
               <span class="text-gray-400">ROI Estimado</span>
@@ -217,7 +224,7 @@
           </div>
 
           <p class="text-[11px] text-gray-400 text-center leading-relaxed">
-            ðŸš€ Tu emprendimiento merece una web profesional que transmita confianza y genere ventas desde el primer dÃ­a.
+            🚀 Tu emprendimiento merece una web profesional que transmita confianza y genere ventas desde el primer día.
           </p>
 
         </div>
@@ -230,9 +237,9 @@
     <div class="max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20">
 
       <div class="text-center max-w-3xl mx-auto mb-16">
-        <p class="text-xs uppercase tracking-widest text-blue-400 font-bold mb-3">InversiÃ³n Inteligente</p>
+        <p class="text-xs uppercase tracking-widest text-blue-400 font-bold mb-3">Inversión Inteligente</p>
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-          Â¿Por quÃ© elegir <span class="gradient-text">Next Boost para tu emprendimiento</span>?
+          ¿Por qué elegir <span class="gradient-text">Next Boost para tu emprendimiento</span>?
         </h2>
       </div>
 
@@ -241,24 +248,24 @@
         <div class="glass-card p-8 rounded-2xl border border-red-500/20 bg-red-950/10 space-y-6">
           <div class="flex items-center gap-3 border-b border-red-500/20 pb-4">
             <span class="w-3 h-3 rounded-full bg-red-500"></span>
-            <h3 class="text-xl font-bold text-white">Hacerlo TÃº Mismo</h3>
+            <h3 class="text-xl font-bold text-white">Hacerlo Tú Mismo</h3>
           </div>
           <ul class="space-y-4 text-xs text-gray-300">
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
               <span><strong>Plataformas limitadas:</strong> Wix y WordPress.com tienen restricciones que frenan el crecimiento de tu negocio.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>Sin optimizaciÃ³n SEO:</strong> Tu web no aparece en Google y dependes 100% de redes sociales para conseguir clientes.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Sin optimización SEO:</strong> Tu web no aparece en Google y dependes 100% de redes sociales para conseguir clientes.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>Costos ocultos mensuales:</strong> Suscripciones que se acumulan y terminan costando mÃ¡s que una web profesional.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Costos ocultos mensuales:</strong> Suscripciones que se acumulan y terminan costando más que una web profesional.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>DiseÃ±o genÃ©rico:</strong> Miles de emprendedores usan las mismas plantillas y tu marca pierde identidad.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Diseño genérico:</strong> Miles de emprendedores usan las mismas plantillas y tu marca pierde identidad.</span>
             </li>
           </ul>
         </div>
@@ -270,20 +277,20 @@
           </div>
           <ul class="space-y-4 text-xs text-gray-200">
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>InversiÃ³n Ãºnica:</strong> Pago Ãºnico sin mensualidades. Tu web es tuya para siempre con hosting incluido.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>Inversión única:</strong> Pago único sin mensualidades. Tu web es tuya para siempre con hosting incluido.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>SEO incluido:</strong> Aparece en Google y atrae clientes orgÃ¡nicos sin gastar en publicidad.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>SEO incluido:</strong> Aparece en Google y atrae clientes orgánicos sin gastar en publicidad.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>Precios accesibles:</strong> Desde S/ 450 con calidad profesional. DiseÃ±ado para emprendedores con presupuesto ajustado.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>Precios accesibles:</strong> Desde S/ 450 con calidad profesional. Diseñado para emprendedores con presupuesto ajustado.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>Entrega rÃ¡pida:</strong> Tu web lista en dÃ­as, no semanas. Empieza a vender lo antes posible.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>Entrega rápida:</strong> Tu web lista en días, no semanas. Empieza a vender lo antes posible.</span>
             </li>
           </ul>
         </div>
@@ -307,9 +314,9 @@
         <div class="w-12 h-12 rounded-none bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400 group-hover:bg-blue-500 group-hover:text-black transition-all">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
-        <h3 class="text-xl font-bold text-white">Landing Page de ConversiÃ³n</h3>
+        <h3 class="text-xl font-bold text-white">Landing Page de Conversión</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          PÃ¡gina de aterrizaje diseÃ±ada para convertir visitantes en clientes. CTAs estratÃ©gicos, formularios optimizados y prueba social integrada.
+          Página de aterrizaje diseñada para convertir visitantes en clientes. CTAs estratégicos, formularios optimizados y prueba social integrada.
         </p>
       </article>
 
@@ -319,7 +326,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">Portafolio Profesional</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Muestra tu trabajo, proyectos y servicios con un diseÃ±o que impacta. Ideal para fotÃ³grafos, diseÃ±adores, arquitectos y profesionales independientes.
+          Muestra tu trabajo, proyectos y servicios con un diseño que impacta. Ideal para fotógrafos, diseñadores, arquitectos y profesionales independientes.
         </p>
       </article>
 
@@ -327,9 +334,9 @@
         <div class="w-12 h-12 rounded-none bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400 group-hover:bg-purple-400 group-hover:text-black transition-all">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
-        <h3 class="text-xl font-bold text-white">Tienda Online BÃ¡sica</h3>
+        <h3 class="text-xl font-bold text-white">Tienda Online Básica</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Vende tus productos 24/7 con carrito de compras, pasarela de pagos y gestiÃ³n de inventario. Todo lo que necesitas para emprender vendiendo online.
+          Vende tus productos 24/7 con carrito de compras, pasarela de pagos y gestión de inventario. Todo lo que necesitas para emprender vendiendo online.
         </p>
       </article>
 
@@ -339,7 +346,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">Bajo Costo, Alto Impacto</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          InversiÃ³n Ãºnica desde S/ 450 sin mensualidades ocultas. Calidad profesional al alcance de cualquier emprendedor que quiera crecer.
+          Inversión única desde S/ 450 sin mensualidades ocultas. Calidad profesional al alcance de cualquier emprendedor que quiera crecer.
         </p>
       </article>
 
@@ -347,9 +354,9 @@
         <div class="w-12 h-12 rounded-none bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 group-hover:bg-cyan-400 group-hover:text-black transition-all">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
-        <h3 class="text-xl font-bold text-white">Entrega UltrarrÃ¡pida</h3>
+        <h3 class="text-xl font-bold text-white">Entrega Ultrarrápida</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Tu pÃ¡gina web lista en 3 a 12 dÃ­as hÃ¡biles. No esperes meses para lanzar tu negocio. Empezamos a generar resultados desde el primer dÃ­a.
+          Tu página web lista en 3 a 12 días hábiles. No esperes meses para lanzar tu negocio. Empezamos a generar resultados desde el primer día.
         </p>
       </article>
 
@@ -359,7 +366,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">SEO para Atraer Clientes</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          OptimizaciÃ³n completa para que tu emprendimiento aparezca en Google. Palabras clave, datos estructurados y velocidad para posicionar rÃ¡pido.
+          Optimización completa para que tu emprendimiento aparezca en Google. Palabras clave, datos estructurados y velocidad para posicionar rápido.
         </p>
       </article>
 
@@ -370,28 +377,28 @@
     <div class="text-center max-w-3xl mx-auto mb-16">
       <p class="text-xs uppercase tracking-widest text-emerald-400 font-bold mb-3">Planes para Emprendedores</p>
       <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-        InversiÃ³n <span class="gradient-text">Justa y Transparente</span>
+        Inversión <span class="gradient-text">Justa y Transparente</span>
       </h2>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
 
       <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-teal-500/50 transition-all flex flex-col h-full group">
-        <h3 class="text-xl font-bold text-white mb-2">BÃ¡sico</h3>
-        <p class="text-xs text-gray-400 mb-6">Perfecto para emprendedores que necesitan presencia digital rÃ¡pida y efectiva.</p>
+        <h3 class="text-xl font-bold text-white mb-2">Básico</h3>
+        <p class="text-xs text-gray-400 mb-6">Perfecto para emprendedores que necesitan presencia digital rápida y efectiva.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-teal-400">S/ 450</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Landing Page de ConversiÃ³n</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Formulario de Contacto</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> BotÃ³n WhatsApp Flotante</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> OptimizaciÃ³n MÃ³vil 100%</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> SEO BÃ¡sico TÃ©cnico</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Landing Page de Conversión</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Formulario de Contacto</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Botón WhatsApp Flotante</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Optimización Móvil 100%</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> SEO Básico Técnico</li>
         </ul>
         <a href="contacto.php?servicio=emprendedores&plan=basico" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-teal-500 hover:text-black border border-white/10 hover:border-teal-500 transition-all">
-          Cotizar Plan BÃ¡sico
+          Cotizar Plan Básico
         </a>
       </div>
 
@@ -400,14 +407,14 @@
         <p class="text-xs text-gray-400 mb-6">Para emprendedores que quieren una web informativa profesional para presentar su negocio y captar nuevos clientes.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-teal-400">S/ 550</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Todo del Plan BÃ¡sico</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Web Informativa Profesional</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Formulario de Contacto</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> SEO BÃ¡sico</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> DiseÃ±o 100% Responsivo</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Todo del Plan Básico</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Web Informativa Profesional</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Formulario de Contacto</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> SEO Básico</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Diseño 100% Responsivo</li>
         </ul>
         <a href="contacto.php?servicio=emprendedores&plan=informativa" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-teal-500 hover:text-black border border-white/10 hover:border-teal-500 transition-all">
           Cotizar Plan Informativa
@@ -420,14 +427,14 @@
         <p class="text-xs text-gray-400 mb-6">Para emprendedores que quieren portafolio, servicios y ventas directas por WhatsApp.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-emerald-400">S/ 800</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Todo del Plan BÃ¡sico</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Portafolio Profesional</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Hasta 5 Secciones</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Blog para Contenido</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> SEO On-Page Avanzado</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Todo del Plan Básico</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Portafolio Profesional</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Hasta 5 Secciones</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Blog para Contenido</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> SEO On-Page Avanzado</li>
         </ul>
         <a href="contacto.php?servicio=emprendedores&plan=profesional" class="w-full inline-block text-center py-3 text-sm font-bold bg-emerald-500 text-black hover:bg-emerald-400 transition-all shadow-[0_0_15px_rgba(16,185,129,0.4)]">
           Cotizar Plan Profesional
@@ -439,14 +446,14 @@
         <p class="text-xs text-gray-400 mb-6">Emprendimientos que necesitan tienda online completa para vender productos.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-purple-400">S/ 1000</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Todo del Plan Profesional</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Tienda Online BÃ¡sica</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Pasarela de Pagos</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> GestiÃ³n de Inventario</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> CapacitaciÃ³n Completa</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Todo del Plan Profesional</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Tienda Online Básica</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Pasarela de Pagos</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Gestión de Inventario</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Capacitación Completa</li>
         </ul>
         <a href="contacto.php?servicio=emprendedores&plan=premium" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-purple-500 hover:text-white border border-white/10 hover:border-purple-500 transition-all">
           Cotizar Plan Premium
@@ -462,7 +469,7 @@
       <div class="lg:col-span-4 space-y-4">
         <p class="text-xs uppercase tracking-widest text-teal-400 font-bold">Resolvemos tus dudas</p>
         <h2 class="text-3xl md:text-4xl font-semibold tracking-tight text-white leading-tight">
-          Preguntas Frecuentes sobre <span class="gradient-text">PÃ¡ginas Web para Emprendedores</span>
+          Preguntas Frecuentes sobre <span class="gradient-text">Páginas Web para Emprendedores</span>
         </h2>
         <p class="text-xs text-gray-400 leading-relaxed">
           Todo lo que necesitas saber para lanzar tu emprendimiento con una web profesional y accesible.
@@ -473,28 +480,28 @@
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-blue-400">01.</span> Â¿CuÃ¡nto cuesta una pÃ¡gina web para emprendedores?
+            <span class="text-blue-400">01.</span> ¿Cuánto cuesta una página web para emprendedores?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            Nuestros planes inician desde S/ 450 soles, una inversiÃ³n Ãºnica sin mensualidades. Incluye diseÃ±o profesional, hosting por un aÃ±o, dominio, optimizaciÃ³n SEO y soporte tÃ©cnico por 30 dÃ­as. Es la inversiÃ³n mÃ¡s inteligente para que tu emprendimiento tenga presencia digital profesional.
+            Nuestros planes inician desde S/ 450 soles, una inversión única sin mensualidades. Incluye diseño profesional, hosting por un año, dominio, optimización SEO y soporte técnico por 30 días. Es la inversión más inteligente para que tu emprendimiento tenga presencia digital profesional.
           </p>
         </div>
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-blue-400">02.</span> Â¿En cuÃ¡nto tiempo estÃ¡ lista mi pÃ¡gina web?
+            <span class="text-blue-400">02.</span> ¿En cuánto tiempo está lista mi página web?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            Una landing page estÃ¡ lista en 3 a 5 dÃ­as hÃ¡biles. Si necesitas portafolio o web mÃ¡s completa, el tiempo es de 7 a 12 dÃ­as hÃ¡biles. Trabajamos con metodologÃ­a Ã¡gil para que empieces a vender lo antes posible sin sacrificar calidad.
+            Una landing page está lista en 3 a 5 días hábiles. Si necesitas portafolio o web más completa, el tiempo es de 7 a 12 días hábiles. Trabajamos con metodología ágil para que empieces a vender lo antes posible sin sacrificar calidad.
           </p>
         </div>
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-blue-400">03.</span> Â¿Puedo vender productos online con mi pÃ¡gina web?
+            <span class="text-blue-400">03.</span> ¿Puedo vender productos online con mi página web?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            SÃ­, con nuestro plan Premium incluimos una tienda online con carrito de compras, pasarela de pagos (tarjetas, Yape, Plin) y gestiÃ³n de inventario. TambiÃ©n puedes empezar con ventas directas por WhatsApp en el plan Profesional.
+            Sí, con nuestro plan Premium incluimos una tienda online con carrito de compras, pasarela de pagos (tarjetas, Yape, Plin) y gestión de inventario. También puedes empezar con ventas directas por WhatsApp en el plan Profesional.
           </p>
         </div>
 
@@ -509,16 +516,16 @@
       <div class="space-y-4 max-w-2xl">
         <span class="text-[10px] uppercase tracking-widest text-teal-400 font-extrabold bg-teal-500/10 px-3 py-1 border border-teal-500/20">Lanza tu Emprendimiento</span>
         <h2 class="text-3xl md:text-5xl font-bold tracking-tight text-white leading-tight">
-          Â¿Listo para hacer crecer tu negocio con una web profesional?
+          ¿Listo para hacer crecer tu negocio con una web profesional?
         </h2>
         <p class="text-sm text-gray-300 leading-relaxed">
-          CuÃ©ntanos tu idea de negocio. Te diseÃ±amos una pÃ¡gina web que genere clientes y haga crecer tu emprendimiento desde el primer dÃ­a.
+          Cuéntanos tu idea de negocio. Te diseñamos una página web que genere clientes y haga crecer tu emprendimiento desde el primer día.
         </p>
       </div>
 
       <div class="shrink-0 flex flex-col items-center gap-4">
         <a href="contacto.php?servicio=emprendedores" class="inline-flex items-center gap-3 bg-gradient-to-r from-blue-500 to-teal-400 text-black px-8 py-4 text-sm font-bold rounded-none hover:shadow-[0_0_30px_rgba(59,130,246,0.4)] hover:scale-105 transition-all btn-primary">
-          Solicitar CotizaciÃ³n
+          Solicitar Cotización
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
         <span class="text-[10px] text-gray-400 uppercase tracking-widest font-semibold">Respuesta garantizada en < 24 hrs</span>
@@ -527,7 +534,26 @@
     </div>
   </section>
 
-  <?php include 'includes/footer.php'; ?>
+    <!-- Servicios Relacionados (Enlazado Interno SEO) -->
+  <section class="relative z-10 py-16 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 border-t border-white/5">
+    <div class="text-center max-w-3xl mx-auto mb-10">
+      <h2 class="text-2xl md:text-4xl font-semibold tracking-tight text-white">
+        Servicios <span class="gradient-text">relacionados</span>
+      </h2>
+      <p class="text-xs text-gray-400 mt-3">Todo lo que tu negocio necesita para crecer en internet.</p>
+    </div>
+    <div class="flex flex-wrap justify-center gap-3 text-xs">
+      <a href="desarrollo-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo y diseño web</a>
+      <a href="ecommerce.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-teal-500/40 text-gray-300 hover:text-white transition-colors">Tiendas online y e-commerce</a>
+      <a href="hosting-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-cyan-500/40 text-gray-300 hover:text-white transition-colors">Hosting web y dominio</a>
+      <a href="posicionamiento-seo.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-emerald-500/40 text-gray-300 hover:text-white transition-colors">Posicionamiento SEO</a>
+      <a href="pagina-web-con-inteligencia-artificial.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-violet-500/40 text-gray-300 hover:text-white transition-colors">Webs con inteligencia artificial</a>
+      <a href="proyectos.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-amber-500/40 text-gray-300 hover:text-white transition-colors">Ver portafolio de proyectos</a>
+      <a href="blog.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-pink-500/40 text-gray-300 hover:text-white transition-colors">Blog de desarrollo web</a>
+    </div>
+  </section>
+
+<?php include 'includes/footer.php'; ?>
 
 </body>
 </html>

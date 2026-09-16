@@ -2,6 +2,13 @@
 require_once __DIR__ . '/../includes/db.php';
 require_once __DIR__ . '/../includes/ai-config.php';
 
+// Endpoint de diagnóstico: solo accesible para administradores autenticados
+session_start();
+if (!isset($_SESSION['admin_id'])) {
+    http_response_code(404);
+    exit;
+}
+
 header('Content-Type: application/json');
 
 // Simple test endpoint

@@ -3,7 +3,8 @@ require_once __DIR__ . '/../includes/ai-config.php';
 session_start();
 if (!isset($_SESSION['admin_id'])) { header('Location: index.php'); exit; }
 
-$db = require __DIR__ . '/../includes/db.php';
+require_once __DIR__ . '/../includes/db.php';
+$db = getDB();
 
 $totalLeads = $db->query("SELECT COUNT(*) FROM leads")->fetchColumn();
 $totalMessages = $db->query("SELECT COUNT(*) FROM messages")->fetchColumn();
@@ -19,7 +20,7 @@ $recentLeads = $db->query("
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard - Next Boost</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../assets/css/tailwind.css">
     <style>
         @keyframes fade-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
         .animate-in { animation: fade-in 0.3s ease-out forwards; }
@@ -80,6 +81,7 @@ $recentLeads = $db->query("
                     <button 
                         onclick="loadMessages(<?= $lead['id'] ?>)" 
                         data-lead-id="<?= $lead['id'] ?>"
+                        data-page-url="<?= htmlspecialchars($lead['page_url'] ?? '') ?>"
                         class="w-full text-left px-4 py-3 hover:bg-white/5 transition-colors group lead-item"
                     >
                         <div class="flex items-center justify-between">
@@ -180,7 +182,7 @@ $recentLeads = $db->query("
             document.getElementById('chat-lead-meta').classList.remove('hidden');
 
             if (data.success && data.messages.length > 0) {
-                document.getElementById('chat-lead-page').textContent = data.messages[0].page_url || '';
+                document.getElementById('chat-lead-page').textContent = leadItem?.dataset.pageUrl || '';
                 document.getElementById('chat-lead-time').textContent = 'Primera vez: ' + new Date(data.messages[0].created_at).toLocaleString('es-PE');
 
                 let html = '';

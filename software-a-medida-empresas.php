@@ -1,6 +1,7 @@
-?php
-  $page_title = "Software a Medida para Empresas | Desarrollo de Sistemas | Next Boost";
-  $page_description = "Desarrollo de software a medida para empresas en PerÃº. CRMs, ERPs, sistemas de gestiÃ³n, automatizaciÃ³n de procesos y plataformas SaaS.";
+<?php
+  $page_title = "Software a Medida para Empresas en Perú | Next Boost";
+  $page_description = "Desarrollo de software a medida para empresas en Perú. CRMs, ERPs, sistemas de gestión, automatización de procesos y plataformas SaaS. Desde S/ 2500.";
+  $og_url = "https://nextboost.business/software-a-medida-empresas.php";
 ?>
 <!DOCTYPE html>
 <html lang="es" class="dark scroll-smooth">
@@ -15,13 +16,19 @@
       "@id": "https://nextboost.business/software-a-medida-empresas.php/#service",
       "name": "Desarrollo de Software a Medida para Empresas",
       "serviceType": "Software Development",
+      "url": "https://nextboost.business/software-a-medida-empresas.php",
+      "image": "https://nextboost.business/imagenes-web/next-boost.png",
       "provider": {
         "@type": "Organization",
+        "@id": "https://nextboost.business/#organization",
         "name": "Next Boost",
         "url": "https://nextboost.business/"
       },
-      "description": "Desarrollo de software a medida para empresas en PerÃº. CRMs, ERPs, sistemas de gestiÃ³n, automatizaciÃ³n de procesos y plataformas SaaS personalizadas.",
-      "areaServed": "PerÃº",
+      "description": "Desarrollo de software a medida para empresas en Perú. CRMs, ERPs, sistemas de gestión, automatización de procesos y plataformas SaaS personalizadas.",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Perú"
+      },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Planes de Software a Medida",
@@ -30,7 +37,7 @@
             "@type": "Offer",
             "price": "2500.00",
             "priceCurrency": "PEN",
-            "itemOffered": { "@type": "Service", "name": "Sistema BÃ¡sico" }
+            "itemOffered": { "@type": "Service", "name": "Sistema Básico" }
           },
           {
             "@type": "Offer",
@@ -61,26 +68,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Â¿QuÃ© tipo de software desarrollan?",
+          "name": "¿Qué tipo de software desarrollan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Desarrollamos CRMs personalizados, ERPs a medida, sistemas de gestiÃ³n de inventario, plataformas de reservas, dashboards de reportes, automatizaciÃ³n de procesos, APIs de integraciÃ³n y plataformas SaaS completas. Cada proyecto se adapta a las necesidades especÃ­ficas de tu empresa."
+            "text": "Desarrollamos CRMs personalizados, ERPs a medida, sistemas de gestión de inventario, plataformas de reservas, dashboards de reportes, automatización de procesos, APIs de integración y plataformas SaaS completas. Cada proyecto se adapta a las necesidades específicas de tu empresa."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿CuÃ¡nto tiempo toma desarrollar un software a medida?",
+          "name": "¿Cuánto tiempo toma desarrollar un software a medida?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Un sistema bÃ¡sico como un CRM simple toma entre 4 y 6 semanas. Un ERP o plataforma SaaS completa toma entre 2 y 4 meses. El tiempo depende de la complejidad, nÃºmero de mÃ³dulos, integraciones con sistemas existentes y niveles de seguridad requeridos."
+            "text": "Un sistema básico como un CRM simple toma entre 4 y 6 semanas. Un ERP o plataforma SaaS completa toma entre 2 y 4 meses. El tiempo depende de la complejidad, número de módulos, integraciones con sistemas existentes y niveles de seguridad requeridos."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿El desarrollo de software incluye soporte y mantenimiento?",
+          "name": "¿¿El desarrollo de software incluye soporte y mantenimiento?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "SÃ­, todos nuestros proyectos incluyen soporte tÃ©cnico post-lanzamiento. Ofrecemos planes de mantenimiento con actualizaciones de seguridad, correcciÃ³n de bugs, soporte de usuario y mejoras continuas para que tu software siempre estÃ© funcionando al mÃ¡ximo."
+            "text": "Sí, todos nuestros proyectos incluyen soporte técnico post-lanzamiento. Ofrecemos planes de mantenimiento con actualizaciones de seguridad, corrección de bugs, soporte de usuario y mejoras continuas para que tu software siempre esté funcionando al máximo."
           }
         }
       ]
@@ -110,11 +117,11 @@
 
         <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-[1.1]">
           Software a Medida <br>
-          <span class="gradient-text">para Empresas en Peru</span>
+          <span class="gradient-text">para Empresas en Perú</span>
         </h1>
 
         <p class="text-base md:text-lg text-gray-300 font-normal leading-relaxed max-w-2xl">
-          Automatiza procesos, elimina tareas repetitivas y escala tu negocio con <strong class="text-white">software desarrollado a tu medida</strong>. CRMs, ERPs, plataformas SaaS y <strong class="text-teal-400">sistemas de gestion</strong> que resuelven problemas reales.
+          Automatiza procesos, elimina tareas repetitivas y escala tu negocio con <strong class="text-white">software desarrollado a tu medida</strong>. CRMs, ERPs, plataformas SaaS y <strong class="text-teal-400">sistemas de gestión</strong> que resuelven problemas reales.
         </p>
 
         <div class="grid grid-cols-3 gap-4 pt-4 border-t border-white/10 max-w-xl">
@@ -139,7 +146,7 @@
           </a>
           <a href="https://wa.me/51962469836?text=Hola%20Next%20Boost,%20necesito%20software%20a%20medida%20para%20mi%20empresa" target="_blank" class="inline-flex items-center justify-center gap-2 border border-white/20 hover:border-emerald-500/50 bg-white/5 hover:bg-emerald-500/10 text-white hover:text-emerald-400 px-6 py-4 text-sm font-semibold transition-all">
             <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            Consulta Tecnica por WhatsApp
+            Consulta Técnica por WhatsApp
           </a>
         </div>
       </div>
@@ -150,7 +157,7 @@
           <div class="flex items-center justify-between border-b border-white/10 pb-4">
             <span class="text-xs font-mono text-gray-400 flex items-center gap-2">
               <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
-              Stack Tecnologico
+              Stack Tecnológico
             </span>
             <span class="text-[10px] font-bold text-emerald-400 bg-emerald-500/10 px-2.5 py-1 border border-emerald-500/20">CUSTOM</span>
           </div>
@@ -178,12 +185,12 @@
             </div>
             <div class="p-2.5 bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-between">
               <span class="text-white font-bold">Ciclo de Vida</span>
-              <span class="text-emerald-400 font-extrabold">Agil / CI/CD</span>
+              <span class="text-emerald-400 font-extrabold">Ágil / CI/CD</span>
             </div>
           </div>
 
           <p class="text-[11px] text-gray-400 text-center leading-relaxed">
-            Utilizamos las tecnologias mas modernas y escalables para garantizar la longevidad de tu software.
+            Utilizamos las tecnologías más modernas y escalables para garantizar la longevidad de tu software.
           </p>
 
         </div>
@@ -198,7 +205,7 @@
       <div class="text-center max-w-3xl mx-auto mb-16">
         <p class="text-xs uppercase tracking-widest text-blue-400 font-bold mb-3">Comparativa</p>
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-          Por que elegirnos <span class="gradient-text">para tu software?</span>
+          ¿Por qué elegirnos <span class="gradient-text">para tu software?</span>
         </h2>
       </div>
 
@@ -207,24 +214,24 @@
         <div class="glass-card p-8 rounded-2xl border border-red-500/20 bg-red-950/10 space-y-6">
           <div class="flex items-center gap-3 border-b border-red-500/20 pb-4">
             <span class="w-3 h-3 rounded-full bg-red-500"></span>
-            <h3 class="text-xl font-bold text-white">Soluciones Genericas o Freelancers</h3>
+            <h3 class="text-xl font-bold text-white">Soluciones Genéricas o Freelancers</h3>
           </div>
           <ul class="space-y-4 text-xs text-gray-300">
             <li class="flex items-start gap-3">
               <span class="text-red-400 font-bold shrink-0">&#10005;</span>
-              <span><strong>Plantillas inflexibles:</strong> Software generico que no se adapta a tus procesos reales ni a tu forma de trabajar.</span>
+              <span><strong>Plantillas inflexibles:</strong> Software genérico que no se adapta a tus procesos reales ni a tu forma de trabajar.</span>
             </li>
             <li class="flex items-start gap-3">
               <span class="text-red-400 font-bold shrink-0">&#10005;</span>
-              <span><strong>Sin escalabilidad:</strong> Codigo desordenado que no crece con tu empresa y se rompe cuando necesitas expandirlo.</span>
+              <span><strong>Sin escalabilidad:</strong> Código desordenado que no crece con tu empresa y se rompe cuando necesitas expandirlo.</span>
             </li>
             <li class="flex items-start gap-3">
               <span class="text-red-400 font-bold shrink-0">&#10005;</span>
-              <span><strong>Sin soporte real:</strong> Freelancers que desaparecen despues de la entrega y nadie puede mantener el codigo.</span>
+              <span><strong>Sin soporte real:</strong> Freelancers que desaparecen después de la entrega y nadie puede mantener el código.</span>
             </li>
             <li class="flex items-start gap-3">
               <span class="text-red-400 font-bold shrink-0">&#10005;</span>
-              <span><strong>Integraciones limitadas:</strong> No se conecta con tus sistemas actuales y genera mas trabajo manual.</span>
+              <span><strong>Integraciones limitadas:</strong> No se conecta con tus sistemas actuales y genera más trabajo manual.</span>
             </li>
           </ul>
         </div>
@@ -237,11 +244,11 @@
           <ul class="space-y-4 text-xs text-gray-200">
             <li class="flex items-start gap-3">
               <span class="text-emerald-400 font-bold shrink-0">&#10003;</span>
-              <span><strong>100% personalizado:</strong> Cada modulo, cada funcion, cada flujo esta disenado exactamente para tu negocio.</span>
+              <span><strong>100% personalizado:</strong> Cada módulo, cada función, cada flujo está diseñado exactamente para tu negocio.</span>
             </li>
             <li class="flex items-start gap-3">
               <span class="text-emerald-400 font-bold shrink-0">&#10003;</span>
-              <span><strong>Arquitectura escalable:</strong> Codigo limpio y modular que crece sin problemas cuando tu empresa se expande.</span>
+              <span><strong>Arquitectura escalable:</strong> Código limpio y modular que crece sin problemas cuando tu empresa se expande.</span>
             </li>
             <li class="flex items-start gap-3">
               <span class="text-emerald-400 font-bold shrink-0">&#10003;</span>
@@ -249,7 +256,7 @@
             </li>
             <li class="flex items-start gap-3">
               <span class="text-emerald-400 font-bold shrink-0">&#10003;</span>
-              <span><strong>APIs e integraciones:</strong> Conectamos tu software con WhatsApp, pasarelas de pago, ERPs externos y mas.</span>
+              <span><strong>APIs e integraciones:</strong> Conectamos tu software con WhatsApp, pasarelas de pago, ERPs externos y más.</span>
             </li>
           </ul>
         </div>
@@ -274,7 +281,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">CRM Personalizado</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Gestiona tus clientes, leads, oportunidades de venta y seguimiento comercial en un sistema disenado para tu proceso exacto.
+          Gestiona tus clientes, leads, oportunidades de venta y seguimiento comercial en un sistema diseñado para tu proceso exacto.
         </p>
       </article>
 
@@ -284,7 +291,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">ERP a Medida</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Sistema integrado de gestion empresarial que conecta inventario, contabilidad, RRHH y ventas en una sola plataforma.
+          Sistema integrado de gestión empresarial que conecta inventario, contabilidad, RRHH y ventas en una sola plataforma.
         </p>
       </article>
 
@@ -292,7 +299,7 @@
         <div class="w-12 h-12 rounded-none bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400 group-hover:bg-purple-400 group-hover:text-black transition-all">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
-        <h3 class="text-xl font-bold text-white">Automatizacion de Procesos</h3>
+        <h3 class="text-xl font-bold text-white">Automatización de Procesos</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
           Elimina tareas manuales repetitivas. Flujos automatizados que ahorran horas de trabajo y reducen errores humanos.
         </p>
@@ -304,7 +311,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">Plataforma SaaS</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Construimos tu plataforma como servicio con paneles de administracion, suscripciones, multi-tenancy y facturacion automatica.
+          Construimos tu plataforma como servicio con paneles de administración, suscripciones, multi-tenancy y facturación automática.
         </p>
       </article>
 
@@ -314,7 +321,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">APIs e Integraciones</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Conectamos tus sistemas existentes. APIs REST, webhooks, integracion con WhatsApp, pasarelas de pago y servicios de terceros.
+          Conectamos tus sistemas existentes. APIs REST, webhooks, integración con WhatsApp, pasarelas de pago y servicios de terceros.
         </p>
       </article>
 
@@ -324,7 +331,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">Dashboards y Reportes</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Paneles de control interactivos con metricas en tiempo real, reportes automaticos y exportacion de datos para tomar decisiones.
+          Paneles de control interactivos con métricas en tiempo real, reportes automáticos y exportación de datos para tomar decisiones.
         </p>
       </article>
 
@@ -333,7 +340,7 @@
 
   <section class="relative z-10 py-20 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 border-t border-white/5 bg-[#0a0a0e]/50">
     <div class="text-center max-w-3xl mx-auto mb-16">
-      <p class="text-xs uppercase tracking-widest text-emerald-400 font-bold mb-3">Inversion Inteligente</p>
+      <p class="text-xs uppercase tracking-widest text-emerald-400 font-bold mb-3">Inversión Inteligente</p>
       <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
         Planes de Desarrollo <span class="gradient-text">de Software</span>
       </h2>
@@ -342,38 +349,38 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
 
       <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-teal-500/50 transition-all flex flex-col h-full group">
-        <h3 class="text-xl font-bold text-white mb-2">Sistema Basico</h3>
-        <p class="text-xs text-gray-400 mb-6">Para pequenos negocios que necesitan automatizar un proceso especifico.</p>
+        <h3 class="text-xl font-bold text-white mb-2">Sistema Básico</h3>
+        <p class="text-xs text-gray-400 mb-6">Para pequeños negocios que necesitan automatizar un proceso específico.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-teal-400">S/ 2500</span>
           <span class="text-xs text-gray-500 font-medium"> PEN / Pago unico</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">&#10003;</span> Hasta 3 Modulos</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">&#10003;</span> Panel de Administracion</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">&#10003;</span> Hasta 3 Módulos</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">&#10003;</span> Panel de Administración</li>
           <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">&#10003;</span> Base de Datos Segura</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">&#10003;</span> Soporte 30 Dias</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">&#10003;</span> Soporte 30 Días</li>
           <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">&#10003;</span> Despliegue en Cloud</li>
         </ul>
         <a href="contacto.php?servicio=software-basico" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-teal-500 hover:text-black border border-white/10 hover:border-teal-500 transition-all">
-          Cotizar Basico
+          Cotizar Básico
         </a>
       </div>
 
       <div class="glass-card p-8 rounded-2xl border border-emerald-500/50 relative bg-emerald-950/10 flex flex-col h-full group transform md:-translate-y-4 shadow-[0_15px_30px_rgba(16,185,129,0.15)]">
         <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-emerald-500 text-black text-[10px] font-bold px-4 py-1 uppercase tracking-wider">Recomendado</div>
         <h3 class="text-xl font-bold text-white mb-2">Sistema Profesional</h3>
-        <p class="text-xs text-gray-400 mb-6">Para empresas medianas que necesitan un sistema integral de gestion.</p>
+        <p class="text-xs text-gray-400 mb-6">Para empresas medianas que necesitan un sistema integral de gestión.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-emerald-400">S/ 5000</span>
           <span class="text-xs text-gray-500 font-medium"> PEN / Pago unico</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">&#10003;</span> Hasta 8 Modulos</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">&#10003;</span> Hasta 8 Módulos</li>
           <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">&#10003;</span> Multi-usuario con Roles</li>
           <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">&#10003;</span> Integraciones API</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">&#10003;</span> Soporte 60 Dias</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">&#10003;</span> Reportes Automaticos</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">&#10003;</span> Soporte 60 Días</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">&#10003;</span> Reportes Automáticos</li>
         </ul>
         <a href="contacto.php?servicio=software-profesional" class="w-full inline-block text-center py-3 text-sm font-bold bg-emerald-500 text-black hover:bg-emerald-400 transition-all shadow-[0_0_15px_rgba(16,185,129,0.4)]">
           Cotizar Profesional
@@ -388,10 +395,10 @@
           <span class="text-xs text-gray-500 font-medium"> PEN / Desde</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">&#10003;</span> Modulos Ilimitados</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">&#10003;</span> Módulos Ilimitados</li>
           <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">&#10003;</span> Multi-tenancy Completo</li>
           <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">&#10003;</span> Sistema de Suscripciones</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">&#10003;</span> Soporte 90 Dias</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">&#10003;</span> Soporte 90 Días</li>
           <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">&#10003;</span> Escalabilidad Cloud</li>
         </ul>
         <a href="contacto.php?servicio=software-saas" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-purple-500 hover:text-white border border-white/10 hover:border-purple-500 transition-all">
@@ -419,33 +426,52 @@
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-blue-400">01.</span> Que tipo de software desarrollan?
+            <span class="text-blue-400">01.</span> ¿Qué tipo de software desarrollan?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            Desarrollamos CRMs personalizados, ERPs a medida, sistemas de gestion de inventario, plataformas de reservas, dashboards de reportes, automatizacion de procesos, APIs de integracion y plataformas SaaS completas. Cada proyecto se adapta a las necesidades especificas de tu empresa.
+            Desarrollamos CRMs personalizados, ERPs a medida, sistemas de gestión de inventario, plataformas de reservas, dashboards de reportes, automatización de procesos, APIs de integración y plataformas SaaS completas. Cada proyecto se adapta a las necesidades específicas de tu empresa.
           </p>
         </div>
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-blue-400">02.</span> Cuanto tiempo toma desarrollar un software a medida?
+            <span class="text-blue-400">02.</span> ¿Cuánto tiempo toma desarrollar un software a medida?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            Un sistema basico como un CRM simple toma entre 4 y 6 semanas. Un ERP o plataforma SaaS completa toma entre 2 y 4 meses. El tiempo depende de la complejidad, numero de modulos, integraciones con sistemas existentes y niveles de seguridad requeridos.
+            Un sistema básico como un CRM simple toma entre 4 y 6 semanas. Un ERP o plataforma SaaS completa toma entre 2 y 4 meses. El tiempo depende de la complejidad, número de módulos, integraciones con sistemas existentes y niveles de seguridad requeridos.
           </p>
         </div>
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-blue-400">03.</span> El desarrollo de software incluye soporte y mantenimiento?
+            <span class="text-blue-400">03.</span> ¿El desarrollo de software incluye soporte y mantenimiento?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            Si, todos nuestros proyectos incluyen soporte tecnico post-lanzamiento. Ofrecemos planes de mantenimiento con actualizaciones de seguridad, correccion de bugs, soporte de usuario y mejoras continuas para que tu software siempre este funcionando al maximo.
+            Sí, todos nuestros proyectos incluyen soporte técnico post-lanzamiento. Ofrecemos planes de mantenimiento con actualizaciones de seguridad, corrección de bugs, soporte de usuario y mejoras continuas para que tu software siempre esté funcionando al máximo.
           </p>
         </div>
 
       </div>
 
+    </div>
+  </section>
+
+  <section class="relative z-10 py-16 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 border-t border-white/5">
+    <div class="text-center max-w-3xl mx-auto mb-10">
+      <h2 class="text-2xl md:text-4xl font-semibold tracking-tight text-white">
+        Servicios <span class="gradient-text">relacionados</span>
+      </h2>
+      <p class="text-xs text-gray-400 mt-3">Complementa tu software con el resto de soluciones digitales de Next Boost.</p>
+    </div>
+    <div class="flex flex-wrap justify-center gap-3 text-xs">
+      <a href="desarrollo-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo y diseño web</a>
+      <a href="ecommerce.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-teal-500/40 text-gray-300 hover:text-white transition-colors">Tiendas online y e-commerce</a>
+      <a href="hosting-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-cyan-500/40 text-gray-300 hover:text-white transition-colors">Hosting web y dominio</a>
+      <a href="posicionamiento-seo.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-emerald-500/40 text-gray-300 hover:text-white transition-colors">Posicionamiento SEO</a>
+      <a href="agencia-desarrollo-web-marca-blanca.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-purple-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo marca blanca</a>
+      <a href="pagina-web-con-inteligencia-artificial.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-violet-500/40 text-gray-300 hover:text-white transition-colors">Web con inteligencia artificial</a>
+      <a href="proyectos.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-amber-500/40 text-gray-300 hover:text-white transition-colors">Ver portafolio de proyectos</a>
+      <a href="blog.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-pink-500/40 text-gray-300 hover:text-white transition-colors">Blog de tecnología</a>
     </div>
   </section>
 
@@ -458,7 +484,7 @@
           Tu empresa necesita software que trabaje para ti
         </h2>
         <p class="text-sm text-gray-300 leading-relaxed">
-          Cuentanos que problema necesitas resolver y te proponemos la mejor solucion tecnica. Presupuesto detallado sin compromiso.
+          Cuéntanos qué problema necesitas resolver y te proponemos la mejor solución técnica. Presupuesto detallado sin compromiso.
         </p>
       </div>
 

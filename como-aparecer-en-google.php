@@ -1,6 +1,6 @@
-?php
-  $page_title = "CÃ³mo Aparecer en Google | Posicionamiento SEO Gratis | Next Boost";
-  $page_description = "GuÃ­a completa para aparecer en Google. SEO tÃ©cnico, optimizaciÃ³n de contenido, Google My Business y estrategias para rankear en primer lugar.";
+<?php
+  $page_title = "Cómo Aparecer en Google | Posicionamiento SEO Gratis | Next Boost";
+  $page_description = "Guía completa para aparecer en Google. SEO técnico, optimización de contenido, Google My Business y estrategias para rankear en primer lugar.";
 ?>
 <!DOCTYPE html>
 <html lang="es" class="dark scroll-smooth">
@@ -20,8 +20,8 @@
         "name": "Next Boost",
         "url": "https://nextboost.business/"
       },
-      "description": "Estrategias de SEO tÃ©cnico, contenido y local para que tu negocio aparezca en los primeros resultados de Google de forma orgÃ¡nica.",
-      "areaServed": "PerÃº",
+      "description": "Estrategias de SEO técnico, contenido y local para que tu negocio aparezca en los primeros resultados de Google de forma orgánica.",
+      "areaServed": "Perú",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Planes de Posicionamiento SEO",
@@ -32,7 +32,7 @@
             "priceCurrency": "PEN",
             "itemOffered": {
               "@type": "Service",
-              "name": "SEO BÃ¡sico Web"
+              "name": "SEO Básico Web"
             }
           },
           {
@@ -69,7 +69,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "CÃ³mo Aparecer en Google",
+          "name": "Cómo Aparecer en Google",
           "item": "https://nextboost.business/como-aparecer-en-google.php"
         }
       ]
@@ -80,26 +80,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Â¿CuÃ¡nto tarda una web en aparecer en Google?",
+          "name": "¿Cuánto tarda una web en aparecer en Google?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Una web nueva puede tardar entre 2 y 6 semanas en ser indexada por Google. Con SEO tÃ©cnico correcto y sitemap XML, la indexaciÃ³n puede ocurrir en pocos dÃ­as. Los resultados en las primeras posiciones toman entre 3 y 6 meses de trabajo constante."
+            "text": "Una web nueva puede tardar entre 2 y 6 semanas en ser indexada por Google. Con SEO técnico correcto y sitemap XML, la indexación puede ocurrir en pocos días. Los resultados en las primeras posiciones toman entre 3 y 6 meses de trabajo constante."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿Aparecer en Google es gratis?",
+          "name": "¿Aparecer en Google es gratis?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "SÃ­, aparecer en los resultados orgÃ¡nicos de Google es completamente gratis. No necesitas pagar por cada clic como en Google Ads. El SEO orgÃ¡nico es una inversiÃ³n Ãºnica que genera trÃ¡fico gratuito durante aÃ±os."
+            "text": "Sí, aparecer en los resultados orgánicos de Google es completamente gratis. No necesitas pagar por cada clic como en Google Ads. El SEO orgánico es una inversión única que genera tráfico gratuito durante años."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿QuÃ© es el SEO y por quÃ© es importante?",
+          "name": "¿Qué es el SEO y por qué es importante?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "SEO (Search Engine Optimization) es el conjunto de tÃ©cnicas para posicionar tu web en los primeros resultados de Google. Es importante porque el 75% de los usuarios nunca pasan de la primera pÃ¡gina. Aparecer arriba significa mÃ¡s visitas, mÃ¡s clientes y mÃ¡s ventas."
+            "text": "SEO (Search Engine Optimization) es el conjunto de técnicas para posicionar tu web en los primeros resultados de Google. Es importante porque el 75% de los usuarios nunca pasan de la primera página. Aparecer arriba significa más visitas, más clientes y más ventas."
           }
         }
       ]
@@ -124,16 +124,16 @@
       <div class="lg:col-span-7 space-y-6">
         <div class="inline-flex items-center gap-2.5 px-4 py-1.5 badge-gradient text-xs font-medium text-blue-300 animate-in">
           <span class="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></span>
-          <span class="tracking-wide">GuÃ­a Completa de SEO 2026</span>
+          <span class="tracking-wide">Guía Completa de SEO 2026</span>
         </div>
 
         <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-[1.1]">
-          CÃ³mo Aparecer en <br>
-          <span class="gradient-text">Google (GuÃ­a Completa)</span>
+          Cómo Aparecer en <br>
+          <span class="gradient-text">Google (Guía Completa)</span>
         </h1>
 
         <p class="text-base md:text-lg text-gray-300 font-normal leading-relaxed max-w-2xl">
-          Aprende a posicionar tu negocio en los primeros resultados de Google. Desde <strong class="text-white">SEO tÃ©cnico</strong> hasta <strong class="text-teal-400">estrategia de contenido</strong>. GuÃ­a paso a paso con las mejores prÃ¡cticas que usamos con nuestros clientes.
+          Aprende a posicionar tu negocio en los primeros resultados de Google. Desde <strong class="text-white">SEO técnico</strong> hasta <strong class="text-teal-400">estrategia de contenido</strong>. Guía paso a paso con las mejores prácticas que usamos con nuestros clientes.
         </p>
 
         <div class="grid grid-cols-3 gap-4 pt-4 border-t border-white/10 max-w-xl">
@@ -158,7 +158,7 @@
           </a>
           <a href="https://wa.me/51962469836?text=Hola%20Next%20Boost,%20quiero%20aparecer%20en%20Google" target="_blank" class="inline-flex items-center justify-center gap-2 border border-white/20 hover:border-emerald-500/50 bg-white/5 hover:bg-emerald-500/10 text-white hover:text-emerald-400 px-6 py-4 text-sm font-semibold transition-all">
             <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            AuditorÃ­a SEO Gratis
+            Auditoría SEO Gratis
           </a>
         </div>
       </div>
@@ -177,23 +177,23 @@
           <div class="space-y-2 font-mono text-xs">
             <div class="p-2.5 bg-white/5 border border-white/5 flex items-center justify-between">
               <span class="text-gray-400">SSL Certificado (HTTPS)</span>
-              <span class="text-emerald-400 font-bold">âœ“ Obligatorio</span>
+              <span class="text-emerald-400 font-bold">✓ Obligatorio</span>
             </div>
             <div class="p-2.5 bg-white/5 border border-white/5 flex items-center justify-between">
               <span class="text-gray-400">Velocidad &lt; 2 segundos</span>
-              <span class="text-emerald-400 font-bold">âœ“ Core Web Vitals</span>
+              <span class="text-emerald-400 font-bold">✓ Core Web Vitals</span>
             </div>
             <div class="p-2.5 bg-white/5 border border-white/5 flex items-center justify-between">
               <span class="text-gray-400">Mobile-First Design</span>
-              <span class="text-emerald-400 font-bold">âœ“ Responsive</span>
+              <span class="text-emerald-400 font-bold">✓ Responsive</span>
             </div>
             <div class="p-2.5 bg-white/5 border border-white/5 flex items-center justify-between">
               <span class="text-gray-400">Schema.org JSON-LD</span>
-              <span class="text-emerald-400 font-bold">âœ“ Datos Estructurados</span>
+              <span class="text-emerald-400 font-bold">✓ Datos Estructurados</span>
             </div>
             <div class="p-2.5 bg-white/5 border border-white/5 flex items-center justify-between">
               <span class="text-gray-400">Google My Business</span>
-              <span class="text-emerald-400 font-bold">âœ“ SEO Local</span>
+              <span class="text-emerald-400 font-bold">✓ SEO Local</span>
             </div>
             <div class="p-2.5 bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-between">
               <span class="text-white font-bold">Google Analytics + Console</span>
@@ -202,7 +202,7 @@
           </div>
 
           <p class="text-[11px] text-gray-400 text-center leading-relaxed">
-            Aplicamos todos estos factores en cada proyecto para garantizar posicionamiento desde el dÃ­a uno.
+            Aplicamos todos estos factores en cada proyecto para garantizar posicionamiento desde el día uno.
           </p>
 
         </div>
@@ -217,7 +217,7 @@
       <div class="text-center max-w-3xl mx-auto mb-16">
         <p class="text-xs uppercase tracking-widest text-blue-400 font-bold mb-3">Comparativa SEO</p>
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-          Â¿Por quÃ© elegirnos <span class="gradient-text">para tu posicionamiento?</span>
+          ¿Por qué elegirnos <span class="gradient-text">para tu posicionamiento?</span>
         </h2>
       </div>
 
@@ -230,20 +230,20 @@
           </div>
           <ul class="space-y-4 text-xs text-gray-300">
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
               <span><strong>Solo venden informes:</strong> Te dan un PDF con "recomendaciones" y nunca aplican nada.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>SEO superficial:</strong> Solo cambian tÃ­tulos y metas sin mejorar velocidad ni estructura tÃ©cnica.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>SEO superficial:</strong> Solo cambian títulos y metas sin mejorar velocidad ni estructura técnica.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>Black Hat SEO:</strong> PrÃ¡cticas ilegales que penalizan tu web y la eliminan de Google.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Black Hat SEO:</strong> Prácticas ilegales que penalizan tu web y la eliminan de Google.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>Cobro mensual sin mÃ©tricas:</strong> Pagas cada mes sin ver resultados reales ni reportes claros.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Cobro mensual sin métricas:</strong> Pagas cada mes sin ver resultados reales ni reportes claros.</span>
             </li>
           </ul>
         </div>
@@ -255,20 +255,20 @@
           </div>
           <ul class="space-y-4 text-xs text-gray-200">
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>SEO tÃ©cnico integral:</strong> Velocidad, estructura, Schema.org y Core Web Vitals optimizados al mÃ¡ximo.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>SEO técnico integral:</strong> Velocidad, estructura, Schema.org y Core Web Vitals optimizados al máximo.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>Solo White Hat:</strong> Estrategias Ã©ticas que Google premia y no penaliza jamÃ¡s.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>Solo White Hat:</strong> Estrategias éticas que Google premia y no penaliza jamás.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
               <span><strong>Resultados medibles:</strong> Te conectamos Google Analytics y Search Console para que veas cada visitante.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>Precio fijo incluido:</strong> El SEO tÃ©cnico viene incluido en cada web que desarrollamos sin costo extra.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>Precio fijo incluido:</strong> El SEO técnico viene incluido en cada web que desarrollamos sin costo extra.</span>
             </li>
           </ul>
         </div>
@@ -291,9 +291,9 @@
         <div class="w-12 h-12 rounded-none bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400 group-hover:bg-blue-500 group-hover:text-black transition-all">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
-        <h3 class="text-xl font-bold text-white">SEO TÃ©cnico</h3>
+        <h3 class="text-xl font-bold text-white">SEO Técnico</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Velocidad de carga, SSL, estructura URL, sitemap XML, robots.txt, datos estructurados Schema.org y optimizaciÃ³n Core Web Vitals.
+          Velocidad de carga, SSL, estructura URL, sitemap XML, robots.txt, datos estructurados Schema.org y optimización Core Web Vitals.
         </p>
       </article>
 
@@ -303,7 +303,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">Contenido Optimizado</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Copywriting SEO con palabras clave estratÃ©gicas, encabezados H1-H6 correctos, metadescripciones atractivas y contenido que Google premia.
+          Copywriting SEO con palabras clave estratégicas, encabezados H1-H6 correctos, metadescripciones atractivas y contenido que Google premia.
         </p>
       </article>
 
@@ -313,7 +313,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">SEO Local</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Google My Business optimizado, reseÃ±as, NAP consistente, directorios locales y estrategias para dominar "cerca de mÃ­" en tu ciudad.
+          Google My Business optimizado, reseñas, NAP consistente, directorios locales y estrategias para dominar "cerca de mí" en tu ciudad.
         </p>
       </article>
 
@@ -321,9 +321,9 @@
         <div class="w-12 h-12 rounded-none bg-pink-500/10 border border-pink-500/20 flex items-center justify-center text-pink-400 group-hover:bg-pink-500 group-hover:text-black transition-all">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
-        <h3 class="text-xl font-bold text-white">Analytics y MÃ©tricas</h3>
+        <h3 class="text-xl font-bold text-white">Analytics y Métricas</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          ConfiguraciÃ³n de Google Analytics 4, Search Console, tracking de conversiones y reportes mensuales para medir el ROI de tu inversiÃ³n.
+          Configuración de Google Analytics 4, Search Console, tracking de conversiones y reportes mensuales para medir el ROI de tu inversión.
         </p>
       </article>
 
@@ -333,7 +333,7 @@
         </div>
         <h3 class="text-xl font-bold text-white">Enlaces y Autoridad</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          Estrategia de linkbuilding Ã©tico, guest posts en medios relevantes y construcciÃ³n de autoridad de dominio de forma natural y sostenida.
+          Estrategia de linkbuilding ético, guest posts en medios relevantes y construcción de autoridad de dominio de forma natural y sostenida.
         </p>
       </article>
 
@@ -341,9 +341,9 @@
         <div class="w-12 h-12 rounded-none bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 group-hover:bg-emerald-400 group-hover:text-black transition-all">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
-        <h3 class="text-xl font-bold text-white">AuditorÃ­a Continua</h3>
+        <h3 class="text-xl font-bold text-white">Auditoría Continua</h3>
         <p class="text-xs text-gray-400 leading-relaxed">
-          RevisiÃ³n periÃ³dica de errores 404, contenido duplicado, problemas de rastreo y oportunidades de mejora para mantener tu web arriba.
+          Revisión periódica de errores 404, contenido duplicado, problemas de rastreo y oportunidades de mejora para mantener tu web arriba.
         </p>
       </article>
 
@@ -361,38 +361,38 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
 
       <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-teal-500/50 transition-all flex flex-col h-full group">
-        <h3 class="text-xl font-bold text-white mb-2">SEO BÃ¡sico</h3>
-        <p class="text-xs text-gray-400 mb-6">Para webs nuevas que necesitan una base tÃ©cnica sÃ³lida desde el inicio.</p>
+        <h3 class="text-xl font-bold text-white mb-2">SEO Básico</h3>
+        <p class="text-xs text-gray-400 mb-6">Para webs nuevas que necesitan una base técnica sólida desde el inicio.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-teal-400">S/ 450</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> AuditorÃ­a SEO Inicial</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> OptimizaciÃ³n On-Page</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Schema.org JSON-LD</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Sitemap + Robots.txt</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Google Analytics + Console</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Auditoría SEO Inicial</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Optimización On-Page</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Schema.org JSON-LD</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Sitemap + Robots.txt</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Google Analytics + Console</li>
         </ul>
         <a href="contacto.php?servicio=seo-basico" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-teal-500 hover:text-black border border-white/10 hover:border-teal-500 transition-all">
-          Elegir BÃ¡sico
+          Elegir Básico
         </a>
       </div>
 
       <div class="glass-card p-8 rounded-2xl border border-emerald-500/50 relative bg-emerald-950/10 flex flex-col h-full group transform md:-translate-y-4 shadow-[0_15px_30px_rgba(16,185,129,0.15)]">
         <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-emerald-500 text-black text-[10px] font-bold px-4 py-1 uppercase tracking-wider">Recomendado</div>
         <h3 class="text-xl font-bold text-white mb-2">SEO Local</h3>
-        <p class="text-xs text-gray-400 mb-6">Para negocios locales que quieren dominar las bÃºsquedas "cerca de mÃ­".</p>
+        <p class="text-xs text-gray-400 mb-6">Para negocios locales que quieren dominar las búsquedas "cerca de mí".</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-emerald-400">S/ 600</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Todo lo del Plan BÃ¡sico</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Google My Business Optimizado</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Directorios Locales</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> Estrategia de ReseÃ±as</li>
-          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">âœ“</span> SEO para Google Maps</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Todo lo del Plan Básico</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Google My Business Optimizado</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Directorios Locales</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> Estrategia de Reseñas</li>
+          <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> SEO para Google Maps</li>
         </ul>
         <a href="contacto.php?servicio=seo-local" class="w-full inline-block text-center py-3 text-sm font-bold bg-emerald-500 text-black hover:bg-emerald-400 transition-all shadow-[0_0_15px_rgba(16,185,129,0.4)]">
           Elegir Local
@@ -404,14 +404,14 @@
         <p class="text-xs text-gray-400 mb-6">Para empresas que necesitan dominar su sector con una estrategia completa.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-3xl font-bold text-purple-400">S/ 1000</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / Pago Ãºnico</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / Pago único</span>
         </div>
         <ul class="space-y-4 text-xs text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Todo lo de los Planes Anteriores</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Copywriting SEO Profesional</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Estrategia de Contenido</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Linkbuilding Ã‰tico</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Soporte y Reportes 30 DÃ­as</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Todo lo de los Planes Anteriores</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Copywriting SEO Profesional</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Estrategia de Contenido</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Linkbuilding Ético</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Soporte y Reportes 30 Días</li>
         </ul>
         <a href="contacto.php?servicio=seo-corporativo" class="w-full inline-block text-center py-3 text-sm font-bold bg-white/5 hover:bg-purple-500 hover:text-white border border-white/10 hover:border-purple-500 transition-all">
           Elegir Corporativo
@@ -438,28 +438,28 @@
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-blue-400">01.</span> Â¿CuÃ¡nto tarda en aparecer mi web en Google?
+            <span class="text-blue-400">01.</span> ¿Cuánto tarda en aparecer mi web en Google?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            Una web nueva puede tardar entre 2 y 6 semanas en ser indexada por Google. Con SEO tÃ©cnico correcto y sitemap XML, la indexaciÃ³n puede ocurrir en pocos dÃ­as. Los resultados en las primeras posiciones toman entre 3 y 6 meses de trabajo constante.
+            Una web nueva puede tardar entre 2 y 6 semanas en ser indexada por Google. Con SEO técnico correcto y sitemap XML, la indexación puede ocurrir en pocos días. Los resultados en las primeras posiciones toman entre 3 y 6 meses de trabajo constante.
           </p>
         </div>
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-blue-400">02.</span> Â¿Aparecer en Google es gratis?
+            <span class="text-blue-400">02.</span> ¿Aparecer en Google es gratis?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            SÃ­, aparecer en los resultados orgÃ¡nicos de Google es completamente gratis. No necesitas pagar por cada clic como en Google Ads. El SEO orgÃ¡nico es una inversiÃ³n Ãºnica que genera trÃ¡fico gratuito durante aÃ±os.
+            Sí, aparecer en los resultados orgánicos de Google es completamente gratis. No necesitas pagar por cada clic como en Google Ads. El SEO orgánico es una inversión única que genera tráfico gratuito durante años.
           </p>
         </div>
 
         <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
           <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <span class="text-blue-400">03.</span> Â¿QuÃ© es el SEO y por quÃ© es importante?
+            <span class="text-blue-400">03.</span> ¿Qué es el SEO y por qué es importante?
           </h3>
           <p class="text-xs text-gray-400 leading-relaxed pt-1">
-            SEO (Search Engine Optimization) es el conjunto de tÃ©cnicas para posicionar tu web en los primeros resultados de Google. Es importante porque el 75% de los usuarios nunca pasan de la primera pÃ¡gina. Aparecer arriba significa mÃ¡s visitas, mÃ¡s clientes y mÃ¡s ventas.
+            SEO (Search Engine Optimization) es el conjunto de técnicas para posicionar tu web en los primeros resultados de Google. Es importante porque el 75% de los usuarios nunca pasan de la primera página. Aparecer arriba significa más visitas, más clientes y más ventas.
           </p>
         </div>
 
@@ -472,21 +472,21 @@
     <div class="glass-card rounded-3xl p-10 md:p-16 border border-blue-500/30 bg-gradient-to-r from-blue-950/40 via-[#121216] to-teal-950/40 relative overflow-hidden text-center md:text-left flex flex-col md:flex-row items-center justify-between gap-8">
 
       <div class="space-y-4 max-w-2xl">
-        <span class="text-[10px] uppercase tracking-widest text-teal-400 font-extrabold bg-teal-500/10 px-3 py-1 border border-teal-500/20">AuditorÃ­a SEO sin costo</span>
+        <span class="text-[10px] uppercase tracking-widest text-teal-400 font-extrabold bg-teal-500/10 px-3 py-1 border border-teal-500/20">Auditoría SEO sin costo</span>
         <h2 class="text-3xl md:text-5xl font-bold tracking-tight text-white leading-tight">
-          Â¿Quieres rankear en primer lugar de Google?
+          ¿Quieres rankear en primer lugar de Google?
         </h2>
         <p class="text-sm text-gray-300 leading-relaxed">
-          Solicita tu auditorÃ­a SEO gratuita. Analizamos tu web actual y te mostramos exactamente quÃ© mejorar para posicionar.
+          Solicita tu auditoría SEO gratuita. Analizamos tu web actual y te mostramos exactamente qué mejorar para posicionar.
         </p>
       </div>
 
       <div class="shrink-0 flex flex-col items-center gap-4">
         <a href="contacto.php?servicio=seo" class="inline-flex items-center gap-3 bg-gradient-to-r from-blue-500 to-teal-400 text-black px-8 py-4 text-sm font-bold rounded-none hover:shadow-[0_0_30px_rgba(59,130,246,0.4)] hover:scale-105 transition-all btn-primary">
-          Solicitar AuditorÃ­a SEO
+          Solicitar Auditoría SEO
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
-        <span class="text-[10px] text-gray-400 uppercase tracking-widest font-semibold">AnÃ¡lisis completo en &lt; 24 hrs</span>
+        <span class="text-[10px] text-gray-400 uppercase tracking-widest font-semibold">Análisis completo en &lt; 24 hrs</span>
       </div>
 
     </div>

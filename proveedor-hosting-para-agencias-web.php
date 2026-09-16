@@ -1,6 +1,6 @@
-?php
+<?php
   $page_title = "Proveedor de Hosting para Agencias Web | Next Boost";
-  $page_description = "Hosting para agencias web en PerÃº con marca blanca: revende hosting a tus clientes con cPanel, dominio gratis y soporte 24/7. Planes desde S/120/aÃ±o.";
+  $page_description = "Hosting para agencias web en Perú con marca blanca: revende hosting a tus clientes con cPanel, dominio gratis y soporte 24/7. Planes desde S/120/año.";
   $og_url = "https://nextboost.business/proveedor-hosting-para-agencias-web.php";
 ?>
 <!DOCTYPE html>
@@ -15,21 +15,21 @@
     {
       "@type": "Service",
       "@id": "https://nextboost.business/proveedor-hosting-para-agencias-web.php/#service",
-      "name": "Hosting para Agencias Web en PerÃº",
+      "name": "Hosting para Agencias Web en Perú",
       "serviceType": "Web Hosting / White Label Reseller",
       "provider": {
         "@type": "Organization",
         "name": "Next Boost",
         "url": "https://nextboost.business/"
       },
-      "description": "Proveedor de hosting para agencias web en PerÃº con modelo de reventa marca blanca. cPanel, discos NVMe, SSL gratuito, dominio .com y soporte 24/7 para que tu agencia revenda hosting a sus clientes y genere ingresos recurrentes.",
+      "description": "Proveedor de hosting para agencias web en Perú con modelo de reventa marca blanca. cPanel, discos NVMe, SSL gratuito, dominio .com y soporte 24/7 para que tu agencia revenda hosting a sus clientes y genere ingresos recurrentes.",
       "areaServed": {
         "@type": "Country",
-        "name": "PerÃº"
+        "name": "Perú"
       },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Planes de Hosting para Agencias en PerÃº",
+        "name": "Planes de Hosting para Agencias en Perú",
         "itemListElement": [
           {
             "@type": "Offer",
@@ -85,15 +85,15 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Â¿QuÃ© es un proveedor de hosting para agencias web?",
+          "name": "¿Qué es un proveedor de hosting para agencias web?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Es un servicio de hosting en modalidad de reventa (reseller/white label) donde tu agencia revende hosting a sus propios clientes bajo su marca. Nosotros somos la infraestructura tÃ©cnica detrÃ¡s: cPanel, discos NVMe, SSL y soporte 24/7, pero tu agencia mantiene la facturaciÃ³n, el contacto y el margen con el cliente final."
+            "text": "Es un servicio de hosting en modalidad de reventa (reseller/white label) donde tu agencia revende hosting a sus propios clientes bajo su marca. Nosotros somos la infraestructura técnica detrás: cPanel, discos NVMe, SSL y soporte 24/7, pero tu agencia mantiene la facturación, el contacto y el margen con el cliente final."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿CÃ³mo genera ingresos recurrentes el hosting para mi agencia?",
+          "name": "¿Cómo genera ingresos recurrentes el hosting para mi agencia?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Al revender hosting a tus clientes web, facturas una cuota anual o mensual por cada sitio que alojas. Como cada web de tu agencia necesita hosting, este modelo te da ingresos recurrentes predecibles que se suman a tus proyectos de desarrollo, mejorando la rentabilidad trimestral de tu agencia."
@@ -101,18 +101,18 @@
         },
         {
           "@type": "Question",
-          "name": "Â¿Mi cliente sabrÃ¡ que el hosting es de otra empresa?",
+          "name": "¿Mi cliente sabrá que el hosting es de otra empresa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. El hosting es marca blanca: facturamos a tu agencia y tu agencia factura a su cliente. El panel de control puede personalizarse con tu marca y coordinamos todo a tu nombre, para que la relaciÃ³n y la confianza con tu cliente siga siendo 100% tuya."
+            "text": "No. El hosting es marca blanca: facturamos a tu agencia y tu agencia factura a su cliente. El panel de control puede personalizarse con tu marca y coordinamos todo a tu nombre, para que la relación y la confianza con tu cliente siga siendo 100% tuya."
           }
         },
         {
           "@type": "Question",
-          "name": "Â¿CuÃ¡nto cuesta el hosting para agencias en PerÃº?",
+          "name": "¿Cuánto cuesta el hosting para agencias en Perú?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Nuestros planes de hosting para agencias parten desde S/120 al aÃ±o para landings, S/200 el Profesional con ilimitado y S/300 el Empresarial optimizado para WordPress. Los planes Profesional y Empresarial incluyen dominio .com gratis el primer aÃ±o. TÃº pones el margen al revender a tu cliente."
+            "text": "Nuestros planes de hosting para agencias parten desde S/120 al año para landings, S/200 el Profesional con ilimitado y S/300 el Empresarial optimizado para WordPress. Los planes Profesional y Empresarial incluyen dominio .com gratis el primer año. Tú pones el margen al revender a tu cliente."
           }
         }
       ]
@@ -146,11 +146,11 @@
 
         <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-[1.1]">
           Proveedor de Hosting <br>
-          <span class="gradient-text">para Agencias Web en PerÃº</span>
+          <span class="gradient-text">para Agencias Web en Perú</span>
         </h1>
 
         <p class="text-base md:text-lg text-gray-400 font-normal leading-relaxed max-w-2xl">
-          Revende hosting a tus clientes y genera <strong class="text-white">ingresos recurrentes</strong> sin gestionar infraestructura. Hosting <strong class="text-teal-400">marca blanca</strong> con cPanel, dominio gratis y soporte 24/7, desde <strong class="text-white">S/120/aÃ±o</strong>. TÃº cobras, nosotros lo hacemos funcionar.
+          Revende hosting a tus clientes y genera <strong class="text-white">ingresos recurrentes</strong> sin gestionar infraestructura. Hosting <strong class="text-teal-400">marca blanca</strong> con cPanel, dominio gratis y soporte 24/7, desde <strong class="text-white">S/120/año</strong>. Tú cobras, nosotros lo hacemos funcionar.
         </p>
 
         <!-- Stats Pills -->
@@ -200,7 +200,7 @@
               <span class="w-8 h-8 rounded-none bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400 text-xs font-bold">01</span>
               <div>
                 <span class="text-xs font-bold text-white block">Revende bajo tu marca</span>
-                <span class="text-[10px] text-gray-400">TÃº facturas al cliente final con tu logo</span>
+                <span class="text-[10px] text-gray-400">Tú facturas al cliente final con tu logo</span>
               </div>
             </div>
             <div class="p-3 bg-white/5 border border-white/10 flex items-center gap-3">
@@ -221,13 +221,13 @@
               <span class="w-8 h-8 rounded-none bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 text-xs font-bold">04</span>
               <div>
                 <span class="text-xs font-bold text-white block">Soporte 24/7 local</span>
-                <span class="text-[10px] text-gray-400">Atendemos en espaÃ±ol por ti y tus clientes</span>
+                <span class="text-[10px] text-gray-400">Atendemos en español por ti y tus clientes</span>
               </div>
             </div>
           </div>
 
           <p class="text-[11px] text-gray-400 text-center leading-relaxed">
-            Todos los planes incluyen <strong class="text-white">SSL gratuito, respaldos diarios</strong> y dominio .com de regalo, listos para revender el dÃ­a 1.
+            Todos los planes incluyen <strong class="text-white">SSL gratuito, respaldos diarios</strong> y dominio .com de regalo, listos para revender el día 1.
           </p>
 
         </div>
@@ -241,7 +241,7 @@
     <div class="max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20">
 
       <div class="text-center max-w-3xl mx-auto mb-16">
-        <p class="text-xs uppercase tracking-widest text-blue-400 font-bold mb-3">Por quÃ© tener tu propio proveedor de hosting</p>
+        <p class="text-xs uppercase tracking-widest text-blue-400 font-bold mb-3">Por qué tener tu propio proveedor de hosting</p>
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
           Hosting propio = <span class="gradient-text">ingresos y control</span>
         </h2>
@@ -252,24 +252,24 @@
         <div class="glass-card p-8 rounded-2xl border border-red-500/20 bg-red-950/10 space-y-6">
           <div class="flex items-center gap-3 border-b border-red-500/20 pb-4">
             <span class="w-3 h-3 rounded-full bg-red-500"></span>
-            <h3 class="text-xl font-bold text-white">Hosting de Proveedores GenÃ©ricos</h3>
+            <h3 class="text-xl font-bold text-white">Hosting de Proveedores Genéricos</h3>
           </div>
           <ul class="space-y-4 text-xs text-gray-300">
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>Pierdes el cliente:</strong> El hosting lo contrata el cliente directo y te deja fuera de la relaciÃ³n y de los ingresos recurrentes.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Pierdes el cliente:</strong> El hosting lo contrata el cliente directo y te deja fuera de la relación y de los ingresos recurrentes.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>Soporte genÃ©rico:</strong> AtenciÃ³n en inglÃ©s y sin contexto del proyecto de tu agencia.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Soporte genérico:</strong> Atención en inglés y sin contexto del proyecto de tu agencia.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
               <span><strong>Sin margen:</strong> Todo el ingreso anual del hosting va a un tercero, no a tu agencia.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-red-400 font-bold shrink-0">âœ•</span>
-              <span><strong>Renovaciones sorpresa:</strong> Precios que suben y te causan problemas con el cliente cada aÃ±o.</span>
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span><strong>Renovaciones sorpresa:</strong> Precios que suben y te causan problemas con el cliente cada año.</span>
             </li>
           </ul>
         </div>
@@ -281,20 +281,20 @@
           </div>
           <ul class="space-y-4 text-xs text-gray-200">
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>Clientes tuyos:</strong> Revendes con tu marca, mantienes la relaciÃ³n y facturas cada renovaciÃ³n.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>Clientes tuyos:</strong> Revendes con tu marca, mantienes la relación y facturas cada renovación.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>Soporte local 24/7:</strong> AtenciÃ³n en espaÃ±ol que entiende el proyecto de tu agencia.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>Soporte local 24/7:</strong> Atención en español que entiende el proyecto de tu agencia.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
               <span><strong>Tu margen:</strong> Cobra el hosting a tu cliente y guarda la diferencia. Ingreso recurrente predecible.</span>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-emerald-400 font-bold shrink-0">âœ“</span>
-              <span><strong>Precios fijos en soles:</strong> Sin cargos ocultos ni sorpresas en la renovaciÃ³n.</span>
+              <span class="text-emerald-400 font-bold shrink-0">✓</span>
+              <span><strong>Precios fijos en soles:</strong> Sin cargos ocultos ni sorpresas en la renovación.</span>
             </li>
           </ul>
         </div>
@@ -311,7 +311,7 @@
       <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
         Precios de <span class="gradient-text">Hosting Revendedor</span>
       </h2>
-      <p class="text-sm text-gray-400 mt-4">Precios en soles al aÃ±o. TÃº pones tu margen al revender a tus clientes.</p>
+      <p class="text-sm text-gray-400 mt-4">Precios en soles al año. Tú pones tu margen al revender a tus clientes.</p>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -321,13 +321,13 @@
         <p class="text-xs text-gray-400 mb-6">Ideal para landings y webs informativas de tus clientes.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-4xl font-extrabold text-white">S/ 120</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / aÃ±o</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / año</span>
         </div>
         <ul class="space-y-4 text-sm text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">âœ“</span> 5 GB disco NVMe</li>
-          <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">âœ“</span> SSL gratuito incluido</li>
-          <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">âœ“</span> 10 correos corporativos</li>
-          <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">âœ“</span> cPanel + respaldo diario</li>
+          <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> 5 GB disco NVMe</li>
+          <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> SSL gratuito incluido</li>
+          <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> 10 correos corporativos</li>
+          <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> cPanel + respaldo diario</li>
         </ul>
         <a href="contacto.php?ref=hosting-starter" class="w-full inline-block text-center py-4 text-sm font-bold bg-white/5 hover:bg-blue-600 hover:text-white border border-white/10 hover:border-blue-500 transition-all">
           Contratar Starter
@@ -335,18 +335,18 @@
       </div>
 
       <div class="glass-card p-8 rounded-2xl border border-teal-500/50 relative bg-teal-950/10 flex flex-col group transform md:-translate-y-4 shadow-[0_15px_30px_rgba(20,184,166,0.15)]">
-        <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-teal-500 text-black text-[10px] font-bold px-4 py-1.5 uppercase tracking-widest shadow-lg">MÃ¡s Vendido</div>
+        <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-teal-500 text-black text-[10px] font-bold px-4 py-1.5 uppercase tracking-widest shadow-lg">Más Vendido</div>
         <h3 class="text-xl font-bold text-white mb-2">Profesional</h3>
-        <p class="text-xs text-gray-400 mb-6">El mÃ¡s solicitado: ilimitado y con dominio gratis.</p>
+        <p class="text-xs text-gray-400 mb-6">El más solicitado: ilimitado y con dominio gratis.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-4xl font-extrabold text-teal-400">S/ 200</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / aÃ±o</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / año</span>
         </div>
         <ul class="space-y-4 text-sm text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Todo lo de Starter +</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Dominio .com gratis 1er aÃ±o</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Ilimitado en discos/correos</li>
-          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">âœ“</span> Soporte prioritario</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Todo lo de Starter +</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Dominio .com gratis 1er año</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Ilimitado en discos/correos</li>
+          <li class="flex items-start gap-3"><span class="text-teal-400 font-bold shrink-0">✓</span> Soporte prioritario</li>
         </ul>
         <a href="contacto.php?ref=hosting-profesional" class="w-full inline-block text-center py-4 text-sm font-bold bg-teal-500 text-black hover:bg-teal-400 transition-all shadow-[0_0_15px_rgba(20,184,166,0.4)]">
           Contratar Profesional
@@ -355,16 +355,16 @@
 
       <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-purple-500/50 transition-all flex flex-col group">
         <h3 class="text-xl font-bold text-white mb-2">Empresarial</h3>
-        <p class="text-xs text-gray-400 mb-6">Optimizado para WordPress y WooCommerce de alto trÃ¡fico.</p>
+        <p class="text-xs text-gray-400 mb-6">Optimizado para WordPress y WooCommerce de alto tráfico.</p>
         <div class="mb-6 border-b border-white/10 pb-6">
           <span class="text-4xl font-extrabold text-white">S/ 300</span>
-          <span class="text-xs text-gray-500 font-medium"> PEN / aÃ±o</span>
+          <span class="text-xs text-gray-500 font-medium"> PEN / año</span>
         </div>
         <ul class="space-y-4 text-sm text-gray-300 mb-8 flex-1">
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Todo lo de Profesional +</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> LiteSpeed Cache</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> WordPress instalado en 1 clic</li>
-          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">âœ“</span> Mayor CPU/RAM y trÃ¡fico</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Todo lo de Profesional +</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> LiteSpeed Cache</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> WordPress instalado en 1 clic</li>
+          <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Mayor CPU/RAM y tráfico</li>
         </ul>
         <a href="contacto.php?ref=hosting-empresarial" class="w-full inline-block text-center py-4 text-sm font-bold bg-white/5 hover:bg-purple-600 hover:text-white border border-white/10 hover:border-purple-500 transition-all">
           Contratar Empresarial
@@ -386,17 +386,17 @@
       <div class="max-w-3xl mx-auto space-y-4" id="faq-accordion">
         <div class="glass-card p-6 border border-white/5 faq-item">
           <button class="faq-btn w-full flex justify-between items-center text-left">
-            <span class="text-white font-semibold text-sm">Â¿QuÃ© es un proveedor de hosting para agencias web?</span>
+            <span class="text-white font-semibold text-sm">¿Qué es un proveedor de hosting para agencias web?</span>
             <svg class="faq-icon w-5 h-5 text-blue-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </button>
           <div class="faq-answer mt-4 text-sm text-gray-400 leading-relaxed hidden">
-            Es un servicio de hosting en modalidad de reventa (reseller/white label) donde tu agencia revende hosting a sus propios clientes bajo su marca. Nosotros somos la infraestructura tÃ©cnica detrÃ¡s: cPanel, discos NVMe, SSL y soporte 24/7, pero tu agencia mantiene la facturaciÃ³n, el contacto y el margen con el cliente final.
+            Es un servicio de hosting en modalidad de reventa (reseller/white label) donde tu agencia revende hosting a sus propios clientes bajo su marca. Nosotros somos la infraestructura técnica detrás: cPanel, discos NVMe, SSL y soporte 24/7, pero tu agencia mantiene la facturación, el contacto y el margen con el cliente final.
           </div>
         </div>
 
         <div class="glass-card p-6 border border-white/5 faq-item">
           <button class="faq-btn w-full flex justify-between items-center text-left">
-            <span class="text-white font-semibold text-sm">Â¿CÃ³mo genera ingresos recurrentes el hosting para mi agencia?</span>
+            <span class="text-white font-semibold text-sm">¿Cómo genera ingresos recurrentes el hosting para mi agencia?</span>
             <svg class="faq-icon w-5 h-5 text-blue-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </button>
           <div class="faq-answer mt-4 text-sm text-gray-400 leading-relaxed hidden">
@@ -406,21 +406,21 @@
 
         <div class="glass-card p-6 border border-white/5 faq-item">
           <button class="faq-btn w-full flex justify-between items-center text-left">
-            <span class="text-white font-semibold text-sm">Â¿Mi cliente sabrÃ¡ que el hosting es de otra empresa?</span>
+            <span class="text-white font-semibold text-sm">¿Mi cliente sabrá que el hosting es de otra empresa?</span>
             <svg class="faq-icon w-5 h-5 text-blue-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </button>
           <div class="faq-answer mt-4 text-sm text-gray-400 leading-relaxed hidden">
-            No. El hosting es marca blanca: facturamos a tu agencia y tu agencia factura a su cliente. El panel de control puede personalizarse con tu marca y coordinamos todo a tu nombre, para que la relaciÃ³n y la confianza con tu cliente siga siendo 100% tuya.
+            No. El hosting es marca blanca: facturamos a tu agencia y tu agencia factura a su cliente. El panel de control puede personalizarse con tu marca y coordinamos todo a tu nombre, para que la relación y la confianza con tu cliente siga siendo 100% tuya.
           </div>
         </div>
 
         <div class="glass-card p-6 border border-white/5 faq-item">
           <button class="faq-btn w-full flex justify-between items-center text-left">
-            <span class="text-white font-semibold text-sm">Â¿CuÃ¡nto cuesta el hosting para agencias en PerÃº?</span>
+            <span class="text-white font-semibold text-sm">¿Cuánto cuesta el hosting para agencias en Perú?</span>
             <svg class="faq-icon w-5 h-5 text-blue-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </button>
           <div class="faq-answer mt-4 text-sm text-gray-400 leading-relaxed hidden">
-            Nuestros planes de hosting para agencias parten desde S/120 al aÃ±o para landings, S/200 el Profesional con ilimitado y S/300 el Empresarial optimizado para WordPress. Los planes Profesional y Empresarial incluyen dominio .com gratis el primer aÃ±o. TÃº pones el margen al revender a tu cliente.
+            Nuestros planes de hosting para agencias parten desde S/120 al año para landings, S/200 el Profesional con ilimitado y S/300 el Empresarial optimizado para WordPress. Los planes Profesional y Empresarial incluyen dominio .com gratis el primer año. Tú pones el margen al revender a tu cliente.
           </div>
         </div>
       </div>
@@ -434,10 +434,10 @@
       <div class="space-y-4 max-w-2xl">
         <span class="text-[10px] uppercase tracking-widest text-teal-400 font-extrabold bg-teal-500/10 px-3 py-1 border border-teal-500/20">Hosting White Label para Agencias</span>
         <h2 class="text-3xl md:text-5xl font-bold tracking-tight text-white leading-tight">
-          Â¿Listo para vender hosting bajo tu marca?
+          ¿Listo para vender hosting bajo tu marca?
         </h2>
         <p class="text-sm text-gray-300 leading-relaxed">
-          CuÃ©ntanos cuÃ¡ntos clientes web tiene tu agencia. Te enviamos una propuesta de hosting revendedor con tu margen, sin costo ni compromiso.
+          Cuéntanos cuántos clientes web tiene tu agencia. Te enviamos una propuesta de hosting revendedor con tu margen, sin costo ni compromiso.
         </p>
       </div>
 

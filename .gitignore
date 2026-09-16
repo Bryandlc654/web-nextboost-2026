@@ -1,5 +1,6 @@
 # Dependencias
 /vendor/
+/node_modules/
 
 # Archivo de entorno (credenciales sensibles)
 .env
