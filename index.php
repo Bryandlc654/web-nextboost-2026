@@ -3,12 +3,15 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Agencia de Desarrollo Web en Perú | Next Boost</title>
-  <meta name="description" content="Agencia de desarrollo web en Perú. Diseño de páginas web profesionales, landing pages, tiendas online y SEO. Cotiza tu proyecto con hosting premium incluido." />
+  <title>Agencia de Desarrollo Web en Perú | Diseño Web y SEO | Next Boost</title>
+  <meta name="description" content="Agencia de desarrollo web en Perú: diseño de páginas web, tiendas online y SEO para aparecer primero en Google. Webs desde S/450 con hosting. ¡Cotiza gratis!" />
   <meta name="keywords" content="agencia de desarrollo web, desarrollo web Perú, diseño de páginas web, landing pages, tiendas online, SEO Perú" />
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <meta name="author" content="Next Boost" />
   <meta name="theme-color" content="#08080a" />
+  <meta name="geo.region" content="PE-ICA" />
+  <meta name="geo.placename" content="Chincha, Ica, Perú" />
+  <script>document.documentElement.classList.add('js');</script>
   <link rel="canonical" href="https://nextboost.business/" />
   <link rel="alternate" href="https://nextboost.business/" hreflang="x-default" />
   <link rel="alternate" href="https://nextboost.business/" hreflang="es-PE" />
@@ -20,8 +23,8 @@
   <meta property="og:site_name" content="Next Boost" />
   <meta property="og:locale" content="es_PE" />
   <meta property="og:url" content="https://nextboost.business/" />
-  <meta property="og:title" content="Agencia de Desarrollo Web en Perú | Next Boost" />
-  <meta property="og:description" content="Agencia de desarrollo web en Perú. Diseño de páginas web profesionales, landing pages, tiendas online y SEO. Cotiza tu proyecto con hosting premium incluido." />
+  <meta property="og:title" content="Agencia de Desarrollo Web en Perú | Diseño Web y SEO | Next Boost" />
+  <meta property="og:description" content="Agencia de desarrollo web en Perú: diseño de páginas web, tiendas online y SEO para aparecer primero en Google. Webs desde S/450 con hosting. ¡Cotiza gratis!" />
   <meta property="og:image" content="https://nextboost.business/imagenes-web/next-boost.png" />
   <meta property="og:image:width" content="1892" />
   <meta property="og:image:height" content="1078" />
@@ -30,8 +33,8 @@
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:url" content="https://nextboost.business/" />
-  <meta name="twitter:title" content="Agencia de Desarrollo Web en Perú | Next Boost" />
-  <meta name="twitter:description" content="Agencia de desarrollo web en Perú. Diseño de páginas web profesionales, landing pages, tiendas online y SEO. Cotiza tu proyecto con hosting premium incluido." />
+  <meta name="twitter:title" content="Agencia de Desarrollo Web en Perú | Diseño Web y SEO | Next Boost" />
+  <meta name="twitter:description" content="Agencia de desarrollo web en Perú: diseño de páginas web, tiendas online y SEO para aparecer primero en Google. Webs desde S/450 con hosting. ¡Cotiza gratis!" />
   <meta name="twitter:image" content="https://nextboost.business/imagenes-web/next-boost.png" />
   <meta name="twitter:image:alt" content="Agencia de desarrollo web Next Boost Perú" />
 
@@ -41,7 +44,7 @@
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "LocalBusiness",
+        "@type": "ProfessionalService",
         "@id": "https://nextboost.business/#organization",
         "name": "Next Boost",
         "alternateName": "Next Boost Perú",
@@ -71,8 +74,31 @@
           { "@type": "City", "name": "Ica" },
           { "@type": "City", "name": "Lima" }
         ],
-        "priceRange": "$$",
+        "priceRange": "Desde S/450",
+        "currenciesAccepted": "PEN, USD",
         "openingHours": "Mo-Fr 08:00-19:00",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+51 962 469 836",
+          "email": "info@nextboost.business",
+          "contactType": "sales",
+          "areaServed": "PE",
+          "availableLanguage": ["es"]
+        },
+        "knowsAbout": ["Desarrollo web", "Diseño de páginas web", "Posicionamiento SEO", "Tiendas online", "WordPress", "Next.js", "Hosting web", "Desarrollo web marca blanca"],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Servicios de desarrollo web en Perú",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Diseño de páginas web", "url": "https://nextboost.business/diseno-de-paginas-web-peru.php" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Desarrollo web a medida", "url": "https://nextboost.business/desarrollo-web.php" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tiendas online / e-commerce", "url": "https://nextboost.business/ecommerce.php" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Posicionamiento SEO", "url": "https://nextboost.business/posicionamiento-seo.php" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hosting web", "url": "https://nextboost.business/hosting-web.php" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Desarrollo de software a medida", "url": "https://nextboost.business/desarrollo-software.php" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Desarrollo web marca blanca para agencias", "url": "https://nextboost.business/agencia-desarrollo-web-marca-blanca.php" } }
+          ]
+        },
         "sameAs": [
           "https://www.facebook.com/nextboostperu",
           "https://www.instagram.com/nextboostperu",
@@ -97,6 +123,8 @@
         "description": "Agencia de desarrollo web en Perú. Diseño de páginas web profesionales, landing pages, tiendas online y SEO.",
         "isPartOf": { "@id": "https://nextboost.business/#website" },
         "about": { "@id": "https://nextboost.business/#organization" },
+        "primaryImageOfPage": "https://nextboost.business/imagenes-web/next-boost.png",
+        "dateModified": "2026-10-23",
         "inLanguage": "es-PE"
       },
       {
@@ -141,6 +169,22 @@
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Sí, todos nuestros desarrollos cuentan con 30 días de soporte y mantenimiento gratuito para resolver cualquier eventualidad. Posterior a esto, disponemos de planes mensuales flexibles de mantenimiento preventivo y optimización periódica."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuánto cuesta una página web en Perú?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Una página web profesional con Next Boost cuesta desde S/450. El precio incluye diseño personalizado, hosting y dominio por un año, certificado SSL y optimización SEO técnica. El único costo recurrente es la renovación de dominio y hosting, desde S/120 al año."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Trabajan solo en Chincha e Ica o en todo el Perú?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Tenemos sede en Chincha (Ica), pero trabajamos de forma remota con empresas de Lima y de todo el Perú, y con agencias bajo modalidad de marca blanca."
             }
           }
         ]
@@ -198,7 +242,7 @@
       transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
       position: relative;
     }
-    .glass-card > * {
+    .glass-card > :not(.absolute) {
       position: relative;
       z-index: 2;
     }
@@ -650,9 +694,367 @@
       height: 1px;
       background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.4), rgba(45, 212, 191, 0.4), transparent);
     }
+
+    /* Texto solo para lectores de pantalla y buscadores */
+    .vh {
+      position: absolute !important;
+      width: 1px; height: 1px;
+      padding: 0; margin: -1px;
+      overflow: hidden; clip: rect(0,0,0,0);
+      white-space: nowrap; border: 0;
+    }
+
+    /* Reveal on scroll: la animación espera a que el bloque entre en pantalla */
+    .js .animate-in { animation-play-state: paused; }
+    .js .animate-in.in-view { animation-play-state: running; }
+
+    /* Barra de progreso de lectura */
+    .scroll-progress {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      z-index: 100;
+      transform-origin: 0 50%;
+      transform: scaleX(var(--progress, 0));
+      background: linear-gradient(90deg, #3b82f6, #00f2fe, #2dd4bf);
+      box-shadow: 0 0 12px rgba(0, 242, 254, 0.6);
+      pointer-events: none;
+    }
+
+    /* Spotlight que sigue al cursor sobre la rejilla del hero */
+    .hero-spotlight {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: radial-gradient(420px circle at var(--sx, -999px) var(--sy, -999px), rgba(59, 130, 246, 0.10), rgba(45, 212, 191, 0.04) 40%, transparent 70%);
+      transition: opacity 0.4s ease;
+    }
+    .hero-spotlight-grid {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        linear-gradient(to right, rgba(45, 212, 191, 0.35) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(45, 212, 191, 0.35) 1px, transparent 1px);
+      background-size: 60px 60px;
+      -webkit-mask-image: radial-gradient(220px circle at var(--sx, -999px) var(--sy, -999px), black, transparent 75%);
+      mask-image: radial-gradient(220px circle at var(--sx, -999px) var(--sy, -999px), black, transparent 75%);
+    }
+
+    /* Señales de confianza estilo terminal bajo los CTA */
+    .signal-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.25rem;
+      margin-top: 1.25rem;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 11px;
+      letter-spacing: 0.04em;
+      color: #9ca3af;
+    }
+    .signal-row li {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .signal-row li::before {
+      content: '';
+      width: 6px; height: 6px;
+      background: #2dd4bf;
+      box-shadow: 0 0 10px #2dd4bf;
+      animation: signalBlink 2.4s ease-in-out infinite;
+    }
+    .signal-row li:nth-child(2)::before { background: #3b82f6; box-shadow: 0 0 10px #3b82f6; animation-delay: 0.8s; }
+    .signal-row li:nth-child(3)::before { background: #a78bfa; box-shadow: 0 0 10px #a78bfa; animation-delay: 1.6s; }
+    .signal-row strong { color: #fff; font-weight: 600; }
+    @keyframes signalBlink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.25; }
+    }
+
+    /* Etiquetas de sección con indicador y efecto "decode" */
+    [data-scramble]::before {
+      content: '';
+      display: inline-block;
+      width: 6px; height: 6px;
+      margin-right: 10px;
+      vertical-align: middle;
+      background: #2dd4bf;
+      box-shadow: 0 0 8px rgba(45, 212, 191, 0.8);
+      transform: translateY(-1px);
+    }
+
+    /* Botones magnéticos */
+    .magnetic {
+      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease, background 0.3s ease, border-color 0.3s ease;
+      will-change: transform;
+    }
+
+    /* Rejilla de industrias (bento con bordes de 1px) */
+    .ind-grid {
+      display: grid;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      gap: 1px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    @media (min-width: 640px) { .ind-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (min-width: 1024px) { .ind-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+    @media (min-width: 1280px) { .ind-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+    .ind-card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      min-height: 150px;
+      padding: 1.5rem;
+      background: #070708;
+      overflow: hidden;
+      isolation: isolate;
+      transition: background 0.4s ease;
+    }
+    .ind-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      background: radial-gradient(260px circle at var(--mouse-x, -999px) var(--mouse-y, -999px), rgba(59, 130, 246, 0.14), transparent 70%);
+      opacity: 0;
+      transition: opacity 0.4s ease;
+    }
+    .ind-card::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      height: 1px; width: 100%;
+      background: linear-gradient(90deg, transparent, #00f2fe, #3b82f6, transparent);
+      transform: translateX(-100%);
+      transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .ind-card:hover { background: #0b0b0e; }
+    .ind-card:hover::before { opacity: 1; }
+    .ind-card:hover::after { transform: translateX(0); }
+    .ind-card:focus-visible { outline: 2px solid #2dd4bf; outline-offset: -2px; }
+    .ind-index {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 10px;
+      letter-spacing: 0.15em;
+      color: #4b5563;
+      transition: color 0.3s ease;
+    }
+    .ind-card:hover .ind-index { color: #2dd4bf; }
+    .ind-title {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #f3f4f6;
+      line-height: 1.3;
+    }
+    .ind-desc {
+      font-size: 0.8rem;
+      color: #6b7280;
+      line-height: 1.5;
+    }
+    .ind-arrow {
+      position: absolute;
+      top: 1.35rem; right: 1.35rem;
+      width: 28px; height: 28px;
+      display: flex; align-items: center; justify-content: center;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      color: #6b7280;
+      transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .ind-arrow svg { transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
+    .ind-card:hover .ind-arrow {
+      color: #000;
+      background: #2dd4bf;
+      border-color: #2dd4bf;
+      box-shadow: 0 0 18px rgba(45, 212, 191, 0.45);
+    }
+    .ind-card:hover .ind-arrow svg { transform: rotate(-45deg); }
+
+    /* Bloque "Agencia de desarrollo web en Perú" */
+    .about-glow {
+      position: absolute;
+      width: 640px; height: 640px;
+      right: -160px; top: 10%;
+      background: radial-gradient(circle, rgba(59, 130, 246, 0.12), rgba(45, 212, 191, 0.05) 45%, transparent 70%);
+      filter: blur(20px);
+      pointer-events: none;
+    }
+    .about-mods { border-top: 1px solid rgba(255, 255, 255, 0.06); }
+    .about-mod {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+      padding: 1.5rem 0 1.5rem 1.25rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      color: #9ca3af;
+      font-size: 0.95rem;
+      line-height: 1.75;
+      transition: background 0.4s ease;
+    }
+    .about-mod::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 1.5rem; bottom: 1.5rem;
+      width: 2px;
+      background: rgba(255, 255, 255, 0.08);
+      transition: background 0.4s ease, box-shadow 0.4s ease;
+    }
+    .about-mod:hover { background: linear-gradient(90deg, rgba(45, 212, 191, 0.04), transparent 60%); }
+    .about-mod:hover::before {
+      background: linear-gradient(180deg, #3b82f6, #2dd4bf);
+      box-shadow: 0 0 12px rgba(45, 212, 191, 0.5);
+    }
+    @media (min-width: 1280px) {
+      .about-mod { grid-template-columns: 11rem 1fr; gap: 2rem; }
+    }
+    @media (min-width: 1024px) {
+      .guide-panel { position: sticky; top: 7rem; }
+    }
+    .about-mod-k {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 0.6rem;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #e5e7eb;
+    }
+    .about-mod-n { color: #2dd4bf; }
+    .about-mod strong { color: #fff; font-weight: 500; }
+    .about-link {
+      color: #e5e7eb;
+      background-image: linear-gradient(90deg, #3b82f6, #2dd4bf);
+      background-size: 100% 1px;
+      background-position: 0 100%;
+      background-repeat: no-repeat;
+      padding-bottom: 1px;
+      transition: background-size 0.35s cubic-bezier(0.16, 1, 0.3, 1), color 0.3s ease;
+    }
+    .about-link:hover {
+      color: #000;
+      background-size: 100% 100%;
+    }
+    .about-stack {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1.75rem;
+    }
+    .about-stack li {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 11px;
+      letter-spacing: 0.06em;
+      color: #9ca3af;
+      padding: 0.4rem 0.7rem;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(255, 255, 255, 0.02);
+      transition: color 0.3s ease, border-color 0.3s ease, transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .about-stack li::before { content: '✓ '; color: #2dd4bf; }
+    .about-stack li:hover { color: #fff; border-color: rgba(45, 212, 191, 0.4); transform: translateY(-2px); }
+
+    /* Panel de guías estilo terminal */
+    .guide-panel {
+      position: relative;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01));
+      backdrop-filter: blur(12px);
+      border-radius: 1rem;
+      overflow: hidden;
+    }
+    .guide-panel::before {
+      content: '';
+      position: absolute;
+      inset: 0 0 auto 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #2dd4bf, #3b82f6, transparent);
+      opacity: 0.6;
+    }
+    .guide-bar {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.8rem 1.25rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 11px;
+      color: #6b7280;
+    }
+    .guide-dots { display: inline-flex; gap: 6px; }
+    .guide-dots i { width: 9px; height: 9px; border-radius: 50%; background: rgba(255, 255, 255, 0.12); }
+    .guide-dots i:nth-child(1) { background: #f87171; opacity: 0.7; }
+    .guide-dots i:nth-child(2) { background: #fbbf24; opacity: 0.7; }
+    .guide-dots i:nth-child(3) { background: #34d399; opacity: 0.7; }
+    .guide-title {
+      padding: 1.25rem 1.25rem 0.5rem;
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #6b7280;
+    }
+    .guide-panel ul { padding: 0 0.5rem; }
+    .guide-link {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 0.9rem;
+      padding: 0.8rem 0.75rem;
+      border-radius: 0.6rem;
+      color: #d1d5db;
+      font-size: 0.9rem;
+      transition: color 0.3s ease, background 0.3s ease;
+    }
+    .guide-n {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 11px;
+      color: #4b5563;
+      transition: color 0.3s ease;
+    }
+    .guide-t { flex: 1; transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
+    .guide-a {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      color: #4b5563;
+      opacity: 0;
+      transform: translateX(-6px);
+      transition: opacity 0.3s ease, color 0.3s ease, transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .guide-link:hover, .guide-link:focus-visible { color: #fff; background: rgba(45, 212, 191, 0.06); }
+    .guide-link:hover .guide-n, .guide-link:focus-visible .guide-n { color: #2dd4bf; }
+    .guide-link:hover .guide-t, .guide-link:focus-visible .guide-t { transform: translateX(4px); }
+    .guide-link:hover .guide-a, .guide-link:focus-visible .guide-a { opacity: 1; color: #2dd4bf; transform: none; }
+    .guide-cta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0.75rem 1.25rem 1.25rem;
+      padding: 0.9rem 1.1rem;
+      border-radius: 0.75rem;
+      background: #fff;
+      color: #000;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: background 0.3s ease, box-shadow 0.3s ease;
+    }
+    .guide-cta:hover { background: #2dd4bf; box-shadow: 0 0 24px rgba(45, 212, 191, 0.35); }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+      .js .animate-in { animation-play-state: running; }
+      .marquee-track { animation: none; }
+    }
   </style>
 </head>
 <body>
+  <div class="scroll-progress" aria-hidden="true"></div>
 
   <!-- Glow -->
   <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
@@ -664,7 +1066,9 @@
   <?php include 'includes/header.php'; ?>
 
   <!-- Hero -->
-  <main class="relative z-10 w-full min-h-[calc(100vh-80px)] overflow-hidden flex items-center">
+  <main id="hero" class="relative z-10 w-full min-h-[calc(100vh-80px)] overflow-hidden flex items-center">
+    <div class="hero-spotlight-grid" aria-hidden="true"></div>
+    <div class="hero-spotlight" aria-hidden="true"></div>
     <div class="max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 w-full flex flex-col lg:flex-row items-center justify-between py-12 lg:py-0 relative">
 
       <!-- Left -->
@@ -679,14 +1083,19 @@
         Creamos la web que tu negocio merece. Diseño moderno, desarrollo ultra rápido y resultados medibles que conectan e impulsan tu marca.
       </p>
       <div class="flex flex-wrap gap-4 mt-3 animate-in animate-in-d3">
-        <a href="proyectos.php" class="btn-glow-primary px-8 py-4 text-lg font-semibold rounded-none flex items-center gap-3">
+        <a href="proyectos.php" class="magnetic btn-glow-primary px-8 py-4 text-lg font-semibold rounded-none flex items-center gap-3">
           Ver portafolio
           <svg aria-hidden="true" class="w-5 h-5 relative z-10 transition-transform duration-300 hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 7l5 5m0 0l-5 5m5-5H6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
-        <a href="contacto.php" class="btn-glow-secondary px-8 py-4 text-lg font-semibold rounded-none flex items-center justify-center">
+        <a href="contacto.php" class="magnetic btn-glow-secondary px-8 py-4 text-lg font-semibold rounded-none flex items-center justify-center">
           Contáctanos
         </a>
       </div>
+      <ul class="signal-row animate-in animate-in-d4" aria-label="Por qué elegir Next Boost">
+        <li><span><strong>+30</strong> proyectos en producción</span></li>
+        <li><span>Webs desde <strong>S/450</strong></span></li>
+        <li><span>Respuesta en <strong>&lt; 24 h</strong></span></li>
+      </ul>
     </div>
     <!-- Right (Three-Scene Animated Mockup - Enlarged & Bleeds off right edge) -->
     <div class="hidden lg:flex lg:w-[54%] mt-12 lg:mt-0 relative justify-center lg:justify-start lg:translate-x-20 xl:translate-x-32 2xl:translate-x-44 shrink-0">
@@ -957,7 +1366,7 @@
   <!-- Clients Marquee -->
   <section class="relative z-10 py-20 border-t border-white/5 overflow-hidden">
     <div class="text-center mb-10">
-      <p class="text-xs tracking-[0.2em] uppercase text-gray-500 animate-in">Confían en nosotros</p>
+      <p data-scramble class="text-xs tracking-[0.2em] uppercase text-gray-500 animate-in">Confían en nosotros</p>
     </div>
     <div class="marquee-fade overflow-hidden">
       <div class="marquee-track">
@@ -981,23 +1390,23 @@
           <img src="logos/shania_transparent-e1776891037532.png" alt="Logo Fajas Shania Tienda Online" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
         </div>
         <!-- Second set (duplicate for seamless loop) -->
-        <div class="flex items-center gap-10 md:gap-16 px-4">
-          <img src="logos/Bono-Guerlan-3_0.png" alt="Logo Fragancias Bono y Guerlan" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
-          <img src="logos/Logo-Observatorio-Regional-Ucayali-2048x648.webp" alt="Logo Observatorio Regional de Violencia Ucayali" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
-          <img src="logos/Logo-Verde-e1781197489379.webp" alt="Logo Verde Next Boost" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
-          <img src="logos/expotravelperu.webp" alt="Logo Expotravel Perú Agencia de Viajes" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
-          <img src="logos/logo%20(1).png" alt="Logo Cliente Next Boost" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
-          <img src="logos/logo-4JdZ30GI.webp" alt="Logo Cliente Next Boost" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
-          <img src="logos/logo-cgap.png.webp" alt="Logo CGAP Perú Centro de Capacitación" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
-          <img src="logos/logo-cilantro.png.webp" alt="Logo Cilantro Fusión Restaurante" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
-          <img src="logos/logo-corporacion-totos.png.webp" alt="Logo Corporación Totos Entretenimiento" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
-          <img src="logos/logo-e1751497692429.png.webp" alt="Logo Cliente Next Boost" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
-          <img src="logos/logo-grupo-jc.png.webp" alt="Logo Grupo JC Consultoría SST e ISO" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
-          <img src="logos/logo-negro.png.webp" alt="Logo Cliente Next Boost" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
-          <img src="logos/logo-sin-fondo.png.webp" alt="Logo Cliente Next Boost" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
-          <img src="logos/logo-solo.png.webp" alt="Logo Cliente Next Boost" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
-          <img src="logos/logo.webp" alt="Logo Next Boost Agencia de Desarrollo Web" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
-          <img src="logos/shania_transparent-e1776891037532.png" alt="Logo Fajas Shania Tienda Online" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
+        <div class="flex items-center gap-10 md:gap-16 px-4" aria-hidden="true">
+          <img src="logos/Bono-Guerlan-3_0.png" alt="" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
+          <img src="logos/Logo-Observatorio-Regional-Ucayali-2048x648.webp" alt="" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
+          <img src="logos/Logo-Verde-e1781197489379.webp" alt="" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
+          <img src="logos/expotravelperu.webp" alt="" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
+          <img src="logos/logo%20(1).png" alt="" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
+          <img src="logos/logo-4JdZ30GI.webp" alt="" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
+          <img src="logos/logo-cgap.png.webp" alt="" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
+          <img src="logos/logo-cilantro.png.webp" alt="" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
+          <img src="logos/logo-corporacion-totos.png.webp" alt="" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
+          <img src="logos/logo-e1751497692429.png.webp" alt="" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
+          <img src="logos/logo-grupo-jc.png.webp" alt="" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
+          <img src="logos/logo-negro.png.webp" alt="" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
+          <img src="logos/logo-sin-fondo.png.webp" alt="" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
+          <img src="logos/logo-solo.png.webp" alt="" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
+          <img src="logos/logo.webp" alt="" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
+          <img src="logos/shania_transparent-e1776891037532.png" alt="" width="120" height="56" loading="lazy" class="h-10 md:h-14 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity filter grayscale hover:grayscale-0 brightness-200">
         </div>
       </div>
     </div>
@@ -1007,7 +1416,7 @@
  <section class="relative z-10 py-16 px-6 md:px-12 border-t border-white/5 overflow-hidden">
  <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-blue-600/10 blur-[150px] pointer-events-none"></div>
  <div class="max-w-4xl mx-auto relative text-center">
- <p class="text-xs tracking-[0.2em] uppercase text-gray-500 mb-3 animate-in">Cotiza tu proyecto</p>
+ <p data-scramble class="text-xs tracking-[0.2em] uppercase text-gray-500 mb-3 animate-in">Cotiza tu proyecto</p>
  <h2 class="text-3xl md:text-5xl font-medium tracking-tight mb-4 animate-in animate-in-d1">¡Iniciemos! <span class="gradient-text">Elige tu dominio</span></h2>
  <p class="text-gray-400 text-sm md:text-base mb-8 max-w-2xl mx-auto animate-in animate-in-d2">Busca el nombre perfecto para tu marca y recibe una cotización a medida al instante.</p>
  
@@ -1028,8 +1437,9 @@
  <section id="servicios" class="relative z-10 py-24 px-8 md:px-16 lg:px-20 border-t border-white/5">
  <div class="max-w-screen-2xl mx-auto">
  <header class="mb-16">
- <p class="text-xs tracking-[0.2em] uppercase text-gray-500 mb-4 animate-in">Nuestros servicios</p>
+ <p data-scramble class="text-xs tracking-[0.2em] uppercase text-gray-500 mb-4 animate-in">Nuestros servicios</p>
  <h2 class="text-4xl md:text-6xl font-medium tracking-tight animate-in animate-in-d1">Diseñamos, desarrollamos,<br/><span class="gradient-text">entregamos.</span></h2>
+ <p class="text-gray-400 text-base md:text-lg leading-relaxed max-w-2xl mt-6 animate-in animate-in-d2">Servicios de <strong class="text-white font-medium">diseño y desarrollo web en Perú</strong> pensados para vender: sitios rápidos, optimizados para Google y con hosting gestionado por nuestro equipo.</p>
  </header>
 
  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 lg:gap-24">
@@ -1040,8 +1450,8 @@
  <div class="step-number w-8 h-8 bg-blue-600 flex items-center justify-center text-sm font-bold text-white">01</div>
  <h3 class="text-2xl font-semibold">Diseño Web</h3>
  <p class="text-gray-400 leading-relaxed">Creamos interfaces modernas, responsivas y centradas en la experiencia de usuario que convierten visitantes en clientes.</p>
-  <a href="desarrollo-web.php" class="mt-2 inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-white/5 hover:bg-blue-600/20 border border-white/10 hover:border-blue-500/50 text-sm text-white font-medium transition-all duration-300 w-fit group">
- Saber más <span class="transition-transform group-hover:translate-x-1">→</span>
+  <a href="diseno-de-paginas-web-peru.php" class="mt-2 inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-white/5 hover:bg-blue-600/20 border border-white/10 hover:border-blue-500/50 text-sm text-white font-medium transition-all duration-300 w-fit group">
+ Saber más<span class="vh"> sobre diseño de páginas web</span> <span class="transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
  </a>
  </div>
  <div class="service-mockup overflow-hidden shadow-2xl">
@@ -1090,7 +1500,7 @@
  <h3 class="text-2xl font-semibold">Desarrollo Web</h3>
  <p class="text-gray-400 leading-relaxed">Apps web rápidas, escalables y seguras con tecnologías modernas como React, Next.js, Node.js y más.</p>
  <a href="desarrollo-web.php" class="mt-2 inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-white/5 hover:bg-blue-600/20 border border-white/10 hover:border-blue-500/50 text-sm text-white font-medium transition-all duration-300 w-fit group">
- Saber más <span class="transition-transform group-hover:translate-x-1">→</span>
+ Saber más<span class="vh"> sobre desarrollo web a medida</span> <span class="transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
  </a>
  </div>
  <div class="service-mockup overflow-hidden shadow-2xl">
@@ -1146,7 +1556,7 @@
  <h3 class="text-2xl font-semibold">SEO & Marketing</h3>
  <p class="text-gray-400 leading-relaxed">Optimizamos tu presencia digital con estrategias SEO, rendimiento web y análisis de métricas para maximizar resultados.</p>
   <a href="posicionamiento-seo.php" class="mt-2 inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-white/5 hover:bg-blue-600/20 border border-white/10 hover:border-blue-500/50 text-sm text-white font-medium transition-all duration-300 w-fit group">
- Saber más <span class="transition-transform group-hover:translate-x-1">→</span>
+ Saber más<span class="vh"> sobre posicionamiento SEO</span> <span class="transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
  </a>
  </div>
  <div class="service-mockup overflow-hidden shadow-2xl">
@@ -1206,7 +1616,7 @@
  <h3 class="text-2xl font-semibold">Hosting Web</h3>
  <p class="text-gray-400 leading-relaxed">Servidores en la nube ultra veloces con uptime del 99.99%, discos NVMe SSD y administración completa para tu tranquilidad.</p>
  <a href="hosting-web.php" class="mt-2 inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-white/5 hover:bg-blue-600/20 border border-white/10 hover:border-blue-500/50 text-sm text-white font-medium transition-all duration-300 w-fit group">
- Saber más <span class="transition-transform group-hover:translate-x-1">→</span>
+ Saber más<span class="vh"> sobre hosting web</span> <span class="transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
  </a>
  </div>
  <div class="service-mockup overflow-hidden shadow-2xl">
@@ -1258,7 +1668,7 @@
  <h3 class="text-2xl font-semibold">Diseño Gráfico</h3>
  <p class="text-gray-400 leading-relaxed">Creamos identidades de marca memorables, manuales de estilo, logotipos y material corporativo que conectan.</p>
   <a href="contacto.php" class="mt-2 inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-white/5 hover:bg-blue-600/20 border border-white/10 hover:border-blue-500/50 text-sm text-white font-medium transition-all duration-300 w-fit group">
- Saber más <span class="transition-transform group-hover:translate-x-1">→</span>
+ Saber más<span class="vh"> sobre diseño gráfico</span> <span class="transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
  </a>
  </div>
  <div class="service-mockup overflow-hidden shadow-2xl">
@@ -1305,7 +1715,7 @@
  <h3 class="text-2xl font-semibold">Marca Blanca</h3>
  <p class="text-gray-400 leading-relaxed">Conviértete en una agencia de servicio completo. Ofrecemos desarrollo de marca blanca de alta gama para agencias de marketing sin costes de contratación.</p>
  <a href="agencia-desarrollo-web-marca-blanca.php" class="mt-2 inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-white/5 hover:bg-blue-600/20 border border-white/10 hover:border-blue-500/50 text-sm text-white font-medium transition-all duration-300 w-fit group">
- Saber más <span class="transition-transform group-hover:translate-x-1">→</span>
+ Saber más<span class="vh"> sobre desarrollo web marca blanca</span> <span class="transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
  </a>
  </div>
  <div class="service-mockup overflow-hidden shadow-2xl">
@@ -1358,7 +1768,7 @@
 
  <div class="max-w-7xl mx-auto relative">
  <header class="mb-16 text-center">
- <p class="text-xs tracking-[0.2em] uppercase text-gray-500 mb-4 animate-in">Sobre nosotros</p>
+ <p data-scramble class="text-xs tracking-[0.2em] uppercase text-gray-500 mb-4 animate-in">Sobre nosotros</p>
  <h2 class="text-4xl md:text-6xl font-medium tracking-tight animate-in animate-in-d1">Creamos Experiencias <span class="gradient-text">Digitales de Impacto</span></h2>
  </header>
 
@@ -1462,7 +1872,7 @@
  <section id="portafolio" class="relative z-10 py-24 px-8 md:px-16 lg:px-20 border-t border-white/5 overflow-hidden">
  <div class="max-w-screen-2xl mx-auto">
  <header class="mb-16 text-center">
- <p class="text-xs tracking-[0.2em] uppercase text-gray-500 mb-4 animate-in">Portafolio</p>
+ <p data-scramble class="text-xs tracking-[0.2em] uppercase text-gray-500 mb-4 animate-in">Portafolio</p>
  <h2 class="text-4xl md:text-6xl font-medium tracking-tight animate-in animate-in-d1">Proyectos que <span class="gradient-text">hablan</span></h2>
  </header>
 
@@ -1641,6 +2051,117 @@
     </div>
   </section>
 
+  <!-- Industrias Section -->
+  <section id="industrias" class="relative z-10 py-24 px-8 md:px-16 lg:px-20 border-t border-white/5 overflow-hidden">
+    <div class="max-w-screen-2xl mx-auto">
+      <header class="mb-16 grid grid-cols-1 lg:grid-cols-12 gap-8">
+        <div class="lg:col-span-7">
+          <p data-scramble class="text-xs tracking-[0.2em] uppercase text-gray-500 mb-4 animate-in">Soluciones por industria</p>
+          <h2 class="text-4xl md:text-6xl font-medium tracking-tight animate-in animate-in-d1">Páginas web para <span class="gradient-text">cada industria</span> en Perú</h2>
+        </div>
+        <p class="lg:col-span-5 text-gray-400 text-base md:text-lg leading-relaxed animate-in animate-in-d2">No usamos plantillas genéricas: cada sector tiene clientes, búsquedas y procesos distintos. Diseñamos tu web con la estructura, las funciones y el SEO local que tu rubro necesita para captar clientes.</p>
+      </header>
+      <div class="ind-grid animate-in animate-in-d2">
+        <a href="pagina-web-para-abogados-peru.php" class="ind-card">
+          <span class="ind-index">/01</span>
+          <h3 class="ind-title">Página web para abogados</h3>
+          <p class="ind-desc">Capta consultas y transmite confianza desde el primer clic.</p>
+          <span class="ind-arrow"><svg aria-hidden="true" class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a href="pagina-web-para-constructoras-peru.php" class="ind-card">
+          <span class="ind-index">/02</span>
+          <h3 class="ind-title">Página web para constructoras</h3>
+          <p class="ind-desc">Portafolio de obras, licitaciones y cotizaciones online.</p>
+          <span class="ind-arrow"><svg aria-hidden="true" class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a href="pagina-web-inmobiliarias-peru.php" class="ind-card">
+          <span class="ind-index">/03</span>
+          <h3 class="ind-title">Página web para inmobiliarias</h3>
+          <p class="ind-desc">Catálogo de propiedades con filtros, mapas y leads al CRM.</p>
+          <span class="ind-arrow"><svg aria-hidden="true" class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a href="pagina-web-restaurantes-peru.php" class="ind-card">
+          <span class="ind-index">/04</span>
+          <h3 class="ind-title">Página web para restaurantes</h3>
+          <p class="ind-desc">Menú digital, reservas y pedidos online sin comisiones.</p>
+          <span class="ind-arrow"><svg aria-hidden="true" class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a href="pagina-web-hoteles-peru.php" class="ind-card">
+          <span class="ind-index">/05</span>
+          <h3 class="ind-title">Página web para hoteles</h3>
+          <p class="ind-desc">Reservas directas y menos dependencia de las OTAs.</p>
+          <span class="ind-arrow"><svg aria-hidden="true" class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a href="pagina-web-agencias-turismo-peru.php" class="ind-card">
+          <span class="ind-index">/06</span>
+          <h3 class="ind-title">Página web para agencias de turismo</h3>
+          <p class="ind-desc">Tours, paquetes y pagos en línea para viajeros.</p>
+          <span class="ind-arrow"><svg aria-hidden="true" class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a href="pagina-web-clinicas-salud-peru.php" class="ind-card">
+          <span class="ind-index">/07</span>
+          <h3 class="ind-title">Página web para clínicas</h3>
+          <p class="ind-desc">Citas online, especialidades y staff médico.</p>
+          <span class="ind-arrow"><svg aria-hidden="true" class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a href="pagina-web-odontologos-peru.php" class="ind-card">
+          <span class="ind-index">/08</span>
+          <h3 class="ind-title">Página web para odontólogos</h3>
+          <p class="ind-desc">Agenda de citas y tratamientos para consultorios dentales.</p>
+          <span class="ind-arrow"><svg aria-hidden="true" class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a href="pagina-web-veterinarias-peru.php" class="ind-card">
+          <span class="ind-index">/09</span>
+          <h3 class="ind-title">Página web para veterinarias</h3>
+          <p class="ind-desc">Servicios, citas y tienda para mascotas.</p>
+          <span class="ind-arrow"><svg aria-hidden="true" class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a href="pagina-web-gimnasios-peru.php" class="ind-card">
+          <span class="ind-index">/10</span>
+          <h3 class="ind-title">Página web para gimnasios</h3>
+          <p class="ind-desc">Planes, horarios y membresías que se venden solas.</p>
+          <span class="ind-arrow"><svg aria-hidden="true" class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a href="pagina-web-salones-belleza-peru.php" class="ind-card">
+          <span class="ind-index">/11</span>
+          <h3 class="ind-title">Página web para salones de belleza</h3>
+          <p class="ind-desc">Reservas 24/7 y galería de trabajos.</p>
+          <span class="ind-arrow"><svg aria-hidden="true" class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a href="pagina-web-rentacar-peru.php" class="ind-card">
+          <span class="ind-index">/12</span>
+          <h3 class="ind-title">Página web para rent a car</h3>
+          <p class="ind-desc">Flota, disponibilidad y alquiler de autos online.</p>
+          <span class="ind-arrow"><svg aria-hidden="true" class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a href="diseno-web-colegios-institutos-peru.php" class="ind-card">
+          <span class="ind-index">/13</span>
+          <h3 class="ind-title">Página web para colegios e institutos</h3>
+          <p class="ind-desc">Admisión online, mallas curriculares y campus.</p>
+          <span class="ind-arrow"><svg aria-hidden="true" class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a href="pagina-web-emprendedores-peru.php" class="ind-card">
+          <span class="ind-index">/14</span>
+          <h3 class="ind-title">Página web para emprendedores</h3>
+          <p class="ind-desc">Tu primera web profesional, lista para vender.</p>
+          <span class="ind-arrow"><svg aria-hidden="true" class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a href="pagina-web-para-mi-empresa.php" class="ind-card">
+          <span class="ind-index">/15</span>
+          <h3 class="ind-title">Página web para empresas</h3>
+          <p class="ind-desc">Web corporativa que posiciona tu marca en Google.</p>
+          <span class="ind-arrow"><svg aria-hidden="true" class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a href="pagina-web-con-inteligencia-artificial.php" class="ind-card">
+          <span class="ind-index">/16</span>
+          <h3 class="ind-title">Página web con inteligencia artificial</h3>
+          <p class="ind-desc">Chatbots e IA que atienden a tus clientes 24/7.</p>
+          <span class="ind-arrow"><svg aria-hidden="true" class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
   <!-- FAQ Section -->
   <section id="faqs" class="relative z-10 py-24 px-8 md:px-16 lg:px-20 border-t border-white/5 overflow-hidden">
     <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-teal-500/5 blur-[150px] rounded-full pointer-events-none"></div>
@@ -1650,7 +2171,7 @@
         <!-- Left Column: Header (4 cols) -->
         <div class="lg:col-span-4 flex flex-col gap-6 animate-in">
           <div>
-            <p class="text-xs tracking-[0.2em] uppercase text-gray-500 mb-4">Soporte</p>
+            <p data-scramble class="text-xs tracking-[0.2em] uppercase text-gray-500 mb-4">Soporte</p>
             <h2 class="text-4xl md:text-5xl font-medium tracking-tight">Preguntas <br><span class="gradient-text">Frecuentes</span></h2>
           </div>
           <p class="text-gray-400 text-sm leading-relaxed max-w-sm">
@@ -1769,6 +2290,40 @@
             </div>
           </div>
 
+
+          <!-- Accordion Item 6 -->
+          <div class="faq-item glass-card border border-white/5 rounded-2xl overflow-hidden transition-all duration-300 group mt-4">
+            <button class="faq-trigger w-full flex items-center justify-between p-6 md:p-8 text-left focus:outline-none select-none">
+              <span class="text-base md:text-lg font-medium text-gray-200 group-hover:text-blue-400 transition-colors pr-4">¿Cuánto cuesta una página web en Perú?</span>
+              <span class="faq-icon w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-gray-400 group-hover:bg-blue-500/10 group-hover:text-blue-400 group-hover:border-blue-500/30 transition-all duration-300 shrink-0">
+                <svg aria-hidden="true" class="w-5 h-5 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </button>
+            <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+              <div class="px-6 md:px-8 pb-8 pt-2">
+                <div class="text-sm md:text-base text-gray-400 leading-relaxed border-l-2 border-blue-500/30 pl-4">
+                  Una página web profesional con Next Boost cuesta <strong class="text-white font-medium">desde S/450</strong>. Incluye diseño personalizado, hosting y dominio por un año, certificado SSL y optimización SEO técnica. El único costo recurrente es la renovación de dominio y hosting, desde S/120 al año. <a href="cuanto-cuesta-una-pagina-web-peru.php" class="text-blue-400 hover:text-blue-300 underline">Ver precios detallados</a>.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Accordion Item 7 -->
+          <div class="faq-item glass-card border border-white/5 rounded-2xl overflow-hidden transition-all duration-300 group mt-4">
+            <button class="faq-trigger w-full flex items-center justify-between p-6 md:p-8 text-left focus:outline-none select-none">
+              <span class="text-base md:text-lg font-medium text-gray-200 group-hover:text-teal-400 transition-colors pr-4">¿Trabajan solo en Chincha e Ica o en todo el Perú?</span>
+              <span class="faq-icon w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-gray-400 group-hover:bg-teal-500/10 group-hover:text-teal-400 group-hover:border-teal-500/30 transition-all duration-300 shrink-0">
+                <svg aria-hidden="true" class="w-5 h-5 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </button>
+            <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+              <div class="px-6 md:px-8 pb-8 pt-2">
+                <div class="text-sm md:text-base text-gray-400 leading-relaxed border-l-2 border-teal-500/30 pl-4">
+                  Tenemos sede en Chincha (Ica), pero trabajamos de forma remota con empresas de Lima y de todo el Perú, y con agencias bajo modalidad de <a href="agencia-desarrollo-web-marca-blanca.php" class="text-blue-400 hover:text-blue-300 underline">marca blanca</a>.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -1811,11 +2366,56 @@
   </section>
 
   <!-- SEO Content Block -->
-  <section class="relative z-10 py-16 px-8 md:px-16 lg:px-20 border-t border-white/5">
-    <div class="max-w-4xl mx-auto text-sm md:text-base text-gray-400 leading-relaxed space-y-4">
-      <h2 class="text-2xl md:text-3xl font-medium text-white mb-4">Agencia de desarrollo web en Perú para negocios que quieren crecer</h2>
-      <p>En <strong class="text-white font-medium">Next Boost</strong> somos una agencia de desarrollo web en Perú especializada en crear sitios rápidos, seguros y optimizados para posicionar en Google. Diseñamos <a href="desarrollo-web.php" class="text-blue-400 hover:text-blue-300 underline">páginas web profesionales</a>, <a href="ecommerce.php" class="text-blue-400 hover:text-blue-300 underline">tiendas online</a> y <a href="pagina-web-con-inteligencia-artificial.php" class="text-blue-400 hover:text-blue-300 underline">webs con inteligencia artificial</a> que convierten visitantes en clientes.</p>
-      <p>Trabajamos con <a href="posicionamiento-seo.php" class="text-blue-400 hover:text-blue-300 underline">posicionamiento SEO</a>, <a href="hosting-web.php" class="text-blue-400 hover:text-blue-300 underline">hosting web premium</a> y <a href="agencia-desarrollo-web-marca-blanca.php" class="text-blue-400 hover:text-blue-300 underline">desarrollo en marca blanca para agencias</a>. Atendemos a empresas de Chincha e Ica y a todo el Perú. Cotiza tu <a href="contacto.php" class="text-blue-400 hover:text-blue-300 underline">página web</a> hoy mismo.</p>
+  <section id="agencia" class="about-block relative z-10 py-24 px-8 md:px-16 lg:px-20 border-t border-white/5 overflow-hidden">
+    <div class="about-glow" aria-hidden="true"></div>
+    <div class="max-w-screen-2xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 relative">
+      <div class="lg:col-span-7 animate-in">
+        <p data-scramble class="text-xs tracking-[0.2em] uppercase text-gray-500 mb-4">Sobre Next Boost</p>
+        <h2 class="text-3xl md:text-5xl font-medium tracking-tight text-white leading-tight mb-10">Agencia de desarrollo web en Perú para <span class="gradient-text">negocios que quieren crecer</span></h2>
+        <div class="about-mods">
+          <div class="about-mod">
+            <span class="about-mod-k"><span class="about-mod-n">01</span>Qué hacemos</span>
+            <p>En <strong class="text-white font-medium">Next Boost</strong> somos una agencia de desarrollo web en Perú especializada en crear sitios rápidos, seguros y optimizados para posicionar en Google. Diseñamos <a href="diseno-de-paginas-web-peru.php" class="about-link">páginas web profesionales</a>, <a href="ecommerce.php" class="about-link">tiendas online</a> y <a href="pagina-web-con-inteligencia-artificial.php" class="about-link">webs con inteligencia artificial</a> que convierten visitantes en clientes.</p>
+          </div>
+          <div class="about-mod">
+            <span class="about-mod-k"><span class="about-mod-n">02</span>SEO desde el código</span>
+            <p>Cada proyecto nace con <strong class="text-white font-medium">SEO técnico desde el código</strong>: arquitectura de URLs limpia, datos estructurados, imágenes en WebP, Core Web Vitals en verde y contenido pensado para las búsquedas reales de tus clientes. Por eso nuestras webs no solo se ven bien: aparecen en Google y generan consultas.</p>
+          </div>
+          <div class="about-mod">
+            <span class="about-mod-k"><span class="about-mod-n">03</span>Dónde trabajamos</span>
+            <p>Trabajamos con <a href="posicionamiento-seo.php" class="about-link">posicionamiento SEO</a>, <a href="hosting-web.php" class="about-link">hosting web premium</a>, <a href="desarrollo-software.php" class="about-link">desarrollo de software</a> y <a href="agencia-desarrollo-web-marca-blanca.php" class="about-link">desarrollo en marca blanca para agencias</a>. Somos una <a href="agencia-de-desarrollo-web-en-ica-y-chincha.php" class="about-link">agencia de desarrollo web en Ica y Chincha</a> que atiende a empresas de todo el Perú. Cotiza tu <a href="contacto.php" class="about-link">página web</a> hoy mismo.</p>
+          </div>
+        </div>
+        <ul class="about-stack" aria-label="Estándares técnicos de cada proyecto">
+          <li>Core Web Vitals</li>
+          <li>Schema.org</li>
+          <li>WebP</li>
+          <li>SSL</li>
+          <li>Mobile-first</li>
+        </ul>
+      </div>
+      <nav class="lg:col-span-5 animate-in animate-in-d2" aria-label="Guías y recursos de desarrollo web">
+        <div class="guide-panel">
+          <div class="guide-bar" aria-hidden="true">
+            <span class="guide-dots"><i></i><i></i><i></i></span>
+            <span>~/nextboost/guias</span>
+          </div>
+          <p data-scramble class="guide-title">Guías y recursos</p>
+          <ul>
+            <li><a href="cuanto-cuesta-una-pagina-web-peru.php" class="guide-link"><span class="guide-n">01</span><span class="guide-t">¿Cuánto cuesta una página web en Perú?</span><span class="guide-a" aria-hidden="true">→</span></a></li>
+            <li><a href="desarrollo-web-peru-2026-precios.php" class="guide-link"><span class="guide-n">02</span><span class="guide-t">Precios de desarrollo web 2026</span><span class="guide-a" aria-hidden="true">→</span></a></li>
+            <li><a href="cuanto-cuesta-una-tienda-online-peru.php" class="guide-link"><span class="guide-n">03</span><span class="guide-t">¿Cuánto cuesta una tienda online?</span><span class="guide-a" aria-hidden="true">→</span></a></li>
+            <li><a href="como-aparecer-en-google.php" class="guide-link"><span class="guide-n">04</span><span class="guide-t">Cómo aparecer en Google</span><span class="guide-a" aria-hidden="true">→</span></a></li>
+            <li><a href="landing-page-vs-pagina-web-peru.php" class="guide-link"><span class="guide-n">05</span><span class="guide-t">Landing page vs página web</span><span class="guide-a" aria-hidden="true">→</span></a></li>
+            <li><a href="como-crear-una-pagina-web-para-mi-negocio.php" class="guide-link"><span class="guide-n">06</span><span class="guide-t">Cómo crear una página web para tu negocio</span><span class="guide-a" aria-hidden="true">→</span></a></li>
+            <li><a href="como-crear-una-pagina-web-gratis.php" class="guide-link"><span class="guide-n">07</span><span class="guide-t">Cómo crear una página web gratis</span><span class="guide-a" aria-hidden="true">→</span></a></li>
+            <li><a href="pagina-web-wordpress-peru.php" class="guide-link"><span class="guide-n">08</span><span class="guide-t">Página web con WordPress</span><span class="guide-a" aria-hidden="true">→</span></a></li>
+            <li><a href="software-a-medida-empresas.php" class="guide-link"><span class="guide-n">09</span><span class="guide-t">Software a medida para empresas</span><span class="guide-a" aria-hidden="true">→</span></a></li>
+            <li><a href="casos-de-exito.php" class="guide-link"><span class="guide-n">10</span><span class="guide-t">Casos de éxito de nuestros clientes</span><span class="guide-a" aria-hidden="true">→</span></a></li>
+          </ul>
+          <a href="contacto.php" class="guide-cta magnetic">Cotizar mi página web <span aria-hidden="true">→</span></a>
+        </div>
+      </nav>
     </div>
   </section>
 
@@ -2253,6 +2853,103 @@
             item.querySelector('.faq-icon').classList.add('bg-blue-500/10', 'border-blue-500/20', 'text-blue-400');
             icon.classList.add('rotate-180');
           }
+        });
+      });
+
+      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      // 6. Efecto "decode" en las etiquetas de sección
+      const SCRAMBLE_CHARS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/<>_#';
+      function scramble(el) {
+        const finalText = el.dataset.text || el.textContent.trim();
+        el.dataset.text = finalText;
+        if (reduceMotion) return;
+        let frame = 0;
+        const totalFrames = 22;
+        const tick = () => {
+          const revealed = Math.floor((frame / totalFrames) * finalText.length);
+          el.textContent = finalText
+            .split('')
+            .map((ch, i) => (i < revealed || ch === ' ') ? ch : SCRAMBLE_CHARS[Math.floor(Math.random() * SCRAMBLE_CHARS.length)])
+            .join('');
+          if (frame++ < totalFrames) requestAnimationFrame(tick);
+          else el.textContent = finalText;
+        };
+        tick();
+      }
+
+      // 7. Reveal on scroll: activa .animate-in y el decode al entrar en pantalla
+      const revealTargets = document.querySelectorAll('.animate-in, [data-scramble]');
+      if ('IntersectionObserver' in window) {
+        const revealObserver = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (!entry.isIntersecting) return;
+            const el = entry.target;
+            el.classList.add('in-view');
+            if (el.hasAttribute('data-scramble')) scramble(el);
+            revealObserver.unobserve(el);
+          });
+        }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+        revealTargets.forEach(el => revealObserver.observe(el));
+      } else {
+        revealTargets.forEach(el => el.classList.add('in-view'));
+      }
+
+      // 8. Barra de progreso de lectura
+      const progressBar = document.querySelector('.scroll-progress');
+      let progressTicking = false;
+      function updateProgress() {
+        const max = document.documentElement.scrollHeight - window.innerHeight;
+        progressBar.style.setProperty('--progress', max > 0 ? (window.scrollY / max).toFixed(4) : 0);
+        progressTicking = false;
+      }
+      if (progressBar) {
+        window.addEventListener('scroll', () => {
+          if (!progressTicking) {
+            requestAnimationFrame(updateProgress);
+            progressTicking = true;
+          }
+        }, { passive: true });
+        updateProgress();
+      }
+
+      // 9. Spotlight del hero que sigue al cursor
+      const hero = document.getElementById('hero');
+      if (hero && !reduceMotion) {
+        hero.addEventListener('mousemove', (e) => {
+          const rect = hero.getBoundingClientRect();
+          hero.style.setProperty('--sx', `${e.clientX - rect.left}px`);
+          hero.style.setProperty('--sy', `${e.clientY - rect.top}px`);
+        });
+        hero.addEventListener('mouseleave', () => {
+          hero.style.setProperty('--sx', '-999px');
+          hero.style.setProperty('--sy', '-999px');
+        });
+      }
+
+      // 10. Botones magnéticos (solo con puntero fino)
+      if (!reduceMotion && window.matchMedia('(pointer: fine)').matches) {
+        const magnets = document.querySelectorAll('.magnetic, #domain-search-form button[type="submit"]');
+        magnets.forEach(btn => {
+          btn.classList.add('magnetic');
+          btn.addEventListener('mousemove', (e) => {
+            const rect = btn.getBoundingClientRect();
+            const dx = e.clientX - (rect.left + rect.width / 2);
+            const dy = e.clientY - (rect.top + rect.height / 2);
+            btn.style.transform = `translate(${dx * 0.18}px, ${dy * 0.3}px)`;
+          });
+          btn.addEventListener('mouseleave', () => {
+            btn.style.transform = '';
+          });
+        });
+      }
+
+      // 11. Spotlight en las tarjetas de industrias
+      document.querySelectorAll('.ind-card').forEach(card => {
+        card.addEventListener('mousemove', (e) => {
+          const rect = card.getBoundingClientRect();
+          card.style.setProperty('--mouse-x', `${e.clientX - rect.left}px`);
+          card.style.setProperty('--mouse-y', `${e.clientY - rect.top}px`);
         });
       });
     });
