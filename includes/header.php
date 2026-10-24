@@ -113,105 +113,6 @@
               </div>
             </a>
 
-            <!-- Item 7: Casos de Éxito -->
-            <a href="casos-de-exito.php" class="flex items-start gap-3 p-2.5 rounded-none hover:bg-white/5 transition-all group/item border border-transparent hover:border-amber-500/20">
-              <div class="w-8 h-8 rounded-none bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 shrink-0 group-hover/item:bg-amber-400 group-hover/item:text-black transition-all">
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              </div>
-              <div>
-                <span class="text-xs font-semibold text-white group-hover/item:text-amber-400 transition-colors block">Casos de Éxito</span>
-                <p class="text-[11px] text-gray-400 leading-snug mt-0.5">Resultados reales de clientes con problemas resueltos.</p>
-              </div>
-            </a>
-
-            <!-- Item 8 (destacado IA): Web con IA y Chatbot -->
-            <a href="pagina-web-con-inteligencia-artificial.php" class="flex items-start gap-3 p-2.5 rounded-none hover:bg-white/5 transition-all group/item border border-transparent hover:border-violet-500/20 md:col-span-2">
-              <div class="w-8 h-8 rounded-none bg-violet-500/10 border border-violet-500/20 flex items-center justify-center text-violet-400 shrink-0 group-hover/item:bg-violet-400 group-hover/item:text-black transition-all">
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-              </div>
-              <div>
-                <span class="text-xs font-semibold text-white group-hover/item:text-violet-400 transition-colors block">Web con Inteligencia Artificial y Chatbot</span>
-                <p class="text-[11px] text-gray-400 leading-snug mt-0.5">Asistentes 24/7, captura de leads automática y ventas por IA.</p>
-              </div>
-            </a>
-
-            <!-- Item 9 (local): Agencia Web Ica y Chincha -->
-            <a href="agencia-de-desarrollo-web-en-ica-y-chincha.php" class="flex items-start gap-3 p-2.5 rounded-none hover:bg-white/5 transition-all group/item border border-transparent hover:border-teal-500/20 md:col-span-2">
-              <div class="w-8 h-8 rounded-none bg-teal-500/10 border border-teal-500/20 flex items-center justify-center text-teal-400 shrink-0 group-hover/item:bg-teal-400 group-hover/item:text-black transition-all">
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>
-              </div>
-              <div>
-                <span class="text-xs font-semibold text-white group-hover/item:text-teal-400 transition-colors block">Agencia Web en Ica y Chincha</span>
-                <p class="text-[11px] text-gray-400 leading-snug mt-0.5">Desarrollo web y SEO local para negocios de la región Ica.</p>
-              </div>
-            </a>
-
-            <!-- Item 10 (abogados): Página Web para Abogados -->
-            <a href="pagina-web-para-abogados-peru.php" class="flex items-start gap-3 p-2.5 rounded-none hover:bg-white/5 transition-all group/item border border-transparent hover:border-amber-500/20 md:col-span-2">
-              <div class="w-8 h-8 rounded-none bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 shrink-0 group-hover/item:bg-amber-400 group-hover/item:text-black transition-all">
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v18m-4-14h8m-8 4h8m3 6V9a3 3 0 00-3-3h-1V5a1 1 0 00-1-1H8a1 1 0 00-1 1v1H6a3 3 0 00-3 3v9a2 2 0 002 2h14a2 2 0 002-2z"/></svg>
-              </div>
-              <div>
-                <span class="text-xs font-semibold text-white group-hover/item:text-amber-400 transition-colors block">Web para Abogados</span>
-                <p class="text-[11px] text-gray-400 leading-snug mt-0.5">Páginas web para estudios jurídicos, áreas legales y consultas online.</p>
-              </div>
-            </a>
-
-            <!-- Item 11 (constructoras): Página Web para Constructoras -->
-            <a href="pagina-web-para-constructoras-peru.php" class="flex items-start gap-3 p-2.5 rounded-none hover:bg-white/5 transition-all group/item border border-transparent hover:border-orange-500/20 md:col-span-2">
-              <div class="w-8 h-8 rounded-none bg-orange-500/10 border border-orange-500/20 flex items-center justify-center text-orange-400 shrink-0 group-hover/item:bg-orange-400 group-hover/item:text-black transition-all">
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4h4m-1 0v2.5a2.5 2.5 0 01.5 4.9V12m0 0v4.5m0-4.5h-3m3 4.5H9l-.5-6.4a3 3 0 015.5 0zM4 21h16"/></svg>
-              </div>
-              <div>
-                <span class="text-xs font-semibold text-white group-hover/item:text-orange-400 transition-colors block">Web para Constructoras</span>
-                <p class="text-[11px] text-gray-400 leading-snug mt-0.5">Portafolio de obras, cotizaciones online y SEO local para constructoras.</p>
-              </div>
-            </a>
-
-            <!-- Item 12 (marca blanca WordPress): Programador WordPress Marca Blanca -->
-            <a href="programador-wordpress-marca-blanca-peru.php" class="flex items-start gap-3 p-2.5 rounded-none hover:bg-white/5 transition-all group/item border border-transparent hover:border-teal-500/20 md:col-span-2">
-              <div class="w-8 h-8 rounded-none bg-teal-500/10 border border-teal-500/20 flex items-center justify-center text-teal-400 shrink-0 group-hover/item:bg-teal-400 group-hover/item:text-black transition-all">
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
-              </div>
-              <div>
-                <span class="text-xs font-semibold text-white group-hover/item:text-teal-400 transition-colors block">Programador WordPress Marca Blanca</span>
-                <p class="text-[11px] text-gray-400 leading-snug mt-0.5">Contrata capacidad WordPress white label con NDA para tu agencia.</p>
-              </div>
-            </a>
-
-            <!-- Item 13 (hosting agencias): Proveedor de Hosting para Agencias -->
-            <a href="proveedor-hosting-para-agencias-web.php" class="flex items-start gap-3 p-2.5 rounded-none hover:bg-white/5 transition-all group/item border border-transparent hover:border-cyan-500/20 md:col-span-2">
-              <div class="w-8 h-8 rounded-none bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 shrink-0 group-hover/item:bg-cyan-400 group-hover/item:text-black transition-all">
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7h18M3 12h18M3 17h18M4 4h16a1 1 0 011 1v14a1 1 0 01-1 1H4a1 1 0 01-1-1V5a1 1 0 011-1z"/></svg>
-              </div>
-              <div>
-                <span class="text-xs font-semibold text-white group-hover/item:text-cyan-400 transition-colors block">Hosting para Agencias</span>
-                <p class="text-[11px] text-gray-400 leading-snug mt-0.5">Revende hosting marca blanca a tus clientes con tu margen e ingresos recurrentes.</p>
-              </div>
-            </a>
-
-            <!-- Item 14 (ecommerce precios): ¿Cuánto Cuesta una Tienda Online? -->
-            <a href="cuanto-cuesta-una-tienda-online-peru.php" class="flex items-start gap-3 p-2.5 rounded-none hover:bg-white/5 transition-all group/item border border-transparent hover:border-purple-500/20 md:col-span-2">
-              <div class="w-8 h-8 rounded-none bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400 shrink-0 group-hover/item:bg-purple-400 group-hover/item:text-black transition-all">
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-              </div>
-              <div>
-                <span class="text-xs font-semibold text-white group-hover/item:text-purple-400 transition-colors block">¿Cuánto Cuesta una Tienda Online?</span>
-                <p class="text-[11px] text-gray-400 leading-snug mt-0.5">Precios reales de ecommerce en Perú desde S/1,000. Pago único, sin mensualidad.</p>
-              </div>
-            </a>
-
-            <!-- Item 15 (wordpress): Página Web con WordPress -->
-            <a href="pagina-web-wordpress-peru.php" class="flex items-start gap-3 p-2.5 rounded-none hover:bg-white/5 transition-all group/item border border-transparent hover:border-teal-500/20 md:col-span-2">
-              <div class="w-8 h-8 rounded-none bg-teal-500/10 border border-teal-500/20 flex items-center justify-center text-teal-400 shrink-0 group-hover/item:bg-teal-400 group-hover/item:text-black transition-all">
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3l7 4v5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V7l7-4zM12 7l3-1.5M12 7l-3-1.5"/></svg>
-              </div>
-              <div>
-                <span class="text-xs font-semibold text-white group-hover/item:text-teal-400 transition-colors block">Página Web con WordPress</span>
-                <p class="text-[11px] text-gray-400 leading-snug mt-0.5">Webs profesionales en WordPress, panel fácil, blog y SEO. Desde S/450.</p>
-              </div>
-            </a>
-
           </div>
         </div>
       </div>
@@ -262,16 +163,7 @@
           <a href="redes-sociales.php" class="text-gray-300 hover:text-pink-400 transition-colors">Redes Sociales</a>
           <a href="posicionamiento-seo.php" class="text-gray-300 hover:text-emerald-400 transition-colors">SEO</a>
           <a href="desarrollo-software.php" class="text-gray-300 hover:text-cyan-400 transition-colors">Sistemas a Medida</a>
-          <a href="pagina-web-con-inteligencia-artificial.php" class="text-gray-300 hover:text-violet-400 transition-colors font-semibold">Web con IA y Chatbot</a>
-          <a href="casos-de-exito.php" class="text-gray-300 hover:text-amber-400 transition-colors">Casos de Éxito</a>
           <a href="como-crear-una-pagina-web-gratis.php" class="text-gray-300 hover:text-emerald-400 transition-colors">Crear Web Gratis</a>
-          <a href="agencia-de-desarrollo-web-en-ica-y-chincha.php" class="text-gray-300 hover:text-teal-400 transition-colors">Agencia Web en Ica y Chincha</a>
-          <a href="pagina-web-para-abogados-peru.php" class="text-gray-300 hover:text-amber-400 transition-colors">Web para Abogados</a>
-          <a href="pagina-web-para-constructoras-peru.php" class="text-gray-300 hover:text-amber-400 transition-colors">Web para Constructoras</a>
-          <a href="programador-wordpress-marca-blanca-peru.php" class="text-gray-300 hover:text-teal-400 transition-colors">Programador WordPress Marca Blanca</a>
-          <a href="proveedor-hosting-para-agencias-web.php" class="text-gray-300 hover:text-teal-400 transition-colors">Hosting para Agencias</a>
-          <a href="cuanto-cuesta-una-tienda-online-peru.php" class="text-gray-300 hover:text-purple-400 transition-colors">¿Cuánto Cuesta una Tienda Online?</a>
-          <a href="pagina-web-wordpress-peru.php" class="text-gray-300 hover:text-teal-400 transition-colors">Página Web con WordPress</a>
         </div>
       </div>
       <a href="proyectos.php" class="text-gray-300 hover:text-white transition-colors">Portafolio</a>

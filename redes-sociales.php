@@ -1,6 +1,6 @@
 <?php
-  $page_title = "Gestión de Redes Sociales Perú | Planes desde S/500 | Next Boost";
-  $page_description = "Gestión de redes sociales en Perú desde S/500/mes. Community Management, Reels y Meta Ads para convertir seguidores en clientes.";
+  $page_title = "Gestión de Redes Sociales Perú | Planes desde S/150 | Next Boost";
+  $page_description = "Gestión de redes sociales en Perú desde S/150/mes. Community Management, Reels y Meta Ads para convertir seguidores en clientes.";
   $og_url = "https://nextboost.business/redes-sociales.php";
 ?>
 <!DOCTYPE html>
@@ -48,29 +48,38 @@
         "itemListElement": [
           {
             "@type": "Offer",
-            "price": "500.00",
+            "price": "150.00",
             "priceCurrency": "PEN",
             "itemOffered": {
               "@type": "Service",
-              "name": "Plan Esencial"
+              "name": "Plan Emprendedor"
             }
           },
           {
             "@type": "Offer",
-            "price": "800.00",
+            "price": "250.00",
             "priceCurrency": "PEN",
             "itemOffered": {
               "@type": "Service",
-              "name": "Plan Crecimiento"
+              "name": "Plan Básico"
             }
           },
           {
             "@type": "Offer",
-            "price": "1500.00",
+            "price": "400.00",
             "priceCurrency": "PEN",
             "itemOffered": {
               "@type": "Service",
-              "name": "Plan Corporativo"
+              "name": "Plan Intermedio"
+            }
+          },
+          {
+            "@type": "Offer",
+            "price": "600.00",
+            "priceCurrency": "PEN",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Plan Avanzado"
             }
           }
         ]
@@ -93,7 +102,7 @@
           "name": "¿Cuánto cuesta el servicio de gestión de redes sociales en Perú?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Nuestros planes de gestión de redes sociales parten desde S/500 PEN mensuales para el plan Esencial, S/800 para el plan Crecimiento (incluye Reels y Meta Ads) y S/1500 para el plan Corporativo (historias diarias y sesión fotográfica)."
+            "text": "Nuestros planes de gestión de redes sociales parten desde S/150 PEN mensuales para el plan Emprendedor, S/250 para el plan Básico, S/400 para el plan Intermedio (incluye Reels y portada de perfil) y S/600 para el plan Avanzado."
           }
         },
         {
@@ -296,6 +305,21 @@
         </h3>
         <div class="columns-2 md:columns-3 gap-4 space-y-4">
           <div class="glass-card overflow-hidden border border-white/10 group rounded-none break-inside-avoid">
+            <img src="portafolio-redes/481075349_962091406106147_2547850560353790567_n.jpg" alt="Diseño de post para redes sociales de institución educativa María Reiche nuevas sedes" class="w-full h-auto transition-transform duration-500 group-hover:scale-110 opacity-90 group-hover:opacity-100">
+          </div>
+          <div class="glass-card overflow-hidden border border-white/10 group rounded-none break-inside-avoid">
+            <img src="portafolio-redes/487212700_17881445478267665_1921157027263902569_n.jpg" alt="Post de campaña Aprende y Emprende con doble certificación" class="w-full h-auto transition-transform duration-500 group-hover:scale-110 opacity-90 group-hover:opacity-100">
+          </div>
+          <div class="glass-card overflow-hidden border border-white/10 group rounded-none break-inside-avoid">
+            <img src="portafolio-redes/488172164_1519309895644058_4913819916041981460_n.jpg" alt="Diseño de post sobre diplomados con gran demanda laboral" class="w-full h-auto transition-transform duration-500 group-hover:scale-110 opacity-90 group-hover:opacity-100">
+          </div>
+          <div class="glass-card overflow-hidden border border-white/10 group rounded-none break-inside-avoid">
+            <img src="portafolio-redes/571249610_1156107173371235_8464860653551450634_n.jpg" alt="Diseño de post por el 157 aniversario de Chincha" class="w-full h-auto transition-transform duration-500 group-hover:scale-110 opacity-90 group-hover:opacity-100">
+          </div>
+          <div class="glass-card overflow-hidden border border-white/10 group rounded-none break-inside-avoid">
+            <img src="portafolio-redes/605642703_1200943802220905_491521800049714505_n.jpg" alt="Post motivacional Un paso pequeño igual es avance" class="w-full h-auto transition-transform duration-500 group-hover:scale-110 opacity-90 group-hover:opacity-100">
+          </div>
+          <div class="glass-card overflow-hidden border border-white/10 group rounded-none break-inside-avoid">
             <img src="portafolio-redes/Portada Brevetex.png" alt="Diseño de portada para redes sociales marca Brevetex" class="w-full h-auto transition-transform duration-500 group-hover:scale-110 opacity-90 group-hover:opacity-100">
           </div>
           <div class="glass-card overflow-hidden border border-white/10 group rounded-none break-inside-avoid">
@@ -329,66 +353,78 @@
         <p class="text-sm text-gray-400">Escoge el nivel de intensidad que tu marca necesita hoy.</p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
         
         <!-- Tier 1 -->
         <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-pink-500/50 transition-all flex flex-col group">
-          <h3 class="text-xl font-bold text-white mb-2">Esencial</h3>
-          <p class="text-xs text-gray-400 mb-6">Ideal para marcas nuevas que necesitan presencia constante y profesional en redes.</p>
+          <h3 class="text-xl font-bold text-white mb-2">Emprendedor</h3>
+          <p class="text-xs text-gray-400 mb-6">Pensado para quienes inician su presencia en redes sociales.</p>
           <div class="mb-6 border-b border-white/10 pb-6">
-            <span class="text-4xl font-extrabold text-white">S/ 500</span>
+            <span class="text-4xl font-extrabold text-white">S/ 150</span>
             <span class="text-xs text-gray-500 font-medium"> PEN / mensual</span>
           </div>
           <ul class="space-y-4 text-sm text-gray-300 mb-8 flex-1">
-            <li class="flex items-start gap-3"><span class="text-pink-400 font-bold shrink-0">✓</span> 12 Publicaciones al Mes (Posts/Carruseles)</li>
-            <li class="flex items-start gap-3"><span class="text-pink-400 font-bold shrink-0">✓</span> 4 Historias Dinámicas (1x semana)</li>
-            <li class="flex items-start gap-3"><span class="text-pink-400 font-bold shrink-0">✓</span> Diseño Gráfico y Copywriting</li>
-            <li class="flex items-start gap-3"><span class="text-pink-400 font-bold shrink-0">✓</span> Respuestas a Comentarios Básicos</li>
-            <li class="flex items-start gap-3 opacity-50"><span class="text-gray-500 font-bold shrink-0">✕</span> Gestión de Meta Ads (No incluido)</li>
+            <li class="flex items-start gap-3"><span class="text-pink-400 font-bold shrink-0">✓</span> 4 flyers (1 por semana)</li>
+            <li class="flex items-start gap-3"><span class="text-pink-400 font-bold shrink-0">✓</span> 2 historias diseñadas para redes sociales</li>
           </ul>
           <a href="#contacto" class="w-full inline-block text-center py-4 text-sm font-bold bg-white/5 hover:bg-pink-600 hover:text-white border border-white/10 hover:border-pink-500 transition-all">
-            Elegir Esencial
+            Elegir Emprendedor
           </a>
         </div>
 
-        <!-- Tier 2 (Pro) -->
+        <!-- Tier 2 -->
+        <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-emerald-500/50 transition-all flex flex-col group">
+          <h3 class="text-xl font-bold text-white mb-2">Básico</h3>
+          <p class="text-xs text-gray-400 mb-6">Ideal para negocios que desean publicar con frecuencia y mantener coherencia visual.</p>
+          <div class="mb-6 border-b border-white/10 pb-6">
+            <span class="text-4xl font-extrabold text-white">S/ 250</span>
+            <span class="text-xs text-gray-500 font-medium"> PEN / mensual</span>
+          </div>
+          <ul class="space-y-4 text-sm text-gray-300 mb-8 flex-1">
+            <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> 8 flyers (2 por semana)</li>
+            <li class="flex items-start gap-3"><span class="text-emerald-400 font-bold shrink-0">✓</span> 2 historias para redes sociales</li>
+          </ul>
+          <a href="#contacto" class="w-full inline-block text-center py-4 text-sm font-bold bg-white/5 hover:bg-emerald-600 hover:text-white border border-white/10 hover:border-emerald-500 transition-all">
+            Elegir Básico
+          </a>
+        </div>
+
+        <!-- Tier 3 (Pro) -->
         <div class="glass-card p-8 rounded-2xl border border-purple-500/50 relative bg-purple-950/10 flex flex-col group transform md:-translate-y-4 shadow-[0_15px_30px_rgba(168,85,247,0.15)]">
           <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-purple-500 text-white text-[10px] font-bold px-4 py-1.5 uppercase tracking-widest shadow-lg">El Favorito</div>
-          <h3 class="text-xl font-bold text-white mb-2">Crecimiento</h3>
-          <p class="text-xs text-gray-400 mb-6">Para negocios que buscan escalar e incorporar campañas de publicidad efectivas.</p>
+          <h3 class="text-xl font-bold text-white mb-2">Intermedio</h3>
+          <p class="text-xs text-gray-400 mb-6">Diseñado para marcas que buscan aumentar su alcance e impacto visual.</p>
           <div class="mb-6 border-b border-white/10 pb-6">
-            <span class="text-4xl font-extrabold text-purple-400">S/ 800</span>
+            <span class="text-4xl font-extrabold text-purple-400">S/ 400</span>
             <span class="text-xs text-gray-500 font-medium"> PEN / mensual</span>
           </div>
           <ul class="space-y-4 text-sm text-gray-300 mb-8 flex-1">
-            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> 15 Publicaciones al Mes</li>
-            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> 8 Historias (2x semana)</li>
-            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Edición de 2 Reels al Mes</li>
-            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Gestión de Meta Ads (Inversión aparte)</li>
-            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> Reporte de Resultados Mensual</li>
+            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> 8 flyers</li>
+            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> 4 historias dinámicas</li>
+            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> 1 video reel</li>
+            <li class="flex items-start gap-3"><span class="text-purple-400 font-bold shrink-0">✓</span> 1 portada para perfil</li>
           </ul>
           <a href="#contacto" class="w-full inline-block text-center py-4 text-sm font-bold bg-purple-500 text-white hover:bg-purple-400 transition-all shadow-[0_0_15px_rgba(168,85,247,0.4)]">
-            Elegir Crecimiento
+            Elegir Intermedio
           </a>
         </div>
 
-        <!-- Tier 3 -->
+        <!-- Tier 4 -->
         <div class="glass-card p-8 rounded-2xl border border-white/10 hover:border-blue-500/50 transition-all flex flex-col group">
-          <h3 class="text-xl font-bold text-white mb-2">Corporativo</h3>
-          <p class="text-xs text-gray-400 mb-6">Omnipresencia digital. Alta frecuencia de videos y optimización de pauta avanzada.</p>
+          <h3 class="text-xl font-bold text-white mb-2">Avanzado</h3>
+          <p class="text-xs text-gray-400 mb-6">Dirigido a marcas que buscan destacar con contenido de alto nivel y estrategias efectivas.</p>
           <div class="mb-6 border-b border-white/10 pb-6">
-            <span class="text-4xl font-extrabold text-white">S/ 1500</span>
+            <span class="text-4xl font-extrabold text-white">S/ 600</span>
             <span class="text-xs text-gray-500 font-medium"> PEN / mensual</span>
           </div>
           <ul class="space-y-4 text-sm text-gray-300 mb-8 flex-1">
-            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> 20 Publicaciones al Mes</li>
-            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> Historias Diarias</li>
-            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> Edición de 4 Reels al Mes</li>
-            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> Sesión Fotográfica de Productos (Lima)</li>
-            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> Pauta Meta Ads + Google Ads</li>
+            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> 10 flyers</li>
+            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> 4 historias personalizadas</li>
+            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> 2 videos reels</li>
+            <li class="flex items-start gap-3"><span class="text-blue-400 font-bold shrink-0">✓</span> 1 portada</li>
           </ul>
           <a href="#contacto" class="w-full inline-block text-center py-4 text-sm font-bold bg-white/5 hover:bg-blue-600 hover:text-white border border-white/10 hover:border-blue-500 transition-all">
-            Elegir Corporativo
+            Elegir Avanzado
           </a>
         </div>
 
@@ -465,7 +501,7 @@
             <svg class="faq-icon w-5 h-5 text-pink-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </button>
           <div class="faq-answer mt-4 text-sm text-gray-400 leading-relaxed hidden">
-            Nuestros planes de gestión de redes sociales parten desde S/500 PEN mensuales para el plan Esencial, S/800 para el plan Crecimiento (incluye Reels y Meta Ads) y S/1500 para el plan Corporativo (historias diarias y sesión fotográfica).
+            Nuestros planes de gestión de redes sociales parten desde S/150 PEN mensuales para el plan Emprendedor, S/250 para el plan Básico, S/400 para el plan Intermedio (incluye Reels y portada de perfil) y S/600 para el plan Avanzado.
           </div>
         </div>
         <div class="glass-card p-6 border border-white/5 faq-item">
