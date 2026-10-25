@@ -4,6 +4,11 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Portafolio de Desarrollo Web Perú | Next Boost</title>
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" type="image/png" sizes="32x32" href="/logos/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/logos/favicon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/logos/apple-touch-icon.png">
+  <meta name="theme-color" content="#010bcc">
   <meta name="description" content="Portafolio de desarrollo web en Perú. Proyectos reales de sitios web, tiendas online y aplicaciones. Resultados que impulsan negocios." />
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <link rel="canonical" href="https://nextboost.business/proyectos.php" />

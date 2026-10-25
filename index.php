@@ -15,8 +15,11 @@
   <link rel="canonical" href="https://nextboost.business/" />
   <link rel="alternate" href="https://nextboost.business/" hreflang="x-default" />
   <link rel="alternate" href="https://nextboost.business/" hreflang="es-PE" />
-  <link rel="icon" type="image/png" href="logos/favicon-180.png" />
-  <link rel="apple-touch-icon" href="logos/favicon-180.png" />
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" type="image/png" sizes="32x32" href="/logos/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/logos/favicon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/logos/apple-touch-icon.png">
+  <meta name="theme-color" content="#010bcc">
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />

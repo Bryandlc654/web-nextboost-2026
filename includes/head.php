@@ -28,6 +28,11 @@
   <title><?php echo htmlspecialchars($page_title); ?></title>
   <meta name="description" content="<?php echo htmlspecialchars($page_description); ?>">
   <meta name="author" content="Next Boost">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" type="image/png" sizes="32x32" href="/logos/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/logos/favicon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/logos/apple-touch-icon.png">
+  <meta name="theme-color" content="#010bcc">
   <link rel="canonical" href="<?= htmlspecialchars($og_url) ?>" />
   <link rel="alternate" href="<?= htmlspecialchars($og_url) ?>" hreflang="x-default" />
   <link rel="alternate" href="<?= htmlspecialchars($og_url) ?>" hreflang="es-PE" />

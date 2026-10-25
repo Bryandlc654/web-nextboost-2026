@@ -28,6 +28,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin - Next Boost</title>
+    <link rel="icon" href="/favicon.ico" sizes="48x48">
+    <link rel="icon" type="image/png" sizes="32x32" href="/logos/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/logos/favicon-192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/logos/apple-touch-icon.png">
     <link rel="stylesheet" href="../assets/css/tailwind.css">
 </head>
 <body class="bg-[#08080a] min-h-screen flex items-center justify-center p-4">

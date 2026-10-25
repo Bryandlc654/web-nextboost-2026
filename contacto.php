@@ -4,6 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contacto & Cotización — Next Boost | Agencia de Desarrollo Web Premium</title>
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" type="image/png" sizes="32x32" href="/logos/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/logos/favicon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/logos/apple-touch-icon.png">
+  <meta name="theme-color" content="#010bcc">
   <meta name="description" content="Contáctanos para cotizar tu nuevo sitio web, e-commerce o plataforma SaaS. Desarrollos ultra rápidos en Next.js, WordPress y soluciones Marca Blanca.">
   <link rel="canonical" href="https://nextboost.business/contacto.php" />
   <!-- Open Graph / Facebook -->
