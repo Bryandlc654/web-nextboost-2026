@@ -1,6 +1,6 @@
 <?php
-  $page_title = "Diseño de Páginas Web Perú | Diseñamos tu Web Profesional | Next Boost";
-  $page_description = "Servicio de diseño de páginas web en Perú. Diseño moderno, responsivo, optimizado para Google. Desde landing pages hasta ecommerce completos.";
+  $page_title = "Diseño de Páginas Web en Perú | Diseño UX/UI | Next Boost";
+  $page_description = "Diseño de páginas web en Perú: diseño UX/UI a medida, moderno y responsive, pensado para convertir visitas en clientes. Desde S/450. ¡Cotiza gratis!";
 ?>
 <!DOCTYPE html>
 <html lang="es" class="dark scroll-smooth">
@@ -17,6 +17,7 @@
       "serviceType": "Diseño Web",
       "provider": {
         "@type": "Organization",
+        "@id": "https://nextboost.business/#organization",
         "name": "Next Boost",
         "url": "https://nextboost.business/"
       },
@@ -142,7 +143,7 @@
         </h1>
 
         <p class="text-base md:text-lg text-gray-300 font-normal leading-relaxed max-w-2xl">
-          Creamos páginas web con <strong class="text-white">diseño moderno, responsivo y optimizado para Google</strong>. Desde landing pages hasta ecommerce completos. Cada diseño es único, rápido y pensado para convertir visitantes en clientes.
+          Creamos páginas web con <strong class="text-white">diseño moderno, responsivo y optimizado para Google</strong>. Desde landing pages hasta ecommerce completos. Cada diseño es único y pensado para convertir visitantes en clientes, y lo llevamos a producción con nuestro equipo de <a href="desarrollo-web.php" class="text-blue-400 hover:text-blue-300 underline">desarrollo web</a>.
         </p>
 
         <div class="grid grid-cols-3 gap-4 pt-4 border-t border-white/10 max-w-xl">
@@ -496,6 +497,25 @@
 
       </div>
 
+    </div>
+  </section>
+
+  <!-- Servicios Relacionados (Enlazado Interno SEO) -->
+  <section class="relative z-10 py-16 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 border-t border-white/5">
+    <div class="text-center max-w-3xl mx-auto mb-10">
+      <h2 class="text-2xl md:text-4xl font-semibold tracking-tight text-white">
+        Del diseño a una web <span class="gradient-text">que funciona</span>
+      </h2>
+      <p class="text-xs text-gray-400 mt-3 leading-relaxed">El diseño web define cómo se ve y se usa tu página. Para que además cargue rápido, se integre con tus sistemas y aparezca en Google, lo complementamos con estos servicios de <a href="index.php" class="text-blue-400 hover:text-blue-300 underline">nuestra agencia de desarrollo web en Perú</a>.</p>
+    </div>
+    <div class="flex flex-wrap justify-center gap-3 text-xs">
+      <a href="desarrollo-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo web a medida</a>
+      <a href="ecommerce.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-teal-500/40 text-gray-300 hover:text-white transition-colors">Tiendas online y e-commerce</a>
+      <a href="posicionamiento-seo.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-emerald-500/40 text-gray-300 hover:text-white transition-colors">Posicionamiento SEO en Google</a>
+      <a href="hosting-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-purple-500/40 text-gray-300 hover:text-white transition-colors">Hosting web y dominio</a>
+      <a href="landing-page-vs-pagina-web-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-cyan-500/40 text-gray-300 hover:text-white transition-colors">Landing page vs página web</a>
+      <a href="cuanto-cuesta-una-pagina-web-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-amber-500/40 text-gray-300 hover:text-white transition-colors">¿Cuánto cuesta una página web?</a>
+      <a href="proyectos.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-pink-500/40 text-gray-300 hover:text-white transition-colors">Ver portafolio de diseños</a>
     </div>
   </section>
 

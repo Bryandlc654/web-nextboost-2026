@@ -15,6 +15,9 @@
     # 2) Redirigir www -> sin www
     RewriteCond %{HTTP_HOST} ^www\.nextboost\.business [NC]
     RewriteRule ^ https://nextboost.business%{REQUEST_URI} [L,R=301]
+
+    # 3) Páginas consolidadas (evitar canibalización de keywords)
+    RewriteRule ^agencia-desarrollo-web-peru-2026\.php$ https://nextboost.business/ [L,R=301]
 </IfModule>
 
 # ---- Compresion GZIP ----

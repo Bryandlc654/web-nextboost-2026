@@ -1,4 +1,7 @@
 <?php
+  // Consolidada en la home para no competir por "agencia de desarrollo web Perú"
+  header("Location: https://nextboost.business/", true, 301);
+  exit;
   $page_title = "Agencia de Desarrollo Web Perú 2026 | Next Boost Agency";
   $page_description = "La mejor agencia de desarrollo web en Perú para 2026. Next.js, React, WordPress. SEO técnico, 99/100 PageSpeed, diseño de alto rendimiento.";
 ?>

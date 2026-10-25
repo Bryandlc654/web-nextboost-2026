@@ -1,6 +1,6 @@
 <?php
-  $page_title = "Desarrollo Web en Perú | Diseño de Páginas Web - Next Boost";
-  $page_description = "Empresa de desarrollo web en Perú. Diseño de páginas web, landing pages y tiendas online con SEO técnico y hosting premium. Cotiza tu web gratis.";
+  $page_title = "Empresa de Desarrollo Web en Perú | Desde S/450 | Next Boost";
+  $page_description = "Empresa de desarrollo web en Perú: webs corporativas, landing pages, tiendas online y sistemas a medida con SEO técnico y hosting. Desde S/450. ¡Cotiza gratis!";
   $og_url = "https://nextboost.business/desarrollo-web.php";
 ?>
 <!DOCTYPE html>
@@ -15,21 +15,32 @@
     {
       "@type": "Service",
       "@id": "https://nextboost.business/desarrollo-web.php/#service",
-      "name": "Empresa de Desarrollo Web",
+      "name": "Desarrollo Web en Perú",
       "serviceType": "Desarrollo Web",
       "url": "https://nextboost.business/desarrollo-web.php",
       "image": "https://nextboost.business/imagenes-web/next-boost.png",
       "provider": {
-        "@type": "Organization",
-        "@id": "https://nextboost.business/#organization",
-        "name": "Next Boost",
-        "url": "https://nextboost.business/"
+        "@id": "https://nextboost.business/#organization"
       },
-      "description": "Empresa de desarrollo web en Perú. Diseño de páginas web, landing pages y tiendas online con SEO técnico y hosting premium.",
-      "areaServed": {
-        "@type": "Country",
-        "name": "Perú"
-      },
+      "description": "Empresa de desarrollo web en Perú: webs corporativas, landing pages, tiendas online y sistemas a medida con SEO técnico, hosting y soporte.",
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "Perú"
+        },
+        {
+          "@type": "City",
+          "name": "Lima"
+        },
+        {
+          "@type": "City",
+          "name": "Ica"
+        },
+        {
+          "@type": "City",
+          "name": "Chincha Alta"
+        }
+      ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Planes de Desarrollo Web",
@@ -41,7 +52,9 @@
             "itemOffered": {
               "@type": "Service",
               "name": "Landing Page"
-            }
+            },
+            "availability": "https://schema.org/InStock",
+            "url": "https://nextboost.business/desarrollo-web.php#precios"
           },
           {
             "@type": "Offer",
@@ -50,7 +63,9 @@
             "itemOffered": {
               "@type": "Service",
               "name": "Web Informativa"
-            }
+            },
+            "availability": "https://schema.org/InStock",
+            "url": "https://nextboost.business/desarrollo-web.php#precios"
           },
           {
             "@type": "Offer",
@@ -59,7 +74,9 @@
             "itemOffered": {
               "@type": "Service",
               "name": "Web Corporativa"
-            }
+            },
+            "availability": "https://schema.org/InStock",
+            "url": "https://nextboost.business/desarrollo-web.php#precios"
           },
           {
             "@type": "Offer",
@@ -68,10 +85,37 @@
             "itemOffered": {
               "@type": "Service",
               "name": "E-Commerce"
-            }
+            },
+            "availability": "https://schema.org/InStock",
+            "url": "https://nextboost.business/desarrollo-web.php#precios"
           }
         ]
+      },
+      "alternateName": "Empresa de Desarrollo Web",
+      "mainEntityOfPage": {
+        "@id": "https://nextboost.business/desarrollo-web.php#webpage"
       }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://nextboost.business/desarrollo-web.php#webpage",
+      "url": "https://nextboost.business/desarrollo-web.php",
+      "name": "Empresa de Desarrollo Web en Perú | Desde S/450 | Next Boost",
+      "inLanguage": "es-PE",
+      "isPartOf": {
+        "@id": "https://nextboost.business/#website"
+      },
+      "about": {
+        "@id": "https://nextboost.business/desarrollo-web.php/#service"
+      },
+      "breadcrumb": {
+        "@id": "https://nextboost.business/desarrollo-web.php/#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://nextboost.business/imagenes-web/next-boost.png"
+      },
+      "dateModified": "2026-10-25"
     },
     {
       "@type": "BreadcrumbList",
@@ -126,6 +170,30 @@
             "@type": "Answer",
             "text": "Sí, todos nuestros desarrollos incluyen certificado SSL (HTTPS), configuración de correo corporativo y 30 días de garantía de soporte técnico sin costo adicional."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta el desarrollo de una página web en Perú?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En Next Boost el desarrollo web cuesta desde S/450 por una landing page, S/550 por una web informativa, S/800 por una web corporativa con CMS y desde S/1000 por una tienda online. Los planes con hosting incluyen dominio y hosting por un año; la renovación cuesta desde S/120 al año."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué diferencia hay entre desarrollo web y diseño web?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El diseño web define la apariencia y la experiencia de usuario (UX/UI) de la página. El desarrollo web es la programación que la hace funcionar: estructura del código, velocidad, formularios, integraciones, CMS, pasarelas de pago y SEO técnico. En Next Boost hacemos ambos en el mismo proyecto."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Trabajan con empresas de Lima y de otras ciudades del Perú?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Nuestra sede está en Chincha (Ica), pero desarrollamos páginas web para empresas de Lima, Arequipa, Trujillo, Ica y todo el Perú de forma 100% remota, con reuniones por videollamada y seguimiento por WhatsApp."
+          }
         }
       ]
     }
@@ -162,7 +230,7 @@
         </h1>
 
         <p class="text-base md:text-lg text-gray-300 font-normal leading-relaxed max-w-2xl">
-          Somos una empresa de desarrollo web en Perú. Creamos sitios web profesionales, landing pages de alto impacto y tiendas online optimizadas para convertir. Diseño moderno, SEO técnico incluido y hosting premium.
+          Somos una empresa de desarrollo web en Perú que programa sitios rápidos, seguros y listos para posicionar en Google: webs corporativas, landing pages, <a href="ecommerce.php" class="text-blue-400 hover:text-blue-300 underline">tiendas online</a> y sistemas a medida. SEO técnico, hosting y soporte incluidos, desde S/450.
         </p>
 
         <!-- Key SEO Metric Badges -->
@@ -187,7 +255,7 @@
             Cotizar Mi Desarrollo Web
             <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
-          <a href="https://wa.me/51962469836?text=Hola%20Next%20Boost,%20deseo%20cotizar%20un%20sitio%20web%20profesional" target="_blank" class="inline-flex items-center justify-center gap-2 border border-white/20 hover:border-emerald-500/50 bg-white/5 hover:bg-emerald-500/10 text-white hover:text-emerald-400 px-6 py-4 text-sm font-semibold transition-all">
+          <a href="https://wa.me/51962469836?text=Hola%20Next%20Boost,%20deseo%20cotizar%20un%20sitio%20web%20profesional" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 border border-white/20 hover:border-emerald-500/50 bg-white/5 hover:bg-emerald-500/10 text-white hover:text-emerald-400 px-6 py-4 text-sm font-semibold transition-all">
             <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
             Asesoría Técnica por WhatsApp
           </a>
@@ -329,7 +397,7 @@
     <div class="text-center max-w-3xl mx-auto mb-16">
       <p class="text-xs uppercase tracking-widest text-teal-400 font-bold mb-3">Soluciones a la Medida</p>
       <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-        Tipos de Desarrollos Web <span class="gradient-text">que Construimos</span>
+        Servicios de desarrollo web <span class="gradient-text">que construimos</span>
       </h2>
     </div>
 
@@ -344,6 +412,7 @@
         <p class="text-xs text-gray-400 leading-relaxed">
           Sitios institucionales diseñados para proyectar autoridad de marca, confianza y liderar la captura de leads calificados en tu sector.
         </p>
+        <a href="pagina-web-para-mi-empresa.php" class="inline-flex items-center gap-2 text-xs font-semibold text-gray-300 hover:text-white transition-colors">Página web para empresas <span aria-hidden="true">→</span></a>
       </article>
 
       <!-- Type 2 -->
@@ -355,6 +424,7 @@
         <p class="text-xs text-gray-400 leading-relaxed">
           Páginas de aterrizaje enfocadas en campañas de Google Ads y Meta Ads. Diseñadas científicamente para maximizar el porcentaje de conversiones.
         </p>
+        <a href="landing-page-vs-pagina-web-peru.php" class="inline-flex items-center gap-2 text-xs font-semibold text-gray-300 hover:text-white transition-colors">Landing page vs página web <span aria-hidden="true">→</span></a>
       </article>
 
       <!-- Type 3 -->
@@ -366,6 +436,7 @@
         <p class="text-xs text-gray-400 leading-relaxed">
           Transformamos tu sitio web lento o desactualizado en una moderna plataforma estática o renderizada en servidor sin perder tu posicionamiento SEO actual.
         </p>
+        <a href="diseno-de-paginas-web-peru.php" class="inline-flex items-center gap-2 text-xs font-semibold text-gray-300 hover:text-white transition-colors">Diseño de páginas web <span aria-hidden="true">→</span></a>
       </article>
 
       <!-- Type 4 -->
@@ -377,6 +448,7 @@
         <p class="text-xs text-gray-400 leading-relaxed">
           Estructuras dinámicas para inmobiliarias, automotrices y servicios que requieren filtros avanzados, galerías 3D e integración a sistemas CRM.
         </p>
+        <a href="pagina-web-inmobiliarias-peru.php" class="inline-flex items-center gap-2 text-xs font-semibold text-gray-300 hover:text-white transition-colors">Webs para inmobiliarias <span aria-hidden="true">→</span></a>
       </article>
 
       <!-- Type 5 -->
@@ -388,6 +460,7 @@
         <p class="text-xs text-gray-400 leading-relaxed">
           Paneles de control intuitivos donde tu equipo podrá cambiar imágenes, redactar blogs y modificar precios sin necesidad de saber programar.
         </p>
+        <a href="pagina-web-wordpress-peru.php" class="inline-flex items-center gap-2 text-xs font-semibold text-gray-300 hover:text-white transition-colors">Páginas web con WordPress <span aria-hidden="true">→</span></a>
       </article>
 
       <!-- Type 6 -->
@@ -399,17 +472,18 @@
         <p class="text-xs text-gray-400 leading-relaxed">
           Implementación de datos estructurados JSON-LD, sitemaps XML automáticos, optimización de imágenes WebP y metas etiquetas SEO listas para posicionar.
         </p>
+        <a href="posicionamiento-seo.php" class="inline-flex items-center gap-2 text-xs font-semibold text-gray-300 hover:text-white transition-colors">Posicionamiento SEO <span aria-hidden="true">→</span></a>
       </article>
 
     </div>
   </section>
 
   <!-- Pricing Section -->
-  <section class="relative z-10 py-20 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 border-t border-white/5 bg-[#0a0a0e]/50">
+  <section id="precios" class="relative z-10 py-20 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 border-t border-white/5 bg-[#0a0a0e]/50">
     <div class="text-center max-w-3xl mx-auto mb-16">
       <p class="text-xs uppercase tracking-widest text-emerald-400 font-bold mb-3">Transparencia Total</p>
       <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-        Planes y Precios <span class="gradient-text">Claros</span>
+        Precios de desarrollo web <span class="gradient-text">en Perú</span>
       </h2>
     </div>
 
@@ -495,6 +569,7 @@
         </a>
       </div>
     </div>
+    <p class="text-xs text-gray-400 text-center mt-10">Hosting y dominio desde S/120 al año desde el segundo año. ¿Quieres comparar opciones? Lee <a href="cuanto-cuesta-una-pagina-web-peru.php" class="text-blue-400 hover:text-blue-300 underline">cuánto cuesta una página web en Perú</a> o revisa <a href="hosting-web.php" class="text-blue-400 hover:text-blue-300 underline">nuestros planes de hosting</a>.</p>
   </section>
 
   <!-- Portfolio Section -->
@@ -558,7 +633,7 @@
       <div class="text-center max-w-3xl mx-auto mb-16">
         <p class="text-xs uppercase tracking-widest text-blue-400 font-bold mb-3">Metodología Ágil</p>
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-          Proceso de Desarrollo en <span class="gradient-text">4 Pasos Clave</span>
+          Proceso de desarrollo web <span class="gradient-text">en 4 pasos</span>
         </h2>
       </div>
 
@@ -644,8 +719,70 @@
           </p>
         </div>
 
+        <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
+          <h3 class="text-base font-bold text-white flex items-center gap-2">
+            <span class="text-blue-400">05.</span> ¿Cuánto cuesta el desarrollo de una página web en Perú?
+          </h3>
+          <p class="text-xs text-gray-400 leading-relaxed pt-1">
+            En Next Boost el desarrollo web cuesta desde S/450 por una landing page, S/550 por una web informativa, S/800 por una web corporativa con CMS y desde S/1000 por una tienda online. Los planes con hosting incluyen dominio y hosting por un año; la renovación cuesta desde S/120 al año. <a href="cuanto-cuesta-una-pagina-web-peru.php" class="text-blue-400 hover:text-blue-300 underline">Ver guía de precios</a>.
+          </p>
+        </div>
+
+        <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
+          <h3 class="text-base font-bold text-white flex items-center gap-2">
+            <span class="text-blue-400">06.</span> ¿Qué diferencia hay entre desarrollo web y diseño web?
+          </h3>
+          <p class="text-xs text-gray-400 leading-relaxed pt-1">
+            El <a href="diseno-de-paginas-web-peru.php" class="text-blue-400 hover:text-blue-300 underline">diseño web</a> define la apariencia y la experiencia de usuario (UX/UI) de la página. El desarrollo web es la programación que la hace funcionar: estructura del código, velocidad, formularios, integraciones, CMS, pasarelas de pago y SEO técnico. En Next Boost hacemos ambos en el mismo proyecto.
+          </p>
+        </div>
+
+        <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
+          <h3 class="text-base font-bold text-white flex items-center gap-2">
+            <span class="text-blue-400">07.</span> ¿Trabajan con empresas de Lima y de otras ciudades del Perú?
+          </h3>
+          <p class="text-xs text-gray-400 leading-relaxed pt-1">
+            Sí. Nuestra sede está en Chincha (Ica), pero desarrollamos páginas web para empresas de Lima, Arequipa, Trujillo, Ica y todo el Perú de forma 100% remota, con reuniones por videollamada y seguimiento por WhatsApp.
+          </p>
+        </div>
+
       </div>
 
+    </div>
+  </section>
+
+  <!-- Contenido SEO: qué incluye el desarrollo web -->
+  <section class="relative z-10 py-20 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 border-t border-white/5">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+      <div class="lg:col-span-7 space-y-4 text-sm md:text-base text-gray-400 leading-relaxed">
+        <p class="text-xs uppercase tracking-widest text-blue-400 font-bold">Desarrollo web profesional</p>
+        <h2 class="text-3xl md:text-4xl font-semibold tracking-tight text-white leading-tight">¿Qué incluye el desarrollo web con <span class="gradient-text">Next Boost</span>?</h2>
+        <p>Una página web que vende necesita más que un buen diseño: necesita <strong class="text-white font-medium">código limpio, velocidad y una estructura que Google entienda</strong>. Por eso cada proyecto de desarrollo web incluye arquitectura de URLs pensada para SEO, datos estructurados, imágenes optimizadas en WebP, certificado SSL, formularios conectados a tu correo o WhatsApp y un panel para editar tu contenido.</p>
+        <p>Trabajamos con Next.js, React, PHP y WordPress según lo que tu negocio necesite. Si tu proyecto requiere lógica propia —reservas, cotizadores, intranets o integraciones con tu sistema— lo resolvemos con <a href="desarrollo-software.php" class="text-blue-400 hover:text-blue-300 underline">desarrollo de software a medida</a>. Y si vendes online, construimos tu <a href="ecommerce.php" class="text-blue-400 hover:text-blue-300 underline">tienda virtual</a> con pagos por tarjeta y Yape.</p>
+        <p>Como <a href="index.php" class="text-blue-400 hover:text-blue-300 underline">agencia de desarrollo web en Perú</a>, atendemos a empresas de Lima y de todo el país, y también trabajamos en <a href="agencia-desarrollo-web-marca-blanca.php" class="text-blue-400 hover:text-blue-300 underline">marca blanca para agencias</a>. Antes de empezar puedes revisar <a href="como-crear-una-pagina-web-para-mi-negocio.php" class="text-blue-400 hover:text-blue-300 underline">cómo crear una página web para tu negocio</a> o nuestros <a href="casos-de-exito.php" class="text-blue-400 hover:text-blue-300 underline">casos de éxito</a>.</p>
+      </div>
+      <div class="lg:col-span-5">
+        <div class="glass-card rounded-2xl p-6 border border-white/10 space-y-4">
+          <h2 class="text-lg font-semibold text-white">Desarrollo web por industria</h2>
+          <p class="text-xs text-gray-400 leading-relaxed">Cada sector tiene clientes y búsquedas distintas. Conoce cómo adaptamos la web a tu rubro:</p>
+          <div class="flex flex-wrap gap-2 text-xs">
+          <a href="pagina-web-para-abogados-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo web para abogados</a>
+          <a href="pagina-web-para-constructoras-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo web para constructoras</a>
+          <a href="pagina-web-inmobiliarias-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo web para inmobiliarias</a>
+          <a href="pagina-web-restaurantes-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo web para restaurantes</a>
+          <a href="pagina-web-hoteles-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo web para hoteles</a>
+          <a href="pagina-web-agencias-turismo-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo web para agencias de turismo</a>
+          <a href="pagina-web-clinicas-salud-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo web para clínicas</a>
+          <a href="pagina-web-odontologos-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo web para odontólogos</a>
+          <a href="pagina-web-veterinarias-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo web para veterinarias</a>
+          <a href="pagina-web-gimnasios-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo web para gimnasios</a>
+          <a href="pagina-web-salones-belleza-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo web para salones de belleza</a>
+          <a href="pagina-web-rentacar-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo web para rent a car</a>
+          <a href="diseno-web-colegios-institutos-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo web para colegios e institutos</a>
+          <a href="pagina-web-emprendedores-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo web para emprendedores</a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -658,6 +795,7 @@
       <p class="text-xs text-gray-400 mt-3">Complementa tu proyecto web con estas soluciones de Next Boost.</p>
     </div>
     <div class="flex flex-wrap justify-center gap-3 text-xs">
+      <a href="diseno-de-paginas-web-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Diseño de páginas web</a>
       <a href="ecommerce.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-teal-500/40 text-gray-300 hover:text-white transition-colors">Tiendas online y e-commerce</a>
       <a href="hosting-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-purple-500/40 text-gray-300 hover:text-white transition-colors">Hosting web y dominio</a>
       <a href="posicionamiento-seo.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-emerald-500/40 text-gray-300 hover:text-white transition-colors">Posicionamiento SEO en Google</a>
