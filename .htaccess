@@ -18,6 +18,8 @@
 
     # 3) Páginas consolidadas (evitar canibalización de keywords)
     RewriteRule ^agencia-desarrollo-web-peru-2026\.php$ https://nextboost.business/ [L,R=301]
+    RewriteRule ^desarrollo-web-peru-2026-precios\.php$ https://nextboost.business/cuanto-cuesta-una-pagina-web-peru.php [L,R=301]
+    RewriteRule ^desarrollo-web-para-agencias\.php$ https://nextboost.business/agencia-desarrollo-web-marca-blanca.php [L,R=301]
 </IfModule>
 
 # ---- Compresion GZIP ----

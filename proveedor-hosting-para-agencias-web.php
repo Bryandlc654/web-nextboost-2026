@@ -428,6 +428,21 @@
   </section>
 
   <!-- CTA Final -->
+  <!-- Servicios para agencias (Enlazado Interno SEO) -->
+  <section class="relative z-10 py-16 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 border-t border-white/5">
+    <div class="text-center max-w-3xl mx-auto mb-10">
+      <h2 class="text-2xl md:text-4xl font-semibold tracking-tight text-white">
+        Más servicios <span class="gradient-text">para agencias</span>
+      </h2>
+      <p class="text-xs text-gray-400 mt-3 leading-relaxed">Además del hosting, desarrollamos las webs de tus clientes bajo tu marca.</p>
+    </div>
+    <div class="flex flex-wrap justify-center gap-3 text-xs">
+      <a href="agencia-desarrollo-web-marca-blanca.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-teal-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo web marca blanca para agencias</a>
+      <a href="programador-wordpress-marca-blanca-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-teal-500/40 text-gray-300 hover:text-white transition-colors">Programador WordPress marca blanca</a>
+      <a href="hosting-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-teal-500/40 text-gray-300 hover:text-white transition-colors">Hosting web para empresas</a>
+    </div>
+  </section>
+
   <section class="relative z-10 py-16 px-8 md:px-16 lg:px-20 max-w-screen-2xl mx-auto mb-16">
     <div class="glass-card rounded-3xl p-10 md:p-16 border border-teal-500/30 bg-gradient-to-r from-blue-950/40 via-[#121216] to-teal-950/40 relative overflow-hidden text-center md:text-left flex flex-col md:flex-row items-center justify-between gap-8">
 

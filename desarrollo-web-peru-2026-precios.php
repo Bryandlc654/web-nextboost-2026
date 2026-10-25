@@ -1,4 +1,7 @@
 <?php
+  // Consolidada en la guía de precios para no competir por "cuánto cuesta una página web"
+  header("Location: https://nextboost.business/cuanto-cuesta-una-pagina-web-peru.php", true, 301);
+  exit;
   $page_title = "Precios de Desarrollo Web en Perú 2026 | Next Boost";
   $page_description = "Precios de desarrollo web en Perú 2026. Landing pages desde S/450, webs corporativas desde S/800, ecommerce desde S/1000. Presupuesto sin compromiso.";
   $og_url = "https://nextboost.business/desarrollo-web-peru-2026-precios.php";

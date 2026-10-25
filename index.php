@@ -2406,7 +2406,7 @@
           <p data-scramble class="guide-title">Guías y recursos</p>
           <ul>
             <li><a href="cuanto-cuesta-una-pagina-web-peru.php" class="guide-link"><span class="guide-n">01</span><span class="guide-t">¿Cuánto cuesta una página web en Perú?</span><span class="guide-a" aria-hidden="true">→</span></a></li>
-            <li><a href="desarrollo-web-peru-2026-precios.php" class="guide-link"><span class="guide-n">02</span><span class="guide-t">Precios de desarrollo web 2026</span><span class="guide-a" aria-hidden="true">→</span></a></li>
+            <li><a href="hosting-web.php" class="guide-link"><span class="guide-n">02</span><span class="guide-t">Hosting web desde S/120 al año</span><span class="guide-a" aria-hidden="true">→</span></a></li>
             <li><a href="cuanto-cuesta-una-tienda-online-peru.php" class="guide-link"><span class="guide-n">03</span><span class="guide-t">¿Cuánto cuesta una tienda online?</span><span class="guide-a" aria-hidden="true">→</span></a></li>
             <li><a href="como-aparecer-en-google.php" class="guide-link"><span class="guide-n">04</span><span class="guide-t">Cómo aparecer en Google</span><span class="guide-a" aria-hidden="true">→</span></a></li>
             <li><a href="landing-page-vs-pagina-web-peru.php" class="guide-link"><span class="guide-n">05</span><span class="guide-t">Landing page vs página web</span><span class="guide-a" aria-hidden="true">→</span></a></li>

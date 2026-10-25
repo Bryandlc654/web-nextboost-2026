@@ -1,6 +1,7 @@
 <?php
-  $page_title = "Cuánto Cuesta una Página Web en Perú 2026 | Precios Reales | Next Boost";
-  $page_description = "¿Cuánto cuesta una página web en Perú? Precios desde S/450. Guía completa con costos de dominio, hosting, diseño y desarrollo. Presupuesto gratis.";
+  $page_title = "Cuánto Cuesta una Página Web en Perú (2026) | Next Boost";
+  $page_description = "¿Cuánto cuesta una página web en Perú en 2026? Desde S/450 con dominio, hosting y SSL. Tabla de precios por tipo de web, costos anuales y cuotas.";
+  $og_url = "https://nextboost.business/cuanto-cuesta-una-pagina-web-peru.php";
 ?>
 <!DOCTYPE html>
 <html lang="es" class="dark scroll-smooth">
@@ -13,15 +14,16 @@
     {
       "@type": "Service",
       "@id": "https://nextboost.business/cuanto-cuesta-una-pagina-web-peru.php/#service",
-      "name": "Desarrollo de Página Web en Perú - Costos y Precios",
+      "name": "Precio de una página web en Perú",
       "serviceType": "Desarrollo Web",
       "provider": {
-        "@type": "Organization",
-        "name": "Next Boost",
-        "url": "https://nextboost.business/"
+        "@id": "https://nextboost.business/#organization"
       },
       "description": "Servicio de desarrollo de páginas web en Perú con precios transparentes desde S/450. Incluye dominio, hosting, diseño y SEO técnico.",
-      "areaServed": "Perú",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Perú"
+      },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Planes de Desarrollo Web",
@@ -32,8 +34,10 @@
             "priceCurrency": "PEN",
             "itemOffered": {
               "@type": "Service",
-              "name": "Página Web Básica"
-            }
+              "name": "Página web Básica (landing page)"
+            },
+            "availability": "https://schema.org/InStock",
+            "url": "https://nextboost.business/cuanto-cuesta-una-pagina-web-peru.php#planes"
           },
           {
             "@type": "Offer",
@@ -41,8 +45,10 @@
             "priceCurrency": "PEN",
             "itemOffered": {
               "@type": "Service",
-              "name": "Página Web Informativa"
-            }
+              "name": "Página web Informativa"
+            },
+            "availability": "https://schema.org/InStock",
+            "url": "https://nextboost.business/cuanto-cuesta-una-pagina-web-peru.php#planes"
           },
           {
             "@type": "Offer",
@@ -50,8 +56,10 @@
             "priceCurrency": "PEN",
             "itemOffered": {
               "@type": "Service",
-              "name": "Página Web Profesional"
-            }
+              "name": "Página web Profesional con CMS"
+            },
+            "availability": "https://schema.org/InStock",
+            "url": "https://nextboost.business/cuanto-cuesta-una-pagina-web-peru.php#planes"
           },
           {
             "@type": "Offer",
@@ -59,11 +67,46 @@
             "priceCurrency": "PEN",
             "itemOffered": {
               "@type": "Service",
-              "name": "Página Web Premium"
+              "name": "Página web Premium"
+            },
+            "availability": "https://schema.org/InStock",
+            "url": "https://nextboost.business/cuanto-cuesta-una-pagina-web-peru.php#planes"
+          },
+          {
+            "@type": "Offer",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1000.00",
+              "priceCurrency": "PEN"
+            },
+            "availability": "https://schema.org/InStock",
+            "url": "https://nextboost.business/cuanto-cuesta-una-tienda-online-peru.php",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Tienda online (e-commerce)"
             }
           }
         ]
-      }
+      },
+      "url": "https://nextboost.business/cuanto-cuesta-una-pagina-web-peru.php"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://nextboost.business/cuanto-cuesta-una-pagina-web-peru.php#webpage",
+      "url": "https://nextboost.business/cuanto-cuesta-una-pagina-web-peru.php",
+      "name": "Cuánto Cuesta una Página Web en Perú (2026)",
+      "inLanguage": "es-PE",
+      "isPartOf": {
+        "@id": "https://nextboost.business/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://nextboost.business/cuanto-cuesta-una-pagina-web-peru.php/#breadcrumb"
+      },
+      "about": {
+        "@id": "https://nextboost.business/cuanto-cuesta-una-pagina-web-peru.php/#service"
+      },
+      "datePublished": "2026-07-27",
+      "dateModified": "2026-10-25"
     },
     {
       "@type": "BreadcrumbList",
@@ -110,6 +153,38 @@
             "@type": "Answer",
             "text": "Con Next Boost no hay costos ocultos. Nuestros precios son fijos y transparentes. El único costo recurrente anual es el dominio y hosting (desde S/120/año). No cobramos extra por revisiones, correcciones menores ni por la entrega del código fuente."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué incluye cada plan de página web?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Todos los planes incluyen diseño UX/UI responsive, dominio y hosting por el primer año, certificado SSL y SEO técnico. A medida que subes de plan sumas más secciones, CMS autoadministrable, blog, SEO avanzado con datos estructurados, integraciones y soporte post-lanzamiento."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta mantener una página web al año?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Desde el segundo año, el único costo obligatorio es la renovación de dominio y hosting, desde S/120 al año en el plan Starter. Si tu web necesita más recursos, el hosting Profesional cuesta S/200 y el Empresarial S/300 al año."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta una tienda online en Perú?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Una tienda online con Next Boost cuesta desde S/1,000 e incluye catálogo de productos, carrito, pagos con tarjeta, Yape o Plin y panel de inventario. El precio final depende de la cantidad de productos y de las integraciones que necesites."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo pagar mi página web en cuotas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Puedes dividir la inversión en 2 o 3 cuotas según el plan elegido. Escríbenos por WhatsApp o desde el formulario de contacto para conocer las opciones de pago para tu proyecto."
+          }
         }
       ]
     }
@@ -142,7 +217,7 @@
         </h1>
 
         <p class="text-base md:text-lg text-gray-300 font-normal leading-relaxed max-w-2xl">
-          Precios reales y transparentes para tu proyecto web. Sin costos ocultos, sin sorpresas. Desde <strong class="text-white">S/450</strong> tu negocio puede tener una web profesional que <strong class="text-teal-400">posiciona en Google</strong> y convierte visitantes en clientes.
+          Una página web en Perú cuesta <strong class="text-white">entre S/450 y S/1,000</strong> con Next Boost, según el tipo de web, con dominio, hosting y SSL incluidos el primer año. Sin costos ocultos, sin sorpresas. Desde <strong class="text-white">S/450</strong> tu negocio puede tener una web profesional que <strong class="text-teal-400">posiciona en Google</strong> y convierte visitantes en clientes.
         </p>
 
         <div class="grid grid-cols-3 gap-4 pt-4 border-t border-white/10 max-w-xl">
@@ -165,7 +240,7 @@
             Cotizar Mi Página Web
             <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
-          <a href="https://wa.me/51962469836?text=Hola%20Next%20Boost,%20quiero%20saber%20cuánto%20cuesta%20una%20página%20web" target="_blank" class="inline-flex items-center justify-center gap-2 border border-white/20 hover:border-emerald-500/50 bg-white/5 hover:bg-emerald-500/10 text-white hover:text-emerald-400 px-6 py-4 text-sm font-semibold transition-all">
+          <a href="https://wa.me/51962469836?text=Hola%20Next%20Boost,%20quiero%20saber%20cuánto%20cuesta%20una%20página%20web" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 border border-white/20 hover:border-emerald-500/50 bg-white/5 hover:bg-emerald-500/10 text-white hover:text-emerald-400 px-6 py-4 text-sm font-semibold transition-all">
             <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
             Asesoría Gratis por WhatsApp
           </a>
@@ -220,13 +295,68 @@
     </div>
   </main>
 
+  <!-- Tabla de precios por tipo de web -->
+  <section id="tabla-precios" class="relative z-10 py-20 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20">
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <p class="text-xs uppercase tracking-widest text-teal-400 font-bold mb-3">Resumen 2026</p>
+      <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
+        Precios de páginas web en Perú <span class="gradient-text">por tipo de web</span>
+      </h2>
+      <p class="text-sm text-gray-400 mt-4 leading-relaxed">Precios de pago único en soles (PEN). Los planes web incluyen dominio, hosting y certificado SSL durante el primer año.</p>
+    </div>
+    <div class="max-w-5xl mx-auto glass-card rounded-2xl border border-white/10 overflow-hidden">
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <caption class="sr-only">Cuánto cuesta una página web en Perú según el tipo de web</caption>
+          <thead>
+            <tr class="border-b border-white/10 text-xs uppercase tracking-wider">
+              <th scope="col" class="text-left p-4 text-gray-400 font-semibold">Tipo de web</th>
+              <th scope="col" class="text-right p-4 text-gray-400 font-semibold">Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+              <tr class="border-b border-white/5">
+                <th scope="row" class="text-left p-4 font-semibold text-white">Landing page<span class="block text-xs font-normal text-gray-400 mt-1">Campañas en Google Ads o Meta Ads y emprendedores</span></th>
+                <td class="p-4 text-right font-bold text-teal-400 whitespace-nowrap">S/450</td>
+              </tr>
+              <tr class="border-b border-white/5">
+                <th scope="row" class="text-left p-4 font-semibold text-white">Web informativa<span class="block text-xs font-normal text-gray-400 mt-1">Negocios de servicios con varias secciones</span></th>
+                <td class="p-4 text-right font-bold text-teal-400 whitespace-nowrap">S/550</td>
+              </tr>
+              <tr class="border-b border-white/5">
+                <th scope="row" class="text-left p-4 font-semibold text-white"><a href="pagina-web-para-mi-empresa.php" class="hover:text-blue-300 transition-colors">Web profesional con CMS</a><span class="block text-xs font-normal text-gray-400 mt-1">Empresas que quieren editar su contenido y tener blog</span></th>
+                <td class="p-4 text-right font-bold text-teal-400 whitespace-nowrap">S/800</td>
+              </tr>
+              <tr class="border-b border-white/5">
+                <th scope="row" class="text-left p-4 font-semibold text-white">Web premium<span class="block text-xs font-normal text-gray-400 mt-1">Empresas que necesitan hasta 15 secciones, copywriting e integraciones</span></th>
+                <td class="p-4 text-right font-bold text-teal-400 whitespace-nowrap">S/1,000</td>
+              </tr>
+              <tr class="border-b border-white/5">
+                <th scope="row" class="text-left p-4 font-semibold text-white"><a href="cuanto-cuesta-una-tienda-online-peru.php" class="hover:text-blue-300 transition-colors">Tienda online</a><span class="block text-xs font-normal text-gray-400 mt-1">Venta de productos con pagos por tarjeta, Yape o Plin</span></th>
+                <td class="p-4 text-right font-bold text-teal-400 whitespace-nowrap">Desde S/1,000</td>
+              </tr>
+              <tr class="border-b border-white/5">
+                <th scope="row" class="text-left p-4 font-semibold text-white"><a href="desarrollo-software.php" class="hover:text-blue-300 transition-colors">Software o sistema a medida</a><span class="block text-xs font-normal text-gray-400 mt-1">Intranets, reservas, cotizadores e integraciones</span></th>
+                <td class="p-4 text-right font-bold text-teal-400 whitespace-nowrap">Desde S/2,500</td>
+              </tr>
+              <tr class="bg-white/5">
+                <th scope="row" class="text-left p-4 font-semibold text-white"><a href="hosting-web.php" class="hover:text-blue-300 transition-colors">Renovación de dominio + hosting</a><span class="block text-xs font-normal text-gray-400 mt-1">Costo anual desde el segundo año</span></th>
+                <td class="p-4 text-right font-bold text-teal-400 whitespace-nowrap">Desde S/120/año</td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 text-center mt-6 max-w-3xl mx-auto leading-relaxed">Como referencia, muchas agencias y freelancers en Perú cobran entre S/2,000 y S/5,000 por una web con plantilla. Si dudas entre formatos, revisa <a href="landing-page-vs-pagina-web-peru.php" class="text-blue-400 hover:text-blue-300 underline">landing page vs página web</a>.</p>
+  </section>
+
   <section class="relative z-10 py-20 bg-[#070709] border-y border-white/10">
     <div class="max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20">
 
       <div class="text-center max-w-3xl mx-auto mb-16">
         <p class="text-xs uppercase tracking-widest text-blue-400 font-bold mb-3">Comparativa Real</p>
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-          ¿Por qué elegirnos <span class="gradient-text">y no a la competencia?</span>
+          Precio de una página web: <span class="gradient-text">Next Boost vs. otras opciones</span>
         </h2>
       </div>
 
@@ -359,11 +489,11 @@
     </div>
   </section>
 
-  <section class="relative z-10 py-20 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 border-t border-white/5 bg-[#0a0a0e]/50">
+  <section id="planes" class="relative z-10 py-20 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 border-t border-white/5 bg-[#0a0a0e]/50">
     <div class="text-center max-w-3xl mx-auto mb-16">
       <p class="text-xs uppercase tracking-widest text-emerald-400 font-bold mb-3">Precios Claros</p>
       <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-        Planes de Desarrollo Web <span class="gradient-text">Transparentes</span>
+        Planes y precios de <span class="gradient-text">páginas web</span>
       </h2>
     </div>
 
@@ -447,6 +577,94 @@
       </div>
 
     </div>
+    <div class="max-w-6xl mx-auto mt-16 glass-card rounded-2xl border border-white/10 overflow-hidden">
+      <div class="overflow-x-auto">
+        <table class="w-full text-xs text-gray-300">
+          <caption class="sr-only">Comparativa de planes de páginas web</caption>
+          <thead>
+            <tr class="border-b border-white/10">
+              <th scope="col" class="text-left p-4 text-gray-400 font-semibold">Qué incluye</th>
+              <th scope="col" class="text-center p-4 text-teal-400 font-bold">Básico S/450</th>
+              <th scope="col" class="text-center p-4 text-teal-400 font-bold">Informativa S/550</th>
+              <th scope="col" class="text-center p-4 text-emerald-400 font-bold">Profesional S/800</th>
+              <th scope="col" class="text-center p-4 text-purple-400 font-bold">Premium S/1000</th>
+            </tr>
+          </thead>
+          <tbody>
+              <tr class="border-b border-white/5">
+                <th scope="row" class="text-left p-4 font-medium">Diseño UX/UI responsive</th>
+                <td class="text-center p-4 text-teal-400"><span class="font-bold">✓</span></td>
+                <td class="text-center p-4 text-teal-400"><span class="font-bold">✓</span></td>
+                <td class="text-center p-4 text-emerald-400"><span class="font-bold">✓</span></td>
+                <td class="text-center p-4 text-purple-400"><span class="font-bold">✓</span></td>
+              </tr>
+              <tr class="border-b border-white/5">
+                <th scope="row" class="text-left p-4 font-medium">Dominio + hosting (1er año)</th>
+                <td class="text-center p-4 text-teal-400"><span class="font-bold">✓</span></td>
+                <td class="text-center p-4 text-teal-400"><span class="font-bold">✓</span></td>
+                <td class="text-center p-4 text-emerald-400"><span class="font-bold">✓</span></td>
+                <td class="text-center p-4 text-purple-400"><span class="font-bold">✓</span></td>
+              </tr>
+              <tr class="border-b border-white/5">
+                <th scope="row" class="text-left p-4 font-medium">Certificado SSL</th>
+                <td class="text-center p-4 text-teal-400"><span class="font-bold">✓</span></td>
+                <td class="text-center p-4 text-teal-400"><span class="font-bold">✓</span></td>
+                <td class="text-center p-4 text-emerald-400"><span class="font-bold">✓</span></td>
+                <td class="text-center p-4 text-purple-400"><span class="font-bold">✓</span></td>
+              </tr>
+              <tr class="border-b border-white/5">
+                <th scope="row" class="text-left p-4 font-medium">Secciones</th>
+                <td class="text-center p-4 text-teal-400">1 (landing)</td>
+                <td class="text-center p-4 text-teal-400">Varias</td>
+                <td class="text-center p-4 text-emerald-400">Hasta 8</td>
+                <td class="text-center p-4 text-purple-400">Hasta 15</td>
+              </tr>
+              <tr class="border-b border-white/5">
+                <th scope="row" class="text-left p-4 font-medium">Formulario + WhatsApp</th>
+                <td class="text-center p-4 text-teal-400"><span class="font-bold">✓</span></td>
+                <td class="text-center p-4 text-teal-400"><span class="font-bold">✓</span></td>
+                <td class="text-center p-4 text-emerald-400"><span class="font-bold">✓</span></td>
+                <td class="text-center p-4 text-purple-400"><span class="font-bold">✓</span></td>
+              </tr>
+              <tr class="border-b border-white/5">
+                <th scope="row" class="text-left p-4 font-medium">CMS autoadministrable</th>
+                <td class="text-center p-4 text-teal-400"><span class="text-gray-500">—</span></td>
+                <td class="text-center p-4 text-teal-400"><span class="text-gray-500">—</span></td>
+                <td class="text-center p-4 text-emerald-400"><span class="font-bold">✓</span></td>
+                <td class="text-center p-4 text-purple-400"><span class="font-bold">✓</span></td>
+              </tr>
+              <tr class="border-b border-white/5">
+                <th scope="row" class="text-left p-4 font-medium">Blog integrado</th>
+                <td class="text-center p-4 text-teal-400"><span class="text-gray-500">—</span></td>
+                <td class="text-center p-4 text-teal-400"><span class="text-gray-500">—</span></td>
+                <td class="text-center p-4 text-emerald-400"><span class="font-bold">✓</span></td>
+                <td class="text-center p-4 text-purple-400"><span class="font-bold">✓</span></td>
+              </tr>
+              <tr class="border-b border-white/5">
+                <th scope="row" class="text-left p-4 font-medium">SEO</th>
+                <td class="text-center p-4 text-teal-400">Básico</td>
+                <td class="text-center p-4 text-teal-400">Básico</td>
+                <td class="text-center p-4 text-emerald-400">Avanzado + Schema</td>
+                <td class="text-center p-4 text-purple-400">Avanzado + copywriting</td>
+              </tr>
+              <tr class="border-b border-white/5">
+                <th scope="row" class="text-left p-4 font-medium">Integraciones API</th>
+                <td class="text-center p-4 text-teal-400"><span class="text-gray-500">—</span></td>
+                <td class="text-center p-4 text-teal-400"><span class="text-gray-500">—</span></td>
+                <td class="text-center p-4 text-emerald-400"><span class="text-gray-500">—</span></td>
+                <td class="text-center p-4 text-purple-400"><span class="font-bold">✓</span></td>
+              </tr>
+              <tr class="border-b border-white/5">
+                <th scope="row" class="text-left p-4 font-medium">Soporte post-lanzamiento</th>
+                <td class="text-center p-4 text-teal-400"><span class="text-gray-500">—</span></td>
+                <td class="text-center p-4 text-teal-400"><span class="text-gray-500">—</span></td>
+                <td class="text-center p-4 text-emerald-400"><span class="text-gray-500">—</span></td>
+                <td class="text-center p-4 text-purple-400">60 días</td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
   </section>
 
   <section class="relative z-10 py-20 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20">
@@ -491,8 +709,66 @@
           </p>
         </div>
 
+        <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
+          <h3 class="text-base font-bold text-white flex items-center gap-2">
+            <span class="text-blue-400">04.</span> ¿Qué incluye cada plan de página web?
+          </h3>
+          <p class="text-xs text-gray-400 leading-relaxed pt-1">
+            Todos los planes incluyen diseño UX/UI responsive, dominio y hosting por el primer año, certificado SSL y SEO técnico. A medida que subes de plan sumas más secciones, CMS autoadministrable, blog, SEO avanzado con datos estructurados, integraciones y soporte post-lanzamiento.
+          </p>
+        </div>
+
+        <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
+          <h3 class="text-base font-bold text-white flex items-center gap-2">
+            <span class="text-blue-400">05.</span> ¿Cuánto cuesta mantener una página web al año?
+          </h3>
+          <p class="text-xs text-gray-400 leading-relaxed pt-1">
+            Desde el segundo año, el único costo obligatorio es la renovación de dominio y hosting, desde S/120 al año en el plan Starter. Si tu web necesita más recursos, el hosting Profesional cuesta S/200 y el Empresarial S/300 al año. <a href="hosting-web.php" class="text-blue-400 hover:text-blue-300 underline">Ver planes de hosting</a>.
+          </p>
+        </div>
+
+        <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
+          <h3 class="text-base font-bold text-white flex items-center gap-2">
+            <span class="text-blue-400">06.</span> ¿Cuánto cuesta una tienda online en Perú?
+          </h3>
+          <p class="text-xs text-gray-400 leading-relaxed pt-1">
+            Una tienda online con Next Boost cuesta desde S/1,000 e incluye catálogo de productos, carrito, pagos con tarjeta, Yape o Plin y panel de inventario. El precio final depende de la cantidad de productos y de las integraciones que necesites. <a href="cuanto-cuesta-una-tienda-online-peru.php" class="text-blue-400 hover:text-blue-300 underline">Ver precios de tiendas online</a>.
+          </p>
+        </div>
+
+        <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
+          <h3 class="text-base font-bold text-white flex items-center gap-2">
+            <span class="text-blue-400">07.</span> ¿Puedo pagar mi página web en cuotas?
+          </h3>
+          <p class="text-xs text-gray-400 leading-relaxed pt-1">
+            Sí. Puedes dividir la inversión en 2 o 3 cuotas según el plan elegido. Escríbenos por WhatsApp o desde el formulario de contacto para conocer las opciones de pago para tu proyecto.
+          </p>
+        </div>
+
       </div>
 
+    </div>
+  </section>
+
+  <!-- Guías y servicios relacionados (Enlazado Interno SEO) -->
+  <section class="relative z-10 py-16 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 border-t border-white/5">
+    <div class="text-center max-w-3xl mx-auto mb-10">
+      <h2 class="text-2xl md:text-4xl font-semibold tracking-tight text-white">
+        Sigue <span class="gradient-text">informándote</span>
+      </h2>
+      <p class="text-xs text-gray-400 mt-3">Guías y servicios para elegir la web correcta para tu presupuesto.</p>
+    </div>
+    <div class="flex flex-wrap justify-center gap-3 text-xs">
+      <a href="desarrollo-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Servicio de desarrollo web</a>
+      <a href="diseno-de-paginas-web-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Diseño de páginas web</a>
+      <a href="cuanto-cuesta-una-tienda-online-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">¿Cuánto cuesta una tienda online?</a>
+      <a href="hosting-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Hosting web desde S/120/año</a>
+      <a href="como-crear-una-pagina-web-para-mi-negocio.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Cómo crear una página web para tu negocio</a>
+      <a href="pagina-web-wordpress-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Página web con WordPress</a>
+      <a href="pagina-web-emprendedores-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Página web para emprendedores</a>
+      <a href="pagina-web-para-mi-empresa.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Página web para empresas</a>
+      <a href="posicionamiento-seo.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Posicionamiento SEO</a>
+      <a href="casos-de-exito.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-blue-500/40 text-gray-300 hover:text-white transition-colors">Casos de éxito</a>
     </div>
   </section>
 

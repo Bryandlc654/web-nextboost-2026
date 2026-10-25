@@ -1,10 +1,176 @@
 <?php
   $page_title = "Desarrollo Web Marca Blanca para Agencias | Next Boost";
-  $page_description = "Servicio de desarrollo web Marca Blanca para agencias de marketing y consultoras. Desarrollamos con Next.js, React y WordPress bajo contrato de confidencialidad NDA estricto.";
+  $page_description = "Desarrollo web marca blanca para agencias: tú vendes, nosotros programamos bajo tu marca con NDA. Next.js, React y WordPress con entregas a tiempo.";
+  $og_url = "https://nextboost.business/agencia-desarrollo-web-marca-blanca.php";
 ?>
 <!DOCTYPE html>
 <html lang="es" class="dark scroll-smooth">
 <?php include 'includes/head.php'; ?>
+
+<!-- Datos Estructurados JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://nextboost.business/agencia-desarrollo-web-marca-blanca.php#service",
+      "name": "Desarrollo Web Marca Blanca para Agencias",
+      "alternateName": [
+        "Desarrollo web white label",
+        "Desarrollo web para agencias"
+      ],
+      "serviceType": "Desarrollo web marca blanca",
+      "url": "https://nextboost.business/agencia-desarrollo-web-marca-blanca.php",
+      "provider": {
+        "@id": "https://nextboost.business/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Perú"
+      },
+      "audience": {
+        "@type": "BusinessAudience",
+        "audienceType": "Agencias de marketing, publicidad y consultoras"
+      },
+      "description": "Outsourcing de desarrollo web bajo la marca de tu agencia: sitios en Next.js, React y WordPress con contrato NDA, entregas a tiempo y soporte post-lanzamiento.",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Modalidades de trabajo para agencias",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Desarrollo llave en mano por proyecto"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Bolsa de horas mensual de soporte y ajustes"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Programador senior dedicado"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Programador WordPress marca blanca",
+              "url": "https://nextboost.business/programador-wordpress-marca-blanca-peru.php"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Hosting para agencias web",
+              "url": "https://nextboost.business/proveedor-hosting-para-agencias-web.php"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://nextboost.business/agencia-desarrollo-web-marca-blanca.php#webpage",
+      "url": "https://nextboost.business/agencia-desarrollo-web-marca-blanca.php",
+      "name": "Desarrollo Web Marca Blanca para Agencias | Next Boost",
+      "inLanguage": "es-PE",
+      "isPartOf": {
+        "@id": "https://nextboost.business/#website"
+      },
+      "about": {
+        "@id": "https://nextboost.business/agencia-desarrollo-web-marca-blanca.php#service"
+      },
+      "breadcrumb": {
+        "@id": "https://nextboost.business/agencia-desarrollo-web-marca-blanca.php#breadcrumb"
+      },
+      "dateModified": "2026-10-25"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://nextboost.business/agencia-desarrollo-web-marca-blanca.php#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://nextboost.business/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Desarrollo Web Marca Blanca",
+          "item": "https://nextboost.business/agencia-desarrollo-web-marca-blanca.php"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://nextboost.business/agencia-desarrollo-web-marca-blanca.php#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cómo garantizan que mi cliente nunca sabrá de Next Boost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Antes de cualquier proyecto, firmamos un contrato legal de confidencialidad (NDA). Toda la documentación, comentarios en código, repositorios Git y créditos en el footer del sitio se entregan con la marca y el nombre de tu agencia. Nunca contactamos directamente a tu cliente final."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Pueden asistir a reuniones técnicas como si fuéramos parte de tu equipo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Si lo deseas, podemos incorporarnos a videollamadas con tu cliente utilizando correos con tu propio dominio, actuando estrictamente como el departamento de tecnología de tu agencia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué tecnologías utilizan para las páginas web marca blanca?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Desarrollamos principalmente con Next.js, React, Tailwind CSS y Node.js para proyectos que exigen velocidad extrema y SEO perfecto. También construimos sitios en WordPress / WooCommerce personalizados sin maquetadores lentos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuál es el margen de ganancia recomendado al revender sus desarrollos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nuestros precios mayoristas para agencias permiten aplicar márgenes comerciales habituales del 50% hasta más del 100%, dependiendo del tipo de cliente y el alcance comercial que acuerdes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué es el desarrollo web marca blanca y cómo funciona?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es un servicio de outsourcing en el que desarrollamos las páginas web de los clientes de tu agencia bajo tu propia marca. Tú vendes el proyecto y mantienes la relación con el cliente; nosotros lo diseñamos, programamos y entregamos con tu logo, tus colores y tu facturación. Firmamos un NDA para que tu cliente nunca sepa de nuestra existencia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿También ofrecen WordPress y hosting en marca blanca?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Además del desarrollo a medida, tu agencia puede contratar un programador WordPress marca blanca para proyectos y mantenimiento, y revender hosting con cPanel bajo tu marca para alojar las webs de tus clientes."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 <body>
 
   <!-- Glow Background -->
@@ -29,12 +195,12 @@
         </div>
 
         <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-[1.1]">
-          Escala tu agencia sin contratar <br>
-          <span class="gradient-text">programadores internos</span>
+          Desarrollo web marca blanca <br>
+          <span class="gradient-text">para agencias</span>
         </h1>
 
         <p class="text-base md:text-lg text-gray-400 font-normal leading-relaxed max-w-2xl">
-          Desarrollamos sitios web de alto rendimiento en <strong class="text-white">Next.js, React y WordPress</strong> bajo tu propia marca. Contrato NDA estricto, entregas llave en mano y soporte continuo para que te enfoques en vender.
+          Escala tu agencia sin contratar programadores internos: desarrollamos sitios web de alto rendimiento en <strong class="text-white">Next.js, React y WordPress</strong> bajo tu propia marca. Contrato NDA estricto, entregas llave en mano y soporte continuo para que te enfoques en vender.
         </p>
 
         <!-- Stats Pills -->
@@ -59,7 +225,7 @@
             Solicitar Alianza & Cotización
             <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
-          <a href="https://wa.me/51962469836?text=Hola,%20tengo%20una%20agencia%20de%20marketing%20y%20quiero%20cotizar%20desarrollo%20web%20marca%20blanca" target="_blank" class="inline-flex items-center justify-center gap-2 border border-white/20 hover:border-emerald-500/50 bg-white/5 hover:bg-emerald-500/10 text-white hover:text-emerald-400 px-6 py-4 text-sm font-semibold transition-all">
+          <a href="https://wa.me/51962469836?text=Hola,%20tengo%20una%20agencia%20de%20marketing%20y%20quiero%20cotizar%20desarrollo%20web%20marca%20blanca" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 border border-white/20 hover:border-emerald-500/50 bg-white/5 hover:bg-emerald-500/10 text-white hover:text-emerald-400 px-6 py-4 text-sm font-semibold transition-all">
             <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
             Chat Directo WhatsApp
           </a>
@@ -148,12 +314,40 @@
     </div>
   </section>
 
+  <!-- Cómo funciona -->
+  <section class="relative z-10 py-20 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20">
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <p class="text-xs uppercase tracking-widest text-blue-400 font-bold mb-3">Outsourcing sin fricción</p>
+      <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
+        Cómo funciona el desarrollo web <span class="gradient-text">marca blanca</span>
+      </h2>
+      <p class="text-sm text-gray-400 mt-4 leading-relaxed">Tu agencia vende y mantiene la relación con el cliente. Nosotros somos tu equipo técnico invisible, con la misma calidad que aplicamos en nuestro <a href="desarrollo-web.php" class="text-teal-300 hover:text-white underline">desarrollo web a medida</a>.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="glass-card p-6 rounded-2xl border border-white/10 space-y-3">
+          <span class="text-3xl font-extrabold text-teal-400 block">01</span>
+          <h3 class="text-base font-bold text-white">Cuéntanos el proyecto</h3>
+          <p class="text-xs text-gray-400 leading-relaxed">Nos envías los requerimientos o el diseño en Figma de tu cliente y te damos un precio fijo en 24 horas.</p>
+        </div>
+        <div class="glass-card p-6 rounded-2xl border border-white/10 space-y-3">
+          <span class="text-3xl font-extrabold text-teal-400 block">02</span>
+          <h3 class="text-base font-bold text-white">Desarrollamos bajo tu marca</h3>
+          <p class="text-xs text-gray-400 leading-relaxed">Construimos el sitio con tecnología moderna y te enviamos avances periódicos para que los revises antes que tu cliente.</p>
+        </div>
+        <div class="glass-card p-6 rounded-2xl border border-white/10 space-y-3">
+          <span class="text-3xl font-extrabold text-teal-400 block">03</span>
+          <h3 class="text-base font-bold text-white">Entregas y facturas</h3>
+          <p class="text-xs text-gray-400 leading-relaxed">Recibes la web terminada, la presentas como tuya y facturas con el margen que prefieras. Nunca contactamos a tu cliente.</p>
+        </div>
+    </div>
+  </section>
+
   <!-- Benefits Grid Section -->
   <section class="relative z-10 py-20 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20">
     <div class="text-center max-w-3xl mx-auto mb-16">
       <p class="text-xs uppercase tracking-widest text-teal-400 font-bold mb-3">¿Por qué elegirnos como tu equipo técnico?</p>
       <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-        Todo lo que tu agencia necesita para <span class="gradient-text">vender más páginas web</span>
+        Ventajas de tercerizar el desarrollo web <span class="gradient-text">de tu agencia</span>
       </h2>
     </div>
 
@@ -222,7 +416,7 @@
       <div class="text-center max-w-3xl mx-auto mb-16">
         <p class="text-xs uppercase tracking-widest text-blue-400 font-bold mb-3">Flexibilidad Operativa</p>
         <h2 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-          3 Modalidades de Trabajo <span class="gradient-text">para tu Agencia</span>
+          Modalidades de desarrollo web <span class="gradient-text">para agencias</span>
         </h2>
       </div>
 
@@ -285,13 +479,13 @@
       <div class="lg:col-span-4 space-y-4">
         <p class="text-xs uppercase tracking-widest text-teal-400 font-bold">Transparencia Total</p>
         <h2 class="text-3xl md:text-4xl font-semibold tracking-tight text-white leading-tight">
-          Preguntas Frecuentes de <span class="gradient-text">Agencias Partners</span>
+          Preguntas frecuentes sobre <span class="gradient-text">desarrollo web marca blanca</span>
         </h2>
         <p class="text-xs text-gray-400 leading-relaxed">
           Resolvemos las dudas más comunes sobre la operativa Marca Blanca, acuerdos legales de confidencialidad y entregas.
         </p>
         <div class="pt-4">
-          <a href="https://wa.me/51962469836?text=Hola,%20tengo%20preguntas%20sobre%20el%20servicio%20Marca%20Blanca" target="_blank" class="inline-flex items-center gap-2 text-xs text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-4 py-2.5 hover:bg-emerald-500/20 transition-all font-semibold">
+          <a href="https://wa.me/51962469836?text=Hola,%20tengo%20preguntas%20sobre%20el%20servicio%20Marca%20Blanca" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-xs text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-4 py-2.5 hover:bg-emerald-500/20 transition-all font-semibold">
             <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
             ¿Tienes otra pregunta? Habla con un Dev Senior
           </a>
@@ -336,8 +530,45 @@
           </p>
         </div>
 
+        <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
+          <h3 class="text-base font-bold text-white flex items-center gap-2">
+            <span class="text-teal-400">05.</span> ¿Qué es el desarrollo web marca blanca y cómo funciona?
+          </h3>
+          <p class="text-xs text-gray-400 leading-relaxed pt-1">
+            Es un servicio de outsourcing en el que desarrollamos las páginas web de los clientes de tu agencia bajo tu propia marca. Tú vendes el proyecto y mantienes la relación con el cliente; nosotros lo diseñamos, programamos y entregamos con tu logo, tus colores y tu facturación. Firmamos un NDA para que tu cliente nunca sepa de nuestra existencia.
+          </p>
+        </div>
+
+        <div class="glass-card rounded-xl p-6 border border-white/10 space-y-2">
+          <h3 class="text-base font-bold text-white flex items-center gap-2">
+            <span class="text-teal-400">06.</span> ¿También ofrecen WordPress y hosting en marca blanca?
+          </h3>
+          <p class="text-xs text-gray-400 leading-relaxed pt-1">
+            Sí. Además del desarrollo a medida, tu agencia puede contratar un <a href="programador-wordpress-marca-blanca-peru.php" class="text-teal-300 hover:text-white underline">programador WordPress marca blanca</a> para proyectos y mantenimiento, y revender <a href="proveedor-hosting-para-agencias-web.php" class="text-teal-300 hover:text-white underline">hosting con cPanel</a> bajo tu marca para alojar las webs de tus clientes.
+          </p>
+        </div>
+
       </div>
 
+    </div>
+  </section>
+
+  <!-- Servicios para agencias (Enlazado Interno SEO) -->
+  <section class="relative z-10 py-16 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-20 border-t border-white/5">
+    <div class="text-center max-w-3xl mx-auto mb-10">
+      <h2 class="text-2xl md:text-4xl font-semibold tracking-tight text-white">
+        Servicios marca blanca <span class="gradient-text">para tu agencia</span>
+      </h2>
+      <p class="text-xs text-gray-400 mt-3 leading-relaxed">Todo lo que tu agencia puede revender con su propia marca.</p>
+    </div>
+    <div class="flex flex-wrap justify-center gap-3 text-xs">
+      <a href="programador-wordpress-marca-blanca-peru.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-teal-500/40 text-gray-300 hover:text-white transition-colors">Programador WordPress marca blanca</a>
+      <a href="proveedor-hosting-para-agencias-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-teal-500/40 text-gray-300 hover:text-white transition-colors">Hosting para agencias web</a>
+      <a href="desarrollo-web.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-teal-500/40 text-gray-300 hover:text-white transition-colors">Desarrollo web a medida</a>
+      <a href="ecommerce.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-teal-500/40 text-gray-300 hover:text-white transition-colors">Tiendas online y e-commerce</a>
+      <a href="software-a-medida-empresas.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-teal-500/40 text-gray-300 hover:text-white transition-colors">Software a medida</a>
+      <a href="posicionamiento-seo.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-teal-500/40 text-gray-300 hover:text-white transition-colors">Posicionamiento SEO</a>
+      <a href="proyectos.php" class="glass-card px-4 py-2.5 border border-white/10 hover:border-teal-500/40 text-gray-300 hover:text-white transition-colors">Portafolio de proyectos</a>
     </div>
   </section>
 

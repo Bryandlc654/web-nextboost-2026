@@ -1,4 +1,7 @@
 <?php
+  // Consolidada en la página de marca blanca para no competir por la misma búsqueda
+  header("Location: https://nextboost.business/agencia-desarrollo-web-marca-blanca.php", true, 301);
+  exit;
   $page_title = "Desarrollo Web para Agencias | Next Boost Perú";
   $page_description = "Desarrollo web para agencias de marketing y publicidad. Outsourcing white label con NDA. Tú vendes, nosotros desarrollamos. Partner tecnológico en Perú.";
   $og_url = "https://nextboost.business/desarrollo-web-para-agencias.php";
