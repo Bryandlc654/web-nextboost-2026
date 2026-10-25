@@ -29,6 +29,7 @@
 </script>
 
 <body class="bg-black text-white antialiased selection:bg-blue-500/30">
+<?php include 'includes/analytics-body.php'; ?>
   <?php include 'includes/header.php'; ?>
 
   <!-- Hero Section -->

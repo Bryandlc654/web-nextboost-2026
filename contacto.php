@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es" class="dark scroll-smooth">
 <head>
+<?php include 'includes/analytics-head.php'; ?>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contacto & Cotización — Next Boost | Agencia de Desarrollo Web Premium</title>
@@ -102,6 +103,7 @@
   </style>
 </head>
 <body>
+<?php include 'includes/analytics-body.php'; ?>
 
   <!-- Glow Background -->
   <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">

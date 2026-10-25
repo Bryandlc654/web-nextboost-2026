@@ -125,6 +125,7 @@
 </script>
 
 <body>
+<?php include 'includes/analytics-body.php'; ?>
 
   <!-- Glow Background -->
   <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">

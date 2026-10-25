@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<?php include 'includes/analytics-head.php'; ?>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Desarrolladores Web Perú | Next Boost</title>
@@ -206,6 +207,7 @@
   </style>
 </head>
 <body>
+<?php include 'includes/analytics-body.php'; ?>
 
   <!-- Glow Background -->
   <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">

@@ -119,6 +119,7 @@
 </script>
 
 <body>
+<?php include 'includes/analytics-body.php'; ?>
 
   <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
     <div class="absolute -top-40 -left-40 w-[600px] h-[600px] bg-blue-600/10 rounded-full glow-pulse"></div>
